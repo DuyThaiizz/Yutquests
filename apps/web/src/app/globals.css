@@ -1,0 +1,66 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  /* --- Dreamy Aesthetic Colors --- */
+  --bg-primary: #FFFFFF;
+  --baby-blue: #CFEFFF;
+  --baby-blue-dark: #BFE9FF;
+  --baby-pink: #FFE4EF;
+  --baby-pink-dark: #FFD6E7;
+  --pastel-purple: #E6E6FA;
+
+  /* --- CEO's Yut Noria Table Design --- */
+  --board-frame: #4E2A2A;   /* Deep Maroon */
+  --board-face: #1A1A1A;    /* Near Black */
+  --board-node: #F5F5DC;    /* Ivory */
+  --board-center: #D4AF37;  /* Gold */
+  --board-corner: #8B1A1A;  /* Deep Red */
+
+  /* --- Typography --- */
+  --text-main: #2D3748;
+  --text-muted: #718096;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Cotton Candy Blurred Background */
+.bg-dreamy {
+  background: linear-gradient(135deg, rgba(207,239,255,0.7) 0%, rgba(255,255,255,0.9) 50%, rgba(255,228,239,0.7) 100%);
+  position: relative;
+}
+
+/* Soft glowing orbs for the dreamy, youthful feel */
+.bg-dreamy::before {
+  content: '';
+  position: absolute;
+  top: -10%;
+  left: -5%;
+  width: 50vw;
+  height: 50vw;
+  background: radial-gradient(circle, rgba(191,233,255,0.5) 0%, rgba(255,255,255,0) 70%);
+  border-radius: 50%;
+  filter: blur(80px);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.bg-dreamy::after {
+  content: '';
+  position: absolute;
+  bottom: -10%;
+  right: -5%;
+  width: 45vw;
+  height: 45vw;
+  background: radial-gradient(circle, rgba(255,214,231,0.5) 0%, rgba(255,255,255,0) 70%);
+  border-radius: 50%;
+  filter: blur(80px);
+  z-index: -1;
+  pointer-events: none;
+}

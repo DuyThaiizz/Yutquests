@@ -1,0 +1,14 @@
+{
+  "name": "yut-nori-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev -w apps/web",
+    "dev:server": "npm run dev -w apps/server",
+    "test:engine": "npm run test -w packages/yut-engine"
+  }
+}
