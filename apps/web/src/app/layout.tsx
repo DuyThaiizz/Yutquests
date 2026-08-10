@@ -1,72 +1,93 @@
-import './globals.css';
-import Link from 'next/link';
+import type { Metadata } from "next";
+import Link from "next/link";
+import localFont from "next/font/local";
+import "./globals.css";
+import { MobileMenu } from "@/components/MobileMenu";
 
-export const metadata = {
-  title: 'Yut Nori – Trò Chơi Truyền Thống Hàn Quốc',
-  description: 'Trải nghiệm phiên bản kỹ thuật số của trò chơi truyền thống Hàn Quốc',
+const geist = localFont({
+  src: "./fonts/GeistVF.woff",
+  variable: "--font-geist",
+  display: "swap",
+});
+
+export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
+  title: {
+    default: "Yutquest — Chơi Yut, học thành ngữ Hàn",
+    template: "%s | Yutquest",
+  },
+  description:
+    "Yutquest biến trò chơi Yut Nori truyền thống thành hành trình học thành ngữ và khám phá văn hóa Hàn Quốc.",
+  keywords: ["Yut Nori", "thành ngữ tiếng Hàn", "trò chơi học tập", "văn hóa Hàn Quốc"],
+  openGraph: {
+    type: "website",
+    locale: "vi_VN",
+    title: "Yutquest — Chơi Yut, học thành ngữ Hàn",
+    description: "Tung Yut, mở khóa thành ngữ và khám phá văn hóa Hàn Quốc qua từng nước đi.",
+    images: [{ url: "/og.png", width: 1733, height: 909, alt: "Yutquest — trò chơi học thành ngữ Hàn lấy cảm hứng từ Yut Nori" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Yutquest — Chơi Yut, học thành ngữ Hàn",
+    description: "Tung Yut, mở khóa thành ngữ và khám phá văn hóa Hàn Quốc qua từng nước đi.",
+    images: ["/og.png"],
+  },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+const navItems = [
+  { href: "/", label: "Giới thiệu" },
+  { href: "/guide", label: "Cách chơi" },
+  { href: "/cards", label: "Thẻ thành ngữ" },
+];
+
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="vi">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        {/* Sử dụng Inter và Plus Jakarta Sans để hỗ trợ Tiếng Việt hoàn hảo */}
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet" />
-      </head>
-      <body className="font-sans antialiased pt-[68px] min-h-screen flex flex-col bg-[#FDF9F1]">
-        
-        {/* Navigation Bar - Đã Việt Hóa */}
-        <nav className="fixed top-0 left-0 right-0 h-[68px] bg-white/90 backdrop-blur-md border-b border-[#AECFF7]/30 flex items-center px-8 z-50 transition-all">
-          <Link href="/" className="font-serif font-bold text-xl text-[#3A80CC] flex items-center gap-2 mr-auto hover:opacity-80 transition-opacity">
-            <div className="w-8 h-8 rounded-full bg-gradient-to-br from-[#85B8EF] to-[#3A80CC] flex items-center justify-center text-white text-sm font-bold shadow-md">
-              윷
+      <body className={geist.variable}>
+        <a className="skip-link" href="#main-content">Bỏ qua điều hướng</a>
+        <header className="site-header">
+          <div className="nav-shell">
+            <Link className="brand" href="/" aria-label="Yutquest — Trang chủ">
+              <span className="brand-mark" aria-hidden="true">윷</span>
+              <span>Yutquest</span>
+            </Link>
+            <nav className="desktop-nav" aria-label="Điều hướng chính">
+              {navItems.map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}
+            </nav>
+            <Link className="button button-small header-cta" href="/game">Chơi bản thử <ArrowIcon /></Link>
+            <MobileMenu items={navItems} />
+          </div>
+        </header>
+        <main id="main-content">{children}</main>
+        <footer className="site-footer">
+          <div className="footer-grid">
+            <div>
+              <Link className="brand brand-light" href="/">
+                <span className="brand-mark brand-mark-light" aria-hidden="true">윷</span>
+                <span>Yutquest</span>
+              </Link>
+              <p>Chơi để hiểu ngôn ngữ.<br />Học để gần hơn với văn hóa.</p>
             </div>
-            Yut Nori
-          </Link>
-
-          <ul className="hidden md:flex gap-2 list-none">
-            <li>
-              <Link href="/" className="flex items-center gap-2 px-4 py-2 rounded-full text-[0.85rem] font-semibold text-[#4A5568] hover:bg-[#EEF5FF] hover:text-[#3A80CC] transition-colors">
-                🏛 Về Chúng Tôi
-              </Link>
-            </li>
-            <li>
-              <Link href="/game" className="flex items-center gap-2 px-4 py-2 rounded-full text-[0.85rem] font-semibold text-[#4A5568] hover:bg-[#EEF5FF] hover:text-[#3A80CC] transition-colors">
-                🎮 Phòng Chơi
-              </Link>
-            </li>
-            <li>
-              <Link href="/guide" className="flex items-center gap-2 px-4 py-2 rounded-full text-[0.85rem] font-semibold text-[#4A5568] hover:bg-[#EEF5FF] hover:text-[#3A80CC] transition-colors">
-                📖 Hướng Dẫn
-              </Link>
-            </li>
-            <li>
-              <Link href="/forum" className="flex items-center gap-2 px-4 py-2 rounded-full text-[0.85rem] font-semibold text-[#4A5568] hover:bg-[#EEF5FF] hover:text-[#3A80CC] transition-colors">
-                💬 Cộng Đồng
-              </Link>
-            </li>
-            <li>
-              <Link href="/cards" className="flex items-center gap-2 px-4 py-2 rounded-full text-[0.85rem] font-semibold text-[#4A5568] hover:bg-[#EEF5FF] hover:text-[#3A80CC] transition-colors">
-                🃏 Thư Viện Thẻ
-              </Link>
-            </li>
-          </ul>
-        </nav>
-
-        {/* Page Content */}
-        <main className="flex-grow">
-          {children}
-        </main>
-
-        {/* Footer */}
-        <footer className="bg-[#1E2B3C] text-white py-12 px-8 text-center mt-auto border-t border-[#AECFF7]/20">
-          <div className="font-serif text-2xl font-bold text-[#85B8EF] mb-3">윷놀이</div>
-          <p className="text-sm text-[#718096]">Yut Nori Digital · Gìn giữ Di sản Hàn Quốc · Kết nối Thế giới</p>
+            <div className="footer-links">
+              <p className="footer-label">Khám phá</p>
+              {navItems.map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}
+              <Link href="/game">Bản thử trò chơi</Link>
+            </div>
+            <div className="footer-stamp" aria-label="Dự án học tập và bảo tồn văn hóa">
+              <span>놀이</span>
+              <small>Văn hóa qua trò chơi</small>
+            </div>
+          </div>
+          <div className="footer-bottom">
+            <span>© 2026 Yutquest</span>
+            <span>Một dự án game-based learning</span>
+          </div>
         </footer>
-
       </body>
     </html>
   );
+}
+
+function ArrowIcon() {
+  return <svg aria-hidden="true" viewBox="0 0 20 20"><path d="M4 10h11M11 6l4 4-4 4" /></svg>;
 }

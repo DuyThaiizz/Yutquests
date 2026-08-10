@@ -1,17 +1,19 @@
-'use client';
-import React from 'react';
-import GameBoard from '@/components/GameBoard';
+import type { Metadata } from "next";
+import { GameDemo } from "@/components/GameDemo";
+
+export const metadata: Metadata = { title: "Bản thử trò chơi", description: "Trải nghiệm vòng chơi mẫu của Yutquest." };
 
 export default function GamePage() {
   return (
-    <main className="min-h-screen bg-white relative overflow-hidden transition-colors duration-500">
-      {/* Background gradient (Cotton Candy Aesthetic) */}
-      <div className="absolute inset-0 pointer-events-none" style={{
-        background: 'radial-gradient(ellipse 80% 60% at 70% 40%, rgba(174,207,247,0.45) 0%, rgba(255,214,232,0.3) 55%, rgba(255,255,255,0) 100%)'
-      }} />
-      <div className="max-w-6xl mx-auto px-4 py-12 relative z-10">
-        <GameBoard />
+    <section className="game-page">
+      <div className="section-shell game-heading">
+        <div>
+          <p className="eyebrow"><span className="eyebrow-dot" /> Bản thử tương tác</p>
+          <h1>Một lượt Yutquest</h1>
+        </div>
+        <p><strong>Đây là prototype giao diện.</strong> Vòng tung — hỏi — di chuyển hoạt động cục bộ; phòng chơi trực tuyến đang được phát triển.</p>
       </div>
-    </main>
+      <GameDemo />
+    </section>
   );
 }
