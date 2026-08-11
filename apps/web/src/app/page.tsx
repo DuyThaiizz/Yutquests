@@ -1,140 +1,91 @@
+import Image from "next/image";
 import Link from "next/link";
 import { HeroYutDemo, IdiomPreview, LearningLoop } from "@/components/LandingInteractions";
 
-const team = [
-  ["01", "Lê Trần Khánh Linh", "Trưởng nhóm"],
-  ["02", "Tô Diệu Linh", "Thiết kế thẻ bài"],
-  ["03", "Lương Phương Thảo", "Thiết kế trò chơi"],
-  ["04", "Nguyễn Phương Anh", "Nghiên cứu văn hóa"],
-  ["05", "Nguyễn Thành Thái", "Thiết kế UI/UX"],
-];
+const team = ["Lê Trần Khánh Linh", "Tô Diệu Linh", "Lương Phương Thảo", "Nguyễn Phương Anh", "Nguyễn Thành Thái"];
 
 export default function Home() {
-  return (
-    <div className="landing-page">
-      <section className="landing-hero">
-        <div className="landing-shell landing-hero-grid">
-          <div className="landing-hero-copy">
-            <p className="landing-eyebrow"><span /> Trò chơi ngôn ngữ lấy cảm hứng từ Hàn Quốc</p>
-            <h1>
-              Tung một quẻ Yut.<br />
-              <em>Mở một cách hiểu.</em>
-            </h1>
-            <p className="landing-lead">
-              Yutquest biến thành ngữ tiếng Hàn thành những khoảnh khắc khám phá trên bàn cờ — nơi may mắn, chiến thuật và văn hóa cùng tạo nên một cuộc chơi đáng nhớ.
-            </p>
-            <div className="landing-actions">
-              <Link className="landing-primary" href="/game">Bắt đầu một lượt <span aria-hidden="true">→</span></Link>
-              <Link className="landing-secondary" href="/guide">Xem cách chơi <span aria-hidden="true">↗</span></Link>
-            </div>
-            <div className="landing-proof" aria-label="Thông tin nhanh về Yutquest">
-              <div><strong>04</strong><span>thanh Yut</span></div>
-              <div><strong>08</strong><span>thẻ mẫu</span></div>
-              <div><strong>03</strong><span>nhịp chơi</span></div>
-            </div>
+  return <div className="landing-page decal-landing">
+    <section className="decal-hero">
+      <div className="landing-shell decal-hero-grid">
+        <div className="decal-hero-copy">
+          <p className="decal-kicker">Korean learning card game</p>
+          <h1>Embark on a<br /><em>quest of knowledge.</em></h1>
+          <p className="decal-lead">Tung Yut, giải mã thành ngữ và đưa quân cờ về nhà. Mỗi câu trả lời mở ra một mảnh nhỏ của ngôn ngữ và văn hóa Hàn Quốc.</p>
+          <div className="decal-actions">
+            <Link className="decal-primary" href="/game">Bắt đầu hành trình <span aria-hidden="true">→</span></Link>
+            <Link className="decal-secondary" href="#how-it-works">Khám phá luật chơi</Link>
           </div>
-          <HeroYutDemo />
+          <p className="decal-signature">Explore · Learn · Conquer</p>
         </div>
-        <div className="hero-scroll-note" aria-hidden="true"><i /> Cuộn để khám phá</div>
-      </section>
+        <div className="decal-character-stage" aria-label="Nhân vật đồng hành của Yutquest">
+          <div className="decal-character-frame">
+            <Image src="/images/yutquest-main-character-warm-v2.png" alt="Nhân vật Yutquest với mái tóc tết và vòng sao" fill priority sizes="(max-width: 900px) 78vw, 38vw" />
+          </div>
+          <div className="decal-character-caption"><span>별빛 안내자</span><strong>Người dẫn đường ánh sao</strong></div>
+        </div>
+      </div>
+      <div className="decal-hero-stats landing-shell">
+        <div><strong>2–6</strong><span>người chơi</span></div>
+        <div><strong>7+</strong><span>độ tuổi</span></div>
+        <div><strong>15–30</strong><span>phút mỗi ván</span></div>
+      </div>
+    </section>
 
-      <section className="landing-manifesto">
-        <div className="landing-shell manifesto-grid">
-          <p className="manifesto-index">01 — Ý tưởng</p>
-          <div>
-            <p className="manifesto-lead">Không phải một bộ flashcard khoác áo trò chơi.</p>
-            <h2>Kiến thức trở thành <em>một phần của nước đi.</em></h2>
-          </div>
-          <p className="manifesto-note">
-            Mỗi thẻ đến đúng lúc người chơi tò mò nhất. Bạn đoán, nhận phản hồi tức thì và tiếp tục tiến quân — nhờ vậy, việc học không làm đứt mạch cuộc vui.
-          </p>
-        </div>
-      </section>
+    <section className="decal-intro" id="how-it-works">
+      <div className="landing-shell">
+        <p className="decal-kicker decal-kicker-center">The learning quest</p>
+        <h2>Ba nhịp chơi.<br /><em>Một hành trình đáng nhớ.</em></h2>
+        <p className="decal-section-lead">May mắn quyết định số bước; kiến thức quyết định bạn có được giữ nước đi ấy hay không.</p>
+        <LearningLoop />
+      </div>
+    </section>
 
-      <section className="landing-loop-section" id="how-it-works">
-        <div className="landing-shell">
-          <div className="landing-section-head">
-            <div>
-              <p className="landing-kicker">Vòng lặp học tập</p>
-              <h2>Ba nhịp. Một hành trình liền mạch.</h2>
-            </div>
-            <p>Chọn từng nhịp để xem cách luật chơi truyền thống và nội dung ngôn ngữ nâng đỡ nhau.</p>
-          </div>
-          <LearningLoop />
+    <section className="decal-play-section">
+      <div className="landing-shell decal-play-grid">
+        <div className="decal-play-copy">
+          <p className="decal-kicker">Exciting gameplay</p>
+          <h2>Tung một quẻ.<br /><em>Mở một thử thách.</em></h2>
+          <p>Sau mỗi lần tung, một thẻ thành ngữ sẽ xuất hiện. Trả lời đúng để tiến theo kết quả; trả lời sai và quân cờ quay lại đúng ô trước lượt.</p>
+          <ul>
+            <li><span>01</span><div><strong>Roll</strong><small>Nhận từ một đến năm bước</small></div></li>
+            <li><span>02</span><div><strong>Answer</strong><small>Chọn nghĩa đúng của thành ngữ</small></div></li>
+            <li><span>03</span><div><strong>Move</strong><small>Giữ nước đi hoặc quay về</small></div></li>
+          </ul>
         </div>
-      </section>
+        <HeroYutDemo />
+      </div>
+    </section>
 
-      <section className="landing-cards-section">
-        <div className="landing-shell cards-layout">
-          <div className="cards-copy">
-            <p className="landing-kicker landing-kicker-light">Bộ thẻ thành ngữ</p>
-            <h2>Một câu ngắn.<br />Cả một thế giới phía sau.</h2>
-            <p>
-              Không dừng ở bản dịch. Mỗi thẻ nối cách nói với hình ảnh, tình huống đời thường và sắc thái văn hóa để người học hiểu vì sao người Hàn thật sự dùng câu đó.
-            </p>
-            <ul>
-              <li><span>01</span> Nghĩa đen để nhớ hình ảnh</li>
-              <li><span>02</span> Nghĩa bóng để hiểu hàm ý</li>
-              <li><span>03</span> Ví dụ để biết cách dùng</li>
-            </ul>
-          </div>
-          <IdiomPreview />
+    <section className="decal-cards-section">
+      <div className="landing-shell decal-cards-grid">
+        <div className="decal-card-copy">
+          <p className="decal-kicker">Learn Korean naturally</p>
+          <h2>Mỗi tấm thẻ giữ<br /><em>một câu chuyện.</em></h2>
+          <p>Từ hình ảnh nghĩa đen đến sắc thái nghĩa bóng và cách dùng thực tế—mỗi thành ngữ là một cánh cửa nhỏ bước vào văn hóa Hàn.</p>
+          <Link className="decal-text-link" href="/cards">Mở thư viện thành ngữ <span aria-hidden="true">→</span></Link>
         </div>
-      </section>
+        <IdiomPreview />
+      </div>
+    </section>
 
-      <section className="landing-culture-section">
-        <div className="landing-shell culture-grid">
-          <div className="culture-art" aria-hidden="true">
-            <span className="culture-sun" />
-            <span className="culture-word" lang="ko">말</span>
-            <span className="culture-gloss">lời nói · quân cờ</span>
-            <i className="culture-stick culture-stick-one" />
-            <i className="culture-stick culture-stick-two" />
-          </div>
-          <div className="culture-copy">
-            <p className="landing-kicker">Văn hóa trong chuyển động</p>
-            <h2>Di sản sống khi ta cùng chơi với nó.</h2>
-            <p>
-              Yut Nori đã kết nối các gia đình Hàn Quốc qua nhiều thế hệ. Yutquest giữ lại nhịp tung, sự hồi hộp và tinh thần quây quần ấy, rồi mở thêm một cánh cửa cho người học hôm nay.
-            </p>
-            <blockquote>
-              “말” vừa có nghĩa là <strong>lời nói</strong>, vừa là <strong>quân cờ</strong> trong Yut Nori. Một từ nhỏ gói trọn tinh thần Yutquest.
-            </blockquote>
-            <Link className="landing-text-link" href="/guide">Đọc câu chuyện trò chơi <span aria-hidden="true">↗</span></Link>
-          </div>
+    <section className="decal-team-section">
+      <div className="landing-shell">
+        <div className="decal-team-heading">
+          <div><p className="decal-kicker">Made with wonder</p><h2>Những người tạo nên<br /><em>thế giới Yutquest.</em></h2></div>
+          <p>Năm góc nhìn cùng gặp nhau ở một niềm tin: trò chơi có thể khiến việc học ngôn ngữ trở nên gần gũi, giàu cảm xúc và đáng nhớ hơn.</p>
         </div>
-      </section>
+        <div className="decal-team-list">{team.map((name, index) => <article key={name}><span>0{index + 1}</span><strong>{name}</strong><small>{index === 4 ? "UI/UX & trải nghiệm" : "Nội dung & trò chơi"}</small></article>)}</div>
+      </div>
+    </section>
 
-      <section className="landing-team-section">
-        <div className="landing-shell">
-          <div className="landing-section-head team-heading">
-            <div>
-              <p className="landing-kicker">Những người làm nên Yutquest</p>
-              <h2>Năm góc nhìn. Một bàn chơi.</h2>
-            </div>
-            <p>Một dự án nhỏ được tạo nên bằng nghiên cứu, thử nghiệm và tình yêu dành cho cách ngôn ngữ đưa con người đến gần văn hóa hơn.</p>
-          </div>
-          <div className="landing-team-list">
-            {team.map(([number, name, role]) => (
-              <article key={name}>
-                <span>{number}</span>
-                <h3>{name}</h3>
-                <p>{role}</p>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="landing-final-cta">
-        <div className="landing-shell final-cta-inner">
-          <p className="landing-kicker landing-kicker-light">Bàn cờ đang chờ</p>
-          <h2>Tung Yut đầu tiên.<br /><em>Học câu đầu tiên.</em></h2>
-          <p>Không cần đăng ký. Bản thử hoạt động trực tiếp trên trình duyệt.</p>
-          <Link className="landing-primary landing-primary-light" href="/game">Chơi bản thử ngay <span aria-hidden="true">→</span></Link>
-          <span className="final-cta-mark" aria-hidden="true">윷</span>
-        </div>
-      </section>
-    </div>
-  );
+    <section className="decal-final-section">
+      <div className="landing-shell decal-final-inner">
+        <p className="decal-kicker decal-kicker-center">Your quest awaits</p>
+        <h2>Đưa quân cờ đầu tiên<br /><em>vào một thế giới mới.</em></h2>
+        <p>Không cần đăng ký. Bản chơi thử hoạt động trực tiếp trên trình duyệt.</p>
+        <Link className="decal-primary decal-primary-light" href="/game">Chơi Yutquest ngay <span aria-hidden="true">→</span></Link>
+      </div>
+    </section>
+  </div>;
 }

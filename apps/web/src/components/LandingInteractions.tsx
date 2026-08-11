@@ -34,8 +34,8 @@ const loop = [
     number: "03",
     label: "Tiến",
     korean: "나아가다",
-    title: "Chiến thuật tạo động lực.",
-    text: "Đường tắt, bắt quân và lượt thưởng biến kiến thức vừa học thành một phần có ý nghĩa của cuộc chơi.",
+    title: "Câu trả lời quyết định nước đi.",
+    text: "Trả lời đúng để giữ số bước vừa tung. Nếu trả lời sai, quân cờ quay lại đúng vị trí trước lượt — rõ ràng, công bằng và dễ nhớ.",
   },
 ];
 
