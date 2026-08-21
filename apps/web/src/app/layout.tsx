@@ -1,14 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import localFont from "next/font/local";
+import "@fontsource-variable/montserrat";
 import "./globals.css";
 import { MobileMenu } from "@/components/MobileMenu";
-
-const geist = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist",
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
@@ -43,7 +37,7 @@ const navItems = [
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="vi">
-      <body className={geist.variable}>
+      <body>
         <a className="skip-link" href="#main-content">Bỏ qua điều hướng</a>
         <header className="site-header">
           <div className="nav-shell">
