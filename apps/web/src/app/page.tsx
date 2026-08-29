@@ -2,7 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { HeroYutDemo, IdiomPreview, LearningLoop } from "@/components/LandingInteractions";
 
-const team = ["Lê Trần Khánh Linh", "Tô Diệu Linh", "Lương Phương Thảo", "Nguyễn Phương Anh", "Nguyễn Thành Thái"];
+const team = [
+  { name: "Lê Trần Khánh Linh", initials: "KL", role: "Nội dung & trò chơi" },
+  { name: "Tô Diệu Linh", initials: "DL", role: "Nội dung & trò chơi" },
+  { name: "Lương Phương Thảo", initials: "PT", role: "Nội dung & trò chơi" },
+  { name: "Nguyễn Phương Anh", initials: "PA", role: "Nội dung & trò chơi" },
+  { name: "Nguyễn Thành Thái", initials: "TT", role: "UI/UX & trải nghiệm" },
+];
 
 export default function Home() {
   return <div className="landing-page decal-landing">
@@ -10,11 +16,11 @@ export default function Home() {
       <div className="landing-shell decal-hero-grid">
         <div className="decal-hero-copy">
           <p className="decal-kicker">Korean learning card game</p>
-          <h1>Embark on a<br /><em>quest of knowledge.</em></h1>
+          <h1><span className="decal-hero-line">Embark on a</span><br /><em>quest of knowledge.</em></h1>
           <p className="decal-lead">Tung Yut, giải mã thành ngữ và đưa quân cờ về nhà. Mỗi câu trả lời mở ra một mảnh nhỏ của ngôn ngữ và văn hóa Hàn Quốc.</p>
           <div className="decal-actions">
             <Link className="decal-primary" href="/game">Bắt đầu hành trình <span aria-hidden="true">→</span></Link>
-            <Link className="decal-secondary" href="#how-it-works">Khám phá luật chơi</Link>
+            <Link className="decal-secondary" href="/guide">Khám phá luật chơi</Link>
           </div>
           <p className="decal-signature">Explore · Learn · Conquer</p>
         </div>
@@ -62,7 +68,7 @@ export default function Home() {
         <div className="decal-card-copy">
           <p className="decal-kicker">Learn Korean naturally</p>
           <h2>Mỗi tấm thẻ giữ<br /><em>một câu chuyện.</em></h2>
-          <p>Từ hình ảnh nghĩa đen đến sắc thái nghĩa bóng và cách dùng thực tế—mỗi thành ngữ là một cánh cửa nhỏ bước vào văn hóa Hàn.</p>
+          <p>210 thử thách trải trên 60 biểu đạt cốt lõi—từ nghĩa tiếng Hàn, diễn giải tiếng Việt đến cách dùng theo ba cấp độ học.</p>
           <Link className="decal-text-link" href="/cards">Mở thư viện thành ngữ <span aria-hidden="true">→</span></Link>
         </div>
         <IdiomPreview />
@@ -75,7 +81,7 @@ export default function Home() {
           <div><p className="decal-kicker">Made with wonder</p><h2>Những người tạo nên<br /><em>thế giới Yutquest.</em></h2></div>
           <p>Năm góc nhìn cùng gặp nhau ở một niềm tin: trò chơi có thể khiến việc học ngôn ngữ trở nên gần gũi, giàu cảm xúc và đáng nhớ hơn.</p>
         </div>
-        <div className="decal-team-list">{team.map((name, index) => <article key={name}><span>0{index + 1}</span><strong>{name}</strong><small>{index === 4 ? "UI/UX & trải nghiệm" : "Nội dung & trò chơi"}</small></article>)}</div>
+        <div className="decal-team-list">{team.map((member, index) => <article key={member.name}><div className="decal-member-avatar" aria-hidden="true"><b>{member.initials}</b><span>0{index + 1}</span></div><strong>{member.name}</strong><small>{member.role}</small></article>)}</div>
       </div>
     </section>
 
