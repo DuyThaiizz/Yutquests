@@ -3,7 +3,7 @@ import { CardsExplorer } from "@/components/CardsExplorer";
 
 export const metadata: Metadata = {
   title: "Thư viện thẻ thành ngữ",
-  description: "Khám phá những thành ngữ tiếng Hàn xuất hiện trong Yutquest.",
+  description: "Khám phá 210 thẻ học tiếng Hàn trong Yutquest với nghĩa tiếng Hàn và tiếng Việt.",
 };
 
 export default function CardsPage() {
@@ -12,10 +12,10 @@ export default function CardsPage() {
       <section className="page-hero page-hero-cards">
         <div className="section-shell page-hero-grid">
           <div>
-            <p className="eyebrow"><span className="eyebrow-dot" /> Bộ thẻ ngôn ngữ</p>
-            <h1>Học một câu.<br /><em>Hiểu cả ngữ cảnh.</em></h1>
+            <p className="eyebrow"><span className="eyebrow-dot" /> YutQuest 210</p>
+            <h1>210 thử thách.<br /><em>60 biểu đạt cốt lõi.</em></h1>
           </div>
-          <p>Mỗi thẻ gồm nghĩa bóng, nghĩa đen và một ví dụ đời thường. Bộ thẻ hiện là nội dung mẫu cho bản thử Yutquest.</p>
+          <p>Khám phá quán dụng ngữ, thành ngữ Hán–Hàn và tục ngữ qua ba cấp độ. Mỗi thẻ đi cùng nghĩa tiếng Hàn, diễn giải tiếng Việt và một nhiệm vụ thực hành.</p>
         </div>
       </section>
       <CardsExplorer />
