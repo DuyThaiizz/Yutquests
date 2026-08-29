@@ -2378,3 +2378,15 @@ h3,
 .rules-page .rules-hero .eyebrow { color: #ffd665; }
 .rules-page .rules-hero .eyebrow-dot { background: #ffd665; }
 .rules-page .rules-hero .page-hero-grid > p { color: rgba(255, 255, 255, .76); }
+
+/* Keep the full landing title contained by its translucent story panel. */
+.decal-landing .decal-hero h1 {
+  font-size: clamp(3.8rem, 5.5vw, 6rem);
+  line-height: .88;
+}
+
+@media (max-width: 640px) {
+  .decal-landing .decal-hero h1 {
+    font-size: clamp(2.85rem, 11vw, 3.6rem);
+  }
+}
