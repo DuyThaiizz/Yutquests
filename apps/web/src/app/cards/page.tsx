@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { CardsExplorer } from "@/components/CardsExplorer";
+import { BilingualFlashcards } from "@/components/BilingualFlashcards";
 
 export const metadata: Metadata = {
   title: "Thư viện thẻ thành ngữ",
@@ -18,6 +19,7 @@ export default function CardsPage() {
           <p>Khám phá quán dụng ngữ, thành ngữ Hán–Hàn và tục ngữ qua ba cấp độ. Mỗi thẻ đi cùng nghĩa tiếng Hàn, diễn giải tiếng Việt và một nhiệm vụ thực hành.</p>
         </div>
       </section>
+      <BilingualFlashcards />
       <CardsExplorer />
     </>
   );

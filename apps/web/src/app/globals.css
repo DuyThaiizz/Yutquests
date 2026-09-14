@@ -2390,3 +2390,110 @@ h3,
     font-size: clamp(2.85rem, 11vw, 3.6rem);
   }
 }
+
+/* -------------------------------------------------------------------------- */
+/* Bilingual flashcards sourced from the three-branch YutQuest glossary.      */
+/* -------------------------------------------------------------------------- */
+
+.bilingual-library {
+  padding: clamp(84px, 10vw, 150px) 0;
+  color: #fff8e9;
+  background:
+    radial-gradient(circle at 12% 18%, rgba(255, 214, 101, .12), transparent 26%),
+    radial-gradient(circle at 86% 76%, rgba(37, 126, 184, .2), transparent 30%),
+    #062d51;
+}
+.bilingual-library-heading { display: grid; grid-template-columns: 1.15fr .85fr; gap: clamp(36px, 7vw, 100px); align-items: end; }
+.bilingual-library-heading h2 { margin: 14px 0 0; color: white; font: 800 clamp(3.2rem, 6vw, 6.5rem)/.9 Georgia, serif; letter-spacing: -.055em; }
+.bilingual-library-heading h2 em { color: #ffd665; font-style: normal; }
+.bilingual-library-heading > p { max-width: 540px; margin: 0 0 8px; color: rgba(255, 255, 255, .68); line-height: 1.8; }
+.bilingual-controls { display: grid; grid-template-columns: minmax(260px, .72fr) 1.28fr; gap: 24px; align-items: end; margin-top: 64px; }
+.bilingual-controls label { display: grid; gap: 9px; color: #ffd665; font-size: .66rem; font-weight: 850; letter-spacing: .11em; text-transform: uppercase; }
+.bilingual-controls input { min-height: 54px; padding: 0 17px; border: 1px solid rgba(255, 214, 101, .45); color: white; background: rgba(255, 255, 255, .06); font: 650 .88rem Montserrat, sans-serif; }
+.bilingual-controls input::placeholder { color: rgba(255, 255, 255, .45); }
+.bilingual-controls input:focus-visible { outline: 3px solid rgba(255, 214, 101, .35); outline-offset: 3px; }
+.bilingual-filter { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px; }
+.bilingual-filter button { min-height: 44px; padding: 0 15px; border: 1px solid rgba(255, 255, 255, .2); color: rgba(255, 255, 255, .72); background: transparent; font-size: .72rem; font-weight: 800; }
+.bilingual-filter button:hover,
+.bilingual-filter button.is-active { border-color: #ffd665; color: #062d51; background: #ffd665; }
+.bilingual-count { display: flex; gap: 12px; align-items: baseline; margin: 38px 0 20px; color: rgba(255, 255, 255, .58); text-transform: uppercase; letter-spacing: .1em; }
+.bilingual-count strong { color: #ffd665; font: 800 2rem/1 Georgia, serif; }
+.bilingual-count span { font-size: .63rem; font-weight: 850; }
+.bilingual-card-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.bilingual-card { position: relative; min-height: 330px; perspective: 1100px; }
+.bilingual-card > button { width: 100%; height: 100%; min-height: 330px; padding: 0; border: 0; color: inherit; background: transparent; text-align: left; }
+.bilingual-card-topline { position: absolute; z-index: 3; top: 20px; right: 22px; left: 22px; display: flex; justify-content: space-between; color: rgba(6, 45, 81, .5); font-size: .62rem; font-weight: 850; letter-spacing: .08em; text-transform: uppercase; pointer-events: none; }
+.bilingual-card-inner { position: relative; display: block; width: 100%; min-height: 330px; transform-style: preserve-3d; transition: transform .62s cubic-bezier(.2,.72,.2,1); }
+.bilingual-card.is-open .bilingual-card-inner { transform: rotateY(180deg); }
+.bilingual-card-front,
+.bilingual-card-back { position: absolute; inset: 0; display: flex; flex-direction: column; padding: 72px 26px 26px; border: 1px solid rgba(255, 214, 101, .38); backface-visibility: hidden; }
+.bilingual-card-front { color: #062d51; background: linear-gradient(145deg, #fffaf0, #f5e3b7); }
+.bilingual-card-back { transform: rotateY(180deg); color: white; background: linear-gradient(145deg, #1269a3, #084271); }
+.bilingual-card-front > strong { margin: auto 0 20px; font: 800 clamp(1.75rem, 2.5vw, 2.8rem)/1.1 Georgia, "Noto Serif KR", serif; letter-spacing: -.035em; }
+.bilingual-card-front > em { color: #785820; font-size: .84rem; font-style: normal; line-height: 1.65; }
+.bilingual-card-back > small { color: #ffd665; font-size: .62rem; font-weight: 850; letter-spacing: .1em; text-transform: uppercase; }
+.bilingual-card-back > strong { margin: auto 0 18px; font-size: 1.12rem; line-height: 1.75; }
+.bilingual-card-back > em { color: rgba(255, 255, 255, .68); font-size: .77rem; font-style: normal; line-height: 1.55; }
+.bilingual-card-front > i,
+.bilingual-card-back > i { display: flex; justify-content: space-between; margin-top: 28px; padding-top: 14px; border-top: 1px solid currentColor; font-size: .65rem; font-style: normal; font-weight: 850; letter-spacing: .08em; text-transform: uppercase; }
+.bilingual-card > button:focus-visible { outline: 3px solid #ffd665; outline-offset: 4px; }
+.bilingual-pagination { color: rgba(255, 255, 255, .65); }
+.bilingual-pagination button { border-color: #ffd665; color: #ffd665; background: transparent; }
+.bilingual-pagination button:not(:disabled):hover { color: #062d51; background: #ffd665; }
+
+/* -------------------------------------------------------------------------- */
+/* Four-stick throw stage: lift, tumble, bounce, then reveal the result.       */
+/* -------------------------------------------------------------------------- */
+
+.yut-throw-stage { position: relative; min-height: 250px; margin: 24px 0 26px; overflow: hidden; border: 1px solid rgba(216, 167, 67, .42); background: radial-gradient(circle at 50% 72%, rgba(255, 214, 101, .18), transparent 32%), linear-gradient(155deg, #0a4779, #052b50); perspective: 900px; }
+.yut-throw-stage::before { content: "윷"; position: absolute; top: -24px; right: 10px; color: rgba(255, 255, 255, .045); font: 800 10rem/1 Georgia, serif; }
+.throw-shadow { position: absolute; top: 153px; left: 50%; width: 230px; height: 24px; transform: translateX(-50%); border-radius: 50%; background: rgba(0, 0, 0, .28); filter: blur(10px); transition: transform .3s ease, opacity .3s ease; }
+.yut-throw-stage.is-throwing .throw-shadow { transform: translateX(-50%) scale(.45); opacity: .35; }
+.animated-yut-sticks { position: absolute; inset: 26px 22px 64px; transform-style: preserve-3d; }
+.animated-yut-sticks i { --rest-x: 0px; --rest-r: -8deg; --throw-x: -12px; --face-rx: 0deg; position: absolute; top: 58px; left: calc(50% - 15px); display: grid; width: 30px; height: 118px; place-items: center; transform: translateX(var(--rest-x)) rotateX(var(--face-rx)) rotateZ(var(--rest-r)); border: 1px solid #70420f; border-radius: 48% 48% 42% 42% / 11% 11% 9% 9%; background: linear-gradient(90deg, #9b5b16 0%, #e8ad4f 22%, #ffd986 52%, #c57920 100%); box-shadow: inset 0 0 0 2px rgba(255,255,255,.18), 0 12px 15px rgba(0,0,0,.26); transform-style: preserve-3d; }
+.animated-yut-sticks i::after { content: ""; position: absolute; inset: 5px; border-radius: inherit; background: linear-gradient(90deg, rgba(63,32,7,.7), rgba(112,66,15,.88)); opacity: 0; }
+.animated-yut-sticks i.is-flat::after { opacity: 1; }
+.animated-yut-sticks i b { position: relative; z-index: 1; width: 14px; color: #ffd665; font: 900 13px/1.55 Montserrat, sans-serif; text-align: center; opacity: 0; }
+.animated-yut-sticks i.is-flat b { opacity: 1; }
+.animated-yut-sticks i:nth-child(1) { --rest-x: -73px; --rest-r: -13deg; --throw-x: -42px; }
+.animated-yut-sticks i:nth-child(2) { --rest-x: -25px; --rest-r: -4deg; --throw-x: 22px; }
+.animated-yut-sticks i:nth-child(3) { --rest-x: 25px; --rest-r: 7deg; --throw-x: -18px; }
+.animated-yut-sticks i:nth-child(4) { --rest-x: 72px; --rest-r: 14deg; --throw-x: 40px; }
+.animated-yut-sticks i.is-round { --face-rx: 180deg; }
+.yut-throw-stage.is-throwing .animated-yut-sticks i { animation: yut-stick-flight 1.18s cubic-bezier(.25,.64,.28,1) both; }
+.yut-throw-stage.is-throwing .animated-yut-sticks i:nth-child(2) { animation-delay: .035s; }
+.yut-throw-stage.is-throwing .animated-yut-sticks i:nth-child(3) { animation-delay: .07s; }
+.yut-throw-stage.is-throwing .animated-yut-sticks i:nth-child(4) { animation-delay: .105s; }
+.throw-stage-caption { position: absolute; right: 16px; bottom: 13px; left: 16px; display: flex; justify-content: space-between; gap: 16px; color: rgba(255, 255, 255, .68); }
+.throw-stage-caption span { color: #ffd665; font-size: .61rem; font-weight: 850; letter-spacing: .1em; text-transform: uppercase; }
+.throw-stage-caption strong { font-size: .68rem; text-align: right; }
+.game-action:disabled { cursor: wait; opacity: .72; }
+.traditional-yut-board { background: radial-gradient(circle at center, rgba(255, 214, 101, .16) 0 8%, transparent 8.5%), linear-gradient(145deg, rgba(255,255,255,.96), rgba(237,247,253,.94)); box-shadow: inset 0 0 0 10px rgba(11,87,150,.035), 0 24px 70px rgba(4,37,70,.12); }
+
+@keyframes yut-stick-flight {
+  0% { transform: translateX(var(--rest-x)) translateY(0) rotateX(var(--face-rx)) rotateY(0) rotateZ(var(--rest-r)); }
+  16% { transform: translateX(var(--rest-x)) translateY(10px) rotateX(35deg) rotateY(18deg) rotateZ(var(--rest-r)); }
+  49% { transform: translateX(var(--throw-x)) translateY(-112px) rotateX(565deg) rotateY(385deg) rotateZ(38deg); }
+  76% { transform: translateX(var(--rest-x)) translateY(7px) rotateX(calc(var(--face-rx) + 12deg)) rotateY(8deg) rotateZ(var(--rest-r)); }
+  88% { transform: translateX(var(--rest-x)) translateY(-9px) rotateX(calc(var(--face-rx) - 7deg)) rotateY(0) rotateZ(var(--rest-r)); }
+  100% { transform: translateX(var(--rest-x)) translateY(0) rotateX(var(--face-rx)) rotateY(0) rotateZ(var(--rest-r)); }
+}
+
+@media (max-width: 900px) {
+  .bilingual-library-heading,
+  .bilingual-controls { grid-template-columns: 1fr; }
+  .bilingual-filter { justify-content: flex-start; }
+  .bilingual-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 600px) {
+  .bilingual-card-grid { grid-template-columns: 1fr; }
+  .bilingual-filter button { flex: 1 1 calc(50% - 8px); }
+  .throw-stage-caption { align-items: flex-start; flex-direction: column; }
+  .throw-stage-caption strong { text-align: left; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bilingual-card-inner { transition-duration: .01ms; }
+  .yut-throw-stage.is-throwing .animated-yut-sticks i { animation: none; }
+}

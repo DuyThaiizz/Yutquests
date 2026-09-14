@@ -9,11 +9,11 @@ type Turn = "player" | "ai";
 type Winner = Turn | null;
 
 const outcomes = [
-  { name: "Do", korean: "도", steps: 1 },
-  { name: "Gae", korean: "개", steps: 2 },
-  { name: "Geol", korean: "걸", steps: 3 },
-  { name: "Yut", korean: "윷", steps: 4 },
-  { name: "Mo", korean: "모", steps: 5 },
+  { name: "Do", korean: "도", steps: 1, flatCount: 1 },
+  { name: "Gae", korean: "개", steps: 2, flatCount: 2 },
+  { name: "Geol", korean: "걸", steps: 3, flatCount: 3 },
+  { name: "Yut", korean: "윷", steps: 4, flatCount: 4 },
+  { name: "Mo", korean: "모", steps: 5, flatCount: 0 },
 ];
 
 // Traditional Yut-nori outer route. Start and home share the lower-right corner.
@@ -42,23 +42,31 @@ export function GameDemo() {
   const [roll, setRoll] = useState(outcomes[0]);
   const [cardIndex, setCardIndex] = useState(0);
   const [selected, setSelected] = useState<string | null>(null);
+  const [isThrowing, setIsThrowing] = useState(false);
+  const throwTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const returnTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const aiTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const currentCard = idioms[cardIndex % idioms.length];
 
   useEffect(() => () => {
+    if (throwTimer.current) clearTimeout(throwTimer.current);
     if (returnTimer.current) clearTimeout(returnTimer.current);
     if (aiTimer.current) clearTimeout(aiTimer.current);
   }, []);
 
   function throwYut() {
-    if (turn !== "player" || phase !== "ready" || winner) return;
+    if (turn !== "player" || phase !== "ready" || winner || isThrowing) return;
     if (returnTimer.current) clearTimeout(returnTimer.current);
     const nextRoll = outcomes[Math.floor(Math.random() * outcomes.length)];
     setOriginPosition(position);
     setRoll(nextRoll);
     setSelected(null);
-    setPhase("question");
+    setIsThrowing(true);
+    throwTimer.current = setTimeout(() => {
+      throwTimer.current = null;
+      setIsThrowing(false);
+      setPhase("question");
+    }, 1350);
   }
 
   function answer(option: string) {
@@ -118,6 +126,7 @@ export function GameDemo() {
   }
 
   function restart() {
+    if (throwTimer.current) clearTimeout(throwTimer.current);
     if (returnTimer.current) clearTimeout(returnTimer.current);
     if (aiTimer.current) clearTimeout(aiTimer.current);
     setPosition(0);
@@ -127,6 +136,7 @@ export function GameDemo() {
     setOriginPosition(0);
     setCardIndex(0);
     setSelected(null);
+    setIsThrowing(false);
     setTurn("player");
     setWinner(null);
     setPhase("ready");
@@ -211,9 +221,18 @@ export function GameDemo() {
         {!winner && turn === "player" && phase === "ready" && <div className="console-state state-ready">
           <p className="mini-label">Lượt của bạn</p>
           <h2>Tung Yut,<br /><em>mở một thử thách.</em></h2>
-          <div className="demo-sticks" aria-hidden="true"><i /><i /><i /><i /></div>
+          <div className={`yut-throw-stage ${isThrowing ? "is-throwing" : ""}`} role="status" aria-label={isThrowing ? "Bốn thanh Yut đang được tung" : "Bốn thanh Yut sẵn sàng"} aria-live="polite">
+            <span className="throw-shadow" aria-hidden="true" />
+            <div className="animated-yut-sticks" aria-hidden="true">
+              {[0, 1, 2, 3].map((stickIndex) => <i className={stickIndex < roll.flatCount ? "is-flat" : "is-round"} key={stickIndex}><b>× × ×</b></i>)}
+            </div>
+            <div className="throw-stage-caption">
+              <span>{isThrowing ? "Đang tung…" : "Sẵn sàng"}</span>
+              <strong>{isThrowing ? "Bốn thanh đang xoay trên không" : "Chạm nút để tung bốn thanh"}</strong>
+            </div>
+          </div>
           <p className="rule-note">Trả lời đúng để tiến. Trả lời sai, quân sẽ quay về vị trí trước lượt tung.</p>
-          <button className="button game-action" type="button" onClick={throwYut}>Tung bốn thanh Yut <span aria-hidden="true">→</span></button>
+          <button className="button game-action" type="button" disabled={isThrowing} onClick={throwYut}>{isThrowing ? "Đang tung Yut…" : "Tung bốn thanh Yut"} <span aria-hidden="true">→</span></button>
         </div>}
 
         {!winner && turn === "player" && phase === "question" && <div className="console-state question-state">
