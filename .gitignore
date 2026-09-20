@@ -3,3 +3,5 @@ node_modules/
 .turbo/
 *.log
 .env*
+tmp/
+!apps/hanmori/.env.example

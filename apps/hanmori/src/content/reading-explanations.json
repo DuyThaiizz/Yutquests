@@ -1,0 +1,1648 @@
+{
+  "35-1": {
+    "reason": "먹고 나서 diễn tả ăn trưa xong rồi đi thư viện ngay; 바로 nhấn mạnh trình tự liên tiếp.",
+    "elimination": "① 먹든지 và ② 먹거나 là lựa chọn. ④ 먹다 보면 là kết quả khi tiếp tục/lặp lại việc ăn, không hợp sự kiện hôm qua.",
+    "evidence": "점심을 먹고 나서 바로 도서관에 갔다."
+  },
+  "35-2": {
+    "reason": "구하느라고 nêu nguyên nhân bận: tìm nhà để chuyển đến chiếm thời gian nghỉ. V-느라고 thường nối hành động tốn thời gian với hệ quả bất lợi.",
+    "elimination": "① 찾더니 kể kết quả quan sát; ② 찾으려면 là điều kiện để tìm; ③ 구하도록 là mục đích. Chúng không khớp quan hệ nguyên nhân với 바빴다.",
+    "evidence": "이사 갈 집을 구하느라고 방학 때 좀 바빴다."
+  },
+  "35-3": {
+    "reason": "날 정도로 là cảm động đến mức rơi nước mắt. 날 만큼 cũng biểu thị mức độ tương đương.",
+    "elimination": "② 날까 봐 là lo sợ; ③ 나는 대로 là ngay khi/theo như; ④ 나는 대신에 là thay cho. Cả ba không giữ ý mức độ.",
+    "evidence": "눈물이 날 정도로 = 눈물이 날 만큼"
+  },
+  "35-4": {
+    "reason": "사이일 뿐이다 giới hạn quan hệ ở đồng nghiệp. 사이에 불과하다 cũng là chỉ là, không vượt quá mức đó.",
+    "elimination": "② 사이라면 좋겠다 là mong muốn; ③ 사이일지도 모른다 là phỏng đoán; ④ 사이라고 볼 수 없다 phủ nhận quan hệ. Câu gốc khẳng định quan hệ nhưng giới hạn phạm vi.",
+    "evidence": "직장 동료 사이일 뿐이다"
+  },
+  "36-1": {
+    "reason": "하는데 đặt bối cảnh đang đá bóng thì giáo viên gọi. Hai sự việc có chủ thể khác nhau.",
+    "elimination": "① 하거나 và ④ 하든지 nêu lựa chọn. ③ 하면서 thường nối hai hành động đồng thời cùng chủ thể, không hợp việc giáo viên gọi người nói.",
+    "evidence": "축구를 하는데 선생님이 나를 부르셨다."
+  },
+  "36-2": {
+    "reason": "졸업하자마자 là vừa tốt nghiệp thì đi làm ngay, phù hợp lời kể sự việc đã xảy ra.",
+    "elimination": "① 졸업해도 và ③ 졸업하더라도 là nhượng bộ. ② 졸업한다면 là giả định. Câu cần trình tự, không phải điều kiện hoặc nhượng bộ.",
+    "evidence": "대학교를 졸업하자마자 회사에 취직했다."
+  },
+  "36-3": {
+    "reason": "올 모양이다 suy đoán sắp mưa từ mây đen. 올 것만 같다 cũng là cảm nhận/phỏng đoán việc sắp xảy ra.",
+    "elimination": "① 오기도 한다 là cũng có lúc xảy ra; ③ 올 리가 없다 phủ nhận khả năng; ④ 온 적이 없다 nói chưa từng có. Chỉ ② giữ ý suy đoán.",
+    "evidence": "먹구름이 몰려오는 걸 보니"
+  },
+  "36-4": {
+    "reason": "가 봐야 nghĩa là dù thử đi cửa hàng khác thì giá cũng tương tự. 간다고 해도 giữ quan hệ nhượng bộ đó.",
+    "elimination": "② 간다고 치고 là tạm giả định; ③ 갈지도 몰라서 nêu nguyên nhân; ④ 가기는 하지만 thừa nhận một việc. Chúng không tương đương ý thử cũng chẳng thay đổi kết quả.",
+    "evidence": "다른 옷가게에 가 봐야 값은 여기와 비슷할 것이다."
+  },
+  "37-1": {
+    "reason": "일어나야 nêu điều kiện bắt buộc: phải dậy sớm mới bắt được chuyến bay bảy giờ.",
+    "elimination": "② 일어나려고 là định dậy; ③ 일어나며 nối hành động; ④ 일어나더니 kể thay đổi đã quan sát. Không phương án nào nêu điều kiện cần như -아/어야.",
+    "evidence": "일찍 일어나야 일곱 시 비행기를 탈 수 있다."
+  },
+  "37-2": {
+    "reason": "돌아와 있었다 mô tả trạng thái em đã trở về, đang ở nhà khi người nói về đến và nhìn thấy.",
+    "elimination": "② 돌아오게 되었다 nói diễn biến dẫn đến việc trở về; ③ 돌아왔으면 했다 là mong muốn; ④ 돌아오도록 했다 là sắp xếp/khiến trở về. Câu chỉ kể điều được phát hiện.",
+    "evidence": "집에 와 보니까 동생이 여행에서 돌아와 있었다."
+  },
+  "37-3": {
+    "reason": "나온 탓에 nêu nguyên nhân tiêu cực khiến quên ví. 나오는 바람에 cũng là vì việc bất ngờ/không mong muốn mà có hậu quả xấu.",
+    "elimination": "① 나오는 김에 là tiện thể; ② 나오는 사이에 là trong lúc; ④ 나오는 대신에 là thay vì. Chúng không giữ quan hệ nguyên nhân.",
+    "evidence": "서둘러 나온 탓에 지갑을 안 가지고 나왔다."
+  },
+  "37-4": {
+    "reason": "모르는 척했다 và 모르는 체했다 đều là giả vờ không biết, dù thực ra đã biết lỗi của hậu bối.",
+    "elimination": "② 모르는 듯했다 là có vẻ không biết; ③ 모르는 편이다 là thường không biết; ④ 모르기 마련이다 là đương nhiên không biết. Chúng thiếu ý cố ý giả vờ.",
+    "evidence": "알고 있었지만 ... 모르는 척했다."
+  },
+  "41-1": {
+    "reason": "보여도 nêu tương phản giữa vẻ ngoài lạnh lùng và tấm lòng ấm áp: dù trông lạnh lùng nhưng...",
+    "elimination": "② 보여야 là điều kiện; ③ 보이다가 là chuyển trạng thái; ④ 보이든지 là lựa chọn. Chúng không diễn tả nhượng bộ.",
+    "evidence": "차가워 보여도 마음은 따뜻하다."
+  },
+  "41-2": {
+    "reason": "도착하니까 kể vừa đến nhà thì mưa bắt đầu rơi, dùng -니까 để nêu sự kiện phát sinh/được phát hiện ở thời điểm đến.",
+    "elimination": "① 도착하거나 là lựa chọn; ③ 도착하거든 đặt điều kiện cho hành động phía sau; ④ 도착하려고 là định đến. Vế sau là sự kiện tự nhiên đã xảy ra.",
+    "evidence": "집에 도착하니까 비가 내리기 시작했다."
+  },
+  "41-3": {
+    "reason": "깨지 않게 có nghĩa để em bé không tỉnh. 깨지 않도록 cũng diễn tả mục đích tránh kết quả đó.",
+    "elimination": "① 깨지 않는지 là kiểm tra có tỉnh không; ③ 깨지 않더니 kể diễn biến; ④ 깨지 않느라 nêu nguyên nhân. Người nói đi nhẹ nhằm tránh đánh thức bé.",
+    "evidence": "깨지 않게 = 깨지 않도록"
+  },
+  "41-4": {
+    "reason": "늘리고자 biểu thị mục đích nâng cao tiếng Hàn. 늘리기 위해서 là cách diễn đạt mục đích tương đương.",
+    "elimination": "② 늘리기 무섭게 là ngay khi; ③ 늘리는 대신에 là thay vì; ④ 늘리는 반면에 là đối lập. Chúng không giữ ý mục tiêu.",
+    "evidence": "한국어 실력을 늘리고자"
+  },
+  "47-1": {
+    "reason": "가기로 했다 là đã quyết định đi công viên giải trí cùng bạn ngày mai. 내일 đòi hỏi cách nói kế hoạch tương lai.",
+    "elimination": "① 가는 편이다 nói thói quen; ② 가는 중이다 là đang đi; ④ 간 적이 있다 là kinh nghiệm quá khứ. Chúng không phải kế hoạch ngày mai.",
+    "evidence": "내일 친구와 함께 놀이공원에 가기로 했다."
+  },
+  "47-2": {
+    "reason": "지날수록 diễn tả càng trôi qua càng nhớ gia đình, hai mức độ tăng song hành.",
+    "elimination": "① 지나거나 là lựa chọn; ② 지나도록 là cho đến khi/đến mức; ③ 지나거든 là điều kiện. Không lựa chọn nào khác biểu thị càng... càng.",
+    "evidence": "시간이 지날수록 가족이 그리워진다."
+  },
+  "47-3": {
+    "reason": "일어나는 바람에 và 일어난 탓에 cùng nêu việc dậy muộn gây hậu quả lỡ tàu.",
+    "elimination": "② 일어난 김에 là tiện thể; ③ 일어나는 대신 là thay vì; ④ 일어나는 대로 là ngay khi. Câu cần nguyên nhân tiêu cực.",
+    "evidence": "늦게 일어나는 바람에 기차를 놓쳤다."
+  },
+  "47-4": {
+    "reason": "연습하기에 달려 있다 nghĩa là phụ thuộc vào luyện tập. 연습하기 나름이다 cũng là kết quả tùy việc luyện tập thế nào.",
+    "elimination": "① 연습할 따름이다 là chỉ luyện tập; ② 연습할 모양이다 là có vẻ sẽ luyện tập; ④ 연습하기 십상이다 là dễ xảy ra. Chúng không diễn tả yếu tố quyết định thắng thua.",
+    "evidence": "연습하기에 달려 있다 = 연습하기 나름이다"
+  },
+  "52-1": {
+    "reason": "보려고 là để xem: người nói dậy sớm nhằm xem mặt trời mọc.",
+    "elimination": "① 보아야 biến xem thành điều kiện; ③ 보거나 đưa lựa chọn; ④ 보는데 đặt bối cảnh đang xem. Câu cần mục đích của việc dậy sớm.",
+    "evidence": "해가 뜨는 것을 보려고 아침 일찍 일어났다."
+  },
+  "52-2": {
+    "reason": "무슨 일을 하든지 là bất kể làm việc gì. Điều quan trọng là chăm chỉ, không phụ thuộc loại công việc.",
+    "elimination": "② 하도록 là để/nhằm; ③ 하다가 là đang làm thì; ④ 하더니 kể diễn biến. Chỉ 하든지 kết hợp với 무슨 để bao quát mọi lựa chọn.",
+    "evidence": "무슨 일을 하든지 열심히 하는 것이 중요하다."
+  },
+  "52-3": {
+    "reason": "있나 보다 suy đoán có chuyện vui từ việc liên tục cười. 있는 모양이다 cũng suy đoán dựa vào dấu hiệu.",
+    "elimination": "① 있는 척한다 là giả vờ; ② 있을 뿐이다 là chỉ có; ③ 있을 지경이다 là đến mức. Cả ba không diễn tả phỏng đoán.",
+    "evidence": "계속 웃고 다니는 걸 보니"
+  },
+  "52-4": {
+    "reason": "끝난 거나 마찬가지이다 là coi như kỳ nghỉ đã hết vì tuần sau khai giảng. 끝난 셈이다 giữ cùng cách đánh giá tình huống.",
+    "elimination": "② 끝난 탓이다 nêu nguyên nhân; ③ 끝나기 마련이다 nói quy luật; ④ 끝나기 나름이다 nói tùy thuộc. Câu không nói các quan hệ này.",
+    "evidence": "방학도 다 끝난 거나 마찬가지이다."
+  },
+  "60-1": {
+    "reason": "보다가 diễn tả đang xem điện thoại thì đi quá ga cần xuống, một việc phát sinh giữa lúc làm việc khác.",
+    "elimination": "① 보든지 là lựa chọn; ③ 보려면 là điều kiện để xem; ④ 보고서 là xem xong rồi. Chúng không diễn tả việc đi quá ga trong lúc bị phân tâm.",
+    "evidence": "휴대 전화를 보다가 내려야 할 역을 지나쳤다."
+  },
+  "60-2": {
+    "reason": "알게 되었다 nói sự thay đổi đạt được nhờ bạn Hàn: người nói biết nhiều về văn hóa Hàn.",
+    "elimination": "② 알도록 했다 là khiến/thu xếp cho biết; ③ 알아도 된다 là cho phép; ④ 알아야 한다 là nghĩa vụ. Câu cần kết quả thực tế đã đạt.",
+    "evidence": "한국 친구 덕분에 한국 문화를 많이 알게 되었다."
+  },
+  "60-3": {
+    "reason": "타기만 하면 nghĩa là cứ lên xe là say. 탈 때마다 giữ ý lần nào cũng xảy ra.",
+    "elimination": "① 탈 만해서 là vì đáng/có thể đi; ② 타는 탓에 là vì đi xe; ④ 타는 동안 là trong suốt thời gian đi. Chúng không thể hiện rõ tính lặp lại mỗi lần.",
+    "evidence": "차를 타기만 하면 멀미를 한다."
+  },
+  "60-4": {
+    "reason": "수리해 봐야 là dù thử sửa thì máy cũ cũng khó dùng lâu. 수리한다고 해도 giữ đúng ý nhượng bộ.",
+    "elimination": "① 수리해 보니까 là thử rồi phát hiện; ② 수리하는 대로 là ngay khi sửa; ③ 수리하는 바람에 là vì sửa mà. Câu không nêu thời điểm hoặc nguyên nhân ấy.",
+    "evidence": "낡아서 수리해 봐야 오래 쓰기 어렵다."
+  },
+  "64-1": {
+    "reason": "보거나 nối hai lựa chọn cho cuối tuần: xem phim hoặc tập thể dục.",
+    "elimination": "① 보지만 là tương phản; ③ 보려고 biến xem phim thành mục đích tập thể dục; ④ 보더니 kể diễn biến quá khứ. Chỉ ② nối lựa chọn tự nhiên.",
+    "evidence": "영화를 보거나 운동을 한다."
+  },
+  "64-2": {
+    "reason": "닮아 간다 mô tả quá trình em ngày càng giống bố. 점점 là dấu hiệu tăng dần.",
+    "elimination": "② 닮기도 한다 bổ sung đặc điểm; ③ 닮았나 보다 là phỏng đoán; ④ 닮은 적이 없다 phủ nhận. Chúng không biểu thị quá trình tiến triển.",
+    "evidence": "점점 아버지를 닮아 간다."
+  },
+  "64-3": {
+    "reason": "늘리고자 nêu mục đích tăng việc làm; 늘리기 위해 là để tăng, tương đương trực tiếp.",
+    "elimination": "① 늘리자마자 là ngay khi; ② 늘리더라도 là dù; ③ 늘리는 대신 là thay vì. Câu cần mục tiêu của chính sách.",
+    "evidence": "일자리를 늘리고자 새로운 정책을 수립했다."
+  },
+  "64-4": {
+    "reason": "고향인 셈이다 là xét hoàn cảnh thì có thể coi Seoul như quê hương. 고향이나 마찬가지이다 cũng là gần như/tương đương quê hương.",
+    "elimination": "① 고향일 뿐이다 là chỉ là quê; ② 고향이면 좋겠다 là ước muốn; ③ 고향일 리가 없다 phủ nhận. Chúng không giữ nhận định coi như quê hương.",
+    "evidence": "서울이 고향인 셈이다."
+  },
+  "35-5": {
+    "reason": "날마다 읽는다 và 세상을 보는 눈 gợi việc đọc tin thế giới hằng ngày, nên chủ đề là 신문, báo.",
+    "elimination": "Từ điển dùng tra nghĩa; đồng hồ xem giờ; bút chì dùng viết. Không món nào cung cấp tin thế giới mỗi ngày như lời quảng cáo."
+  },
+  "35-6": {
+    "reason": "아프세요, 상담, 수술 lần lượt là bị đau, tư vấn và phẫu thuật: đây là dịch vụ bệnh viện.",
+    "elimination": "Học viện dạy học, bảo tàng trưng bày, đại sứ quán làm việc ngoại giao. Từ khóa 수술 chỉ trực tiếp việc chữa trị."
+  },
+  "35-7": {
+    "reason": "Bài cảnh báo mất rừng thì gió mát và động vật trong rừng cũng mất, nhằm kêu gọi bảo vệ môi trường.",
+    "elimination": "Không có tên/tiện ích công viên, số liệu thời tiết hay lịch trình du lịch. Đừng chọn theo một từ 바람 mà bỏ qua câu cảnh báo cuối."
+  },
+  "35-8": {
+    "reason": "Bài chỉ hai cách đặt câu hỏi: để lại trên bảng khách hàng của website hoặc gọi điện cho tư vấn viên. Đó là 문의 방법.",
+    "elimination": "Không mô tả sản phẩm, tuyển người hay cách sử dụng mỹ phẩm. Nội dung chính là kênh liên hệ khi có thắc mắc."
+  },
+  "36-5": {
+    "reason": "신선도 và tự điều chỉnh 온도 nói việc duy trì độ tươi bằng nhiệt độ, chức năng của 냉장고.",
+    "elimination": "Máy tính không bảo quản thực phẩm; quạt làm mát người; máy giặt làm sạch quần áo. Chỉ tủ lạnh đáp ứng dấu hiệu độ tươi."
+  },
+  "36-6": {
+    "reason": "Nếu nhìn chữ mờ thì vào cửa hàng là lời quảng cáo của 안경점, nơi đo mắt và bán kính.",
+    "elimination": "Phòng nha liên quan răng; hiệu sách bán sách; bảo tàng mỹ thuật trưng bày tranh. Nhìn chữ bị mờ là vấn đề thị lực."
+  },
+  "36-7": {
+    "reason": "Nhắc rằng cả tiếng của người bên kia điện thoại cũng nghe thấy và âm thanh nhỏ nơi công cộng cũng là tiếng ồn: chủ đề là phép lịch sự khi gọi điện.",
+    "elimination": "Không có ăn uống, chăm sóc sức khỏe hay phòng tránh tai nạn. Trọng tâm là giảm tiếng nói/âm thanh điện thoại ở nơi chung."
+  },
+  "36-8": {
+    "reason": "Một người dùng một phiếu, không hoàn tiền và không dùng chung coupon khác là các điều kiện sử dụng phiếu giảm giá.",
+    "elimination": "Không nói nơi bán, mô tả sản phẩm hay hướng dẫn đổi hàng. Các dòng đều quy định cách dùng phiếu hiện có."
+  },
+  "37-5": {
+    "reason": "잘 풀리고 잘 닦입니다 nói dễ kéo ra và lau sạch, đặc trưng của 휴지, giấy lau.",
+    "elimination": "Bút chì dùng viết, bàn không cuộn ra, gương không dùng lau vật khác. Hai động từ 풀리다/닦이다 phải được hiểu cùng nhau."
+  },
+  "37-6": {
+    "reason": "배달합니다 và lời hứa trân trọng cả món đồ nhỏ mô tả dịch vụ gửi đồ của 우체국.",
+    "elimination": "Nhà hàng phục vụ thức ăn, ngân hàng tiền tệ, đài truyền hình phát chương trình. Nội dung nói vận chuyển vật phẩm và tình cảm người gửi."
+  },
+  "37-7": {
+    "reason": "Kêu gọi dành thời gian và năng lực cho hàng xóm, gom tài năng để tạo ước mơ, là hoạt động tình nguyện.",
+    "elimination": "Không nói công việc được trả lương, thi đấu thể thao hay giao dịch kinh tế. Từ khóa 이웃에게 và chia sẻ 재능 chỉ việc đóng góp cộng đồng."
+  },
+  "37-8": {
+    "reason": "Bảo quản nơi mát và đóng nắp sau khi dùng là 주의 사항, những điều cần lưu ý.",
+    "elimination": "Không liệt kê nguyên liệu, nơi mua hay thông tin liên hệ hỏi sản phẩm. Hai câu đều là chỉ dẫn tránh dùng/bảo quản sai."
+  },
+  "41-5": {
+    "reason": "Quảng cáo gặp làn gió mát, cảm giác trong lành như thiên nhiên nói về 선풍기, quạt.",
+    "elimination": "Máy hút bụi làm sạch, máy giặt giặt đồ, điện thoại liên lạc. Chức năng tạo gió là dấu hiệu quyết định."
+  },
+  "41-6": {
+    "reason": "Trân trọng ví tiền khách hàng và hướng đến tương lai ổn định là thông điệp của 은행.",
+    "elimination": "Bệnh viện chữa bệnh, cửa hàng bán hàng, học viện giảng dạy. Từ 지갑 kết hợp tương lai ổn định gợi quản lý tiền và tiết kiệm."
+  },
+  "41-7": {
+    "reason": "Kêu gọi bảo vệ đường trẻ đến trường để trẻ trở về an toàn là chủ đề an toàn giao thông.",
+    "elimination": "Không đề cập dùng điện, dạy phép lịch sự hay bảo vệ thiên nhiên. Đối tượng là trẻ trên đường đi học."
+  },
+  "41-8": {
+    "reason": "Công ty ô tô chờ những người cùng phát triển là lời tuyển nhân viên, 사원 모집.",
+    "elimination": "Không có lịch trình du lịch, thông số xe hay giá bán. 여러분을 기다립니다 kết hợp cùng phát triển với công ty nhắm tới ứng viên."
+  },
+  "47-5": {
+    "reason": "Hình rau củ, 비타민 và lượng rau cần mỗi ngày trong một chai mô tả nước ép 주스.",
+    "elimination": "Cola, sữa và cà phê không khớp đặc trưng đồ uống làm từ rau củ trong quảng cáo. Chọn theo tổng hợp hình và chữ, không chỉ vì đều uống được."
+  },
+  "47-6": {
+    "reason": "Đồ dùng chơi nước được bán trong đợt giảm giá đặc biệt là quảng cáo của 마트.",
+    "elimination": "Học viện không bán nhóm đồ này; hiệu ảnh chụp ảnh; tiệm giặt xử lý quần áo. 세일 và 용품 là dấu hiệu bán lẻ hàng hóa."
+  },
+  "47-7": {
+    "reason": "Kiểm tra cả tàn lửa ẩn và tưởng đã tắt nhằm phòng cháy, 화재 예방.",
+    "elimination": "Không có dữ liệu dự báo thời tiết, mẹo sức khỏe hay tiết kiệm điện. 불씨 là mồi/tàn lửa cần kiểm soát để tránh cháy."
+  },
+  "47-8": {
+    "reason": "Thông báo ghi hạn nộp, hồ sơ gồm đơn và ảnh, rồi yêu cầu gửi email: đây là cách tiếp nhận hồ sơ.",
+    "elimination": "Không nói mua hàng hay kênh hỏi đăng ký; cũng không phải cảnh báo an toàn. Ba mục trả lời nộp gì, khi nào và bằng cách nào."
+  },
+  "52-5": {
+    "reason": "Nằm xuống là dễ ngủ và thoải mái đến sáng mô tả 침대, giường.",
+    "elimination": "Khăn, đồng hồ và giày không phải nơi nằm ngủ. Hai dấu hiệu 눕다 và 아침까지 편안하게 xác định sản phẩm."
+  },
+  "52-6": {
+    "reason": "Nguyên liệu tươi, giá vừa phải, chào đón họp gia đình và đoàn khách là quảng cáo nhà hàng.",
+    "elimination": "Ngân hàng và tiệm giặt không phục vụ bữa ăn. Cửa hàng tiện lợi có thể bán thực phẩm nhưng lời mời họp gia đình/đoàn cùng nguyên liệu tươi nhắm đến nhà hàng."
+  },
+  "52-7": {
+    "reason": "Lời kêu gọi cùng gìn giữ núi xanh và sông trong là bảo vệ thiên nhiên.",
+    "elimination": "Không đề cập thời gian, nhường chỗ hay quy tắc an toàn cụ thể. Đối tượng cần gìn giữ là cảnh quan tự nhiên."
+  },
+  "52-8": {
+    "reason": "Mua trước 1 giờ chiều được giao trong ngày; nhiều đơn có thể giao muộn là thông tin giao hàng.",
+    "elimination": "Không hướng dẫn dùng sản phẩm, thứ tự sử dụng hay đổi hàng. Mốc giờ gắn với lúc hàng được mang đến khách.",
+    "evidence": "그날 가져다 드립니다."
+  },
+  "60-5": {
+    "reason": "Nhiều chất dinh dưỡng và uống sự tươi mới mỗi sáng mô tả 우유, sữa.",
+    "elimination": "Bánh không phải đồ uống; kính và giày không cung cấp dinh dưỡng. Động từ 마셔요 loại các sản phẩm không uống được."
+  },
+  "60-6": {
+    "reason": "Giặt và sấy cả chăn lớn trong một lần là dịch vụ 빨래방, tiệm giặt tự phục vụ.",
+    "elimination": "Bưu điện gửi hàng, công ty du lịch tổ chức chuyến đi, cửa hàng tiện lợi bán hàng. 세탁 và 건조 chỉ rõ giặt/sấy."
+  },
+  "60-7": {
+    "reason": "Để thuốc lá và bật lửa ở nhà khi leo núi nhằm tránh gây cháy rừng.",
+    "elimination": "Sức khỏe là lợi ích phụ nhưng hai vật có thể tạo lửa cùng việc bảo vệ núi chỉ trực tiếp 화재 예방. Không có nội dung tiết kiệm điện hay giao thông."
+  },
+  "60-8": {
+    "reason": "Không ăn sau 9 giờ tối hôm trước và tránh rượu để xét nghiệm chính xác là lưu ý trước kiểm tra sức khỏe.",
+    "elimination": "Không giới thiệu sản phẩm, trình tự dùng máy hay hỏi địa điểm. Đây là các điều không được làm, tức 주의 사항."
+  },
+  "64-5": {
+    "reason": "Xua tan nóng và tạo gió mát là chức năng của 에어컨, điều hòa.",
+    "elimination": "Máy hút bụi làm sạch; tủ lạnh bảo quản thực phẩm; máy giặt giặt quần áo. Lời quảng cáo nhắm đến làm mát không gian/người dùng."
+  },
+  "64-6": {
+    "reason": "Tích góp thông minh, hạnh phúc tương lai lớn lên từng ngày gợi tiết kiệm tiền ở 은행.",
+    "elimination": "Bệnh viện, công ty du lịch và phòng thể thao không cung cấp dịch vụ tích lũy tiền. 모으다 và 쌓여 가는 tương lai là dấu hiệu tiết kiệm."
+  },
+  "64-7": {
+    "reason": "Giữ kỷ niệm trong tim, mang rác về trong túi để núi khỏe mạnh là bảo vệ môi trường.",
+    "elimination": "Không đề cập nguồn lửa nên không phải phòng cháy; cũng không nói sức khỏe cá nhân hay giúp hàng xóm. 쓰레기는 가방 안에 yêu cầu không xả rác."
+  },
+  "64-8": {
+    "reason": "Giờ mở phòng tư liệu và số sách/thời hạn được mượn là hướng dẫn sử dụng thư viện.",
+    "elimination": "Không hỏi cách mua, không mô tả thứ tự thao tác hay đổi hàng. Các dữ kiện trả lời khi nào đến và được mượn bao nhiêu."
+  },
+  "35-9": {
+    "reason": "Người đi phương tiện công cộng được giảm 1.000 won, nên đi tàu điện ngầm sẽ mua vé rẻ hơn.",
+    "elimination": "① sai vì giảm đoàn chỉ ngày thường; ② sai vì đây là lần thứ 10; ③ sai vì vé đặc biệt cho dùng khu vui chơi miễn phí, không chỉ giảm giá.",
+    "evidence": "대중교통을 이용하신 분은 입장료를 1,000원 할인"
+  },
+  "35-10": {
+    "reason": "Nhóm nhận nuôi động vật bị bỏ rơi chỉ 7,2%, thấp nhất bốn nhóm nên ① đúng.",
+    "elimination": "Internet 16,8% thấp hơn cửa hàng 36,7%, nên ② đảo chiều. Người quen 39,3% cao hơn cửa hàng nhưng chưa tới 50%, loại ③ và ④."
+  },
+  "36-9": {
+    "reason": "Mang ảnh gia đình được vào miễn phí, đúng nguyên văn điều kiện dưới thông báo.",
+    "elimination": "① sai vì tác giả trong nước; ② nhầm tên triển lãm mùa thu với chủ đề gia đình; ④ sai vì trò chuyện với tác giả chỉ cuối tuần.",
+    "evidence": "가족 사진을 가지고 오시면 무료로 입장"
+  },
+  "36-10": {
+    "reason": "Cột bạn bè cao hơn cột cha mẹ ở cả nam và nữ, nên cả hai giới đều tâm sự với bạn nhiều hơn cha mẹ.",
+    "elimination": "Anh chị em không đứng cao nhất. Hai phương án còn lại đảo chiều so sánh nam–nữ ở nhóm tự giải quyết và nhóm tâm sự với cha mẹ; cần so sánh trong đúng từng nhóm."
+  },
+  "37-9": {
+    "reason": "Thông báo ghi 신청 방법: 전화 접수, phải đăng ký qua điện thoại.",
+    "elimination": "① sai vì tổ chức thứ Bảy buổi tối; ② sai vì dành cho gia đình có con tiểu học chứ không chỉ trẻ; ④ sai vì dân Yeongwol miễn phí."
+  },
+  "37-10": {
+    "reason": "Trong biểu đồ của cả nam và nữ, 수면 시간 là mục cao nhất: cả hai xem giấc ngủ là cách chăm sóc sức khỏe quan trọng nhất.",
+    "elimination": "① đảo so sánh ngủ với tập thể dục của nữ; ③ đảo so sánh nam–nữ ở ăn sáng; ④ đảo so sánh ăn sáng với khám sức khỏe của nam. Đọc cột theo chú giải trước khi so độ cao."
+  },
+  "41-9": {
+    "reason": "지원 금액: 최대 200만 원 xác nhận câu lạc bộ nhận tối đa hai triệu won.",
+    "elimination": "① sai vì thời gian từ tháng 7 đến 12, không cả năm; ② sai vì cả THCS và THPT đều được; ④ sai vì cần ít nhất 5 học sinh và có 1 giáo viên."
+  },
+  "41-10": {
+    "reason": "Cột mỹ phẩm cao nhất ở cả năm 2013 và 2014, nên mỹ phẩm bán nhiều nhất cả hai năm.",
+    "elimination": "Các phương án khác sai khi so biến động thực phẩm, túi xách hoặc so quần áo với thực phẩm năm 2014. Không lấy thứ tự tên trên trục làm thứ hạng doanh số."
+  },
+  "47-9": {
+    "reason": "Ngày 20/8 là thứ Bảy và 21/8 là Chủ nhật, nên lễ hội diễn ra hai ngày cuối tuần.",
+    "elimination": "① sai vì lần thứ 8; ③ sai vì trải nghiệm đăng ký trực tiếp tại chỗ; ④ sai vì nếm món truyền thống miễn phí, không phải mua.",
+    "evidence": "2016년 8월 20일(토) ~ 8월 21일(일)"
+  },
+  "47-10": {
+    "reason": "Tỷ lệ đọc báo ở tuổi 60 thấp hơn tuổi 40 trên biểu đồ, nên ③ đúng.",
+    "elimination": "① coi tuổi 20 và 60 bằng nhau là sai. ② đảo ưu thế TV và báo. ④ đảo chiều tỷ lệ xem TV giữa tuổi 20 và 40. Phải so đúng loại phương tiện theo chú giải."
+  },
+  "52-9": {
+    "reason": "Thông báo loại trừ tạp chí và giáo trình ngoại ngữ, nên có loại sách không được yêu cầu.",
+    "elimination": "② sai vì báo sách đến qua email; ③ sai vì chỉ 17–30/4; ④ sai vì đăng ký trên website, không gửi email.",
+    "evidence": "잡지, 어학 교재 제외"
+  },
+  "52-10": {
+    "reason": "Miếng biểu đồ lương lớn hơn phần phát triển cá nhân, nên nhiều người coi trọng lương hơn phát triển cá nhân.",
+    "elimination": "Ổn định nghề nghiệp không nhỏ nhất; lương và năng khiếu không bằng nhau; điều kiện làm việc không quá nửa biểu đồ. Không nhầm một nhóm với tổng nhiều nhóm."
+  },
+  "60-9": {
+    "reason": "Giá ngày thường 30.000 won, cuối tuần 35.000 won: cuối tuần đắt hơn.",
+    "elimination": "② sai vì chỉ mở tháng 3–11; ③ sai vì không đặt trong ngày; ④ sai vì phí đỗ xe đã gồm trong giá.",
+    "evidence": "주차장, 샤워장 이용료 포함"
+  },
+  "60-10": {
+    "reason": "Ở nhóm nữ, cột hoạt động sở thích cao hơn cột tình nguyện, nên ① đúng.",
+    "elimination": "② đảo so sánh nam–nữ về tôn giáo. ③ sai vì hoạt động kinh tế không vượt 50% ở cả hai giới. ④ đảo so sánh kinh tế với tình nguyện ở nam."
+  },
+  "64-9": {
+    "reason": "참가 대상: 제한 없음 nghĩa là không hạn chế người tham gia, nên ai cũng có thể dự.",
+    "elimination": "① sai vì lần thứ 3; ③ sai vì miễn phí; ④ sai vì xuất phát ở công viên, đích đến mới là nhà tưởng niệm.",
+    "evidence": "시민공원부터 인주기념관까지"
+  },
+  "64-10": {
+    "reason": "Quân nhân xuất hiện trong top 5 năm 2018 nhưng không có năm 2008, nên là nghề mới vào top 5.",
+    "elimination": "① sai vì giáo viên vẫn thứ nhất. ② sai vì công chức đổi hạng. ④ sai vì điều dưỡng tăng lên hạng 2 chứ không tụt hạng."
+  },
+  "35-11": {
+    "reason": "Câu đầu nói gần đây xuất hiện không gian trải nghiệm thập niên 70–80, chính là rạp hồi ức mới mở.",
+    "elimination": "① biến trưng bày poster thành bán; ③ sai vì vé 2.000 won; ④ sai vì chiếu phim thịnh hành thời trước, không nói phim mới.",
+    "evidence": "최근 ... 문화 공간이 생겼다."
+  },
+  "35-12": {
+    "reason": "Đeo mặt nạ cho phép thể hiện bản thân khác thực tế trong chốc lát, đúng ý thể hiện hình ảnh mình mong muốn.",
+    "elimination": "① phóng đại thành đổi tính cách thật; ② nói nhìn thực tế rõ hơn trái ý thoát vai thực tế; ④ biến ví dụ mặt nạ hổ thành mục đích khoe sức mạnh.",
+    "evidence": "현실과 다른 나를 표현할 수 있다."
+  },
+  "36-11": {
+    "reason": "Muốn xem trực tiếp phải đăng ký trên trang chủ chương trình, nhận 300 người theo thứ tự.",
+    "elimination": "① sai vì ghi hình Chủ nhật; ② sai vì tuần sau mới phát đầu tiên; ④ sai vì mỗi lần chỉ một ca sĩ.",
+    "evidence": "방청 신청은 프로그램 홈페이지를 통해"
+  },
+  "36-12": {
+    "reason": "Khảo sát gọi điện đến những hộ đã tham gia năm trước, nên hai lần có cùng đối tượng.",
+    "elimination": "① sai vì gọi điện chứ không đến nhà. ② sai vì internet tăng khả năng đọc tin, không nói giảm. ③ nhầm giảm 50% với tỷ lệ hộ đọc: thực tế một trong năm hộ.",
+    "evidence": "지난해에 조사에 참여한 집으로 전화를 거는 방식"
+  },
+  "37-11": {
+    "reason": "Người vào vòng chung kết được công bố trên website, nên có thể kiểm tra ở đó.",
+    "elimination": "① sai vì khoảng 10 trang bản thảo; ② sai vì đối tượng là sinh viên nước ngoài sống ở Hàn; ④ sai vì nộp bằng email.",
+    "evidence": "본선 참가자는 홈페이지를 통해 공지"
+  },
+  "37-12": {
+    "reason": "Bếp bằng kính để khách nhìn thấy, và nhà hàng biểu diễn nấu ăn hằng ngày, nên khách có thể xem quá trình chế biến.",
+    "elimination": "① phóng đại bếp kính thành cả tòa nhà; ③ sai vì vẫn có vách kính ngăn; ④ biến nấu ăn mỗi ngày thành mỗi ngày một tiết mục khác.",
+    "evidence": "매일 한 번씩 요리 만드는 것을 공연처럼"
+  },
+  "41-11": {
+    "reason": "Giá đỗ xanh nhận nắng có giá trị dinh dưỡng và vitamin cao hơn giá vàng, khớp ④.",
+    "elimination": "① đảo điều kiện trồng giá vàng; ② đảo điều kiện trồng giá xanh; ③ đảo tác dụng hồi phục mệt mỏi vốn tốt hơn ở giá xanh.",
+    "evidence": "노란 콩나물보다 영양가가 높다."
+  },
+  "41-12": {
+    "reason": "Dùng bàn tay ít sử dụng kích thích não hiệu quả hơn, nên hoạt động não tích cực hơn.",
+    "elimination": "① phủ nhận quan hệ tay–não trái câu đầu; ② sai vì việc đơn giản cũng giúp; ③ sai vì bài khuyên dùng tay không quen.",
+    "evidence": "자주 사용하지 않는 손을 움직일 때"
+  },
+  "47-11": {
+    "reason": "Quán cà phê truyện tranh kết hợp xem truyện và ăn/uống, đúng ý có cả 볼거리 và 먹을거리.",
+    "elimination": "① sai vì không khí mới sáng và hiện đại hơn; ② nhầm khách nam của phòng truyện với khách nữ của café; ③ thu hẹp thành nơi chỉ uống café.",
+    "evidence": "볼거리, 먹을거리를 함께 즐길 수 있는"
+  },
+  "47-12": {
+    "reason": "Các chất trong cacao có tác dụng phòng cảm và tăng tập trung, nên ăn cacao có thể nâng khả năng tập trung.",
+    "elimination": "② ngược cảnh báo tránh ăn nhiều chocolate quá ngọt; ③ không có so sánh chocolate tốt hơn cacao; ④ nhầm phát hiện lợi ích sức khỏe với phát hiện nguyên liệu.",
+    "evidence": "집중력 향상 등에 효과"
+  },
+  "52-11": {
+    "reason": "Du khách gửi thư cảm ơn vì cảnh sát giúp tìm ví bằng từ điển và cử chỉ.",
+    "elimination": "② trái việc được giúp tìm ví; ③ đảo người gửi/người nhận thư; ④ sai vì tuy bất đồng ngôn ngữ cảnh sát vẫn giúp được.",
+    "evidence": "고마움을 담은 감사 편지를 보낸 것이다."
+  },
+  "52-12": {
+    "reason": "Người xem một mình không cần để ý người đi cùng nên tập trung vào vở diễn, đúng ②.",
+    "elimination": "① nhầm quan niệm cũ vốn đi cùng bạn/người yêu; ③ khái quát mọi người xem; ④ trái xu hướng số người xem một mình tăng.",
+    "evidence": "공연에만 집중할 수 있어서"
+  },
+  "60-11": {
+    "reason": "Trường đổi đồng phục vì nhiều học sinh phản ánh bộ vest bất tiện, nên đã tiếp nhận ý kiến học sinh.",
+    "elimination": "① sai vì phụ huynh thích bộ mới giá rẻ; ② đảo giá; ③ đảo độ thoải mái. Bộ mới giúp vận động và tập trung hơn.",
+    "evidence": "학생들의 의견이 많았기 때문이다."
+  },
+  "60-12": {
+    "reason": "Hiện nay cư dân cung cấp đồ uống và đồ ăn nhẹ cho quán, nên có người mang đồ ăn đến.",
+    "elimination": "② sai vì lúc đầu cư dân không quan tâm; ③ sai vì quán miễn phí phục vụ người lao động; ④ không có việc tài xế trực tiếp vận hành.",
+    "evidence": "카페에 음료와 간식을 제공"
+  },
+  "64-11": {
+    "reason": "Thương hiệu nhận giải được chọn qua bỏ phiếu trực tuyến của người tiêu dùng, đúng ①.",
+    "elimination": "② đổi người bỏ phiếu thành doanh nghiệp; ③ sai vì cả hai năm đều 100 thương hiệu; ④ sai vì năm nay có hai thương hiệu mỹ phẩm thân thiện môi trường.",
+    "evidence": "소비자의 온라인 투표로 수상 브랜드가 선정"
+  },
+  "64-12": {
+    "reason": "Màu tranh gần như được bảo tồn dù qua thời gian dài, nên trạng thái màu còn tốt.",
+    "elimination": "① sai vì đã xác định chủ mộ là vua; ② sai vì mới dự kiến mở cho công chúng; ④ nhầm tranh/chữ trên tường thành dưới sàn.",
+    "evidence": "색이 거의 그대로 보존되어 있어"
+  },
+  "35-13": {
+    "reason": "Thứ tự 다→나→라→가: giới thiệu nhiều cách tái chế chai nhựa, nêu một cách là làm đồng phục, giải thích nhẹ/mát, rồi thêm lợi ích giá rẻ.",
+    "elimination": "그중 하나 phải theo câu nêu nhiều cách; 또한 chỉ bổ sung lợi ích sau lợi ích đầu. Đưa 가 lên trước hoặc tách 나 khỏi 다 làm mất đối tượng liên kết."
+  },
+  "35-14": {
+    "reason": "라→나→가→다: rơi một chiếc giày khi lên tàu; định nhặt nhưng tàu chạy; vì thế thả nốt chiếc kia; cuối cùng giải thích người nhặt cần đủ đôi.",
+    "elimination": "그러자 nối phản ứng với tình huống tàu chạy. Câu 다 là lý do của hành động thả chiếc còn lại, nên phải theo 가, không mở đầu câu chuyện."
+  },
+  "35-15": {
+    "reason": "라→다→가→나: giới thiệu taxi cho làng không có xe buýt; nêu giá 1.100 won và trợ cấp; so chi phí với xe buýt; kết luận chính phủ vẫn tiết kiệm.",
+    "elimination": "이 택시 cần đối tượng taxi được giới thiệu trước. 그러므로 phải sau cơ sở so sánh ngân sách, không thể nêu kết luận trước dữ kiện."
+  },
+  "36-13": {
+    "reason": "나→다→라→가: ăn canh sinh nhật nhớ mẹ; giải thích phong tục ăn sau sinh; mẹ sinh năm con nên phải ăn nhiều lần; vì vậy đến nay không thích canh.",
+    "elimination": "그래서 gắn việc mẹ ăn với phong tục sau sinh. 그 때문에 ở 가 phải chỉ việc ăn lặp nhiều lần, nên không thể đứng trước 라."
+  },
+  "36-14": {
+    "reason": "라→다→가→나: nêu chế độ điểm phạt; hạn chế là vi phạm chưa giảm; chính phủ đưa điểm thưởng; cuối cùng giải thích cơ chế mới.",
+    "elimination": "하지만 cần đối lập với hiệu quả kỳ vọng của điểm phạt. 이러한 규칙 위반 chỉ vấn đề vừa nêu; 이는 chỉ chế độ điểm thưởng, nên 나 theo 가."
+  },
+  "36-15": {
+    "reason": "다→가→라→나: nêu ý kiến bỏ đèn đường; giải thích vì biển hiệu đã đủ sáng; phản biện việc tháo bỏ không tối ưu; đề xuất tìm phương án khác.",
+    "elimination": "가 giải thích ý kiến ở 다 bằng 것이다. 하지만 mở phản biện sau cặp này; 그런 일 trong 나 chỉ việc tốn tiền tháo bỏ, phải sau 라."
+  },
+  "37-13": {
+    "reason": "나→다→라→가: giới thiệu quảng cáo mới; mô tả dùng video vui thay giới thiệu trực tiếp; người xem chia sẻ; quá trình lặp lại tạo quảng cáo.",
+    "elimination": "이것은 cần kỹ thuật được nêu ở 나. 그런 과정 cần có hành vi chia sẻ ở 라 trước, nên 가 phải kết đoạn."
+  },
+  "37-14": {
+    "reason": "라→다→나→가: chai nước bỏ trên núi có thể gây cháy; vì chai trong gom ánh sáng; ánh sáng tạo lửa; lửa lan thành hỏa hoạn.",
+    "elimination": "이는 giải thích cảnh báo đầu. 그 불꽃 trong 가 phải sau 불꽃 ở 나. Không thể nói lửa lan trước khi giải thích lửa được tạo ra."
+  },
+  "37-15": {
+    "reason": "라→나→가→다: nêu ý kiến nghỉ ngơi giúp sáng tạo; phản bác ngồi không là đủ; nêu tri thức tích lũy làm nền; giải thích tri thức kết nối tạo ý mới.",
+    "elimination": "하지만 phải theo quan điểm cần điều chỉnh. 다 phát triển ý 폭넓은 지식 ở 가, không thể đứng trước cơ sở này."
+  },
+  "41-13": {
+    "reason": "나→가→다→라: giới thiệu tên ngũ vị tử; trà từ nó tốt mùa hè; giải thích tác dụng; bổ sung giúp ăn ngon khi mệt do nóng.",
+    "elimination": "이것 trong 가 chỉ 오미자 ở 나. -어서이다 trong 다 là lý do cho lời khuyên ở 가; 또한 ở 라 bổ sung tác dụng thứ hai."
+  },
+  "41-14": {
+    "reason": "다→가→나→라: vui khi giao lưu với học sinh; đôi khi khó khăn; dù vậy thấy mình là đại diện đất nước khi dạy; giải thích vì hai bên nhìn thế giới/Hàn Quốc qua nhau.",
+    "elimination": "이런 행복 cần niềm vui ở 다 trước. 하지만 chuyển từ khó khăn sang ý thức trách nhiệm; 때문이다 phải giải thích nhận định ở 나."
+  },
+  "41-15": {
+    "reason": "다→나→가→라: xưa dùng trống tiếp nhận ý dân; nay có cổng trực tuyến; người dân gửi kiến nghị ở đó; kết luận nỗ lực lắng nghe vẫn tiếp tục.",
+    "elimination": "이러한 역할 cần vai trò lịch sử ở 다. 이곳 chỉ cổng trực tuyến ở 나. 이렇게 tổng kết sự đối chiếu xưa–nay nên đặt cuối."
+  },
+  "47-13": {
+    "reason": "가→나→라→다: nhiều người uống trà hoa; vì giúp ổn định tinh thần; nhưng tránh hoa ven đường; thay vào đó nên dùng hoa trồng sạch.",
+    "elimination": "나 là lý do xu hướng ở 가. 그런데 đưa lưu ý sau lợi ích, và 다 cung cấp lựa chọn an toàn đáp lại điều phải tránh ở 라."
+  },
+  "47-14": {
+    "reason": "가→다→라→나: phơi chăn rồi đi chợ; mưa nên vội về; thấy giấy nhắn giữ chăn; giải thích hàng xóm đã cất hộ.",
+    "elimination": "Cần phơi chăn trước mới lo trời mưa. 도착해 보니 theo việc trở về; câu cuối -것이었다 giải đáp nguồn gốc giấy nhắn."
+  },
+  "47-15": {
+    "reason": "나→가→라→다: họp giảm rác; thống nhất ghi địa chỉ thật; giải thích kỳ vọng tăng trách nhiệm; tuy nhiên dân phản đối do lộ thông tin.",
+    "elimination": "회의 결과 phải sau cuộc họp. -때문이다 giải thích quyết định; 그러나 phải đứng sau lý do ủng hộ mới tạo đối lập với phản đối."
+  },
+  "52-13": {
+    "reason": "가→라→나→다: chó mèo nổi tiếng không hòa hợp; vì hiểu biểu hiện khác nhau; ví dụ chó giơ chân muốn chơi; mèo hiểu nhầm là tấn công.",
+    "elimination": "둘 cần chó và mèo được giới thiệu. 이런 행동 ở 다 chỉ hành vi giơ chân ở 나, nên không thể tách cặp ví dụ này."
+  },
+  "52-14": {
+    "reason": "나→다→라→가: nêu mục đích liên hoan công sở; trước đây uống rượu nhiều; nay xem biểu diễn/đi ăn ngon; kết luận văn hóa liên hoan thay đổi.",
+    "elimination": "예전에는 phải được đối chiếu với 요즘에는. Câu 가 tổng kết sự thay đổi, không phải dẫn chứng mở đầu."
+  },
+  "52-15": {
+    "reason": "다→가→나→라: cha nói chôn kho báu rồi qua đời; con đào không thấy; tiếc công nên gieo hạt; thu hoạch rồi hiểu ý cha.",
+    "elimination": "보물을 찾기 phải sau lời cha nói. Thất vọng vì không thấy kho báu dẫn đến gieo hạt; có hạt gieo rồi mới có quả về sau."
+  },
+  "60-13": {
+    "reason": "가→라→나→다: giới thiệu cửa hàng không bao bì; mô tả bình chứa lớn; khách mang hộp rỗng mua; ai không có thì được mượn.",
+    "elimination": "이 가게 chỉ cửa hàng ở 가. 용기에 든 물품 ở 나 cần nội dung 라; ngoại lệ không có hộp ở 다 chỉ hiểu sau yêu cầu mang hộp."
+  },
+  "60-14": {
+    "reason": "다→가→라→나: chạy lên xe buýt vì sợ muộn; không tìm thấy ví để trả; định xuống thì được trả hộ; cảm ơn và nhận nụ cười.",
+    "elimination": "Phải lên xe trước mới trả vé. Hành động trả hộ giải quyết thiếu ví, rồi mới có 감사의 인사, nên 나 kết đoạn."
+  },
+  "60-15": {
+    "reason": "라→나→가→다: nêu trải nghiệm giật mí; nguyên nhân thường là mệt, nghỉ sẽ đỡ; nếu vẫn giật có thể thiếu magiê; người như vậy nên ăn thực phẩm giàu magiê.",
+    "elimination": "쉬어도 nối trực tiếp lời khuyên nghỉ ở 나. 이런 사람들 chỉ nhóm nghi thiếu magiê ở 가, không phải mọi người bị mệt."
+  },
+  "64-13": {
+    "reason": "가→다→나→라: công ty mở sảnh cho bên ngoài; làm café/phòng tranh; người dân xem tranh uống café; nhiều người dùng giúp hình ảnh công ty tốt hơn.",
+    "elimination": "Cần giới thiệu không gian trước hoạt động tại đó. 이 공간 và kết quả tăng người dùng phải theo mô tả cách sử dụng."
+  },
+  "64-14": {
+    "reason": "라→가→나→다: đưa con bệnh đi gấp gây va chạm; xuống xin lỗi giải thích; chủ xe thông cảm cho đi; nhờ vậy con được chữa kịp.",
+    "elimination": "Sự cố phải xảy ra trước lời xin lỗi. 친절한 배려 ở 다 chỉ sự thông cảm ở 나, nên câu kết không được đặt trước phản ứng của chủ xe."
+  },
+  "64-15": {
+    "reason": "라→가→다→나: quá nhiều lựa chọn gây khó; do áp lực khách bỏ mua; vì vậy siêu thị chỉ bày vài loại; giải thích mục đích giảm gánh nặng để khách mua.",
+    "elimination": "그래서 nối giải pháp với vấn đề. -려는 것이다 kết luận mục đích trưng bày hạn chế, không thể đứng trước biện pháp."
+  },
+  "35-16": {
+    "reason": "Chỗ trống phải là ở nhà căng thẳng hơn ở công ty: câu sau giải thích gánh nặng việc nhà và nuôi con của phụ nữ đã kết hôn.",
+    "elimination": "Thăng chức, việc phức tạp và quan hệ công sở không được lý do 가사와 육아 hỗ trợ; đó là bẫy lấy ý chung đầu đoạn thay kết luận riêng.",
+    "evidence": "가사와 육아에 대한 부담"
+  },
+  "35-17": {
+    "reason": "Trăng bán nguyệt sẽ lớn thành trăng tròn sáng, đối lập với trăng tròn rồi nhỏ dần; vì vậy biểu tượng mang hy vọng phát triển.",
+    "elimination": "Hình mắt cười, độ sáng hiện tại hay có cả phần tối/sáng không giải thích được tương lai tốt hơn và 발전해 나가다.",
+    "evidence": "반달이 현재보다 더 나은 미래를 의미"
+  },
+  "35-18": {
+    "reason": "Nĩa đo tốc độ và báo động khi ăn quá nhanh giúp sửa thói quen ăn xấu, cụ thể là ăn vội gây khó tiêu.",
+    "elimination": "Không có cơ chế tăng lượng ăn, trang trí bàn hay dạy phép lịch sự. Toàn bộ chức năng nhằm điều chỉnh tốc độ ăn."
+  },
+  "36-16": {
+    "reason": "Mạch máu ngay dưới da đưa nhiều máu hơn để tản nhiệt, nên khi ra mồ hôi da trông đỏ.",
+    "elimination": "Không nêu mất sức hay cảm giác nhẹ người. Phương án máu đi ra ngoài qua da không đúng ý máu lưu thông dưới da.",
+    "evidence": "더 많은 피를 흘려 보내게 된다."
+  },
+  "36-17": {
+    "reason": "Vận động ngón tay giúp gợi nhớ từ, nên lời khuyên phù hợp là dùng nhiều cử động tay khi nói.",
+    "elimination": "Chỉ nghĩ về ngón tay không phải vận động; chọn từ hay nhớ nghĩa là mục tiêu chung, không giải thích mối liên hệ tay–khả năng ngôn ngữ."
+  },
+  "36-18": {
+    "reason": "Người trẻ ưu tiên nghề có hợp năng khiếu bản thân không, vì đoạn kết nhấn mạnh sự hài lòng cá nhân.",
+    "elimination": "Làm cả đời ở một nơi là quan niệm đang yếu đi. Địa vị và đánh giá người khác thuộc tiêu chuẩn xã hội, đối lập tiêu chuẩn cá nhân cần điền."
+  },
+  "37-16": {
+    "reason": "Một khi nghi ngờ thì khó khôi phục quan hệ, như màu đen khó trở lại trắng dù thêm nhiều màu trắng.",
+    "elimination": "Giảm tự tin, tăng lo âu, khó xác định vấn đề không bám phép so sánh mất niềm tin và khó phục hồi màu ban đầu."
+  },
+  "37-17": {
+    "reason": "Rau héo vì mất dần nước; bằng chứng là khô dần và hồi tươi khi hấp thụ đủ nước.",
+    "elimination": "Vi khuẩn và hô hấp không được đoạn giải thích. Nước nóng ở đây là biện pháp làm rau hồi lại, không phải nguyên nhân héo.",
+    "evidence": "충분한 물이 흡수되면서 ... 다시 싱싱해진다."
+  },
+  "37-18": {
+    "reason": "Trường xưa thay đổi phương pháp dạy theo mùa: đông đọc sách khó, hè làm thơ, xuân/thu luyện viết.",
+    "elimination": "Không đề cập tuyển học sinh hay giờ học. Làm thơ chỉ mùa hè và không nói lấy các mùa làm đề tài, nên không bao quát các ví dụ."
+  },
+  "41-16": {
+    "reason": "Rút tên giúp học sinh ít chủ động cũng có cơ hội trả lời, phù hợp kết luận mọi người tham gia đều.",
+    "elimination": "Nhớ tên, đồng bộ bước học hay làm giờ học trôi chảy không phải vấn đề được nêu. Vấn đề chính là người rụt rè mất cơ hội khi bạn khác luôn giơ tay trước."
+  },
+  "41-17": {
+    "reason": "Người trẻ sợ lạc xu hướng nên lo khi không mua được sản phẩm mới ra mắt, phù hợp bối cảnh thiết bị số.",
+    "elimination": "Quan tâm của cha mẹ, điểm số và thông tin người lạ không nối trực tiếp với nỗi sợ tụt hậu thời thượng.",
+    "evidence": "유행에 뒤떨어지는 것을 두려워한다."
+  },
+  "41-18": {
+    "reason": "Theo cách giải thích trong đoạn về y học cổ truyền, châm cứu kích thích chỗ tắc để khí lưu thông thuận lợi.",
+    "elimination": "Không nói xác định hướng khí hay chẩn đoán đau. Đang mô tả điều trị người đã bệnh do tắc khí, không phải chỉ phòng bệnh. Đây là nội dung bài đọc, không phải hướng dẫn chữa bệnh."
+  },
+  "47-16": {
+    "reason": "Ý kiến phản đối học thuộc bản nhạc là nên dùng thời gian nâng khả năng biểu đạt; câu sau phản biện rằng học thuộc chính là cách làm biểu đạt phong phú.",
+    "elimination": "Hiểu truyền thống, tổ chức buổi diễn hay giải thích ưu nhược không tạo cặp tranh luận trực tiếp với 표현력이 풍성해질 수 있다."
+  },
+  "47-17": {
+    "reason": "Nhiều vật quyên góp khó tái sử dụng, nên phải tốn nhân lực và tiền để lọc ra đồ còn dùng được.",
+    "elimination": "Khó mua, khó bảo quản hoặc ít công dụng không giải thích chính xác việc phải chọn 쓸 만한 물건 và lời nhắc người khác sẽ dùng lại."
+  },
+  "47-18": {
+    "reason": "Bàn là có chân bật ra khi buông tay giải quyết vấn đề cháy quần áo bằng ý tưởng mới, nên được thị trường đón nhận.",
+    "elimination": "Đoạn không nêu hạ giá, chỉ đổi vẻ ngoài hay cải thiện lời giới thiệu. Khoảng cách do chân nâng tạo ra là giải pháp chức năng cụ thể."
+  },
+  "52-16": {
+    "reason": "Tránh vị đắng là bản năng bảo vệ cơ thể vì nhiều cây độc thường có vị đắng.",
+    "elimination": "Không nói ăn quá nhiều, ngăn khẩu vị đổi hay chỉ tránh đồ không ngon. Lý do cốt lõi là độc tố có hại và phản ứng tự bảo vệ."
+  },
+  "52-17": {
+    "reason": "Gật đầu là cử động đầu lên xuống, ở nhiều nước thể hiện đồng ý và tạo cảm giác đang lắng nghe.",
+    "elimination": "Vỗ tay, hỏi hoặc ghi chép không được mô tả bằng 머리를 위아래로 움직이는 행동, nên không khớp dấu hiệu trực tiếp."
+  },
+  "52-18": {
+    "reason": "An tâm trong quan hệ có thể giảm hành vi tích trữ chất đống đồ trong nhà, vì sự thiếu yêu thương dẫn đến bám víu đồ vật.",
+    "elimination": "Tránh người, mua đồ không cần hay vứt rác bừa bãi là hành vi khác; bài nhấn mạnh không bỏ được đồ đã có, bất kể có dùng hay không."
+  },
+  "60-16": {
+    "reason": "Bắt tay để chứng tỏ tay không có vũ khí khi không định đánh nhau, đối lập lúc gặp kẻ thù thì rút vũ khí.",
+    "elimination": "Nhận giúp đỡ, xin lỗi hay tìm vũ khí mới không được câu “cho thấy tay không có vũ khí để người kia yên tâm” hỗ trợ."
+  },
+  "60-17": {
+    "reason": "Phim khiến người xem nhận ra hạnh phúc trong những việc nhỏ, bình dị của đời thực, không chỉ ở ước mơ lớn.",
+    "elimination": "Các lựa chọn nói việc khó làm, ít được làm hoặc không tự thừa nhận trái chủ đề sinh hoạt đơn giản lặp lại hằng ngày."
+  },
+  "60-18": {
+    "reason": "Nhà nghiên cứu đi khắp nơi tìm hạt để đánh giá tận mắt, nên ngoài nghiên cứu còn thu thập hạt giống.",
+    "elimination": "Quảng bá tài nguyên, dạy người khác hay quản lý kho không giải thích việc đi tìm từng hạt và kiểm tra có đáng lưu giữ không."
+  },
+  "64-16": {
+    "reason": "Chủ hiệu trò chuyện rồi chọn sách hợp hoàn cảnh khách: sách an ủi người tổn thương, sách khích lệ người thiếu tự tin.",
+    "elimination": "Sách vui, truyền kiến thức hay bán chạy không bao quát cách cá nhân hóa theo nhu cầu cảm xúc trong hai ví dụ."
+  },
+  "64-17": {
+    "reason": "Bán thực phẩm trước giờ đóng cửa với giá giảm giúp khách mua rẻ hơn, nên họ hài lòng.",
+    "elimination": "Tiết kiệm tài nguyên là lợi ích rộng hơn nhưng câu đang nói lợi ích trực tiếp người mua. Không có học công thức hay nhiều quyền lựa chọn hơn.",
+    "evidence": "할인된 가격으로 판매"
+  },
+  "64-18": {
+    "reason": "Cùng vai nhưng mỗi diễn viên có diễn xuất/không khí khác nhau, nên khán giả xem lại để thưởng thức cá tính từng người.",
+    "elimination": "Không nêu giảm vé, nơi biểu diễn nổi tiếng hay bài hát thịnh hành. Nguyên nhân xem lặp là khác biệt diễn viên trong cùng tác phẩm."
+  },
+  "35-25": {
+    "reason": "빨간 불 là cảnh báo nguy hiểm; 한쪽으로 메는 가방 xác định đeo cùng một bên gây hại lưng.",
+    "elimination": "Không khẳng định mọi việc đeo túi đều hại, không nói chỉ do túi nặng hoặc đeo lâu. Giữ đúng yếu tố “một bên”."
+  },
+  "35-26": {
+    "reason": "독특한 모양 và 시선 끌어 nghĩa là biển hiệu hình dáng khác lạ thu hút ánh nhìn.",
+    "elimination": "Không nói thống nhất hình dáng, nỗ lực thiết kế đang diễn ra hay biển quá lớn cản trở. Tiêu đề kể hiệu quả thu hút đã có."
+  },
+  "35-27": {
+    "reason": "제자리걸음 là dậm chân tại chỗ ba tháng; cần biện pháp khả thi để nâng tỷ lệ việc làm.",
+    "elimination": "Không nói chính sách đã có hiệu quả, ngăn giảm hay tỷ lệ biến động mạnh. 현실적인 대책 필요해 là nhu cầu, chưa phải thành quả."
+  },
+  "36-25": {
+    "reason": "뮤지컬로 만나는 드라마 là phim truyền hình được dựng thành nhạc kịch, tăng nội dung để thưởng thức.",
+    "elimination": "Không đảo thành nhạc kịch chuyển sang phim; cũng không phải xem hai thứ cùng lúc hoặc sản xuất đồng thời hai loại."
+  },
+  "36-26": {
+    "reason": "젊은 옷 ẩn dụ đội bóng thay bằng cầu thủ trẻ, 훨훨 날다 là kết quả thi đấu tiến bộ.",
+    "elimination": "Không hiểu “áo trẻ” thành thay đồng phục thật. Chỉ nói trận bắt đầu bỏ mất ý thành tích tốt lên trong 훨훨 날다."
+  },
+  "36-27": {
+    "reason": "의견 엇갈려 nghĩa là ý kiến chia rẽ về hiệu quả chính sách bất động sản mới.",
+    "elimination": "Quan tâm chung hoặc kỳ vọng tích cực không phải bất đồng; cũng không nói nhờ ý kiến người dân mà chính sách đã được lập."
+  },
+  "37-25": {
+    "reason": "오락가락 là lúc mưa lúc tạnh, và tình trạng này kéo dài tới ngày mai ở miền trung.",
+    "elimination": "Không phải mưa suốt không nghỉ, cũng không phải dừng hẳn hôm nay rồi mai mới mưa lại. Tiêu đề nhấn mạnh lặp mưa–tạnh."
+  },
+  "37-26": {
+    "reason": "Khán giả kỳ vọng phim và số người xem ngày đầu vượt 50.000; phương án mô tả kỳ vọng cao dẫn đến đông người xem là đúng.",
+    "elimination": "Không có đánh giá tiêu cực. Cũng không phải mọi người mới đang chờ phim chưa chiếu: 개봉 첫날 xác nhận đã công chiếu."
+  },
+  "37-27": {
+    "reason": "나 홀로 쑥쑥 nói riêng chợ truyền thống tăng doanh số trong khi đại siêu thị khó khăn.",
+    "elimination": "Không thể nói cả hai cùng tăng hay không bị ảnh hưởng, cũng không lấy siêu thị tăng làm nguyên nhân chợ tăng. Trọng tâm là tương phản hai bên."
+  },
+  "41-25": {
+    "reason": "화창 là trời quang ban ngày, 곳에 따라 là một số nơi, 밤부터 là từ đêm: đêm có mưa cục bộ.",
+    "elimination": "Các lựa chọn “âm u ban ngày”, “mưa toàn quốc” hoặc “mưa xối xả” đều thay đổi ít nhất một chi tiết của tiêu đề."
+  },
+  "41-26": {
+    "reason": "Dù suy thoái, tiêu thụ vang tăng mạnh khiến cạnh tranh bán hàng nóng lên.",
+    "elimination": "Không đảo nhân quả thành cạnh tranh gây tiêu dùng tăng. Không có tiêu dùng giảm hay chỉ cung tăng; tiêu đề dùng 소비 껑충 và 판매 경쟁."
+  },
+  "41-27": {
+    "reason": "Người cao tuổi làm tốt vai trò bảo vệ làng nên cư dân vui, đúng quan hệ chủ thể–lợi ích.",
+    "elimination": "Hai lựa chọn đầu đảo thành người già được dân giúp. Phương án chỉ nói cố gắng làm việc chung bỏ mất vai trò 지킴이 về an toàn."
+  },
+  "47-25": {
+    "reason": "인기 폭발 là rất nổi tiếng; 요청 줄 이어 là lời mời quảng cáo nước ngoài nối tiếp vì sự nổi tiếng ấy.",
+    "elimination": "Không có giảm danh tiếng/lời mời, không phải điều kiện “muốn nổi thì phải quảng cáo”, cũng không độc lập với mức nổi tiếng."
+  },
+  "47-26": {
+    "reason": "황금연휴 là kỳ nghỉ dài thuận lợi, 업계 웃어 ẩn dụ ngành du lịch khởi sắc sau thời gian dài.",
+    "elimination": "Không phải kỳ nghỉ ngắn; tiêu đề cũng không chỉ nói doanh nghiệp chuẩn bị sản phẩm mà nói kết quả tích cực nhờ kỳ nghỉ."
+  },
+  "47-27": {
+    "reason": "생산 과잉 là sản xuất vượt nhu cầu, 한숨 là nông dân lo lắng vì dư cải thảo.",
+    "elimination": "Không phải thiếu sản lượng, cũng không phải vui vì trúng mùa. Cần giữ cả nguyên nhân dư thừa và cảm xúc tiêu cực."
+  },
+  "52-25": {
+    "reason": "봄바람 và 기지개 là ẩn dụ tâm lý mua sắm phục hồi, doanh số bách hóa tăng.",
+    "elimination": "Không nói thời tiết thật, chương trình khuyến mãi hay chiến lược bán hàng cụ thể. Các ý đó thêm nguyên nhân ngoài tiêu đề."
+  },
+  "52-26": {
+    "reason": "몸살 앓아 là cao tốc quá tải vì ùn tắc ngày cuối kỳ nghỉ.",
+    "elimination": "Không có tai nạn nghiêm trọng, công trường hay mở rộng đường. 교통 체증 xác định hiện tượng là kẹt xe do lượng xe đông."
+  },
+  "52-27": {
+    "reason": "Nhạc phim được khán giả yêu thích và thực sự góp phần nâng tỷ lệ xem.",
+    "elimination": "Không chỉ là ý định dùng nhạc quen, yêu cầu thêm nhạc hay khán giả cùng sáng tác. 효과 톡톡 nói tác dụng đã rõ."
+  },
+  "60-25": {
+    "reason": "Tỷ lệ sinh lại giảm và biện pháp chính phủ không hiệu quả, nên dù đã nỗ lực vẫn tiếp tục giảm.",
+    "elimination": "Không khẳng định chính sách hiệu quả; không tự thêm cắt giảm hỗ trợ. Ý “cần sửa gấp” là nhận xét rộng hơn, không diễn giải đủ sự kiện tiêu đề."
+  },
+  "60-26": {
+    "reason": "수익에만 치중 là chỉ chú trọng lợi nhuận; 안전은 뒷전 là đặt an toàn phía sau, coi nhẹ an toàn khách.",
+    "elimination": "Không nói khách yêu cầu kiểm tra, doanh thu tăng nhờ an toàn hay thiếu tiền nên khó đầu tư. Đây là thứ tự ưu tiên sai, không phải khó khăn tài chính được nêu."
+  },
+  "60-27": {
+    "reason": "Nhà máy thứ hai đã chạy bình thường nhưng việc nguồn cung chip ổn định vẫn chưa chắc, vì 미지수 là điều chưa biết.",
+    "elimination": "Không được biến điều chưa chắc thành đã ổn định, điều kiện bắt buộc hay đảo nguyên nhân rằng nguồn cung ổn định giúp nhà máy chạy."
+  },
+  "64-25": {
+    "reason": "Xe du lịch rơi nhưng toàn bộ hành khách sống nhờ dây an toàn; 전원 là tất cả, 목숨 건져 là giữ được mạng.",
+    "elimination": "Không nói thói quen thay đổi sau tai nạn, tháo dây để thoát hay chỉ một số người bị thương nặng. Phải giữ ý toàn bộ sống nhờ dây."
+  },
+  "64-26": {
+    "reason": "침묵 깬 là đã lên tiếng; 출마설 부인 là phủ nhận tin đồn tranh cử tổng thống.",
+    "elimination": "Không còn im lặng, không tuyên bố ứng cử và không có việc được hoan nghênh sau tuyên bố. 부인 mang nghĩa bác bỏ."
+  },
+  "64-27": {
+    "reason": "Tàu tư nhân trở về an toàn khiến thời đại du lịch vũ trụ tiến gần hơn, tức khả năng hiện thực hóa tăng.",
+    "elimination": "Không chỉ mong nó trở về, không thêm sự cổ vũ hoặc chuyến đi dài, và không thể nói chưa trở về gây lo ngại.",
+    "evidence": "무사 귀환 ... 우주여행 시대 성큼"
+  },
+  "35-19": {
+    "reason": "또한 bổ sung một tác hại nữa: ngoài giảm vị và hương, hóa chất còn có thể lưu trên vỏ quả.",
+    "elimination": "또는 nêu lựa chọn; 그래도 chuyển sang nhượng bộ; 그러면 nêu kết quả có điều kiện. Ở đây hai tác hại được liệt kê cùng chiều."
+  },
+  "35-20": {
+    "reason": "Bài nói quả làm chín bằng hóa chất kém vị và hương so với quả chín tự nhiên; đổi chiều so sánh sẽ được đáp án đúng.",
+    "elimination": "Ăn cả vỏ không được khuyên; hóa chất không làm thơm hơn; quả xử lý có thể chỉ chín bên ngoài, chưa chín bên trong."
+  },
+  "36-19": {
+    "reason": "오히려 nhấn mạnh kết quả ngược dự đoán: nhóm đông không đóng góp nhiều hơn, nhóm hai người lại dùng tiềm năng nhiều nhất.",
+    "elimination": "드디어 nói cuối cùng đạt được điều chờ đợi; 어쩌면 là phỏng đoán; 반드시 là tất yếu. Cả ba không diễn tả sự đảo ngược kỳ vọng của nghiên cứu."
+  },
+  "36-20": {
+    "reason": "Số thành viên và mức nỗ lực cá nhân có quan hệ 반비례, tức nhóm càng đông thì đóng góp của mỗi người càng giảm.",
+    "elimination": "Kết quả trái chứ không giống dự đoán; nghiên cứu xét đóng góp cá nhân trong nhóm; nhóm hai người nỗ lực nhiều nhất chứ không phải không cố gắng."
+  },
+  "37-19": {
+    "reason": "만약 kết hợp với tình huống giả định 진짜인지를 확인해야 하는 상황이라면: nếu cần xác thực tác phẩm thì phải giám định.",
+    "elimination": "과연 biểu thị quả nhiên hoặc nghi vấn; 아마 phỏng đoán; 하필 nhấn mạnh sự trùng hợp không mong muốn. Không từ nào tạo điều kiện phù hợp với -라면 ở đây."
+  },
+  "37-20": {
+    "reason": "Đoạn văn nêu rõ giám định sử dụng cả chuyên gia lẫn phương pháp khoa học, 전문가 감정과 과학적 감정.",
+    "elimination": "Chữ ký chỉ là một tiêu chí kiểm tra; phạm vi gồm cả tác phẩm cổ lẫn hiện đại; không thể gán mã số riêng của hàng hóa thông thường cho tranh cổ."
+  },
+  "41-19": {
+    "reason": "특히 làm nổi bật yếu tố then chốt trong thời điểm bắn: phán đoán khi nào nên thả tên.",
+    "elimination": "또는 là lựa chọn; 역시 là cũng hoặc đúng như mong đợi; 과연 không tạo quan hệ nhấn mạnh một yếu tố cụ thể như câu sau cần."
+  },
+  "41-20": {
+    "reason": "Bài kết luận bắn cung rất phù hợp với người thiếu khả năng phán đoán, nên có thể giúp nâng cao năng lực này.",
+    "elimination": "Nín thở là yêu cầu về kiên nhẫn, không phải toàn bộ cốt lõi; bài không nói khó rèn kiên nhẫn hay môn này nổi tiếng vì đơn giản."
+  },
+  "47-19": {
+    "reason": "물론 thừa nhận trước rằng trẻ nhỏ cần người cha như bạn, rồi 그런데 chuyển sang vai trò có uy của cha ở tuổi thiếu niên.",
+    "elimination": "반면 đối lập quá sớm với câu trước đang cùng quan điểm; 차라리 nêu chọn lựa thay thế; 그러면 nêu kết quả. Cấu trúc ở đây là thừa nhận rồi bổ sung giới hạn."
+  },
+  "47-20": {
+    "reason": "Lời nói và hành vi có uy của cha trở thành 기준, tức chuẩn để con phán đoán và chọn đường đúng.",
+    "elimination": "Bài không nói trẻ tự hoàn thiện nhân cách; ở tuổi thiếu niên vai trò có uy cũng quan trọng; tác dụng định hướng được gắn với uy tín của cha, không riêng vai trò bạn bè."
+  },
+  "52-19": {
+    "reason": "게다가 bổ sung gánh nặng đổi mật khẩu định kỳ vào yêu cầu phải dùng cả ký tự đặc biệt.",
+    "elimination": "그러면 biểu thị hệ quả, 반면에 biểu thị đối lập, 이처럼 tổng kết ví dụ. Hai yêu cầu bảo mật đang được cộng thêm nên 게다가 tự nhiên nhất."
+  },
+  "52-20": {
+    "reason": "Người dùng bị căng thẳng vì không nhớ được mật khẩu thay đổi thường xuyên; đây là thông tin nêu trực tiếp.",
+    "elimination": "Ban đầu bốn chữ số đã đủ; doanh nghiệp đặt yêu cầu chứ không phải người dùng; hiện nay còn phải thêm ký tự đặc biệt, không chỉ chọn một trong số hoặc chữ."
+  },
+  "60-19": {
+    "reason": "만약 mở tình huống giả định chó dẫn đường rời chủ để đến gần người qua đường; -다면 ở sau xác nhận cấu trúc điều kiện.",
+    "elimination": "비록 thường dẫn nhượng bộ; 물론 là thừa nhận; 과연 là quả nhiên hoặc nghi vấn. Không từ nào khớp điều kiện đặc biệt đang mô tả."
+  },
+  "60-20": {
+    "reason": "Chó đến gần người lạ để xin trợ giúp khi chủ gặp nguy hiểm, đúng với nội dung huấn luyện được giải thích.",
+    "elimination": "Chó có thể rời chủ trong khẩn cấp; nó tìm người xung quanh chứ không chạy thẳng đến trung tâm cứu hộ; thường ngày nó không chú ý người qua đường khi ở cạnh chủ."
+  },
+  "64-19": {
+    "reason": "게다가 thêm lý do thứ hai khiến sứa là thức ăn thuận lợi: ngoài dinh dưỡng còn dễ gặp và dễ bắt.",
+    "elimination": "과연 không bổ sung lý do; 만약 tạo giả định dù đây là khẳng định; 이처럼 tổng kết thay vì thêm luận cứ mới."
+  },
+  "64-20": {
+    "reason": "Bài sửa quan niệm cũ bằng ví dụ chim, chim cánh cụt, lươn và nhiều loài khác ăn sứa.",
+    "elimination": "Không có khẳng định sứa phá hệ sinh thái; sứa dễ bắt; cơ thể chủ yếu là nước, không phải collagen."
+  },
+  "35-21": {
+    "reason": "골치만 아프고 nghĩa là chỉ thêm đau đầu, phù hợp với càng nhiều lựa chọn càng lo nghĩ và không quyết định được.",
+    "elimination": "콧대가 높다 là kiêu ngạo; 눈치가 빠르다 là nhanh ý; 비행기를 태우다 là tâng bốc. Những nghĩa đó không mô tả sự quá tải khi lựa chọn."
+  },
+  "35-22": {
+    "reason": "Luận điểm nằm ở sự đảo chiều sau 그러나: phạm vi lựa chọn tăng làm việc quyết định khó hơn.",
+    "elimination": "Càng suy nghĩ càng chọn tốt và cần thật nhiều thông tin là quan niệm ban đầu bị phản biện; loại bỏ yếu tố cản trở là lời khuyên không được triển khai thành ý chính."
+  },
+  "36-21": {
+    "reason": "천 리 길도 한 걸음부터, đường nghìn dặm bắt đầu từ một bước, khớp lời kêu gọi bắt đầu bằng hành động nhỏ hằng ngày.",
+    "elimination": "하나를 보면 열을 안다 nói suy toàn thể từ một biểu hiện; 소 잃고 외양간 고친다 nói sửa sai quá muộn; 윗물이 맑아야 아랫물이 맑다 nói ảnh hưởng từ trên xuống, không phải bắt đầu từ việc nhỏ."
+  },
+  "36-22": {
+    "reason": "Tác giả chuyển từ lo ngại sang yêu cầu hành động cụ thể để ngăn ô nhiễm nước; đáp án kêu gọi sớm nỗ lực phản ánh mục đích đó.",
+    "elimination": "Mức độ nghiêm trọng, nhiều người lo và khó yên tâm uống nước chỉ mô tả vấn đề, bỏ mất thông điệp thực hành của phần sau."
+  },
+  "37-21": {
+    "reason": "입 밖에 내지 않아야 한다 nghĩa là không nên nói ra: huấn luyện viên tránh lời nhắc trực tiếp khiến vận động viên nghĩ đến lỗi.",
+    "elimination": "눈 감아 주다 là làm ngơ; 귓등으로 듣다 là nghe hờ hững; 한 술 더 뜨다 là làm quá hơn. Chủ thể đang chọn cách nói, không phải cách nghe hoặc bỏ qua lỗi."
+  },
+  "37-22": {
+    "reason": "Ví dụ đổi 'đừng ngã' thành 'giữ thăng bằng' chứng minh huấn luyện viên phải chọn từ ngữ thận trọng.",
+    "elimination": "Tránh lặp lỗi chỉ nói kết quả chung; ý chí đứng dậy và tự suy nghĩ tích cực chuyển trách nhiệm sang vận động viên, trong khi đoạn tập trung lời hướng dẫn của huấn luyện viên."
+  },
+  "41-21": {
+    "reason": "티끌 모아 태산 nghĩa là tích tiểu thành đại: nhặt từng đồng 10 won suốt năm năm thành hơn một triệu won.",
+    "elimination": "제 눈의 안경 nói đẹp xấu tùy mắt người; 엎질러진 물 nói chuyện đã rồi; 싼 게 비지떡 nói của rẻ chất lượng thấp. Không câu nào nói góp những phần rất nhỏ thành khoản lớn."
+  },
+  "41-22": {
+    "reason": "Câu cuối xác định quyên góp chân chính ở tình thương hướng đến người khác, không ở số tiền.",
+    "elimination": "Cách dùng tiền xu và thói quen tiết kiệm chỉ liên quan bề ngoài câu chuyện; yêu cầu có khoản tiền lớn trái trực tiếp với luận điểm của tác giả."
+  },
+  "47-21": {
+    "reason": "담을 쌓고 지내다 là sống cách biệt, ít giao tiếp. Vì cô đơn với hàng xóm, con người nhận an ủi từ cây.",
+    "elimination": "못을 박다 là đóng đinh hoặc nói chắc; 머리를 맞대다 là cùng bàn bạc; 고개를 숙이다 là cúi đầu. Những cách nói này không giải thích sự cô đơn trong đoạn."
+  },
+  "47-22": {
+    "reason": "Đoạn liệt kê các lợi ích để giải thích xu hướng xem cây như bạn đồng hành, đến mức có từ mới 반려식물.",
+    "elimination": "Chi phí chăm động vật và lọc không khí là lý do phụ; lời khuyên nuôi thú để ổn định tinh thần đổi đối tượng, trái trọng tâm về cây."
+  },
+  "52-21": {
+    "reason": "앞뒤를 가리지 않고 nghĩa là không cân nhắc trước sau, khớp cách nhìn tiêu cực rằng giới trẻ bỏ bê học và chỉ chạy theo thần tượng.",
+    "elimination": "앞뒤를 재다 là cân nhắc, ngược với 무조건; 발을 빼다 là rút lui; 발걸음을 맞추다 là phối hợp bước đi, không biểu thị sự thiếu suy xét."
+  },
+  "52-22": {
+    "reason": "Tác giả nêu lợi ích kết bạn và giảm áp lực để kêu gọi hiểu thanh thiếu niên yêu thích nghệ sĩ.",
+    "elimination": "Mở rộng quan hệ và áp lực thi chỉ là luận cứ; yêu cầu không ảnh hưởng điểm số không phải kết luận của đoạn. Trọng tâm là thay đổi thái độ đánh giá giới trẻ."
+  },
+  "60-21": {
+    "reason": "열을 올리다 nghĩa là hăng hái dồn sức vào việc gì; cha mẹ muốn con biết chữ sớm nên tập trung mạnh vào dạy chữ.",
+    "elimination": "손을 떼다 là ngừng can dự; 이를 갈다 là nghiến răng vì giận; 담을 쌓다 là xa lánh. Cả ba không hợp mong muốn thúc đẩy con học sớm."
+  },
+  "60-22": {
+    "reason": "Dạy chữ quá sớm có thể giảm cơ hội dùng các giác quan khác và cản trở sự phát triển cân bằng, đúng kết luận của đoạn.",
+    "elimination": "Đa dạng phương pháp không được đề xuất; đoạn không coi chữ là điều kiện phát triển giác quan; học cùng thời điểm với bạn không phải tiêu chí tác giả nêu."
+  },
+  "64-21": {
+    "reason": "진땀을 흘리다 nghĩa là toát mồ hôi vì lúng túng, khớp trải nghiệm lạc đường ở nơi xa lạ.",
+    "elimination": "앞뒤를 재다 là tính toán; 발목을 잡다 là cản trở ai; 귀를 기울이다 là lắng nghe. Chúng không mô tả khó khăn tìm đường của chính người lái."
+  },
+  "64-22": {
+    "reason": "Sau khi thừa nhận tiện lợi, tác giả cảnh báo lệ thuộc thiết bị làm giảm khả năng tìm và nhớ thông tin; vì vậy cần tự rèn các năng lực này.",
+    "elimination": "Hai phương án ca ngợi tiện lợi chỉ lấy phần mở bài; cho rằng dùng thiết bị cải thiện trí nhớ đảo ngược cảnh báo cuối đoạn."
+  },
+  "35-23": {
+    "reason": "Người quản lý phải thông báo giảm nhân sự nhưng tập hợp mọi người rồi vẫn không mở lời được: tâm trạng khó xử, 곤란하다.",
+    "elimination": "섭섭하다 là hụt hẫng vì người khác; 부끄럽다 là xấu hổ; 당황하다 là bối rối trước bất ngờ. Đoạn gạch chân tập trung tình thế khó nói, trước khi nhân viên đưa phong bì."
+  },
+  "35-24": {
+    "reason": "Nhân viên góp 10% lương để hỗ trợ công ty đang khó khăn, đúng nội dung lời nói khi đưa phong bì.",
+    "elimination": "Sau hỏa hoạn tình hình xấu đi; giám đốc định cắt giảm chứ không tuyển mới; phong bì là tiền góp, không phải thư."
+  },
+  "36-23": {
+    "reason": "Người kể buồn lòng, 속상하다, vì lựa chọn của mình khiến cha mẹ khó khăn thêm và mẹ phải xin lỗi vì không giúp đủ.",
+    "elimination": "곤란하다 nhấn mạnh khó xử, 답답하다 là bức bối không lối thoát, 억울하다 là oan ức. Không có sự bất công hay đổ lỗi; cảm xúc nổi bật là buồn vì hoàn cảnh gia đình."
+  },
+  "36-24": {
+    "reason": "Người kể bỏ cơ hội học bổng toàn phần ở đại học địa phương để thực hiện ước mơ sống tại Seoul.",
+    "elimination": "Thu nhập làm thêm không đủ; chỉ đến Seoul sau khi đỗ đại học; văn bản không nói cha mẹ gửi rất nhiều tiền."
+  },
+  "37-23": {
+    "reason": "Người mẹ bất ngờ nhận ra sự tổn thương của con cả, được ví như bị đánh vào đầu: 당황스럽다.",
+    "elimination": "답답하다 là bức bối, 서운하다 là chạnh lòng, 불만스럽다 là bất mãn. Hai cảm xúc sau có thể gần tâm trạng con, nhưng câu hỏi hỏi người mẹ khi nhận ra lỗi của mình."
+  },
+  "37-24": {
+    "reason": "Trong tắm rửa, mặc đồ và chải tóc, con cả đều phải đợi các em trước; vì vậy con luôn nhường em.",
+    "elimination": "Mẹ tắm con út trước; lần này mới nhận ra tâm tư con cả; mẹ dùng lời nhẹ nhàng chứ không nổi giận vì con không chịu tắm."
+  },
+  "41-23": {
+    "reason": "Người cháu thấy bức bối, 답답하다, vì bà không chịu nghỉ dù được khuyên, bị thương vẫn vui vẻ chuyện trò làm người cháu không biết nói gì.",
+    "elimination": "후련하다 là nhẹ nhõm hoàn toàn; 민망하다 là ngượng; 번거롭다 là thấy phiền công việc. Mạch truyện nhấn mạnh lo lắng và bất lực trước tính cách bà."
+  },
+  "41-24": {
+    "reason": "Bà theo bạn đi chợ, bị ngã và phải băng chân trong bệnh viện; đây là sự kiện được kể rõ.",
+    "elimination": "Bà phớt lời khuyên nghỉ; tự làm việc nhà chứ không sai cháu; lên Seoul vì thương cháu, không phải để gặp người bạn mới quen."
+  },
+  "47-23": {
+    "reason": "Mới học nghiệp vụ mà hay quên, sắp phải bắt đầu làm khiến người kể hoang mang, 당황스럽다; hình ảnh 눈앞이 캄캄했다 nhấn mạnh không biết xoay xở.",
+    "elimination": "짜증스럽다 là bực; 실망스럽다 là thất vọng; 불만스럽다 là không hài lòng. Không có việc trách ai hay kỳ vọng bị phá vỡ; đó là lúng túng trước công việc chưa thạo."
+  },
+  "47-24": {
+    "reason": "Dù đã ngoài bốn mươi và e ngại tuổi tác, người kể lấy can đảm đi làm nhờ chồng động viên.",
+    "elimination": "Chồng giúp tinh thần, không trực tiếp tăng kỹ năng tính tiền; khách nước ngoài nói tiếng Hàn; người kể ghi chú nhưng hay quên, không làm mất sổ."
+  },
+  "52-23": {
+    "reason": "Sau khi thấy vết thương trên tay cha, người kể hối hận, 후회스럽다, về lời trách cha trong cơn nóng giận.",
+    "elimination": "억울하다 là oan ức; 허전하다 là trống vắng; 부담스럽다 là áp lực. Việc bôi thuốc gắn với tự trách hành vi trước đó, không phải ba cảm xúc này."
+  },
+  "52-24": {
+    "reason": "Cha đưa cháu lớn bị thương tới phòng cấp cứu và gọi báo cho con gái.",
+    "elimination": "Cha lâu mới đến thăm, không sống cùng hay đi chơi mỗi ngày; cuộc gọi từ cha, không phải bệnh viện."
+  },
+  "60-23": {
+    "reason": "Người kể thấy có lỗi, 죄송스럽다, vì luôn phán đoán sở thích của cha theo ý mình mà chưa quan tâm mong muốn thực của cha.",
+    "elimination": "부담스럽다 là thấy gánh nặng; 불만스럽다 là bất mãn; 짜증스럽다 là bực bội. Ở đây người kể tự kiểm điểm và muốn thay đổi cách quan tâm cha."
+  },
+  "60-24": {
+    "reason": "Khi được hỏi có muốn đi xem phim không, cha chỉ im lặng; chi tiết 그저 가만히 계셨다 xác nhận đáp án.",
+    "elimination": "Không có việc thường đi xem cùng nhau; cha tới thăm chứ không tới chỉ để xem phim; người kể thấy nụ cười của cha rồi muốn quan tâm hơn, không khó chịu vì cha chuẩn bị lâu."
+  },
+  "64-23": {
+    "reason": "Người kể lo lắng, 걱정스럽다, vì thu thừa tiền và chờ liên lạc để sửa sai, nên không tập trung làm việc được.",
+    "elimination": "불만스럽다 là không hài lòng với ai đó; 후회스럽다 nhấn mạnh tiếc hành động đã qua; 당황스럽다 nhấn mạnh bất ngờ tức thời. Phần gạch chân diễn tả sự lo kéo dài khi chưa giải quyết xong."
+  },
+  "64-24": {
+    "reason": "Nhân viên công ty thẻ không tiết lộ số khách nhưng chuyển thông tin liên lạc của người kể; sau đó khách gọi lại.",
+    "elimination": "Gia đình không nổi giận mà thông cảm; người kể không tự gọi trực tiếp được; người kể vẫn ở chỗ làm chờ, không đi tìm khắp nơi."
+  },
+  "35-28": {
+    "reason": "Phần sau đối chiếu việc cùng con bàn quy tắc với việc cha mẹ tự đặt quy tắc rồi bắt tuân theo. Cách áp đặt đó khiến trẻ cảm thấy bị giam giữ như chim trong hộp.",
+    "elimination": "Học sau giờ, can thiệp bạn bè hay cấm nuôi vật chỉ là tình huống cụ thể không được đoạn triển khai; chỗ trống cần khái quát cách quyết định quy tắc."
+  },
+  "35-29": {
+    "reason": "Truyện đọc trong dưới năm phút, giãn dòng dễ nhìn và ít nhân vật đều giúp thưởng thức nhẹ nhàng trong thời gian ngắn.",
+    "elimination": "Không có yêu cầu dùng nhân vật hiện đại hay chuyển thể tác phẩm cũ; 'nội dung thú vị' quá chung, không giải quyết trở ngại thiếu thời gian ở mở bài."
+  },
+  "35-30": {
+    "reason": "Triều đình cố ý chuẩn bị nhiều thức ăn để sau tiệc chia cho dân nghèo, thể hiện chia sẻ niềm vui của đất nước với dân.",
+    "elimination": "Phô trương quyền lực, quảng bá phong tục hay chỉ đãi quan chức đều bỏ qua đối tượng dân nghèo và mục đích được giải thích trực tiếp."
+  },
+  "35-31": {
+    "reason": "Theo lập luận của đoạn, bụi khiến hoàng hôn đỏ hơn; trời trong tranh cuối thế kỷ XX đỏ hơn cho thấy tác động ô nhiễm thời công nghiệp hóa.",
+    "elimination": "Bài không dùng tranh để chứng minh thời ấy đã nghiên cứu khí quyển, họa sĩ dùng nhiều màu hơn hay có nhiều họa sĩ phong cảnh hơn."
+  },
+  "36-28": {
+    "reason": "Người thắng giữ lựa chọn còn người thua thường đổi: đó là một xu hướng nhất định trong cách chơi tưởng như ngẫu nhiên.",
+    "elimination": "Các ví dụ không phân loại nhiều trò, không nói tần suất bằng nhau và không nêu điều kiện cần để chơi; chúng mô tả quy luật hành vi."
+  },
+  "36-29": {
+    "reason": "Không khí giúp kem mềm. Khi kem tan, không khí thoát ra và tinh thể đá cứng hình thành khi đông lại, nên mất độ mềm ban đầu.",
+    "elimination": "Tăng thể tích hoặc tăng tác dụng làm mềm sẽ dẫn kết quả ngược; đoạn không quy nguyên nhân cho người sản xuất chỉnh sai tỉ lệ khí."
+  },
+  "36-30": {
+    "reason": "Các ví dụ thất tình, tóc không đẹp và mang thai đều cho thấy con người lấy chính mình làm trung tâm để diễn giải thế giới.",
+    "elimination": "Sự kiện bên ngoài, điều nhìn thấy hay người cùng hoàn cảnh là đối tượng được diễn giải; chúng không phải điểm quy chiếu chung của mọi ví dụ như bản thân người quan sát."
+  },
+  "36-31": {
+    "reason": "Những người cao tuổi trải qua chiến tranh và trực tiếp góp phần tăng trưởng kinh tế, nên hồi ký ghi lại lịch sử hiện đại và công nghiệp hóa Hàn Quốc.",
+    "elimination": "Tự kiểm điểm, quá trình trưởng thành và triết lý cá nhân chỉ ở cấp đời tư; chỗ trống nhấn mạnh giá trị chứng nhân lịch sử vượt lên dấu vết một đời người."
+  },
+  "37-28": {
+    "reason": "Tiêu đề hỏi 'nếu bạn có mười triệu won' khiến độc giả tưởng tượng chuyện xảy ra với chính mình; đây là cách gây chú ý tác giả đề nghị.",
+    "elimination": "Sự tin cậy, thông tin mới và đoán nội dung không giải thích khác biệt giữa hai tiêu đề bằng việc trực tiếp đưa độc giả vào tình huống."
+  },
+  "37-29": {
+    "reason": "Câu chuyện dodo được dùng để ví việc an phận trong môi trường thuận lợi, không rèn năng lực, rồi không thích nghi khi hoàn cảnh đổi.",
+    "elimination": "Không có trọng tâm lập kế hoạch, biết ơn thay vì so sánh hay trốn tránh quan hệ. Bài học rút ra là tránh ỷ lại điều kiện sẵn có."
+  },
+  "37-30": {
+    "reason": "Kính che mắt giúp thẩm phán không để lộ cảm xúc khi thẩm vấn, tức che giấu tâm lý của mình để tìm hiểu đối phương.",
+    "elimination": "Địa vị vẫn được biết; phóng đại cảm xúc trái mục đích che giấu; độ chính xác của phán đoán không phải điều chiếc kính chứng minh."
+  },
+  "37-31": {
+    "reason": "Người mua thích vị quen nên công ty ưu tiên sản phẩm đã chứng minh thành công, phù hợp câu sau nói dùng mặt hàng cũ nổi tiếng để giữ thị phần.",
+    "elimination": "Đưa sản phẩm vừa ra mắt và đầu tư phát triển là hướng khác; khảo sát thị trường có thể hợp lý ngoài đời nhưng không tương đương với chiến lược dùng sản phẩm cũ được mô tả."
+  },
+  "41-28": {
+    "reason": "Truyện cổ tích khơi lại ký ức và dẫn người lớn về thế giới tuổi thơ, nên chỗ trống nói nhìn lại thời thơ ấu.",
+    "elimination": "Giáo dục trẻ, xác nhận tình yêu gia đình và tập viết cho trẻ không được phần giải thích phía sau hỗ trợ; đối tượng hưởng trải nghiệm ở đây là người lớn đang đọc."
+  },
+  "41-29": {
+    "reason": "Ví dụ tay run và nghèo không mua nổi vật liệu tương ứng với trở ngại thể chất và hoàn cảnh khó khăn; chúng lại kích thích cách sáng tạo mới.",
+    "elimination": "Tò mò và năng lực nghệ thuật không phải hai trở ngại được kể; giới hạn nghệ thuật hay đau khổ tinh thần không mô tả chính xác các ví dụ vật chất, cơ thể."
+  },
+  "41-30": {
+    "reason": "Chỗ trống phải giải thích vì sao tẩy và đồ nhựa dính nhau: chất thêm vào tạo điều kiện để cao su bám dính.",
+    "elimination": "Làm cao su cứng không tự giải thích kết dính; hai phương án nói không dính hoặc không tiếp xúc phủ định kết quả nêu ngay sau đó."
+  },
+  "41-31": {
+    "reason": "Cùng hát, nhảy, động viên nhau và xác nhận giá trị tồn tại là một nghi thức mang tính tập thể.",
+    "elimination": "'Cử chỉ hình thức' làm mất ý nghĩa tinh thần; 'nhiều hình thái' quá chung; 'tương lai phát triển' không gọi đúng hoạt động chung đang được mô tả."
+  },
+  "47-28": {
+    "reason": "Hai ví dụ chọn màu sáng ấm cho trẻ thụ động và xanh cho trẻ hiếu động chứng minh phải chọn theo tính cách của trẻ.",
+    "elimination": "Kết cấu phòng, đồ trang trí hay đặc điểm tranh chỉ là phương tiện; yếu tố quyết định thay đổi giữa hai ví dụ là tính cách đứa trẻ."
+  },
+  "47-29": {
+    "reason": "Thư viện người đăng ký người có tri thức, kinh nghiệm làm 'sách' cho độc giả học hỏi, tức tận dụng chuyên gia từng lĩnh vực.",
+    "elimination": "Không phải đào tạo chuyên gia mới, đào tạo kỹ thuật viên hay cử kỹ thuật viên đến nơi làm việc; chuyên môn của người đã có sẵn được đưa vào hoạt động thư viện."
+  },
+  "47-30": {
+    "reason": "Đổi 550 calo thành quãng chạy 9 km giúp hình dung lượng vận động cần để tiêu hao năng lượng.",
+    "elimination": "Chọn loại thức ăn, thận trọng hành vi nào hay khi nào quan tâm calo đều không diễn đạt phép quy đổi sang mức hoạt động cơ thể của ví dụ."
+  },
+  "47-31": {
+    "reason": "Vé quá hạn không dùng được nên giá trị biến mất; thị trường di động giúp bán trước thời điểm đó.",
+    "elimination": "Giá tăng, nhu cầu tăng và sản xuất giảm không phải đặc điểm thời hạn mà đoạn nêu. Lợi ích người mua là giá rẻ, không phải vé tăng giá sau hạn."
+  },
+  "52-28": {
+    "reason": "Bấm bàn phím và điện thoại là hoạt động kích thích đầu ngón tay, được nghiên cứu trong bài liên hệ với hoạt động tế bào và móng mọc nhanh.",
+    "elimination": "Giữ sạch, bao bọc bảo vệ hay chống khô không tương ứng các ví dụ sử dụng đầu ngón tay ở câu cuối."
+  },
+  "52-29": {
+    "reason": "Rễ tượng trưng tổ tiên, thân là cha mẹ, lá là con cháu; ba món rau biểu trưng sự nối kết các thế hệ.",
+    "elimination": "Sinh trưởng thực vật chỉ là hình ảnh so sánh; hòa hợp thiên nhiên-con người và chuẩn bị-chia sẻ món ăn không phải ý nghĩa biểu tượng được giải thích."
+  },
+  "52-30": {
+    "reason": "Theo cơ chế đơn giản hóa mà bài nêu, nhiệt xuất hiện khi phân tử nước rung; trong băng chúng không chuyển động được nên thiếu điều kiện này.",
+    "elimination": "Thể tích tăng, không kết hợp hay phản xạ toàn bộ nhiệt không được dùng làm nguyên nhân trong đoạn. Đây là câu hỏi hiểu lập luận của văn bản."
+  },
+  "52-31": {
+    "reason": "Tách công ty và giao quyền quyết định cuối cho từng đơn vị giúp giảm thủ tục duyệt phức tạp, rút ngắn bước ra quyết định.",
+    "elimination": "Mục tiêu không phải đổi hình ảnh, thay đổi dòng thị trường hay chia sẻ thông tin giữa doanh nghiệp; công ty đang phản ứng nhanh với thị trường đã thay đổi."
+  },
+  "60-28": {
+    "reason": "Trò đố vui và điểm thưởng tức thì khiến học sinh tích cực tham gia và tập trung hơn vào tiết học.",
+    "elimination": "Quan sát lớp và giao tiếp bạn bè không được nhắc; chỉ hứng thú với trò chơi bỏ mất mục đích giáo dục là tập trung học thuật ngữ, khái niệm."
+  },
+  "60-29": {
+    "reason": "Người mua dùng sản phẩm có thông điệp môi trường để thể hiện lập trường và giá trị cá nhân trước vấn đề xã hội.",
+    "elimination": "Thiết kế thời trang, nguyên liệu tự nhiên và tôn dáng đều không được nêu làm động cơ; trọng tâm là thông điệp họ muốn truyền đạt."
+  },
+  "60-30": {
+    "reason": "Nhà khoa học nhận thấy lớp màng giữ mảnh kính không văng, nên tạo kính có phủ màng bảo vệ.",
+    "elimination": "Không phải ghép lại các mảnh đã vỡ hay xếp nhiều lớp kính; kính vẫn có thể nứt, vì vậy nói dùng vật liệu không vỡ là quá mức."
+  },
+  "60-31": {
+    "reason": "Bài mở đầu nói bình thường khái niệm có trước ký hiệu, nhưng vô cực ngược lại: ký hiệu đã có mà khái niệm chưa được xác lập.",
+    "elimination": "Không có việc nghĩa đổi nhiều lần hay xuất hiện thuyết đối lập; nghiên cứu sôi nổi trái chi tiết giới học thuật lâu không thử định nghĩa nó."
+  },
+  "64-28": {
+    "reason": "Chia theo tuần biến mục tiêu chung thành việc cụ thể như không ăn mì, ăn rau; nhờ vậy kế hoạch có thể thực hiện.",
+    "elimination": "Xác nhận mục tiêu năm, tập trung vào việc lập kế hoạch hay chứng tỏ năng lực đều không giải thích tác dụng cụ thể hóa và hoàn thành từng mục tiêu nhỏ."
+  },
+  "64-29": {
+    "reason": "Không khí cần sạch vì bụi khiến giọt nước tụ quanh và cản ánh sáng đi qua, theo giải thích ngay sau chỗ trống.",
+    "elimination": "Mặt trời và hết mưa đã được nêu; ánh sáng yếu không phải điều kiện được lý giải. Câu sau tập trung tác hại của chất ô nhiễm trong không khí."
+  },
+  "64-30": {
+    "reason": "Khi ranh giới tác nghiệp bị phá vỡ, phóng viên chen lấn có thể gây tai nạn và cản việc đưa tin; đó là lý do tự giác tuân thủ.",
+    "elimination": "Chia sẻ tin, hiểu sai nội dung và đặt ranh giới mới không phải sự kiện làm mất trật tự mà đoạn mô tả."
+  },
+  "64-31": {
+    "reason": "Cùng loại thuốc nhưng toa ở phòng khám nhỏ có chi phí thấp hơn; vậy khám bệnh nhẹ ở bệnh viện lớn khiến bệnh nhân trả tiền thuốc nhiều hơn.",
+    "elimination": "Không nói bệnh viện trợ giá hay bị cấm tăng phí; khả năng so sánh giá không phải cơ chế chính sách được mô tả nhằm giảm dồn bệnh nhân vào bệnh viện lớn."
+  },
+  "35-32": {
+    "reason": "Vị giác kém nhạy ở độ cao nên hãng chủ ý nêm mặn hơn để món ăn có vị phù hợp.",
+    "elimination": "Không phải vị giác nhạy lên; đóng gói để giữ ẩm chứ không chủ yếu giữ nhiệt; họ tránh mất nước, không giảm nước để chống hỏng."
+  },
+  "35-33": {
+    "reason": "Công viên có nhiều hoa và cây cung cấp thức ăn dồi dào, khiến đô thị thành môi trường thuận lợi cho ong.",
+    "elimination": "Số ong tăng chứ không giảm; đô thị dùng ít thuốc hơn nông thôn; nghiên cứu tìm nguyên nhân ong tăng, không được mô tả là nghiên cứu biện pháp xua ong."
+  },
+  "35-34": {
+    "reason": "Chính phủ khởi xướng chiến dịch tăng một ngày nghỉ nhằm thúc đẩy du lịch trong nước, nêu ngay đầu đoạn.",
+    "elimination": "Tăng chi tiêu có lợi chứ không hại kinh tế; 50.000 là số việc làm dự kiến tạo thêm, không tổng hiện tại; chủ thể khởi xướng là chính phủ, không ngành du lịch."
+  },
+  "36-32": {
+    "reason": "Máy lọc nước và súp ăn liền là các ví dụ công nghệ phục vụ vũ trụ chuyển sang sản phẩm tiện ích hằng ngày.",
+    "elimination": "Các phương án khác đảo hướng phát triển: công nghệ bắt đầu từ nhu cầu phi hành gia, không từ người bận rộn hoặc y tế dân dụng rồi mới chuyển lên vũ trụ."
+  },
+  "36-33": {
+    "reason": "Lớp silicone ngăn nước thấm, nên đồ uống chảy khỏi áo mà không tạo vết bẩn.",
+    "elimination": "Áo không thoát mồ hôi tốt; bài nói cách làm khô phức tạp chứ không không thể giặt; hình thức giống áo thường, không dễ phân biệt từ bên ngoài."
+  },
+  "36-34": {
+    "reason": "Chữ đổi màu rõ theo góc nhìn là một đặc điểm chống làm giả của séc mới.",
+    "elimination": "Số phát hành không tự đổi theo góc; hình ảnh được đăng ký trong hệ thống để đối chiếu, không chỉ in để chống giả; đổi thiết kế là phương tiện chứ không mục đích cuối."
+  },
+  "37-32": {
+    "reason": "Công ty dự định mở rộng mô hình giao hoạt động cho tổ chức người khuyết tật để tạo thêm cơ hội tự lập.",
+    "elimination": "Mô hình được đánh giá tích cực; người làm thuộc tổ chức được giao quản lý, không phải nhân viên công ty; khóa nghề do tổ chức người khuyết tật tổ chức."
+  },
+  "37-33": {
+    "reason": "Chính phủ sẽ tổ chức sự kiện làn sóng Hàn theo hành trình đoàn, nên nơi đoàn ghé sẽ có hoạt động quảng bá văn hóa Hàn.",
+    "elimination": "Nhu cầu hợp tác là mục tiêu có trước chuyến đi; đoàn gồm công dân thường; dự án năng lượng là kế hoạch về sau của chính phủ, không nhiệm vụ đàm phán được giao cho đoàn."
+  },
+  "37-34": {
+    "reason": "동경 là tên gọi Gyeongju thời Goryeo, vì vậy tên giống chó bắt nguồn từ địa danh.",
+    "elimination": "Đặc điểm đuôi từng khiến chó bị nhìn tiêu cực, không luôn được bảo vệ; giá trị được công nhận nhờ dấu tích lịch sử; chính giống chó được chỉ định di sản thiên nhiên, không phải các văn bản và mộ được nhắc."
+  },
+  "41-32": {
+    "reason": "Người may 조각보 gửi mong muốn người sử dụng được phúc lành vào từng đường kim.",
+    "elimination": "Vải là các mảnh thừa, không phải cắt một tấm lớn; màu, hình, kích thước đều khác nhau; bài công nhận cả công dụng và vẻ đẹp, không khẳng định nghệ thuật quan trọng hơn thực dụng."
+  },
+  "41-33": {
+    "reason": "Việc sử quan ghi độc lập làm vua thận trọng lời nói, hành vi và hạn chế lạm quyền.",
+    "elimination": "Sử quan không ghi tên; ngay cả vua không được đọc ghi chép về mình; không có việc tất cả sự kiện được báo lại cho vua."
+  },
+  "41-34": {
+    "reason": "Theo bài, gene lọc mỡ trong máu giúp gấu Bắc Cực tránh tác dụng xấu, nên ít mắc bệnh tim mạch dù nhiều mỡ.",
+    "elimination": "Chúng không được mô tả là ăn ít béo; 27% là mỡ trong sữa, cơ thể là 50%; điều trị bệnh người là kỳ vọng nghiên cứu, chưa phải kết quả đang áp dụng."
+  },
+  "47-32": {
+    "reason": "Không gian giới hạn có quá nhiều động vật làm chúng căng thẳng; giảm số sư tử giúp giảm stress.",
+    "elimination": "Sinh sản gây khó kiểm soát chứ không tự điều tiết; trao đổi nhằm cân bằng số lượng, không tăng tất cả; nhập nhiều con mới không tự cải thiện mật độ sống."
+  },
+  "47-33": {
+    "reason": "Ngày càng nhiều người sửa phòng khách, phòng tắm để biến nhà thành nơi nghỉ ngơi chất lượng.",
+    "elimination": "Họ coi trọng cả tiện nghi lẫn chất lượng; xu hướng là nghỉ ở nhà thay cho đi xa; sẵn sàng mua ghế, giường đắt tiền chứ không hạn chế chi phí nội thất."
+  },
+  "47-34": {
+    "reason": "Người dân tự nguyện quyên góp bảo tồn đất, thiên nhiên, công trình có giá trị mà nhà nước chưa quản lý được.",
+    "elimination": "Không nói nhận tài trợ nhà nước hay tham gia quản lý đất nhà nước; việc bảo tồn loài 매화마름 đã có kết quả, trái phương án phủ nhận hiệu quả với cây hiếm."
+  },
+  "52-32": {
+    "reason": "Chấm màu tạo cảm giác màu trong và mềm hơn pha trực tiếp, vì mắt hòa các chấm khi nhìn từ xa.",
+    "elimination": "Kỹ thuật vẫn được họa sĩ hiện đại dùng; cần nhìn hơi xa, không sát; các chấm đặt dày, không cách rộng."
+  },
+  "52-33": {
+    "reason": "Loại cá hiện diện cho biết mức ô nhiễm nước: 은어 gắn nước hạng 1, 미꾸라지 gắn hạng 3 trong bài.",
+    "elimination": "Hoa bìm bìm cho biết ô nhiễm không khí bằng đốm trắng, không đổi kích thước; bài không dùng cá chạch làm chỉ thị nước sạch nhất hay phủ nhận chỉ thị sinh học cho không khí."
+  },
+  "52-34": {
+    "reason": "Dịch vụ kiểm tra lịch sử toa trước khi kê để tránh thuốc kỵ nhau hoặc trùng thuốc, tức ngăn kê đơn không phù hợp.",
+    "elimination": "Hệ thống đã hoạt động trực tuyến; cơ sở y tế là bên kiểm tra, không bắt bệnh nhân tự dùng; không có nội dung cho phép kê đơn không cần đến cơ sở y tế."
+  },
+  "60-32": {
+    "reason": "Phù du trưởng thành có miệng thoái hóa nên sống bằng dinh dưỡng tích lũy khi còn ấu trùng.",
+    "elimination": "Tên gọi không phản ánh toàn vòng đời: ấu trùng khoảng một năm, trưởng thành 1–2 tuần theo bài; miệng không phát triển chức năng hơn khi trưởng thành."
+  },
+  "60-33": {
+    "reason": "Theo đoạn văn, nước mắt buồn chứa cả chất kháng khuẩn và chất tích lũy do stress, bao gồm chất có hại được đào thải.",
+    "elimination": "Protein được nêu với chức năng kháng khuẩn, không trực tiếp làm vui; không được nói thiếu kháng khuẩn; nước mắt do kích thích vật lý không có nhiều thành phần hơn loại do buồn trong lập luận này."
+  },
+  "60-34": {
+    "reason": "Bất tiện do mỗi tuyến dùng giờ địa phương khiến một kỹ sư đường sắt đề nghị giờ chuẩn theo kinh độ.",
+    "elimination": "Trước đó thời gian dựa vị trí Mặt Trời, không do công ty định giờ cho cả vùng; không có dùng giờ chuẩn trước thế kỷ XIX; giờ chuẩn giải quyết bất tiện, không tạo ra nó."
+  },
+  "64-32": {
+    "reason": "Seok Ju-myeong chủ động đặt tên thuần Hàn cho bướm thay tên Hán hoặc ngoại lai.",
+    "elimination": "Ông sửa 844 loài thành 248; phát hiện sai ở phân loại cũ, không phải tuyên bố nghiên cứu mình sai; khác chút hoa văn không có nghĩa khác loài."
+  },
+  "64-33": {
+    "reason": "가로 저축 chia tiền vào nhiều tài khoản cho nhiều mục tiêu dài hạn, nên hữu ích khi có mục đích đa dạng.",
+    "elimination": "Chuẩn bị tuổi già hợp kiểu ngang; kiểu dọc hợp mục tiêu ngắn để gom khoản lớn; bài lựa chọn theo mục đích, không kết luận ngang luôn tốt hơn dọc."
+  },
+  "64-34": {
+    "reason": "Tranh 책가도 từ cung đình, sĩ đại phu lan sang thương nhân, nông dân trong thế kỷ XIX: người thưởng thức ngày càng đa dạng.",
+    "elimination": "Vua coi trọng học vấn và ủng hộ; đồ dùng hằng ngày được thêm về sau; hình thức tự do hơn gắn mở rộng tầng lớp, không phải mệnh lệnh đổi hình thức của vua."
+  },
+  "35-35": {
+    "reason": "Sự xuất hiện của 비혼 phản ánh quan niệm kết hôn là lựa chọn, thay cho hàm ý bắt buộc nhưng chưa thực hiện trong 미혼.",
+    "elimination": "Hai từ có khác biệt ý nghĩa; đoạn không nói 미혼 bao quát mọi quan niệm hay không phù hợp với người định kết hôn, mà nói ngôn ngữ thay đổi theo nhận thức."
+  },
+  "35-36": {
+    "reason": "Tác giả đề nghị chọn trang phục theo tình huống kinh doanh: cứng cáp để thể hiện ý chí, mềm mại để thương lượng.",
+    "elimination": "Hình ảnh công ty, màu biểu tượng hay vẻ mềm mại chỉ là từng mục đích cụ thể; chỉ đáp án bao quát chiến lược phù hợp hoàn cảnh mới chứa đủ các ví dụ."
+  },
+  "35-37": {
+    "reason": "Vì khó phục hồi khi đã kiệt sức, bài nhấn mạnh nghỉ ngơi, nạp lại năng lượng và giữ niềm vui để phòng ngừa từ trước.",
+    "elimination": "Phân tích ảnh hưởng xã hội, quan hệ nguyên nhân-triệu chứng hoặc phát triển phương pháp chữa trị đều không phải hướng hành động của phần kết."
+  },
+  "35-38": {
+    "reason": "Robot làm việc thu thập, phân tích đơn giản giúp nhà báo dành sức cho phân tích sâu và phỏng vấn, tức tập trung công việc chất lượng cao.",
+    "elimination": "Giảm tổng giờ lao động và thu hẹp thị trường việc làm không được kết luận; lao động chân tay chỉ là bối cảnh mở bài, không phải trọng tâm tương lai đang bàn."
+  },
+  "36-35": {
+    "reason": "Các công dụng, đa dạng sản phẩm và mức bán đều cùng giải thích thị trường giấm đang tăng trưởng.",
+    "elimination": "Đa dạng hương vị, hiệu quả và sự chú ý sức khỏe là các yếu tố riêng; chọn một yếu tố sẽ bỏ phần ứng dụng làm sạch và tăng thị phần của toàn đoạn."
+  },
+  "36-36": {
+    "reason": "Người trẻ thích nhạc cũ, người lớn tuổi thích rap và nhảy thần tượng: ranh giới thế hệ trong thưởng thức văn hóa đang mờ đi.",
+    "elimination": "Hai ví dụ không chỉ nói tầng lớp trung niên hoặc nhạc ca sĩ cao tuổi; tăng phân chia thế hệ trái trực tiếp xu hướng được mô tả."
+  },
+  "36-37": {
+    "reason": "Bài khuyên tìm sức mạnh chữa lành bên trong thay vì chạy theo các buổi nói chuyện, nên thành bại phụ thuộc bản thân.",
+    "elimination": "Sức nóng trào lưu chỉ là mở bài; tin buổi nói chuyện tự chữa được mọi tổn thương hoặc phải dựa vào chúng tìm phương pháp đều trái lời khuyên tự thân ở cuối."
+  },
+  "36-38": {
+    "reason": "Doanh nghiệp cần công khai giá phụ tùng trung thực, dễ tiếp cận để lấy lại niềm tin, thay vì giấu thông tin sau nhiều bước.",
+    "elimination": "Quyền được biết và yêu cầu đăng giá là nền tảng đã tồn tại; chỉ nói phải đăng bỏ qua vấn đề cách thực hiện thiếu minh bạch mà tác giả phê phán."
+  },
+  "37-35": {
+    "reason": "Người mua cassette muốn sở hữu, giữ lâu album của nghệ sĩ yêu thích; động cơ sưu tầm giải thích xu hướng tưởng như ngược thời đại số.",
+    "elimination": "Không có lập luận về mở rộng thị trường, tiến bộ âm nhạc hay phục hồi nhạc xưa; chính vật thể album, không tuổi đời bản nhạc, là trọng tâm."
+  },
+  "37-36": {
+    "reason": "Biên tập có thể khiến khán giả hiểu lầm nhân vật, nên ê-kíp cần tôn trọng và cân nhắc vị trí người tham gia.",
+    "elimination": "Phát triển định dạng mới, đáp ứng mọi yêu cầu khán giả và tăng chương trình tương tác không giải quyết trực tiếp sự tổn hại do cách dựng chương trình."
+  },
+  "37-37": {
+    "reason": "Nhân lực khoa học-kỹ thuật có thể đánh giá tài sản công nghệ vô hình, vì vậy ngành tài chính cần tăng tuyển dụng nhóm chuyên môn này.",
+    "elimination": "Đào tạo lại nhân viên và đổi cách đào tạo không được đề nghị; mở rộng hỗ trợ vốn là bối cảnh đã diễn ra, không phải kết luận nhân sự của đoạn."
+  },
+  "37-38": {
+    "reason": "Dù đã có ngân sách, nghiên cứu Nam Cực còn ở giai đoạn đầu so với các nước; cần đẩy mạnh nghiên cứu có hệ thống để phát triển khoa học và tài nguyên.",
+    "elimination": "Chỉ yêu cầu thêm ngân sách bỏ qua khoản mới công bố; khai thác bừa bãi và hợp tác quốc tế không phải vấn đề được triển khai."
+  },
+  "41-35": {
+    "reason": "Biểu tượng cảm xúc liên tục phát triển và trở thành một ngôn ngữ biểu đạt cảm xúc khác, là kết luận bao quát của đoạn.",
+    "elimination": "Hình thức ban đầu chỉ là lịch sử; phê bình làm giảm năng lực ngôn ngữ là ý kiến được nhượng bộ; nói không thể nhắn tin thiếu biểu tượng là diễn đạt quá mức."
+  },
+  "41-36": {
+    "reason": "Câu chuyện con chim minh họa việc quan tâm vụng về có thể gây hại; trước hết cần nhận ra nguy cơ làm người khác tổn thương.",
+    "elimination": "Khó hiểu người khác là lý do, không kết luận cuối; giá trị giáo dục của ngụ ngôn quá chung; cho rằng xét vị trí đối phương vô nghĩa trái tinh thần đoạn."
+  },
+  "41-37": {
+    "reason": "Bài phản biện niềm tin rằng mật ong luôn hơn đường: nhiều lợi ích được tin chưa có chứng minh, nên nhận thức có thể không đúng.",
+    "elimination": "Các phương án ca ngợi mật ong, đề nghị dùng thay đường hoặc nói tác động đã được chứng minh đều trái lập luận phản biện. Đây là hiểu quan điểm trong bài, không phải hướng dẫn dinh dưỡng."
+  },
+  "41-38": {
+    "reason": "Muốn bảo vệ quyền lợi, người dùng phải vừa hiểu nội dung điều khoản vừa xem xét tính công bằng, hợp lý.",
+    "elimination": "Chỉ công bằng hoặc chỉ hiểu đúng đều thiếu một nửa yêu cầu; cung cấp thông tin là tình huống mở đầu, không chủ đề về cách đọc điều khoản."
+  },
+  "47-35": {
+    "reason": "Lửa và khói từng là phương tiện chủ yếu báo nguy, đóng vai trò quan trọng dù bị thời tiết hạn chế.",
+    "elimination": "Ảnh hưởng thời tiết chỉ là hạn chế phụ; năm cấp dựa mức khẩn cấp, không theo thời tiết; nói khó ứng phó mọi khẩn cấp phủ nhận vai trò mà đoạn khẳng định."
+  },
+  "47-36": {
+    "reason": "Tác giả đề nghị rèn khả năng sử dụng con số vì nó giúp được công nhận, tạo tin cậy và lợi thế kinh doanh.",
+    "elimination": "Học ở đâu không được quy định; tổ chức doanh số hay dữ liệu buổi ra mắt chỉ là phạm vi hẹp hơn luận điểm rèn kỹ năng số nói chung."
+  },
+  "47-37": {
+    "reason": "Muốn có 고독력, khả năng tận hưởng và dùng thời gian một mình sáng tạo, cần tập đối diện, chấp nhận cô đơn không sợ hãi.",
+    "elimination": "Sống một mình không tự bảo đảm sáng tạo; trầm cảm, giận dữ là hậu quả minh họa của không chấp nhận cô đơn, không phải trọng tâm khuyên nhủ toàn đoạn."
+  },
+  "47-38": {
+    "reason": "Quà miễn phí đôi khi khiến khách đánh giá thấp giá trị và nghi ngờ giá sản phẩm, nên có thể làm giảm hiệu quả bán.",
+    "elimination": "Ưa quà là quan niệm mở đầu được bổ sung ngoại lệ; không tin chất lượng tuyệt đối hoặc giá thực sự vô lý là khẳng định mạnh hơn quan sát về nhận thức khách hàng."
+  },
+  "52-35": {
+    "reason": "Cùng mức giá hiện tại 2.000 won nhưng so với tháng 1 là tăng, so với tháng 2 là giảm: cách đặt mốc làm thay đổi diễn giải thống kê.",
+    "elimination": "Nhìn thực tế, tính mức tăng giảm chỉ là công dụng chung; bài không phủ nhận mọi thống kê thiếu thực tế mà nhấn mạnh sự phụ thuộc vào chuẩn so sánh."
+  },
+  "52-36": {
+    "reason": "Chim dẫn đàn cần kinh nghiệm tìm đường, độ cao và khả năng phán đoán nhanh khi nguy hiểm; đây là hai phẩm chất được triển khai.",
+    "elimination": "Bay trước là vị trí, không đủ điều kiện năng lực; tốc độ di chuyển và lý do họp đàn không phải chủ đề đánh giá vai trò thủ lĩnh."
+  },
+  "52-37": {
+    "reason": "Tác giả bác cách xem buồn chán là chuyện nhỏ bằng hậu quả lệch chuẩn, trầm cảm; cần nhận thức mức nghiêm trọng của nó.",
+    "elimination": "Giàu có chỉ là ví dụ; lệch chuẩn không được quy cho thiếu tiền, danh; chỉ phòng trầm cảm thu hẹp vấn đề và bỏ luận điểm đừng xem nhẹ buồn chán."
+  },
+  "52-38": {
+    "reason": "Xin lỗi chân thành phải nhận trách nhiệm về hậu quả khiến người khác đau khổ, dù ý định ban đầu tốt hay xấu.",
+    "elimination": "Ý tốt không tự miễn trách nhiệm; tránh lặp lỗi và cấm làm hại có chủ ý là lời khuyên khác, không định nghĩa sự xin lỗi mà đoạn đang đưa ra."
+  },
+  "60-35": {
+    "reason": "Bài đề nghị biện pháp quản lý bán và lưu thông camera siêu nhỏ để ngăn quay lén, tức ngăn sử dụng sai mục đích.",
+    "elimination": "Mở rộng ứng dụng, phát triển thêm hay đơn giản thủ tục không giải quyết nguy cơ; đơn giản hóa còn ngược đề nghị tăng quy định đăng ký trong bài."
+  },
+  "60-36": {
+    "reason": "Chỉ tiếp nhận kiến thức tóm tắt có thể làm yếu khả năng quan sát lâu, phân tích và xử lý phê phán, tức giảm năng lực tư duy.",
+    "elimination": "Tiện lợi, tiết kiệm thời gian và lượng thông tin tăng là bối cảnh ban đầu; trọng tâm nằm ở cảnh báo sau 그러나."
+  },
+  "60-37": {
+    "reason": "Sáng tác và xuất bản xoay quanh tác phẩm nghe nhìn có thể làm mất đặc tính riêng của văn học thuần túy, nên tạo nguy cơ cho văn học.",
+    "elimination": "Chế độ thưởng, quảng bá tăng bán hay cần xuất bản thêm chuyển thể đều không phải điều tác giả ủng hộ; chúng bỏ qua cảnh báo cuối bài."
+  },
+  "60-38": {
+    "reason": "Ẩm thực phân tử giữ vị, hương nhưng đổi hình dạng, cảm giác, được kỳ vọng dẫn dắt văn hóa ẩm thực mới.",
+    "elimination": "Mở rộng nghiên cứu khoa học và tăng nhu cầu không phải luận điểm được chứng minh; trì trệ phương pháp trái các ví dụ sáng tạo vượt giới hạn nguyên liệu."
+  },
+  "64-35": {
+    "reason": "Máy quét và in 3D giúp đo, tái tạo chính xác mà giảm tổn hại, nên công nghệ tiên tiến khiến phục chế thuận lợi hơn.",
+    "elimination": "Chăm sóc phòng ngừa, biến dạng tăng và đào tạo kỹ thuật viên không phải nội dung chính; đoạn nêu thành quả thiết bị chứ không kêu gọi khóa đào tạo."
+  },
+  "64-36": {
+    "reason": "Tiếp xúc da thúc đẩy cảm xúc, xã hội và trí tuệ ở trẻ nhỏ, nên là yếu tố quan trọng của phát triển trẻ.",
+    "elimination": "Hiểu đồ vật bằng xúc giác chỉ là mở đầu; bài không chứng minh tương quan giữa hai năng lực hay kêu gọi nghiên cứu mới, mà trình bày giá trị tiếp xúc đã được nghiên cứu."
+  },
+  "64-37": {
+    "reason": "Sợi nấm nối khoảng cách giữa rễ cây, truyền thông tin nguy hiểm thay cây; vì thế nấm giúp cây trao đổi thông tin trong rừng.",
+    "elimination": "Điều kiện sống của nấm, nhiều chức năng rễ và mức quan tâm giới khoa học đều không khái quát vai trò 'mạng liên lạc' được giải thích."
+  },
+  "64-38": {
+    "reason": "Theo tác giả, luật mới nhẹ hơn dự thảo và vẫn có khoảng trống khiến mục tiêu răn đe, giảm tái phạm chưa đạt đầy đủ.",
+    "elimination": "Luật đã thông qua, nên không phải kêu gọi thôi trì hoãn; phổ biến mục đích và điều chỉnh theo thiệt hại không phải đánh giá trung tâm về hiệu quả còn thiếu."
+  },
+  "35-39": {
+    "reason": "Đặt ở ㄴ: 이를 방지하기 위해 cần theo ngay nguy cơ tai nạn do không thấy vạch; sau đó 더욱 강화 bổ sung cách tăng phản xạ bằng hạt thủy tinh.",
+    "elimination": "ㄱ chưa nêu tai nạn làm tiền đề cho 이를; ㄷ và ㄹ đưa sơn phản xạ cơ bản sau kỹ thuật tăng cường, đảo trình tự giải thích."
+  },
+  "35-40": {
+    "reason": "Đặt ở ㄷ, sau số liệu khác nhau về ý định thừa kế và trước các lý do khác nhau. 이유에서도 báo hiệu chuyển sang tiêu chí so sánh thứ hai.",
+    "elimination": "ㄱ và ㄴ ngắt phần so sánh tỷ lệ; ㄹ đặt câu mở chủ đề lý do sau khi lý do đã được nói xong."
+  },
+  "35-41": {
+    "reason": "Đặt ở ㄷ: câu thêm giới thiệu tài lãnh đạo trong tuyển dụng, rồi câu sau minh họa chọn người chỉ theo năng lực.",
+    "elimination": "ㄱ, ㄴ còn giới thiệu sách và thành tựu chung; ㄹ quá muộn vì ví dụ chọn nhân tài đã xuất hiện mà chưa có câu dẫn."
+  },
+  "36-39": {
+    "reason": "Đặt ở ㄷ: sau lời yêu cầu tài xế hợp tác là hành động cụ thể nhường đường; 이러한 배려 ngay sau đó chỉ sự nhường đường này.",
+    "elimination": "ㄱ, ㄴ chen lời kêu gọi trước khi dẫn tới nhu cầu hợp tác; ㄹ khiến 이러한 배려 xuất hiện trước hành động mà nó quy chiếu."
+  },
+  "37-39": {
+    "reason": "Đặt ở ㄴ để giải thích vì sao hoa khoai lang từ quý hiếm trở nên không được chào đón: nở nhiều là dấu hiệu thời tiết bất thường.",
+    "elimination": "ㄱ làm câu 'vì...' giải thích nhầm sự quý hiếm trước kia; ㄷ ngắt cặp khí hậu nguyên bản–nhưng hiện nay; ㄹ khiến lý do tách xa nhận định cần giải thích."
+  },
+  "37-40": {
+    "reason": "Đặt ở ㄹ vì 이처럼 tổng kết tác dụng an toàn sau khi đã nói về hướng dẫn liều, cách dùng bằng hình ảnh.",
+    "elimination": "ㄱ, ㄴ chưa giới thiệu tài liệu hướng dẫn; ㄷ mới đặt tên mà chưa giải thích cơ chế hình ảnh tăng hiểu biết, nên tổng kết quá sớm."
+  },
+  "37-41": {
+    "reason": "Đặt ở ㄷ: 이는 chỉ việc tập mới dùng ngôn ngữ đời thường để đến gần độc giả, sau đó bài chuyển sang kỳ vọng tác phẩm tương lai.",
+    "elimination": "ㄱ chưa nêu thay đổi phong cách; ㄴ khiến ý 'thơ gần gũi' gắn nhầm với tập cũ khó hiểu; ㄹ tách lý do khỏi thay đổi vừa mô tả."
+  },
+  "41-39": {
+    "reason": "Đặt ở ㄹ: sau lộ trình thử nghiệm rồi chính thức áp dụng, 나아가 mở rộng sang các thử nghiệm cải thiện văn hóa tổ chức khác.",
+    "elimination": "ㄱ còn chưa giải thích chế độ; ㄴ và ㄷ ngắt chuỗi thử nghiệm–đánh giá–áp dụng. Cuối cùng mới hợp để mở rộng cam kết."
+  },
+  "41-40": {
+    "reason": "Đặt ở ㄴ: 이 용어 quy chiếu thuật ngữ vừa định nghĩa, giới thiệu gia tộc và thời Phục hưng để 당시 ở câu sau có mốc lịch sử.",
+    "elimination": "ㄱ chưa có thuật ngữ làm tiền đề; ㄷ hoặc ㄹ khiến 당시 và gia tộc xuất hiện trước đoạn giới thiệu nguồn gốc."
+  },
+  "41-41": {
+    "reason": "Đặt ở ㄷ: 이러한 소재들 chỉ người vô hình và robot AI được liệt kê ngay trước; câu thêm giải thích chúng kết hợp khoa học với tưởng tượng.",
+    "elimination": "ㄱ, ㄴ chưa có ví dụ cho 소재들; ㄹ chen vào giữa hai lợi ích của đọc sách nối bằng 또한, làm gãy mạch kết luận."
+  },
+  "47-39": {
+    "reason": "Đặt ở ㄷ: 또한 bổ sung thay đổi thứ hai, từ đọc tuần tự sang đọc tìm kiếm; câu sau mô tả chọn, đổi và chuyển liên kết.",
+    "elimination": "ㄱ đứng trước bước chuyển sang thời hiện đại; ㄴ chưa hoàn tất thay đổi thứ nhất về đọc một mình; ㄹ đặt câu giới thiệu sau khi ví dụ đọc tìm kiếm đã xong."
+  },
+  "47-40": {
+    "reason": "Đặt ở ㄷ: sau tự thấy xấu hổ về những lần bỏ cuộc là nhận thêm can đảm đứng dậy; 그리고 nối hai tác động lên người đọc.",
+    "elimination": "ㄱ, ㄴ chưa có trải nghiệm tự soi xét để nối thêm; ㄹ đã chuyển sang lời khuyên đọc sách, không còn mạch phản ứng của người đọc."
+  },
+  "47-41": {
+    "reason": "Đặt ở ㄴ để giải thích vì sao pha hư cấu vào lịch sử được ưa thích, trước 그런데 chuyển sang lo ngại hiểu nhầm sự thật.",
+    "elimination": "ㄱ quá sớm trước thông tin phổ biến; ㄷ và ㄹ đặt lợi ích giữa hoặc sau cặp nêu lo ngại–giải thích nguyên nhân, làm gãy quan hệ lập luận."
+  },
+  "52-39": {
+    "reason": "Đặt ở ㄹ: sau thông tin đang nghiên cứu khử mùi là mục tiêu thêm lượng mùi tương đương; câu cuối nêu ích lợi nếu công nghệ thành công.",
+    "elimination": "ㄱ, ㄴ còn giải thích cơ chế cảm nhận mùi; ㄷ chưa giới thiệu dự án công nghệ làm tiền đề cho mục tiêu nghiên cứu."
+  },
+  "52-40": {
+    "reason": "Đặt ở ㄹ: câu thêm tổng kết hai nội dung vừa giới thiệu, món ăn và người làm ra nó, để dẫn đến nhận xét về công sức một bữa ăn.",
+    "elimination": "ㄱ, ㄴ còn chưa có hai nhóm nội dung; ㄷ ngắt lời chuyển 'không chỉ món ăn' với ví dụ về người sản xuất và nấu nướng."
+  },
+  "52-41": {
+    "reason": "Đặt ở ㄷ: thay đổi cơ cấu ngành dẫn đến biến động việc làm, rồi 그래서 nêu dự báo trẻ em sẽ làm nghề hiện chưa tồn tại.",
+    "elimination": "ㄱ, ㄴ chưa nêu thay đổi cơ cấu ngành; ㄹ đặt nguyên nhân biến động việc làm sau hệ quả thống kê nên trình tự kém logic."
+  },
+  "60-39": {
+    "reason": "Đặt ở ㄱ: thái độ nhăn mặt trước phố thương mại là ý tiêu cực để 하지만 đối chiếu với vai trò tạo sức sống của cửa hàng.",
+    "elimination": "Các vị trí sau đều nằm trong chuỗi lợi ích, nên đưa thái độ tiêu cực vào đó làm mất đối tượng đối lập của 하지만 đầu đoạn."
+  },
+  "60-40": {
+    "reason": "Đặt ở ㄱ: giới thiệu hình thức hỏi–đáp trước khi đưa ví dụ 'vì sao căn hộ...' và 'vì sao vại tương...'.",
+    "elimination": "ㄴ đặt nhận xét sau ví dụ và trước 그 과정 gây đứt quy chiếu; ㄷ, ㄹ đã chuyển sang phê bình lối sống và lời giới thiệu độc giả, quá xa phần mô tả cấu trúc sách."
+  },
+  "60-41": {
+    "reason": "Đặt ở ㄹ: 그 효과 chỉ tác dụng của việc khắc răng cưa vừa nêu; câu tiếp giải thích hiệu quả nhanh nhờ nhìn thấy tiền bị cắt.",
+    "elimination": "ㄱ, ㄴ, ㄷ chưa có biện pháp khắc răng cưa, nên chưa có hành động hiệu quả để 그 효과 quy chiếu."
+  },
+  "64-39": {
+    "reason": "Đặt ở ㄱ: vương miện dành cho tầng lớp cai trị nên làm từ vật liệu quý; 장식도 sau đó bổ sung trang trí cũng xa hoa.",
+    "elimination": "ㄴ, ㄷ, ㄹ đưa vật liệu của vương miện thời xưa vào sau phần trang trí hoặc giữa phần ứng dụng hiện đại, làm rối mốc thời gian và từ 도."
+  },
+  "64-40": {
+    "reason": "Đặt ở ㄷ: 그들 chỉ tổ chức mới được giới thiệu; hoạt động quảng bá loài xấu, bị ghét là nội dung để 이러한 노력 ở câu sau tổng kết.",
+    "elimination": "ㄱ, ㄴ chưa có tổ chức làm chủ thể; ㄹ khiến 'nỗ lực này' xuất hiện trước hoạt động cụ thể cần được quy chiếu."
+  },
+  "64-41": {
+    "reason": "Đặt ở ㄴ: giới thiệu bảy truyện về những người xa cách do hiểu lầm, lỗi lầm để 그들처럼 ở câu sau có đối tượng rõ ràng.",
+    "elimination": "ㄱ chen nội dung trước câu giới thiệu cách tập hợp tác phẩm; ㄷ, ㄹ quá muộn vì đại từ 그들 đã xuất hiện mà chưa có người được giới thiệu."
+  },
+  "35-42": {
+    "reason": "Mọi người cùng đếm số để giúp cậu bé dám nhảy, thể hiện khích lệ, 격려하다.",
+    "elimination": "위로 là an ủi sau tổn thương; 안도 là yên tâm khi nguy cơ qua; 원망 là oán trách. Hành động được hỏi đang tiếp sức trước khi cậu nhảy."
+  },
+  "35-43": {
+    "reason": "Sau tiếng rơi xuống nước, tiếng vỗ tay vang khắp bể bơi; người kể cũng vỗ tay.",
+    "elimination": "Bệ cao đến người lớn còn sợ, không phải dành riêng trẻ; tiếng loa được cho là người quản lý, cha mẹ chỉ ra hiệu xuống; không có yêu cầu nhờ quản lý đưa con về."
+  },
+  "36-42": {
+    "reason": "Hiện Seok đứng dưới mưa nhìn cửa sổ trước lúc chuyển nhà, vẻ buồn lưu luyến cho thấy 안타깝다, tiếc nuối vì phải xa bạn.",
+    "elimination": "괘씸하다 là tức vì ai đáng trách; 담담하다 là bình thản; 허탈하다 là trống rỗng hụt lực. Cảnh chia tay nhấn mạnh buồn không muốn rời xa, không giận hay thờ ơ."
+  },
+  "36-43": {
+    "reason": "Mỗi sáng cậu đều gõ cổng rủ In Hye đi học, dù bị bạn bè trêu.",
+    "elimination": "Năm lớp 5 cậu chuyển đi, không chuyển đến trước nhà; bạn bè biết và viết trêu; cậu lặng lẽ cầm cặp giúp, không thường xuyên nói lời đề nghị."
+  },
+  "37-42": {
+    "reason": "Lần đầu xe lao đi, nhân vật reo lên và ngực căng tràn, thể hiện niềm sung sướng mãnh liệt, 희열.",
+    "elimination": "기대에 들뜨다 là háo hức chờ việc chưa đến; 먹먹하다 là nghẹn nặng lòng; 홀가분하다 là nhẹ gánh. Ở đây là hân hoan ngay khi trải nghiệm thành công."
+  },
+  "37-43": {
+    "reason": "Nhân vật từ sáng tập đi tập lại, ngã hàng trăm lần đến khi trời tối vì chưa biết đi xe.",
+    "elimination": "Không có hỏng bánh hay va vào người khác; tháo chân chống là thao tác tập chủ động, không phải nguyên nhân một chiếc xe dựng sẵn tự đổ gây toàn bộ câu chuyện."
+  },
+  "41-42": {
+    "reason": "Chủ quán ngạc nhiên đến khó tin, 황당하다, vì khách gọi pizza nhưng bỏ phô mai, phá đặc trưng món.",
+    "elimination": "난처하다 là khó xử, 서먹하다 là xa cách, 안타깝다 là tiếc thương. Phản ứng 'pizza mà không phô mai sao?' tập trung sự phi lý bất ngờ."
+  },
+  "41-43": {
+    "reason": "Người cha tự hỏi mình nuôi con thế nào và vì sao chúng cứ đòi bỏ nguyên liệu, cho thấy không hiểu hành động các con.",
+    "elimination": "Ông có món gọi cố định; con lớn gọi pizza bỏ phô mai; con nhỏ gọi pasta bỏ basil, không phải pizza giòn hay bánh mì mùi basil."
+  },
+  "47-42": {
+    "reason": "Giọng cha chùng xuống khi hiểu con khó về đám tang cho thấy chạnh lòng, 서운하다, rồi chấp nhận chứ không trách móc.",
+    "elimination": "억울하다 là oan ức; 조급하다 là sốt ruột; 괘씸하다 là tức vì người khác đáng trách. Bài nhấn mạnh thất vọng âm thầm thay vì giận dữ."
+  },
+  "47-43": {
+    "reason": "Người kể rà lịch nhiều cuộc họp, hẹn trong ngày nên do dự về quê, dù dùng tuyết rơi làm lời đáp với cha.",
+    "elimination": "Cha gọi báo người thân mất, không chỉ vì lo thời tiết; hồi tưởng cho thấy tiếc vì chưa thăm; cảm giác mất sức xuất hiện khi nghe cha thất vọng, không ngay tin mất."
+  },
+  "52-42": {
+    "reason": "Lần đầu được cô hiểu nỗi buồn học kém thay vì trách, người kể xúc động đến gần khóc, 감격스럽다.",
+    "elimination": "Không phải khó xử, bình thản hay nghi ngờ: hình ảnh lòng mềm ra và giọt nước mắt cho thấy được thấu hiểu, cảm động mạnh."
+  },
+  "52-43": {
+    "reason": "Người kể nói rất muốn được cô nhìn nhận tốt, dù kết quả học chưa theo kịp mong muốn.",
+    "elimination": "Lớp hiện sạch và ngoan hơn; trước kia học sinh không nghe cô cũ; cô mới thấu hiểu chứ không nổi giận vì điểm thấp."
+  },
+  "60-42": {
+    "reason": "Câu 'con có phải người trong nhà không?' thể hiện mẹ chạnh lòng, 서운하다, vì mong con đến giúp nhưng chưa thấy con.",
+    "elimination": "Oan ức cần tình huống bị đối xử bất công; lo lắng và rối trí không giải thích sắc thái trách nhẹ vì thiếu sự hỗ trợ gia đình."
+  },
+  "60-43": {
+    "reason": "Cha mẹ sợ sệt, liên tục vâng dạ làm theo nhân viên hỗ trợ từ trụ sở, đúng diễn biến ngày khai trương.",
+    "elimination": "Cửa hàng đông khách; con được gọi ngay ngày mở cửa trước kỳ thi; cha còn cố học tên bánh lạ, chưa thuộc hết."
+  },
+  "64-42": {
+    "reason": "Sau khi mẹ bỏ đi, So Hoe sợ chị cũng không trở về nên hỏi liên tục và ôm điện thoại chờ: 불안하다.",
+    "elimination": "Hài lòng, thất vọng và xúc động vui đều không phù hợp trạng thái lo mất người thân; lời nhắn trấn an chưa xóa hoàn toàn sự bám víu, thấp thỏm."
+  },
+  "64-43": {
+    "reason": "Chị nhắn lúc đêm khuya sẽ mang thịt về và bảo chờ, xác nhận đã liên lạc muộn.",
+    "elimination": "Mẹ không được kể đã trở về; chị đi một mình; So Hoe giữ điện thoại chờ chị, không phải chờ mẹ gọi."
+  },
+  "35-44": {
+    "reason": "Tác giả phê bình hạn ngạch không xét tăng trưởng doanh nghiệp và đề nghị phương án hợp lý; phân bổ cần điều chỉnh theo tình hình doanh nghiệp.",
+    "elimination": "Không chủ trương bỏ mọi chính sách thiếu đồng thuận; giao dịch chỉ là cơ chế; 'biện pháp môi trường thực tế' quá rộng so với vấn đề cụ thể phân bổ quyền phát thải."
+  },
+  "35-45": {
+    "reason": "Doanh thu tăng, công suất nhà máy cao khiến phát thải có thể vượt hạn ngạch nên phải mua quyền; đối lập với công ty ngừng máy lại bán được quyền.",
+    "elimination": "Phát thải dưới hạn thì không cần mua; chưa khai tổng lượng hay có ý chí giảm khí không giải thích đối lập tăng trưởng–suy giảm của hai doanh nghiệp."
+  },
+  "36-44": {
+    "reason": "Đoạn trình bày cơ chế Inju giao công dân đề xuất, thảo luận, xét ưu tiên chính sách: áp dụng dân chủ trực tiếp để quyết định.",
+    "elimination": "12 dự án, 500 người và phản hồi tốt đều là chi tiết hỗ trợ; chỉ chọn một chi tiết không bao quát quy trình và dự định duy trì mô hình."
+  },
+  "36-45": {
+    "reason": "Đây là thử nghiệm thể hiện sự tham gia và đổi mới của công dân; thành phố muốn hỗ trợ để không chỉ diễn ra một lần.",
+    "elimination": "Đề xuất do dân đưa ra chứ không riêng thành phố; cơ hội lập ngân sách hoặc chọn người đại diện đều thu hẹp, thậm chí đổi cơ chế dân trực tiếp tham gia."
+  },
+  "37-44": {
+    "reason": "Dù mạng nội bộ thay đổi môi trường, quản lý trung gian vẫn điều phối, nối tầm nhìn với thực tế và thu nhận cảm xúc, nên vai trò trung gian còn cần.",
+    "elimination": "Tầm quan trọng hội thoại quá chung; đổi nhiệm vụ theo hoàn cảnh không là kết luận; xóa cấp bậc do mạng là dự báo mà tác giả không tán thành."
+  },
+  "37-45": {
+    "reason": "Dự đoán quản lý biến mất xuất phát từ hiểu phiến diện vai trò họ như người chuyển lệnh, bỏ qua điều phối và trực giác kinh nghiệm.",
+    "elimination": "Không phải đánh giá thấp mạng mà là đánh giá thiếu con người; biến động thị trường hay hiểu vị trí theo chiều ngang không tạo lỗi lập luận được phản bác."
+  },
+  "41-44": {
+    "reason": "Văn hóa 빨리빨리 vốn bị coi nóng vội có thể là lợi thế thích nghi trong xã hội đổi nhanh, hỗ trợ doanh nghiệp phát triển.",
+    "elimination": "Chỉ nói doanh nghiệp thích nghi là hiện trạng; tính riêng biệt dân tộc không phải kết luận; che giấu nhược điểm trái đề nghị phát huy mạnh, bù yếu."
+  },
+  "41-45": {
+    "reason": "Tối đa điểm mạnh, bù điểm yếu để có sức cạnh tranh khác biệt dựa đặc tính riêng người Hàn; ví dụ nhanh thích nghi làm rõ điều này.",
+    "elimination": "Tạo biểu tượng, chỉ đổi nhận thức tiêu cực hoặc theo lãnh đạo phổ quát không diễn đạt mục tiêu cạnh tranh gắn tính riêng của chủ thể."
+  },
+  "47-44": {
+    "reason": "Đoạn giải thích trừu tượng hóa bằng quá trình sáng tác loạt bò của Picasso, lần lượt từ tả thực đến nét đơn giản rồi chọn đặc trưng.",
+    "elimination": "Quan sát hoặc tả chi tiết chỉ là bước đầu; phát hiện khía cạnh mới không phải trọng tâm vì kết quả vẫn giữ bản chất 'bò'. Đáp án về các bước qua sáng tác bao quát mạch bài."
+  },
+  "47-45": {
+    "reason": "Picasso bỏ nhiều bộ phận, giữ ít đường nét và đặc trưng đầu: nắm bản chất thông qua đơn giản hóa hình thức.",
+    "elimination": "Không bóp méo bản chất; nhấn thực thể quá chung; tả thực là giai đoạn ban đầu, không phải cách đạt kết quả trừu tượng cuối cùng."
+  },
+  "52-44": {
+    "reason": "Thiết kế phổ quát xét nhiều độ tuổi, giới và năng lực để càng nhiều người dùng tiện lợi không phân biệt.",
+    "elimination": "Đại trà và hiệu suất là quan điểm cũ bị phê bình; yêu cầu thiết kế mới quá chung, không nêu tính bao trùm nhóm người của đoạn."
+  },
+  "52-45": {
+    "reason": "Sản xuất hàng loạt từng lấy số đông được xem là chuẩn làm tiêu chí, khiến người ngoài nhóm đó bất tiện; 여기에 속하지 못한 cần một nhóm chuẩn làm tiền đề.",
+    "elimination": "Đặc điểm sản phẩm, xu hướng thời trang hay mong tiện lợi không tạo đối tượng số đông để câu sau nói 'không thuộc vào đó'."
+  },
+  "60-44": {
+    "reason": "Áp lực thời gian thu hẹp sự chú ý, bỏ sót cả an toàn cơ bản; đây là tác động tiêu cực tác giả cảnh báo.",
+    "elimination": "Tập trung cao và hiệu quả là điều mở bài thừa nhận trước khi phản biện; thành công trong việc chính không bù việc bỏ lỡ nhiều yếu tố quan trọng."
+  },
+  "60-45": {
+    "reason": "Tin rằng chỉ thiếu thời gian mới hiệu quả dễ dẫn đến tùy tiện trì hoãn, 무턱대고 일을 미루다, để rồi bị dồn vào hạn chót.",
+    "elimination": "Làm hấp tấp là hậu quả có thể có, nhưng chỗ trống nhắm lựa chọn chủ động tạo thiếu thời gian; tăng sở thích và bám một việc không giải thích niềm tin trì hoãn đến sát hạn."
+  },
+  "64-44": {
+    "reason": "Giáo lý nhấn mạnh lòng thành kính và hòa thuận hơn mâm cỗ cầu kỳ; quan trọng là thành tâm thực hiện lễ.",
+    "elimination": "Mâm cỗ đơn giản chỉ là ví dụ; biến đổi văn hóa là mô tả rộng; nói nghi thức hiện tại đều đúng trái nhận xét có lệ sai truyền lại."
+  },
+  "64-45": {
+    "reason": "Các nghi thức cầu kỳ hiện nay không giữ được ý nghĩa gốc của Nho giáo, nên bị gọi là 예법 sai trước khi bài giải thích bản chất lòng thành.",
+    "elimination": "Đơn giản hóa là ví dụ tốt về sau; phản ánh mong muốn con cháu không được nêu; chưa thu nhỏ theo hiện thực không chạm vấn đề mất tinh thần gốc."
+  },
+  "35-46": {
+    "reason": "Đặt ở ㄴ: 이는 chỉ hiệu ứng cộng hưởng tối ưu vừa nêu và thêm điều kiện để đạt nó, trước khi 다른 하나 chuyển sang dự báo tiêu cực.",
+    "elimination": "ㄱ chưa có dự báo tích cực; ㄷ, ㄹ nằm trong phần giảm năng lực nên không hợp với điều kiện phát huy hơn tổng thế mạnh."
+  },
+  "35-47": {
+    "reason": "Coco có thế mạnh doanh nghiệp nhỏ là phản ứng nhanh với thị trường, điều có thể mất khi quy mô tăng.",
+    "elimination": "Không nói sáp nhập vì Coco suy yếu; không so quy mô hai bên để kết luận ngang nhau; dự báo chia hai hướng, không đều tích cực."
+  },
+  "36-46": {
+    "reason": "Đặt ở ㄷ: 이렇게 보완한 tổng kết hai cải tiến làm mát cửa và cấp khí, nêu khả năng trú an toàn trước khi chuyển sang lợi ích kinh tế.",
+    "elimination": "ㄱ, ㄴ chưa đủ biện pháp cải tiến; ㄹ ngắt nhận định lợi ích kinh tế với lý do thay thế tầng lánh nạn. Thông tin thời gian là nội dung đề, không phải hướng dẫn thoát nạn."
+  },
+  "36-47": {
+    "reason": "Bài nêu lợi ích kinh tế lớn nếu dùng nhà vệ sinh cải tiến thay không gian lánh nạn riêng trong nhà cao tầng.",
+    "elimination": "Khí qua hệ thống thông gió, không qua cửa; bài nói công nghệ có thể áp dụng, không chứng minh đã phổ biến hay tiêu chuẩn lắp đặt đã đổi."
+  },
+  "37-46": {
+    "reason": "Đặt ở ㄴ: sau lịch sử ưu tiên tăng trưởng kinh tế, câu thêm nêu sự chuyển hướng sang chất lượng sống; 한편 sau đó chuyển đến kế hoạch lấy ý kiến.",
+    "elimination": "ㄱ chưa có nền tảng quá khứ để đối chiếu hiện tại; ㄷ, ㄹ làm đứt chuỗi lấy ý kiến–mục đích–đồng thuận về chỉ số."
+  },
+  "37-47": {
+    "reason": "Chỉ số sẽ được công khai, lấy ý kiến và thêm hoặc cải thiện qua đồng thuận xã hội, nên có thể thay đổi theo thảo luận.",
+    "elimination": "Không do cơ quan tự quyết hoàn toàn; đây là thước đo không phải trực tiếp mục tiêu bắt buộc; đoạn nhấn mạnh mở rộng vượt ưu tiên tăng trưởng kinh tế đơn thuần."
+  },
+  "47-46": {
+    "reason": "Đặt ở ㄷ: sau các ứng dụng triển vọng, câu thêm nêu ngành từng bị cản vì rủi ro; 그러나 ngay sau đối lập với quyết định đầu tư mới giúp tăng tốc.",
+    "elimination": "ㄱ, ㄴ chưa triển khai triển vọng để 이런 밝은 전망 quy chiếu đầy đủ; ㄹ quá muộn, để 그러나 trước đó không có khó khăn làm đối tượng đối lập."
+  },
+  "47-47": {
+    "reason": "Lo ngại an ninh, quyền riêng tư và khủng bố đã nhiều lần cản phát triển, cho thấy nhu cầu kiểm chứng an toàn được đặt ra liên tục.",
+    "elimination": "Đầu tư phòng lạm dụng là lời kêu gọi, chưa nói đang song hành; tranh luận chưa lắng xuống; tăng tốc phổ biến là kỳ vọng tương lai, không thành quả đã hoàn tất."
+  },
+  "52-46": {
+    "reason": "Đặt ở ㄱ: câu thêm giới thiệu tiêu chí phân biệt vai trò thị trường và nhà nước, rồi hai đoạn giải thích từng lập trường.",
+    "elimination": "ㄴ cắt sau khi mới mô tả một phía; ㄷ ngắt quan điểm can thiệp với 그래야 giải thích mục đích; ㄹ đưa định nghĩa sau kết luận cân bằng, quá muộn."
+  },
+  "52-47": {
+    "reason": "Tác giả nói chính sách tiến bộ cần để xử lý vấn đề phát sinh từ phát triển kinh tế, bên cạnh vai trò thúc đẩy tăng trưởng của bảo thủ.",
+    "elimination": "Không khẳng định nhà nước phải chỉ huy để tăng trưởng; có hai trục thị trường và nhà nước; tự do được gắn với bảo thủ chứ không ưu tiên hơn ở tiến bộ."
+  },
+  "60-46": {
+    "reason": "Đặt ở ㄱ: 이 방법 chỉ dụng cụ như lao vừa nêu; nguy cơ đẩy rác đi giải thích 이 때문에 dẫn sang đề xuất băng dính, giác hút.",
+    "elimination": "ㄴ sẽ gán nguy cơ của lực đẩy cho dụng cụ dính; ㄷ, ㄹ xuất hiện sau thất bại khác hoặc thành công mới, không còn đúng tiền đề."
+  },
+  "60-47": {
+    "reason": "Băng dính không chịu được biến đổi nhiệt độ cực lớn ngoài vũ trụ, làm mất hiệu quả dính.",
+    "elimination": "Lao là phương án đầu có rủi ro, không thay thế tốt; môi trường khác Trái Đất; cuối cùng nhóm nghiên cứu đã thành công với cấu trúc mô phỏng chân thằn lằn."
+  },
+  "64-46": {
+    "reason": "Đặt ở ㄹ: nhận định ảnh hưởng hiện còn nhỏ là đối tượng để 하지만 đối lập với khả năng tăng trưởng mạnh trong tương lai.",
+    "elimination": "ㄱ, ㄴ làm gián đoạn mô tả cách bán; ㄷ ngắt việc mọi khâu ở SNS với 덕분에 nêu lợi ích chi phí thấp."
+  },
+  "64-47": {
+    "reason": "Người xem thấy vật phẩm được giới thiệu trong phát sóng, quan tâm rồi mua từ người vận hành, đúng mô hình được mô tả.",
+    "elimination": "Người làm truyền thông cá nhân là người bán; không có kết luận gây hại thị trường; chi phí khởi đầu gần như không đáng kể, không cần vốn lớn như phương án sai."
+  },
+  "35-48": {
+    "reason": "Tác giả đưa các hệ quả nguy hiểm để phản đối việc vội tán thành luật xóa thông tin, nên mục đích là nêu căn cứ phản đối.",
+    "elimination": "Không chỉ kêu gọi đưa ra thảo luận, không báo các thiệt hại đã xảy ra và không đề xuất thời điểm thi hành; ví dụ là rủi ro có thể xảy ra."
+  },
+  "35-49": {
+    "reason": "Xóa thông tin tội phạm hay sai phạm công chức có thể làm người dân gặp tội phạm tiếp diễn hoặc bầu ứng viên che giấu quá khứ: gây hại công cộng.",
+    "elimination": "Xâm phạm tự do, cắt giao tiếp và cản đoàn kết không bao quát chính xác hai ví dụ về an toàn và trách nhiệm trước xã hội."
+  },
+  "35-50": {
+    "reason": "Câu hỏi tu từ 'ai có thể chắc không dẫn đến bất hạnh?' thể hiện lo ngại tác dụng phụ khi thực thi.",
+    "elimination": "Không đồng cảm nạn nhân cụ thể đã chịu luật; không phân tích thủ tục làm luật hay thất bại ở nước ngoài, mà cảnh báo hậu quả giả định."
+  },
+  "36-48": {
+    "reason": "Sau khi phê bình kỳ vọng lợi ích tự chảy xuống, tác giả đánh giá chính sách tăng trưởng dựa thu nhập là đúng lúc: mục đích ủng hộ chính sách mới.",
+    "elimination": "Giải thích hiệu ứng hay ví dụ thành công trước kia chỉ làm nền; không đơn thuần yêu cầu hỗ trợ mới vì bài đang tán thành chính sách đã công bố trong ngữ cảnh đề."
+  },
+  "36-49": {
+    "reason": "Một số nước từng tăng trưởng cao và đồng thời giảm bất bình đẳng, là ví dụ thừa nhận khả năng hiệu ứng chảy xuống trong quá khứ.",
+    "elimination": "Phân phối đa dạng hay giảm thuế không được nhắc; 'tăng trưởng và phân phối hài hòa' lặp kết quả giảm bất bình đẳng thay vì nêu bước tăng trưởng làm tiền đề."
+  },
+  "36-50": {
+    "reason": "Tác giả cho rằng cấu trúc do doanh nghiệp lớn dẫn dắt khiến thành quả tập trung, nên phân phối theo tăng trưởng như kỳ vọng trước khó thực hiện.",
+    "elimination": "Không giả định vấn đề đã giải quyết, không liệt kê nhiều biện pháp và không dự báo tăng trưởng giảm vì đổi chính sách; đó là phê bình cơ chế phân phối tự động."
+  },
+  "37-48": {
+    "reason": "Tác giả kêu gọi chuyển từ đồng nhất sang coi trọng khác biệt phù hợp thời đại toàn cầu, tức thay đổi hệ giá trị theo thời đại.",
+    "elimination": "Xung đột và lịch sử phát triển là nền lập luận, không chỉ tố cáo hay mô tả. Các câu 'phải tìm giá trị' và 'đã đến lúc' thể hiện mục đích thuyết phục thay đổi."
+  },
+  "37-49": {
+    "reason": "Nhấn mạnh đồng nhất dễ làm tăng thù địch với khác biệt, dẫn xung đột vũ trang và loại trừ người khác.",
+    "elimination": "Quan tâm đối phương, mong tự lập hoặc ám ảnh tính khác biệt không trực tiếp tạo quan hệ nguyên nhân loại trừ mà câu sau nhấn mạnh."
+  },
+  "37-50": {
+    "reason": "Phần cảnh báo 배격 và 불행 nói hậu quả tiêu cực khi quá đề cao đồng nhất; tác giả lo việc này gây tai họa toàn cầu.",
+    "elimination": "Không lo sự cùng tồn tại của cái khác, trái lại coi đó là sáng tạo; không giả định khác biệt đã biến mất; chỉ trăn trở hiện trạng đồng dạng bỏ mất sắc thái cảnh báo hệ quả."
+  },
+  "41-48": {
+    "reason": "Tác giả đề nghị nguyên tắc giải quyết xung đột được mọi thành viên đồng thuận, rồi nêu tự chủ, lợi ích đôi bên và lợi ích toàn dân.",
+    "elimination": "Mô tả nhiều xung đột chỉ mở bài; lợi ích đôi bên chỉ một nguyên tắc; sự ủng hộ được nói là của người dân, không phải yêu cầu một phương án được nhà nước bảo trợ."
+  },
+  "41-49": {
+    "reason": "자율적으로 được giải thích ngay bằng đối thoại và thương lượng tự do giữa các bên, nghĩa là tự chủ giải quyết.",
+    "elimination": "Trung lập là không thiên vị, độc đáo và sáng tạo là tính mới; chúng không đồng nghĩa việc các bên tự do đối thoại để xử lý tranh chấp."
+  },
+  "41-50": {
+    "reason": "Tác giả thừa nhận xung đột nếu được thỏa hiệp hợp lý có thể trở thành động lực đoàn kết xã hội, một mặt tích cực.",
+    "elimination": "Không cảnh giác với mọi sự phát sinh, không hoài nghi thỏa hiệp và không chỉ đồng cảm khó khăn; điều kiện hợp lý dẫn kết quả có lợi."
+  },
+  "47-48": {
+    "reason": "Ví dụ Inju học mô hình Silicon Valley nhưng điều chỉnh theo địa phương dẫn tới lời kêu gọi mỗi nơi tạo môi trường phù hợp điều kiện mình.",
+    "elimination": "Không chỉ phân tích Silicon Valley hoặc giới thiệu khu công nghệ; hỗ trợ doanh nghiệp là phương tiện, ý bao quát nhấn mạnh môi trường kinh tế phù hợp từng nơi."
+  },
+  "47-49": {
+    "reason": "Tài năng trẻ và ý tưởng đổi thế giới gắn với đổi mới sáng tạo; môi trường được mô tả là nơi tính sáng tạo có thể phát huy.",
+    "elimination": "Văn hóa, chấp nhận thất bại và hình thành vốn có thể liên quan ngoài đời, nhưng không là sợi chỉ trực tiếp nối 'ý tưởng', 'đổi mới kỹ thuật' và hoạt động doanh nghiệp trong đoạn."
+  },
+  "47-50": {
+    "reason": "Từ 고무적이다 cho thấy tác giả đánh giá tích cực các nỗ lực áp dụng mô hình nhằm thúc đẩy kinh tế.",
+    "elimination": "Không cảnh giác hay phê phán; lời khen nhắm các thử nghiệm phù hợp địa phương, không chỉ thán phục việc tìm mẫu thành công ở nước ngoài."
+  },
+  "52-48": {
+    "reason": "Bài chỉ ra đăng ký ồ ạt để giành độc quyền trước khi phát triển kỹ thuật làm hại nhà sáng chế thật, nhằm nêu vấn đề lạm dụng đăng ký bằng sáng chế.",
+    "elimination": "Giải thích thủ tục, khẳng định cần có bằng hay phân tích giá trị chung chỉ là nền, không chứa sự phản biện ở phần chính và kết luận."
+  },
+  "52-49": {
+    "reason": "Giành quyền trước rồi mới phát triển có nghĩa công nghệ chưa hoàn thiện tại lúc đăng ký, khớp đảo thứ tự mục đích bằng sáng chế.",
+    "elimination": "Bằng chưa hết hạn, đã được công nhận hay xác nhận khác biệt không giải thích khoảng cách giữa chiếm quyền và thực sự tạo ra công nghệ."
+  },
+  "52-50": {
+    "reason": "Phần gạch chân công nhận hệ thống bằng sáng chế đã góp lớn cho đổi mới và phát triển công nghiệp, là đánh giá tích cực trước khi phê bình lạm dụng.",
+    "elimination": "Không lo số đơn giảm; không bảo vệ độc quyền vô điều kiện; đề xuất sửa chính sách không phải thái độ của riêng câu đang được hỏi."
+  },
+  "60-48": {
+    "reason": "Tác giả ủng hộ ưu đãi nhưng chỉ ra điều kiện phòng nghiên cứu chuyên trách và công nghệ gốc trong nước có thể chỉ lợi cho doanh nghiệp lớn.",
+    "elimination": "Không giới thiệu ngành phù hợp hay chỉ ca ngợi nghiên cứu; cũng không cảnh báo hỗn loạn đầu tư chung. Trọng tâm là cần nới hoặc áp dụng dần điều kiện hỗ trợ."
+  },
+  "60-49": {
+    "reason": "Vì ưu đãi lớn, tác giả hiểu nhà nước muốn đặt giới hạn nhất định, rồi tuy nhiên đề nghị nới điều kiện để khuyến khích phát triển.",
+    "elimination": "Tăng cơ quan, mở rộng đối tượng và áp dụng từng bước không mô tả lập trường hạn chế hiện tại; phương án từng bước là đề xuất của tác giả ở cuối."
+  },
+  "60-50": {
+    "reason": "고무적인 일이다 đánh giá giảm thuế cho công nghệ tăng trưởng mới là điều đáng khích lệ; câu hỏi chỉ nhắm phần nhận xét tích cực này.",
+    "elimination": "Không nói tác động cơ cấu ngành hay đầu tư giảm; phê bình điều kiện ở phần sau không được thay thế thái độ của câu gạch chân."
+  },
+  "64-48": {
+    "reason": "Sau thừa nhận lợi ích, bài dự báo chồng chéo giữa cảnh sát địa phương và quốc gia làm giảm phản ứng hiệu quả, nhằm chỉ ra vấn đề có thể phát sinh.",
+    "elimination": "Không chỉ nhấn ý nghĩa, không đưa phương án cụ thể và không so yêu cầu cư dân với mục tiêu; phần lớn bài phân tích rủi ro vận hành."
+  },
+  "64-49": {
+    "reason": "Sự kiện không rõ thẩm quyền có thể khiến cùng xuất hiện hoặc đùn đẩy, tức xung đột và lẫn lộn công việc làm giảm chất lượng an ninh.",
+    "elimination": "Quá tải, giảm bố trí địa phương hay triển khai từng bước không phải nguyên nhân được kể; vấn đề là phân ranh nhiệm vụ không rõ trong cơ cấu kép."
+  },
+  "64-50": {
+    "reason": "Phần đầu kỳ vọng dịch vụ sát đời sống, phù hợp đặc trưng vùng sẽ có ích cho dân, nên thái độ là mong tác động tích cực.",
+    "elimination": "Không chỉ dự báo quan hệ trừu tượng; không đặt điều kiện bắt buộc cho dịch vụ và không lo ưu tiên lệch vùng. Cần tách thái độ đoạn gạch chân khỏi phê bình ở phần sau."
+  }
+}

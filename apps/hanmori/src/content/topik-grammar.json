@@ -1,0 +1,1186 @@
+[
+  {
+    "index": 1,
+    "pattern": "-(으)ㄴ 채(로)",
+    "meaning": "while~",
+    "example": "버스 안에서 앉은 채로 잠자버렸다.",
+    "translation": "I fell asleep while sitting on the bus.",
+    "page": 1
+  },
+  {
+    "index": 2,
+    "pattern": "-(으)ㄴ/는 걸 보니(까)",
+    "meaning": "since~",
+    "example": "돈을 많이 쓰는 걸 보니 부자인가 봐.",
+    "translation": "He must be rich since he is using a lot of money.",
+    "page": 1
+  },
+  {
+    "index": 3,
+    "pattern": "-(으)ㄴ/는 김에",
+    "meaning": "On the way~",
+    "example": "마트에 가는 김에 친정에도 갔다.",
+    "translation": "On the way to the supermarket, I visited my parent's house.",
+    "page": 1
+  },
+  {
+    "index": 4,
+    "pattern": "-(으)ㄴ/는 만큼",
+    "meaning": "as much as (doing sth.)",
+    "example": "웃는 만큼 인생은 행복해진다.",
+    "translation": "Life becomes more fun as much as you laugh.",
+    "page": 1
+  },
+  {
+    "index": 5,
+    "pattern": "-(으)ㄴ/는 반면(에)",
+    "meaning": "Although ~",
+    "example": "택시는 편리한 반면에 지하철보다 비싸다.",
+    "translation": "Although a taxi is convenient, it is more expensive than a subway.",
+    "page": 1
+  },
+  {
+    "index": 6,
+    "pattern": "-(으)ㄴ/는 법이다",
+    "meaning": "(It) will~",
+    "example": "계속 노력한다면 개선되는 법이다.",
+    "translation": "If you keep making an effort, you will get better.",
+    "page": 1
+  },
+  {
+    "index": 7,
+    "pattern": "-(으)ㄴ/는 탓에",
+    "meaning": "Because~ (negative)",
+    "example": "운동 안 한 탓에 살이 많이 쪘어요.",
+    "translation": "Because I did not work out, I gained a lot of weight.",
+    "page": 1
+  },
+  {
+    "index": 8,
+    "pattern": "-(으)ㄴ/는/(으)ㄹ 모양이다",
+    "meaning": "seems like~",
+    "example": "비가 오는 모양이다.",
+    "translation": "It seems like it is raining.",
+    "page": 1
+  },
+  {
+    "index": 9,
+    "pattern": "-(으)ㄴ/는/(으)ㄹ 셈이다",
+    "meaning": "going to do~",
+    "example": "어떻게 할 셈이야?",
+    "translation": "What are you going to do?",
+    "page": 1
+  },
+  {
+    "index": 10,
+    "pattern": "-(으)ㄴ/는/(으)ㄹ 줄 몰랐다",
+    "meaning": "did not know~",
+    "example": "공무원 시험에 합격할 줄 몰랐다.",
+    "translation": "I did not know that I passed the civil servant examination.",
+    "page": 1
+  },
+  {
+    "index": 11,
+    "pattern": "-(으)ㄴ/는/(으)ㄹ 줄 알았다",
+    "meaning": "thought~",
+    "example": "아저씨는 연예인이 된 줄 알았는데.",
+    "translation": "I thought he became a celebrity.",
+    "page": 1
+  },
+  {
+    "index": 12,
+    "pattern": "-(으)ㄴ/는/(으)ㄹ지",
+    "meaning": "what/who/where~",
+    "example": "지갑을 어디서 잃어버렸는지 모르겠다.",
+    "translation": "I don't know where I lost my wallet.",
+    "page": 1
+  },
+  {
+    "index": 13,
+    "pattern": "-(으)ㄴ/는걸(요)",
+    "meaning": "~ though.",
+    "example": "아직 졸린걸요.",
+    "translation": "I am still sleepy though.",
+    "page": 1
+  },
+  {
+    "index": 14,
+    "pattern": "-(으)ㄴ/는데(요)",
+    "meaning": "But ~",
+    "example": "이 요리는 생각보다 맛있는데요.",
+    "translation": "But this dish is more delicious than I thought.",
+    "page": 1
+  },
+  {
+    "index": 15,
+    "pattern": "-(으)ㄴ/는들",
+    "meaning": "Even if~",
+    "example": "내가 간들 소용없다.",
+    "translation": "Even if I go, it won't help much.",
+    "page": 1
+  },
+  {
+    "index": 16,
+    "pattern": "-(으)ㄴ가 보다",
+    "meaning": "assume ~",
+    "example": "그 사람은 선생님인가 봐요.",
+    "translation": "I assume he is a teacher.",
+    "page": 1
+  },
+  {
+    "index": 17,
+    "pattern": "-(으)ㄴ가(요)?",
+    "meaning": "Is ~?",
+    "example": "여자 친구는 예쁜가요?",
+    "translation": "Is your girlfriend pretty?",
+    "page": 1
+  },
+  {
+    "index": 18,
+    "pattern": "-(으)나 마나",
+    "meaning": "no use to-",
+    "example": "길을 물어보나 마나예요.",
+    "translation": "It is no use to ask him the direction.",
+    "page": 1
+  },
+  {
+    "index": 19,
+    "pattern": "-(으)니까(요)",
+    "meaning": "Because~ (neutral)",
+    "example": "열심히 공부하니까 성적이 우수하다.",
+    "translation": "Because he studies hard, his grades are excellent.",
+    "page": 1
+  },
+  {
+    "index": 20,
+    "pattern": "-(으)니만큼",
+    "meaning": "As~",
+    "example": "노력하니만큼 결과가 기대된다.",
+    "translation": "As I tried hard, I am looking forward to the result.",
+    "page": 1
+  },
+  {
+    "index": 21,
+    "pattern": "-(으)ㄹ 겸 (해서)",
+    "meaning": "And also",
+    "example": "그에게 사과할 겸 해서 편지를 썼어요.",
+    "translation": "I wrote a letter and also apologize.",
+    "page": 1
+  },
+  {
+    "index": 22,
+    "pattern": "-(으)ㄹ 리가 없다",
+    "meaning": "There is no way~",
+    "example": "돈이 부족할 리가 없어요.",
+    "translation": "There is no way the money is not enough.",
+    "page": 1
+  },
+  {
+    "index": 23,
+    "pattern": "-(으)ㄹ 만하다",
+    "meaning": "It is worth~",
+    "example": "타개책을 시도할 만합니다.",
+    "translation": "It is worth attempting a breakthrough.",
+    "page": 1
+  },
+  {
+    "index": 24,
+    "pattern": "-(으)ㄹ 뻔하다",
+    "meaning": "almost ~",
+    "example": "과음해서 의식을 잃어버릴 뻔했어요.",
+    "translation": "I almost lost consciousness from overdrinking.",
+    "page": 1
+  },
+  {
+    "index": 25,
+    "pattern": "-(으)ㄹ 뿐만 아니라",
+    "meaning": "not only",
+    "example": "그 애기는 걸을 뿐만 아니라 잘 달린다.",
+    "translation": "That baby not only walks well but also runs well.",
+    "page": 1
+  },
+  {
+    "index": 26,
+    "pattern": "-(으)ㄹ 뿐이다",
+    "meaning": "just~",
+    "example": "국적이 다를 뿐이지 같은 인간이에요.",
+    "translation": "We just have different nationalities, but we're the same human beings.",
+    "page": 1
+  },
+  {
+    "index": 27,
+    "pattern": "-(으)ㄹ 수밖에 (없다)",
+    "meaning": "no other choice than~",
+    "example": "시간이 없으니까 뛰어갈 수밖에 없다.",
+    "translation": "We don't have much time, so there is no other choice than running.",
+    "page": 1
+  },
+  {
+    "index": 28,
+    "pattern": "-(으)ㄹ 정도(로)",
+    "meaning": "(verb)ingly",
+    "example": "놀라울 정도로 크게 외쳤다.",
+    "translation": "He shouted surprisingly loud.",
+    "page": 1
+  },
+  {
+    "index": 29,
+    "pattern": "-(으)ㄹ 지경이다",
+    "meaning": "almost~",
+    "example": "그녀가 화낼 지경이에요.",
+    "translation": "She's almost mad.",
+    "page": 1
+  },
+  {
+    "index": 30,
+    "pattern": "-(으)ㄹ 테니(까)",
+    "meaning": "will~ so~",
+    "example": "빨래를 널 테니까 애기를 봐줘.",
+    "translation": "I will dry the laundry, so please look after the child.",
+    "page": 1
+  },
+  {
+    "index": 31,
+    "pattern": "-(으)ㄹ 텐데",
+    "meaning": "should be~",
+    "example": "거기에 있을 텐데.",
+    "translation": "It should be there.",
+    "page": 1
+  },
+  {
+    "index": 32,
+    "pattern": "-(으)ㄹ걸 (그랬다)",
+    "meaning": "should have~",
+    "example": "우산 가져올 걸.",
+    "translation": "I should have brought an umbrella.",
+    "page": 1
+  },
+  {
+    "index": 33,
+    "pattern": "-(으)ㄹ까 말까",
+    "meaning": "whether~ or not",
+    "example": "길을 건널까 말까 고민했다.",
+    "translation": "I wondered whether I should cross the street or not.",
+    "page": 1
+  },
+  {
+    "index": 34,
+    "pattern": "-(으)ㄹ수록",
+    "meaning": "(adj.)er as~",
+    "example": "가면 갈수록 그 산길은 힘들어져요.",
+    "translation": "The mountain road is getting harder as you go further.",
+    "page": 2
+  },
+  {
+    "index": 35,
+    "pattern": "-(으)ㄹ지(도) 모르다",
+    "meaning": "don't know~",
+    "example": "어떻게 편집해야할지 잘 모르겠어요.",
+    "translation": "I don't know how I should edit it.",
+    "page": 2
+  },
+  {
+    "index": 36,
+    "pattern": "-(으)ㄹ지라도",
+    "meaning": "no matter~",
+    "example": "아무리 어려울지라도 저는 해냅니다.",
+    "translation": "No matter how tough it is, I will complete it.",
+    "page": 2
+  },
+  {
+    "index": 37,
+    "pattern": "-(으)라고 하다",
+    "meaning": "told me to~",
+    "example": "아버지가 빨리 손을 씻으라고 했어요.",
+    "translation": "Dad told me to wash my hands quickly.",
+    "page": 2
+  },
+  {
+    "index": 38,
+    "pattern": "-(으)려다가",
+    "meaning": "is about to~",
+    "example": "외출하려다가 누나가 찾아왔다.",
+    "translation": "When I was about to go out, my sister came in.",
+    "page": 2
+  },
+  {
+    "index": 39,
+    "pattern": "-(으)려던 참이다",
+    "meaning": "is about to",
+    "example": "학교에 가려던 참이에요.",
+    "translation": "I was about to go to school.",
+    "page": 2
+  },
+  {
+    "index": 40,
+    "pattern": "-(으)려면",
+    "meaning": "in order to~",
+    "example": "기념사진을 찍으려면 배경은 아름다워야한다.",
+    "translation": "In order to take a memorial picture, the background has to be beautiful.",
+    "page": 2
+  },
+  {
+    "index": 41,
+    "pattern": "-(으)로 인해(서)",
+    "meaning": "due to~",
+    "example": "그 이야기는 인터넷으로 인해 확산되었다.",
+    "translation": "The story is widespread due to the Internet.",
+    "page": 2
+  },
+  {
+    "index": 42,
+    "pattern": "-(으)로서",
+    "meaning": "as a~",
+    "example": "선배로서 충고 하나 할게.",
+    "translation": "Let me give you some advice as a senior.",
+    "page": 2
+  },
+  {
+    "index": 43,
+    "pattern": "-(으)며",
+    "meaning": "and~",
+    "example": "내 남자친구는 피아노도 잘 치며 노래도 잘한다.",
+    "translation": "My boyfriend is good at playing piano and singing.",
+    "page": 2
+  },
+  {
+    "index": 44,
+    "pattern": "-(으)면 되다",
+    "meaning": "should be okay~",
+    "example": "웹사이트에서 접수하시면 됩니다.",
+    "translation": "It should be okay if you apply on the website.",
+    "page": 2
+  },
+  {
+    "index": 45,
+    "pattern": "-(으)므로",
+    "meaning": "as (sub.) needs to~",
+    "example": "아침 일찍 일어나야 하므로 이제 잡니다.",
+    "translation": "As I need to wake up early in the morning, I am going to sleep now.",
+    "page": 2
+  },
+  {
+    "index": 46,
+    "pattern": "-(이)나 -(이)나 할 것 없이",
+    "meaning": "regardless of~",
+    "example": "아이나 어른이나 할 것 없이 건강은 중요하다.",
+    "translation": "Regardless of whether you are a child or an adult, health is important.",
+    "page": 2
+  },
+  {
+    "index": 47,
+    "pattern": "-거든",
+    "meaning": "because",
+    "example": "어려보여도 제가 상사거든요.",
+    "translation": "Because I am your boss even though I look young.",
+    "page": 2
+  },
+  {
+    "index": 48,
+    "pattern": "-게 하다",
+    "meaning": "makes~",
+    "example": "동생은 나를 짜증나게 한다.",
+    "translation": "My younger brother makes me annoyed.",
+    "page": 2
+  },
+  {
+    "index": 49,
+    "pattern": "-고 나니(까)",
+    "meaning": "after~",
+    "example": "푹 쉬고 나니 열이 내려갔어요.",
+    "translation": "After resting well, the fever got better.",
+    "page": 2
+  },
+  {
+    "index": 50,
+    "pattern": "-고 나면",
+    "meaning": "after~",
+    "example": "청소하고 나면 기분이 상쾌해진다.",
+    "translation": "After cleaning the house, I feel refreshed.",
+    "page": 2
+  },
+  {
+    "index": 51,
+    "pattern": "-고 나서",
+    "meaning": "after~",
+    "example": "이메일 먼저 확인하고 나서 연락드릴게요.",
+    "translation": "After checking the e-mail first, I will contact with you.",
+    "page": 2
+  },
+  {
+    "index": 52,
+    "pattern": "-고 말고(요)",
+    "meaning": "of course~",
+    "example": "한국여행은 재미있고 말고요.",
+    "translation": "Of course, traveling to Korea is fun.",
+    "page": 2
+  },
+  {
+    "index": 53,
+    "pattern": "-고 말다",
+    "meaning": "ended up~",
+    "example": "밤늦게까지 게임하고 말았어요.",
+    "translation": "I ended up playing a game until late at night.",
+    "page": 2
+  },
+  {
+    "index": 54,
+    "pattern": "-고 보면",
+    "meaning": "actually~ once~",
+    "example": "배우고 보면 한국어는 쉬워요.",
+    "translation": "Korean is actually easy to learn once you start learning.",
+    "page": 2
+  },
+  {
+    "index": 55,
+    "pattern": "-곤 하다",
+    "meaning": "used to often~",
+    "example": "우리는 분식점 앞에서 만나곤 했다.",
+    "translation": "We used to meet often in front of the cafeteria.",
+    "page": 2
+  },
+  {
+    "index": 56,
+    "pattern": "-기 쉽다",
+    "meaning": "easy to~",
+    "example": "저 선생님의 수업은 이해하기 쉬워요.",
+    "translation": "That teacher's class is easy to understand.",
+    "page": 2
+  },
+  {
+    "index": 57,
+    "pattern": "-기 십상이다",
+    "meaning": "tend to~",
+    "example": "젊은 운전자는 실수하기 십상이다.",
+    "translation": "Young drivers tend to make mistakes.",
+    "page": 2
+  },
+  {
+    "index": 58,
+    "pattern": "-기 어렵다",
+    "meaning": "difficult to~",
+    "example": "작은 신발로는 걷기 어렵다.",
+    "translation": "It is difficult to walk in small shoes.",
+    "page": 2
+  },
+  {
+    "index": 59,
+    "pattern": "-기 위해(서)",
+    "meaning": "to~",
+    "example": "문제를 해결하기 위해서 다같이 모였다.",
+    "translation": "We gathered together to resolve the issue.",
+    "page": 2
+  },
+  {
+    "index": 60,
+    "pattern": "-기/게 마련이다",
+    "meaning": "will~",
+    "example": "준비 안 하면 후회하기 마련이다.",
+    "translation": "If you don't prepare, you will regret it.",
+    "page": 2
+  },
+  {
+    "index": 61,
+    "pattern": "-기는 하지만",
+    "meaning": "but~",
+    "example": "한국어는 어렵기는 하지만 재미도 있어요.",
+    "translation": "Korean is difficult but fun to learn.",
+    "page": 2
+  },
+  {
+    "index": 62,
+    "pattern": "-기는(요)",
+    "meaning": "no need to~",
+    "example": "고맙기는요. 별말씀을요.",
+    "translation": "No need to thank me. (No problem.)",
+    "page": 2
+  },
+  {
+    "index": 63,
+    "pattern": "-기만 하면 (되다)",
+    "meaning": "as long as~",
+    "example": "단어를 외우기만 하면 100점이다.",
+    "translation": "As long as you memorize the vocabulary, you will get a full score.",
+    "page": 2
+  },
+  {
+    "index": 64,
+    "pattern": "-기에(는)",
+    "meaning": "not good for~",
+    "example": "축구하기에는 날씨가 안 좋아요.",
+    "translation": "The weather is not good for playing soccer.",
+    "page": 2
+  },
+  {
+    "index": 65,
+    "pattern": "-길래",
+    "meaning": "since~",
+    "example": "남편이 레스토랑에 안 오길래 난 바람맞은 줄 알았다.",
+    "translation": "Since my husband did not come to a restaurant, I thought he cancel the plan at the last minute.",
+    "page": 2
+  },
+  {
+    "index": 66,
+    "pattern": "-ㄴ/는 척하다",
+    "meaning": "pretend to~",
+    "example": "그 후배는 착한 척한다.",
+    "translation": "He is pretending to be nice.",
+    "page": 2
+  },
+  {
+    "index": 67,
+    "pattern": "-ㄴ/는다",
+    "meaning": "is~",
+    "example": "후식에 딸기를 먹는다.",
+    "translation": "I am eating strawberries for dessert.",
+    "page": 3
+  },
+  {
+    "index": 68,
+    "pattern": "-ㄴ/는다거나",
+    "meaning": "or~",
+    "example": "독서한다거나 영화를 보러 간다.",
+    "translation": "I read some books or go watch a movie.",
+    "page": 3
+  },
+  {
+    "index": 69,
+    "pattern": "-ㄴ/는다고 치다",
+    "meaning": "if~",
+    "example": "일본에 간다고 치면 어디로 갈까요?",
+    "translation": "If I go to Japan, where should I visit?",
+    "page": 3
+  },
+  {
+    "index": 70,
+    "pattern": "-ㄴ/는다고 하다",
+    "meaning": "say~",
+    "example": "제 친구는 병원에 안 다닌다고 했어요.",
+    "translation": "My friend said that he didn't go to the hospital.",
+    "page": 3
+  },
+  {
+    "index": 71,
+    "pattern": "-ㄴ/는다고 해도",
+    "meaning": "even if~",
+    "example": "금연한다고 해도 잘 안 된다.",
+    "translation": "Even if I am trying to quit smoking, it is difficult.",
+    "page": 3
+  },
+  {
+    "index": 72,
+    "pattern": "-ㄴ/는다고(요)",
+    "meaning": "seems like~",
+    "example": "내일은 비가 온다고 해요.",
+    "translation": "It seems like tomorrow is going to rain.",
+    "page": 3
+  },
+  {
+    "index": 73,
+    "pattern": "-ㄴ/는다니",
+    "meaning": "that~",
+    "example": "5개국어를 한다니 대단합니다.",
+    "translation": "It's amazing that you can speak 5 languages.",
+    "page": 3
+  },
+  {
+    "index": 74,
+    "pattern": "-ㄴ/는다니까",
+    "meaning": "I'm telling you~",
+    "example": "아무리 이유를 설명해도 화를 낸다니까.",
+    "translation": "I'm telling you no matter how many times I explain the reason, he is still angry.",
+    "page": 3
+  },
+  {
+    "index": 75,
+    "pattern": "-ㄴ/는다더니",
+    "meaning": "but~",
+    "example": "우리 남편은 일찍 돌아온다더니 아직도 집에 안 왔다.",
+    "translation": "My husband said he will be back soon, but he was still not home.",
+    "page": 3
+  },
+  {
+    "index": 76,
+    "pattern": "-ㄴ/는다더라",
+    "meaning": "seems like~",
+    "example": "내일은 눈이 온다더라.",
+    "translation": "It seems like tomorrow is going to snow.",
+    "page": 3
+  },
+  {
+    "index": 77,
+    "pattern": "-ㄴ/는다던데",
+    "meaning": "heard~",
+    "example": "잘 생겼다던데 정말이야?",
+    "translation": "I heard he is handsome, is that true?",
+    "page": 3
+  },
+  {
+    "index": 78,
+    "pattern": "-ㄴ/는다면",
+    "meaning": "if~",
+    "example": "운동선수가 되고 싶다면 전문학원에 등록해야 돼.",
+    "translation": "If you want to be an athlete, you need to register for a professional academy.",
+    "page": 3
+  },
+  {
+    "index": 79,
+    "pattern": "-ㄴ/는다면서(요)?",
+    "meaning": "heard~",
+    "example": "너 영어 잘한다면서?",
+    "translation": "I heard you are good at English?",
+    "page": 3
+  },
+  {
+    "index": 80,
+    "pattern": "-나 보다",
+    "meaning": "seem to~",
+    "example": "둘이 사귀나 보다.",
+    "translation": "They seem to be dating.",
+    "page": 3
+  },
+  {
+    "index": 81,
+    "pattern": "-나(요)?",
+    "meaning": "is it?",
+    "example": "여기서 타면 되나?",
+    "translation": "Is it here where we ride?",
+    "page": 3
+  },
+  {
+    "index": 82,
+    "pattern": "-냐고 하다",
+    "meaning": "ask",
+    "example": "엄마가 시험은 언제냐고 저한테 물어봤어요.",
+    "translation": "My mom asked me when the exam was.",
+    "page": 3
+  },
+  {
+    "index": 83,
+    "pattern": "-느라고",
+    "meaning": "for~",
+    "example": "숙제하느라고 삼촌을 만날 시간이 없었다.",
+    "translation": "I was busy with homework that I didn't have time to meet my uncle.",
+    "page": 3
+  },
+  {
+    "index": 84,
+    "pattern": "-는 (도)중에",
+    "meaning": "in the middle of~",
+    "example": "연기하는 중에 기침해버렸다.",
+    "translation": "I accidentally coughed when I was in the middle of acting.",
+    "page": 3
+  },
+  {
+    "index": 85,
+    "pattern": "-는 길에",
+    "meaning": "on the way~",
+    "example": "집에 가는 길에 빵을 사 왔어요.",
+    "translation": "I bought bread on my way home.",
+    "page": 3
+  },
+  {
+    "index": 86,
+    "pattern": "-는 대로",
+    "meaning": "as~",
+    "example": "바라는 대로 이루어진다.",
+    "translation": "You can become as you wish.",
+    "page": 3
+  },
+  {
+    "index": 87,
+    "pattern": "-는 대신(에)",
+    "meaning": "instead of~",
+    "example": "술을 마시는 대신에 녹차를 마시자.",
+    "translation": "Let's drink green tea instead of alcohol.",
+    "page": 3
+  },
+  {
+    "index": 88,
+    "pattern": "-는 덕분에",
+    "meaning": "thanks to~",
+    "example": "버스가 늦게 온 덕분에 탈 수 있었다.",
+    "translation": "I was able to ride the bus thanks to the fact that it was delayed.",
+    "page": 3
+  },
+  {
+    "index": 89,
+    "pattern": "-는 바람에",
+    "meaning": "because~",
+    "example": "공부를 안 하는 바람에 성적이 떨어졌어요.",
+    "translation": "My grade dropped because I did not study.",
+    "page": 3
+  },
+  {
+    "index": 90,
+    "pattern": "-는 사이에",
+    "meaning": "when~",
+    "example": "제가 없는 사이에 택배가 오면 받아주세요.",
+    "translation": "If the delivery comes when I am not home, please take it for me.",
+    "page": 3
+  },
+  {
+    "index": 91,
+    "pattern": "-는 셈 치다",
+    "meaning": "considering~",
+    "example": "연습하는 셈 치고 오디션에 간다.",
+    "translation": "I take auditions considering them as practices.",
+    "page": 3
+  },
+  {
+    "index": 92,
+    "pattern": "-는 수(가) 있다",
+    "meaning": "can~",
+    "example": "전문가라고 해도 실패하는 수가 있어요.",
+    "translation": "Even an expert can fail.",
+    "page": 3
+  },
+  {
+    "index": 93,
+    "pattern": "-는 수밖에 (없다)",
+    "meaning": "no other choice than~",
+    "example": "가족으로부터 돈을 빌리는 수밖에 없다.",
+    "translation": "There is no other choice than to borrow money from my family.",
+    "page": 3
+  },
+  {
+    "index": 94,
+    "pattern": "-는 중이다",
+    "meaning": "on the way~",
+    "example": "지금 직장에 가는 중이에요.",
+    "translation": "I am on the way going to my office.",
+    "page": 3
+  },
+  {
+    "index": 95,
+    "pattern": "-는 통에",
+    "meaning": "because~",
+    "example": "아이들이 떠드는 통에 집중할 수 없었어요.",
+    "translation": "I was not able to concentrate because the children were too noisy.",
+    "page": 3
+  },
+  {
+    "index": 96,
+    "pattern": "-는 편이다",
+    "meaning": "tend to~",
+    "example": "저는 돈을 아끼는 편이에요.",
+    "translation": "I tend to save money.",
+    "page": 3
+  },
+  {
+    "index": 97,
+    "pattern": "-는 한",
+    "meaning": "as far as~",
+    "example": "내가 아는 한 그것은 사실이에요.",
+    "translation": "As far as I know, it is true.",
+    "page": 3
+  },
+  {
+    "index": 98,
+    "pattern": "-는 한편",
+    "meaning": "also~",
+    "example": "회사에 다니는 한편 부업도 한다.",
+    "translation": "I am working at a company and also doing a side job.",
+    "page": 3
+  },
+  {
+    "index": 99,
+    "pattern": "-는/은커녕",
+    "meaning": "even~",
+    "example": "술은커녕 차도 못 마셨어요.",
+    "translation": "I could not drink alcohol, not even tea.",
+    "page": 3
+  },
+  {
+    "index": 100,
+    "pattern": "-는구나",
+    "meaning": "I see~",
+    "example": "이 애기는 벌써 걷는구나.",
+    "translation": "The baby is already walking.",
+    "page": 4
+  },
+  {
+    "index": 101,
+    "pattern": "-니/냐?",
+    "meaning": "do you~?",
+    "example": "기분 나쁘니?",
+    "translation": "Do you feel uncomfortable?",
+    "page": 4
+  },
+  {
+    "index": 102,
+    "pattern": "-다(가) 보니(까)",
+    "meaning": "while focusing~ already~",
+    "example": "작업하다 보니까 새벽이 됐어요.",
+    "translation": "While I was focusing on my work, it was already morning.",
+    "page": 4
+  },
+  {
+    "index": 103,
+    "pattern": "-다(가) 보면",
+    "meaning": "when focusing~",
+    "example": "심호흡하다 보면 마음이 차분해집니다.",
+    "translation": "When you focus on breathing deeply, you will feel calmer.",
+    "page": 4
+  },
+  {
+    "index": 104,
+    "pattern": "-다가",
+    "meaning": "while~",
+    "example": "스마트폰을 사용하다가 모르면 물어보세요.",
+    "translation": "When you don't know something while using a smartphone, please come and ask.",
+    "page": 4
+  },
+  {
+    "index": 105,
+    "pattern": "-다시피",
+    "meaning": "as~",
+    "example": "보다시피 요즘 직장인들은 바빠요.",
+    "translation": "As you can see, employees these days are busy.",
+    "page": 4
+  },
+  {
+    "index": 106,
+    "pattern": "-대로",
+    "meaning": "as~",
+    "example": "교수님의 말씀대로 하자.",
+    "translation": "Let's do as the professor told us.",
+    "page": 4
+  },
+  {
+    "index": 107,
+    "pattern": "-더군(요)",
+    "meaning": "I heard~",
+    "example": "따님에게 귀여운 이름을 지었더군요.",
+    "translation": "I heard that you have given your daughter a very cute name.",
+    "page": 4
+  },
+  {
+    "index": 108,
+    "pattern": "-더니",
+    "meaning": "~and then",
+    "example": "강의에 늦었더니 강사님이 야단치셨다.",
+    "translation": "I was late for class and then the teacher scolded me.",
+    "page": 4
+  },
+  {
+    "index": 109,
+    "pattern": "-더라",
+    "meaning": "I heard~",
+    "example": "그 남자는 경찰에 잡혔더라.",
+    "translation": "I heard the guy was caught by the police.",
+    "page": 4
+  },
+  {
+    "index": 110,
+    "pattern": "-더라고(요)",
+    "meaning": "was~",
+    "example": "서울은 도쿄보다 춥더라고요.",
+    "translation": "Seoul was colder than Tokyo.",
+    "page": 4
+  },
+  {
+    "index": 111,
+    "pattern": "-더라도",
+    "meaning": "even~",
+    "example": "힘겨운 일이 있더라도 참는다.",
+    "translation": "I endure even when I am having a hard time.",
+    "page": 4
+  },
+  {
+    "index": 112,
+    "pattern": "-던",
+    "meaning": "used to~",
+    "example": "내가 다니던 중학교는 지금은 없어요.",
+    "translation": "The middle school I used to go to is not there anymore.",
+    "page": 4
+  },
+  {
+    "index": 113,
+    "pattern": "-던가(요)?",
+    "meaning": "Is~?",
+    "example": "오늘 결혼기념일이던가?",
+    "translation": "Is today our wedding anniversary?",
+    "page": 4
+  },
+  {
+    "index": 114,
+    "pattern": "-던데",
+    "meaning": "I found (that)",
+    "example": "길이 막히던데 사고라도 났나?",
+    "translation": "I found a traffic jam. Was there an accident?",
+    "page": 4
+  },
+  {
+    "index": 115,
+    "pattern": "-도록",
+    "meaning": "so that~",
+    "example": "이 은혜를 갚도록 항상 최선을 다하겠습니다.",
+    "translation": "I will try my best to return this favor.",
+    "page": 4
+  },
+  {
+    "index": 116,
+    "pattern": "-든지",
+    "meaning": "no matter~",
+    "example": "좋든지 싫든지 수능 봐야 한다.",
+    "translation": "No matter I wish or not, I need to take the university entrance examination.",
+    "page": 4
+  },
+  {
+    "index": 117,
+    "pattern": "-듯이",
+    "meaning": "like~",
+    "example": "미친 듯이 춤췄다.",
+    "translation": "I danced like a crazy person.",
+    "page": 4
+  },
+  {
+    "index": 118,
+    "pattern": "(이)라도",
+    "meaning": "rather~",
+    "example": "이 문제지라도 풀어볼래요?",
+    "translation": "Would you like to rather solve this problem?",
+    "page": 4
+  },
+  {
+    "index": 119,
+    "pattern": "-만 못하다",
+    "meaning": "not as~",
+    "example": "중고는 신제품만 못해요.",
+    "translation": "Second-hand is not as good as a new product.",
+    "page": 4
+  },
+  {
+    "index": 120,
+    "pattern": "-아/어 보이다",
+    "meaning": "seem~",
+    "example": "얼굴표정이 어제보다 밝아 보여요.",
+    "translation": "You seem to feel better than yesterday.",
+    "page": 4
+  },
+  {
+    "index": 121,
+    "pattern": "-아/어서 그런지",
+    "meaning": "probably becase~",
+    "example": "나이가 들어서 그런지 몸이 예전같지 않다.",
+    "translation": "I feel not as strong as before probably because I am getting old.",
+    "page": 4
+  },
+  {
+    "index": 122,
+    "pattern": "-아/어도",
+    "meaning": "even~",
+    "example": "설명 들어도 이해 못 하겠어요.",
+    "translation": "I can't understand even after listening to the explanation.",
+    "page": 4
+  },
+  {
+    "index": 123,
+    "pattern": "-아/어라",
+    "meaning": "please~",
+    "example": "공을 던져라.",
+    "translation": "Please throw the ball.",
+    "page": 4
+  },
+  {
+    "index": 124,
+    "pattern": "-아/어야",
+    "meaning": "when~",
+    "example": "술자리에는 친한 친구가 있어야 재미있다.",
+    "translation": "Drinking is fun when you have a close friend.",
+    "page": 4
+  },
+  {
+    "index": 125,
+    "pattern": "-아/어야지",
+    "meaning": "should~",
+    "example": "일찍 결혼해야지.",
+    "translation": "You should marry quickly.",
+    "page": 4
+  },
+  {
+    "index": 126,
+    "pattern": "-아/어지다",
+    "meaning": "becoming~",
+    "example": "인터넷으로 세계는 가까워지고 있어요.",
+    "translation": "The world is becoming closer through the Internet.",
+    "page": 4
+  },
+  {
+    "index": 127,
+    "pattern": "-았/었더라면",
+    "meaning": "would have~",
+    "example": "은행에서 돈을 찾았더라면 좋았을 텐데.",
+    "translation": "It would have been better if I withdrew the money from a bank.",
+    "page": 4
+  },
+  {
+    "index": 128,
+    "pattern": "-았/었던 것 같다",
+    "meaning": "think~",
+    "example": "걔는 취업했던 것 같다.",
+    "translation": "I think he got a job.",
+    "page": 4
+  },
+  {
+    "index": 129,
+    "pattern": "-았/었으면 하다",
+    "meaning": "wish~",
+    "example": "점심은 라면이었으면 해.",
+    "translation": "I wish the lunch menu is ramen.",
+    "page": 4
+  },
+  {
+    "index": 130,
+    "pattern": "(이)야말로",
+    "meaning": "the~",
+    "example": "지금이야말로 역사적인 순간입니다.",
+    "translation": "This is the historical moment.",
+    "page": 4
+  },
+  {
+    "index": 131,
+    "pattern": "-에 관해(서)",
+    "meaning": "about~",
+    "example": "인기 가수에 관해서 새로운 뉴스가 나왔어요.",
+    "translation": "The latest news about a famous singer got released.",
+    "page": 4
+  },
+  {
+    "index": 132,
+    "pattern": "-에 대해(서)",
+    "meaning": "to~",
+    "example": "부부는 서로에 대해서 배려해야 한다.",
+    "translation": "Married couples have to show respect to each other.",
+    "page": 4
+  },
+  {
+    "index": 133,
+    "pattern": "-에 따라(서)",
+    "meaning": "depending on~",
+    "example": "예산에 따라 여행일정도 달라져요.",
+    "translation": "The travel plan changes depending on the budget.",
+    "page": 5
+  },
+  {
+    "index": 134,
+    "pattern": "-에 의해(서)",
+    "meaning": "by~",
+    "example": "역경은 희망에 의해서 극복할 수 있다.",
+    "translation": "Hardship can be overcome by hope.",
+    "page": 5
+  },
+  {
+    "index": 135,
+    "pattern": "-에다(가)",
+    "meaning": "in(to)~ / at~",
+    "example": "우유는 냉장고에다가 넣었어요.",
+    "translation": "I put milk into the refrigerator.",
+    "page": 5
+  },
+  {
+    "index": 136,
+    "pattern": "-을/를 비롯한",
+    "meaning": "including~",
+    "example": "나를 비롯한 모든 사람들이 그 아이디어에 찬성한다.",
+    "translation": "Everybody including me agreed on the idea.",
+    "page": 5
+  },
+  {
+    "index": 137,
+    "pattern": "-을/를 통해(서)",
+    "meaning": "from~",
+    "example": "그 배우는 드라마를 통해서 알게 되었어요.",
+    "translation": "I got to know that actor from a TV series.",
+    "page": 5
+  },
+  {
+    "index": 138,
+    "pattern": "-자",
+    "meaning": "let's",
+    "example": "이제 문 닫자.",
+    "translation": "Let's close the door.",
+    "page": 5
+  },
+  {
+    "index": 139,
+    "pattern": "-자고 하다",
+    "meaning": "(He/she) said to~",
+    "example": "동료가 포기하지 말자고 했다.",
+    "translation": "My colleague said not to give up.",
+    "page": 5
+  },
+  {
+    "index": 140,
+    "pattern": "-자마자",
+    "meaning": "as soon as~",
+    "example": "사장님은 좋은 소식을 듣자마자 미소 지었다.",
+    "translation": "The boss smiled as soon as he heard the good news.",
+    "page": 5
+  },
+  {
+    "index": 141,
+    "pattern": "-잖아(요)",
+    "meaning": "~right?",
+    "example": "내가 많이 사줬잖아.",
+    "translation": "I treated you many times, right?",
+    "page": 5
+  },
+  {
+    "index": 142,
+    "pattern": "마저",
+    "meaning": "even~",
+    "example": "숙제가 많은 데다가 시간마저 부족하다.",
+    "translation": "I have a lot of homework, but even the time is running out.",
+    "page": 5
+  },
+  {
+    "index": 143,
+    "pattern": "만큼",
+    "meaning": "as~",
+    "example": "가족만큼 중요한 것은 없다.",
+    "translation": "There is nothing as important as family.",
+    "page": 5
+  },
+  {
+    "index": 144,
+    "pattern": "아무 -(이)나",
+    "meaning": "any~",
+    "example": "아무 옷이나 가져오세요.",
+    "translation": "Bring any kind of clothes.",
+    "page": 5
+  },
+  {
+    "index": 145,
+    "pattern": "아무 -도",
+    "meaning": "no~",
+    "example": "아무 걱정도 없어요.",
+    "translation": "I have no worries at all.",
+    "page": 5
+  },
+  {
+    "index": 146,
+    "pattern": "얼마나 -(으)ㄴ/는지",
+    "meaning": "how~",
+    "example": "그 당시에는 얼마나 가난했는지 몰라요.",
+    "translation": "You can't imagine how poor we were at the time.",
+    "page": 5
+  },
+  {
+    "index": 147,
+    "pattern": "조차",
+    "meaning": "even~",
+    "example": "기다림조차 설렙니다.",
+    "translation": "Even the waiting time is exciting for me.",
+    "page": 5
+  },
+  {
+    "index": 148,
+    "pattern": "치고(는)",
+    "meaning": "for~",
+    "example": "아이돌치고는 나이가 많다.",
+    "translation": "He is old for an idol.",
+    "page": 5
+  }
+]

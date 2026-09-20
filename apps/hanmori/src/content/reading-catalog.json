@@ -1,0 +1,4665 @@
+{
+  "types": [
+    {
+      "id": "1",
+      "start": 1,
+      "end": 4,
+      "title": "Ngữ pháp trong câu",
+      "description": "Chọn cấu trúc phù hợp và cách diễn đạt tương đương."
+    },
+    {
+      "id": "2",
+      "start": 5,
+      "end": 8,
+      "title": "Quảng cáo & thông báo ngắn",
+      "description": "Nhận biết chủ đề qua từ khóa và tình huống."
+    },
+    {
+      "id": "3a",
+      "start": 9,
+      "end": 10,
+      "title": "Bảng biểu & thông tin",
+      "description": "Đối chiếu số liệu, điều kiện và đối tượng."
+    },
+    {
+      "id": "3b",
+      "start": 11,
+      "end": 12,
+      "title": "Nội dung thông báo",
+      "description": "Tìm thông tin đúng với đoạn văn."
+    },
+    {
+      "id": "4",
+      "start": 13,
+      "end": 15,
+      "title": "Sắp xếp câu",
+      "description": "Nối các câu thành đoạn văn có trình tự hợp lý."
+    },
+    {
+      "id": "5",
+      "start": 16,
+      "end": 18,
+      "title": "Điền vào đoạn văn",
+      "description": "Chọn phần còn thiếu theo quan hệ ý nghĩa."
+    },
+    {
+      "id": "6",
+      "start": 19,
+      "end": 20,
+      "title": "Cụm từ & nội dung",
+      "description": "Hoàn thành đoạn văn và kiểm tra thông tin."
+    },
+    {
+      "id": "7",
+      "start": 21,
+      "end": 22,
+      "title": "Thành ngữ & ý chính",
+      "description": "Hiểu cách nói trong ngữ cảnh và thông điệp của bài."
+    },
+    {
+      "id": "8",
+      "start": 23,
+      "end": 24,
+      "title": "Tâm trạng & chi tiết",
+      "description": "Đọc tình huống, suy ra cảm xúc và thông tin."
+    },
+    {
+      "id": "9",
+      "start": 25,
+      "end": 27,
+      "title": "Tiêu đề báo chí",
+      "description": "Diễn giải chính xác ý nghĩa của tiêu đề."
+    },
+    {
+      "id": "10",
+      "start": 28,
+      "end": 31,
+      "title": "Hoàn thành ý trong bài",
+      "description": "Đọc mạch lập luận để chọn nội dung điền vào."
+    },
+    {
+      "id": "11",
+      "start": 32,
+      "end": 34,
+      "title": "Đối chiếu thông tin",
+      "description": "Phân biệt điều được nói, bị đảo ngược và không có trong bài."
+    },
+    {
+      "id": "12",
+      "start": 35,
+      "end": 38,
+      "title": "Chủ đề & quan điểm",
+      "description": "Xác định ý chính thay vì chỉ chọn một chi tiết."
+    },
+    {
+      "id": "13",
+      "start": 39,
+      "end": 41,
+      "title": "Chèn câu vào đoạn",
+      "description": "Theo dõi từ nối, từ chỉ định và trình tự thông tin."
+    },
+    {
+      "id": "14",
+      "start": 42,
+      "end": 43,
+      "title": "Đọc văn học",
+      "description": "Hiểu tâm trạng nhân vật và diễn biến câu chuyện."
+    },
+    {
+      "id": "15",
+      "start": 44,
+      "end": 45,
+      "title": "Lập luận & điền ý",
+      "description": "Xác định chủ trương và mắt xích còn thiếu trong lập luận."
+    },
+    {
+      "id": "16",
+      "start": 46,
+      "end": 47,
+      "title": "Vị trí câu & thông tin",
+      "description": "Chèn câu rồi đối chiếu nội dung bài."
+    },
+    {
+      "id": "17",
+      "start": 48,
+      "end": 50,
+      "title": "Đọc hiểu tổng hợp",
+      "description": "Đọc bài dài, suy luận mục đích và nội dung chi tiết."
+    }
+  ],
+  "sets": [
+    {
+      "id": "reading-1-35",
+      "typeId": "1",
+      "exam": 35,
+      "numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pages": [
+        {
+          "id": "01-01",
+          "page": 1,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 1 (câu 1~4).pdf"
+        }
+      ],
+      "answers": {
+        "1": {
+          "answer": 3,
+          "page": 1
+        },
+        "2": {
+          "answer": 4,
+          "page": 1
+        },
+        "3": {
+          "answer": 1,
+          "page": 1
+        },
+        "4": {
+          "answer": 1,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-1-36",
+      "typeId": "1",
+      "exam": 36,
+      "numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pages": [
+        {
+          "id": "01-02",
+          "page": 2,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 1 (câu 1~4).pdf"
+        }
+      ],
+      "answers": {
+        "1": {
+          "answer": 2,
+          "page": 1
+        },
+        "2": {
+          "answer": 4,
+          "page": 1
+        },
+        "3": {
+          "answer": 2,
+          "page": 1
+        },
+        "4": {
+          "answer": 1,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-1-37",
+      "typeId": "1",
+      "exam": 37,
+      "numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pages": [
+        {
+          "id": "01-03",
+          "page": 3,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 1 (câu 1~4).pdf"
+        }
+      ],
+      "answers": {
+        "1": {
+          "answer": 1,
+          "page": 1
+        },
+        "2": {
+          "answer": 1,
+          "page": 1
+        },
+        "3": {
+          "answer": 3,
+          "page": 1
+        },
+        "4": {
+          "answer": 1,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-1-41",
+      "typeId": "1",
+      "exam": 41,
+      "numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pages": [
+        {
+          "id": "01-04",
+          "page": 4,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 1 (câu 1~4).pdf"
+        }
+      ],
+      "answers": {
+        "1": {
+          "answer": 1,
+          "page": 1
+        },
+        "2": {
+          "answer": 2,
+          "page": 1
+        },
+        "3": {
+          "answer": 2,
+          "page": 1
+        },
+        "4": {
+          "answer": 1,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-1-47",
+      "typeId": "1",
+      "exam": 47,
+      "numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pages": [
+        {
+          "id": "01-05",
+          "page": 5,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 1 (câu 1~4).pdf"
+        }
+      ],
+      "answers": {
+        "1": {
+          "answer": 3,
+          "page": 1
+        },
+        "2": {
+          "answer": 4,
+          "page": 1
+        },
+        "3": {
+          "answer": 1,
+          "page": 1
+        },
+        "4": {
+          "answer": 3,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-1-52",
+      "typeId": "1",
+      "exam": 52,
+      "numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pages": [
+        {
+          "id": "01-06",
+          "page": 6,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 1 (câu 1~4).pdf"
+        }
+      ],
+      "answers": {
+        "1": {
+          "answer": 2,
+          "page": 1
+        },
+        "2": {
+          "answer": 1,
+          "page": 1
+        },
+        "3": {
+          "answer": 4,
+          "page": 1
+        },
+        "4": {
+          "answer": 1,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-1-60",
+      "typeId": "1",
+      "exam": 60,
+      "numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pages": [
+        {
+          "id": "01-07",
+          "page": 7,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 1 (câu 1~4).pdf"
+        }
+      ],
+      "answers": {
+        "1": {
+          "answer": 2,
+          "page": 1
+        },
+        "2": {
+          "answer": 1,
+          "page": 1
+        },
+        "3": {
+          "answer": 3,
+          "page": 1
+        },
+        "4": {
+          "answer": 4,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-1-64",
+      "typeId": "1",
+      "exam": 64,
+      "numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pages": [
+        {
+          "id": "01-08",
+          "page": 8,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 1 (câu 1~4).pdf"
+        }
+      ],
+      "answers": {
+        "1": {
+          "answer": 2,
+          "page": 1
+        },
+        "2": {
+          "answer": 1,
+          "page": 1
+        },
+        "3": {
+          "answer": 4,
+          "page": 1
+        },
+        "4": {
+          "answer": 4,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-10-35",
+      "typeId": "10",
+      "exam": 35,
+      "numbers": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "pages": [
+        {
+          "id": "02-01",
+          "page": 1,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 10 (câu 28~31).pdf"
+        },
+        {
+          "id": "02-02",
+          "page": 2,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 10 (câu 28~31).pdf"
+        }
+      ],
+      "answers": {
+        "28": {
+          "answer": 3,
+          "page": 3
+        },
+        "29": {
+          "answer": 4,
+          "page": 3
+        },
+        "30": {
+          "answer": 4,
+          "page": 3
+        },
+        "31": {
+          "answer": 1,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-10-36",
+      "typeId": "10",
+      "exam": 36,
+      "numbers": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "pages": [
+        {
+          "id": "02-03",
+          "page": 3,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 10 (câu 28~31).pdf"
+        },
+        {
+          "id": "02-04",
+          "page": 4,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 10 (câu 28~31).pdf"
+        }
+      ],
+      "answers": {
+        "28": {
+          "answer": 2,
+          "page": 3
+        },
+        "29": {
+          "answer": 1,
+          "page": 3
+        },
+        "30": {
+          "answer": 1,
+          "page": 3
+        },
+        "31": {
+          "answer": 4,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-10-37",
+      "typeId": "10",
+      "exam": 37,
+      "numbers": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "pages": [
+        {
+          "id": "02-05",
+          "page": 5,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 10 (câu 28~31).pdf"
+        },
+        {
+          "id": "02-06",
+          "page": 6,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 10 (câu 28~31).pdf"
+        }
+      ],
+      "answers": {
+        "28": {
+          "answer": 3,
+          "page": 3
+        },
+        "29": {
+          "answer": 2,
+          "page": 3
+        },
+        "30": {
+          "answer": 4,
+          "page": 3
+        },
+        "31": {
+          "answer": 1,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-10-41",
+      "typeId": "10",
+      "exam": 41,
+      "numbers": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "pages": [
+        {
+          "id": "02-07",
+          "page": 7,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 10 (câu 28~31).pdf"
+        },
+        {
+          "id": "02-08",
+          "page": 8,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 10 (câu 28~31).pdf"
+        }
+      ],
+      "answers": {
+        "28": {
+          "answer": 2,
+          "page": 3
+        },
+        "29": {
+          "answer": 3,
+          "page": 3
+        },
+        "30": {
+          "answer": 1,
+          "page": 3
+        },
+        "31": {
+          "answer": 2,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-10-47",
+      "typeId": "10",
+      "exam": 47,
+      "numbers": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "pages": [
+        {
+          "id": "02-09",
+          "page": 9,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 10 (câu 28~31).pdf"
+        },
+        {
+          "id": "02-10",
+          "page": 10,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 10 (câu 28~31).pdf"
+        }
+      ],
+      "answers": {
+        "28": {
+          "answer": 3,
+          "page": 3
+        },
+        "29": {
+          "answer": 1,
+          "page": 3
+        },
+        "30": {
+          "answer": 2,
+          "page": 3
+        },
+        "31": {
+          "answer": 1,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-10-52",
+      "typeId": "10",
+      "exam": 52,
+      "numbers": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "pages": [
+        {
+          "id": "02-11",
+          "page": 11,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 10 (câu 28~31).pdf"
+        },
+        {
+          "id": "02-12",
+          "page": 12,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 10 (câu 28~31).pdf"
+        }
+      ],
+      "answers": {
+        "28": {
+          "answer": 3,
+          "page": 3
+        },
+        "29": {
+          "answer": 2,
+          "page": 3
+        },
+        "30": {
+          "answer": 3,
+          "page": 3
+        },
+        "31": {
+          "answer": 4,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-10-60",
+      "typeId": "10",
+      "exam": 60,
+      "numbers": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "pages": [
+        {
+          "id": "02-13",
+          "page": 13,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 10 (câu 28~31).pdf"
+        },
+        {
+          "id": "02-14",
+          "page": 14,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 10 (câu 28~31).pdf"
+        }
+      ],
+      "answers": {
+        "28": {
+          "answer": 2,
+          "page": 3
+        },
+        "29": {
+          "answer": 4,
+          "page": 3
+        },
+        "30": {
+          "answer": 2,
+          "page": 3
+        },
+        "31": {
+          "answer": 1,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-10-64",
+      "typeId": "10",
+      "exam": 64,
+      "numbers": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "pages": [
+        {
+          "id": "02-15",
+          "page": 15,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 10 (câu 28~31).pdf"
+        },
+        {
+          "id": "02-16",
+          "page": 16,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 10 (câu 28~31).pdf"
+        }
+      ],
+      "answers": {
+        "28": {
+          "answer": 4,
+          "page": 3
+        },
+        "29": {
+          "answer": 4,
+          "page": 3
+        },
+        "30": {
+          "answer": 2,
+          "page": 3
+        },
+        "31": {
+          "answer": 1,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-11-35",
+      "typeId": "11",
+      "exam": 35,
+      "numbers": [
+        32,
+        33,
+        34
+      ],
+      "pages": [
+        {
+          "id": "03-01",
+          "page": 1,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 11 (câu 32~34).pdf"
+        },
+        {
+          "id": "03-02",
+          "page": 2,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 11 (câu 32~34).pdf"
+        }
+      ],
+      "answers": {
+        "32": {
+          "answer": 2,
+          "page": 3
+        },
+        "33": {
+          "answer": 4,
+          "page": 3
+        },
+        "34": {
+          "answer": 4,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-11-36",
+      "typeId": "11",
+      "exam": 36,
+      "numbers": [
+        32,
+        33,
+        34
+      ],
+      "pages": [
+        {
+          "id": "03-03",
+          "page": 3,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 11 (câu 32~34).pdf"
+        },
+        {
+          "id": "03-04",
+          "page": 4,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 11 (câu 32~34).pdf"
+        }
+      ],
+      "answers": {
+        "32": {
+          "answer": 3,
+          "page": 3
+        },
+        "33": {
+          "answer": 4,
+          "page": 3
+        },
+        "34": {
+          "answer": 3,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-11-37",
+      "typeId": "11",
+      "exam": 37,
+      "numbers": [
+        32,
+        33,
+        34
+      ],
+      "pages": [
+        {
+          "id": "03-05",
+          "page": 5,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 11 (câu 32~34).pdf"
+        },
+        {
+          "id": "03-06",
+          "page": 6,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 11 (câu 32~34).pdf"
+        }
+      ],
+      "answers": {
+        "32": {
+          "answer": 3,
+          "page": 3
+        },
+        "33": {
+          "answer": 4,
+          "page": 3
+        },
+        "34": {
+          "answer": 1,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-11-41",
+      "typeId": "11",
+      "exam": 41,
+      "numbers": [
+        32,
+        33,
+        34
+      ],
+      "pages": [
+        {
+          "id": "03-07",
+          "page": 7,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 11 (câu 32~34).pdf"
+        },
+        {
+          "id": "03-08",
+          "page": 8,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 11 (câu 32~34).pdf"
+        }
+      ],
+      "answers": {
+        "32": {
+          "answer": 4,
+          "page": 3
+        },
+        "33": {
+          "answer": 3,
+          "page": 3
+        },
+        "34": {
+          "answer": 1,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-11-47",
+      "typeId": "11",
+      "exam": 47,
+      "numbers": [
+        32,
+        33,
+        34
+      ],
+      "pages": [
+        {
+          "id": "03-09",
+          "page": 9,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 11 (câu 32~34).pdf"
+        },
+        {
+          "id": "03-10",
+          "page": 10,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 11 (câu 32~34).pdf"
+        }
+      ],
+      "answers": {
+        "32": {
+          "answer": 4,
+          "page": 3
+        },
+        "33": {
+          "answer": 4,
+          "page": 3
+        },
+        "34": {
+          "answer": 3,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-11-52",
+      "typeId": "11",
+      "exam": 52,
+      "numbers": [
+        32,
+        33,
+        34
+      ],
+      "pages": [
+        {
+          "id": "03-11",
+          "page": 11,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 11 (câu 32~34).pdf"
+        },
+        {
+          "id": "03-12",
+          "page": 12,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 11 (câu 32~34).pdf"
+        }
+      ],
+      "answers": {
+        "32": {
+          "answer": 1,
+          "page": 3
+        },
+        "33": {
+          "answer": 3,
+          "page": 3
+        },
+        "34": {
+          "answer": 4,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-11-60",
+      "typeId": "11",
+      "exam": 60,
+      "numbers": [
+        32,
+        33,
+        34
+      ],
+      "pages": [
+        {
+          "id": "03-13",
+          "page": 13,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 11 (câu 32~34).pdf"
+        },
+        {
+          "id": "03-14",
+          "page": 14,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 11 (câu 32~34).pdf"
+        }
+      ],
+      "answers": {
+        "32": {
+          "answer": 3,
+          "page": 3
+        },
+        "33": {
+          "answer": 3,
+          "page": 3
+        },
+        "34": {
+          "answer": 1,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-11-64",
+      "typeId": "11",
+      "exam": 64,
+      "numbers": [
+        32,
+        33,
+        34
+      ],
+      "pages": [
+        {
+          "id": "03-15",
+          "page": 15,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 11 (câu 32~34).pdf"
+        },
+        {
+          "id": "03-16",
+          "page": 16,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 11 (câu 32~34).pdf"
+        }
+      ],
+      "answers": {
+        "32": {
+          "answer": 2,
+          "page": 3
+        },
+        "33": {
+          "answer": 3,
+          "page": 3
+        },
+        "34": {
+          "answer": 2,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-12-35",
+      "typeId": "12",
+      "exam": 35,
+      "numbers": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "pages": [
+        {
+          "id": "04-01",
+          "page": 1,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 12 (câu 35~38).pdf"
+        },
+        {
+          "id": "04-02",
+          "page": 2,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 12 (câu 35~38).pdf"
+        }
+      ],
+      "answers": {
+        "35": {
+          "answer": 2,
+          "page": 3
+        },
+        "36": {
+          "answer": 2,
+          "page": 3
+        },
+        "37": {
+          "answer": 4,
+          "page": 3
+        },
+        "38": {
+          "answer": 4,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-12-36",
+      "typeId": "12",
+      "exam": 36,
+      "numbers": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "pages": [
+        {
+          "id": "04-03",
+          "page": 3,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 12 (câu 35~38).pdf"
+        },
+        {
+          "id": "04-04",
+          "page": 4,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 12 (câu 35~38).pdf"
+        }
+      ],
+      "answers": {
+        "35": {
+          "answer": 2,
+          "page": 3
+        },
+        "36": {
+          "answer": 4,
+          "page": 3
+        },
+        "37": {
+          "answer": 2,
+          "page": 3
+        },
+        "38": {
+          "answer": 4,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-12-37",
+      "typeId": "12",
+      "exam": 37,
+      "numbers": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "pages": [
+        {
+          "id": "04-05",
+          "page": 5,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 12 (câu 35~38).pdf"
+        },
+        {
+          "id": "04-06",
+          "page": 6,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 12 (câu 35~38).pdf"
+        },
+        {
+          "id": "04-07",
+          "page": 7,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 12 (câu 35~38).pdf"
+        }
+      ],
+      "answers": {
+        "35": {
+          "answer": 4,
+          "page": 3
+        },
+        "36": {
+          "answer": 2,
+          "page": 3
+        },
+        "37": {
+          "answer": 1,
+          "page": 3
+        },
+        "38": {
+          "answer": 4,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-12-41",
+      "typeId": "12",
+      "exam": 41,
+      "numbers": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "pages": [
+        {
+          "id": "04-08",
+          "page": 8,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 12 (câu 35~38).pdf"
+        },
+        {
+          "id": "04-09",
+          "page": 9,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 12 (câu 35~38).pdf"
+        },
+        {
+          "id": "04-10",
+          "page": 10,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 12 (câu 35~38).pdf"
+        }
+      ],
+      "answers": {
+        "35": {
+          "answer": 2,
+          "page": 3
+        },
+        "36": {
+          "answer": 2,
+          "page": 3
+        },
+        "37": {
+          "answer": 3,
+          "page": 3
+        },
+        "38": {
+          "answer": 3,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-12-47",
+      "typeId": "12",
+      "exam": 47,
+      "numbers": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "pages": [
+        {
+          "id": "04-11",
+          "page": 11,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 12 (câu 35~38).pdf"
+        },
+        {
+          "id": "04-12",
+          "page": 12,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 12 (câu 35~38).pdf"
+        }
+      ],
+      "answers": {
+        "35": {
+          "answer": 1,
+          "page": 3
+        },
+        "36": {
+          "answer": 4,
+          "page": 3
+        },
+        "37": {
+          "answer": 3,
+          "page": 3
+        },
+        "38": {
+          "answer": 2,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-12-52",
+      "typeId": "12",
+      "exam": 52,
+      "numbers": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "pages": [
+        {
+          "id": "04-13",
+          "page": 13,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 12 (câu 35~38).pdf"
+        },
+        {
+          "id": "04-14",
+          "page": 14,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 12 (câu 35~38).pdf"
+        }
+      ],
+      "answers": {
+        "35": {
+          "answer": 4,
+          "page": 3
+        },
+        "36": {
+          "answer": 2,
+          "page": 3
+        },
+        "37": {
+          "answer": 3,
+          "page": 3
+        },
+        "38": {
+          "answer": 1,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-12-60",
+      "typeId": "12",
+      "exam": 60,
+      "numbers": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "pages": [
+        {
+          "id": "04-15",
+          "page": 15,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 12 (câu 35~38).pdf"
+        },
+        {
+          "id": "04-16",
+          "page": 16,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 12 (câu 35~38).pdf"
+        }
+      ],
+      "answers": {
+        "35": {
+          "answer": 3,
+          "page": 3
+        },
+        "36": {
+          "answer": 2,
+          "page": 3
+        },
+        "37": {
+          "answer": 4,
+          "page": 3
+        },
+        "38": {
+          "answer": 4,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-12-64",
+      "typeId": "12",
+      "exam": 64,
+      "numbers": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "pages": [
+        {
+          "id": "04-17",
+          "page": 17,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 12 (câu 35~38).pdf"
+        },
+        {
+          "id": "04-18",
+          "page": 18,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 12 (câu 35~38).pdf"
+        }
+      ],
+      "answers": {
+        "35": {
+          "answer": 1,
+          "page": 3
+        },
+        "36": {
+          "answer": 4,
+          "page": 3
+        },
+        "37": {
+          "answer": 3,
+          "page": 3
+        },
+        "38": {
+          "answer": 4,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-13-35",
+      "typeId": "13",
+      "exam": 35,
+      "numbers": [
+        39,
+        40,
+        41
+      ],
+      "pages": [
+        {
+          "id": "05-01",
+          "page": 1,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 13 (câu 39~41).pdf"
+        },
+        {
+          "id": "05-02",
+          "page": 2,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 13 (câu 39~41).pdf"
+        }
+      ],
+      "answers": {
+        "39": {
+          "answer": 2,
+          "page": 4
+        },
+        "40": {
+          "answer": 3,
+          "page": 4
+        },
+        "41": {
+          "answer": 3,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-13-36",
+      "typeId": "13",
+      "exam": 36,
+      "numbers": [
+        39
+      ],
+      "pages": [
+        {
+          "id": "05-03",
+          "page": 3,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 13 (câu 39~41).pdf"
+        },
+        {
+          "id": "05-04",
+          "page": 4,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 13 (câu 39~41).pdf"
+        }
+      ],
+      "answers": {
+        "39": {
+          "answer": 3,
+          "page": 4
+        }
+      },
+      "sourceNote": "Tài liệu lặp câu 39 ba lần, thiếu câu 40–41. Bài này chỉ chấm câu 39."
+    },
+    {
+      "id": "reading-13-37",
+      "typeId": "13",
+      "exam": 37,
+      "numbers": [
+        39,
+        40,
+        41
+      ],
+      "pages": [
+        {
+          "id": "05-05",
+          "page": 5,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 13 (câu 39~41).pdf"
+        },
+        {
+          "id": "05-06",
+          "page": 6,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 13 (câu 39~41).pdf"
+        }
+      ],
+      "answers": {
+        "39": {
+          "answer": 2,
+          "page": 4
+        },
+        "40": {
+          "answer": 4,
+          "page": 4
+        },
+        "41": {
+          "answer": 3,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-13-41",
+      "typeId": "13",
+      "exam": 41,
+      "numbers": [
+        39,
+        40,
+        41
+      ],
+      "pages": [
+        {
+          "id": "05-07",
+          "page": 7,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 13 (câu 39~41).pdf"
+        },
+        {
+          "id": "05-08",
+          "page": 8,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 13 (câu 39~41).pdf"
+        }
+      ],
+      "answers": {
+        "39": {
+          "answer": 4,
+          "page": 4
+        },
+        "40": {
+          "answer": 2,
+          "page": 4
+        },
+        "41": {
+          "answer": 3,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-13-47",
+      "typeId": "13",
+      "exam": 47,
+      "numbers": [
+        39,
+        40,
+        41
+      ],
+      "pages": [
+        {
+          "id": "05-09",
+          "page": 9,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 13 (câu 39~41).pdf"
+        },
+        {
+          "id": "05-10",
+          "page": 10,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 13 (câu 39~41).pdf"
+        }
+      ],
+      "answers": {
+        "39": {
+          "answer": 3,
+          "page": 4
+        },
+        "40": {
+          "answer": 3,
+          "page": 4
+        },
+        "41": {
+          "answer": 2,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-13-52",
+      "typeId": "13",
+      "exam": 52,
+      "numbers": [
+        39,
+        40,
+        41
+      ],
+      "pages": [
+        {
+          "id": "05-11",
+          "page": 11,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 13 (câu 39~41).pdf"
+        },
+        {
+          "id": "05-12",
+          "page": 12,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 13 (câu 39~41).pdf"
+        }
+      ],
+      "answers": {
+        "39": {
+          "answer": 4,
+          "page": 4
+        },
+        "40": {
+          "answer": 4,
+          "page": 4
+        },
+        "41": {
+          "answer": 3,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-13-60",
+      "typeId": "13",
+      "exam": 60,
+      "numbers": [
+        39,
+        40,
+        41
+      ],
+      "pages": [
+        {
+          "id": "05-13",
+          "page": 13,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 13 (câu 39~41).pdf"
+        },
+        {
+          "id": "05-14",
+          "page": 14,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 13 (câu 39~41).pdf"
+        }
+      ],
+      "answers": {
+        "39": {
+          "answer": 1,
+          "page": 4
+        },
+        "40": {
+          "answer": 1,
+          "page": 4
+        },
+        "41": {
+          "answer": 4,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-13-64",
+      "typeId": "13",
+      "exam": 64,
+      "numbers": [
+        39,
+        40,
+        41
+      ],
+      "pages": [
+        {
+          "id": "05-15",
+          "page": 15,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 13 (câu 39~41).pdf"
+        },
+        {
+          "id": "05-16",
+          "page": 16,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 13 (câu 39~41).pdf"
+        }
+      ],
+      "answers": {
+        "39": {
+          "answer": 1,
+          "page": 4
+        },
+        "40": {
+          "answer": 3,
+          "page": 4
+        },
+        "41": {
+          "answer": 2,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-14-35",
+      "typeId": "14",
+      "exam": 35,
+      "numbers": [
+        42,
+        43
+      ],
+      "pages": [
+        {
+          "id": "06-01",
+          "page": 1,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 14 (câu 42~43).pdf"
+        }
+      ],
+      "answers": {
+        "42": {
+          "answer": 1,
+          "page": 4
+        },
+        "43": {
+          "answer": 2,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-14-36",
+      "typeId": "14",
+      "exam": 36,
+      "numbers": [
+        42,
+        43
+      ],
+      "pages": [
+        {
+          "id": "06-02",
+          "page": 2,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 14 (câu 42~43).pdf"
+        }
+      ],
+      "answers": {
+        "42": {
+          "answer": 1,
+          "page": 4
+        },
+        "43": {
+          "answer": 1,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-14-37",
+      "typeId": "14",
+      "exam": 37,
+      "numbers": [
+        42,
+        43
+      ],
+      "pages": [
+        {
+          "id": "06-03",
+          "page": 3,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 14 (câu 42~43).pdf"
+        }
+      ],
+      "answers": {
+        "42": {
+          "answer": 1,
+          "page": 4
+        },
+        "43": {
+          "answer": 3,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-14-41",
+      "typeId": "14",
+      "exam": 41,
+      "numbers": [
+        42,
+        43
+      ],
+      "pages": [
+        {
+          "id": "06-04",
+          "page": 4,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 14 (câu 42~43).pdf"
+        }
+      ],
+      "answers": {
+        "42": {
+          "answer": 2,
+          "page": 4
+        },
+        "43": {
+          "answer": 3,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-14-47",
+      "typeId": "14",
+      "exam": 47,
+      "numbers": [
+        42,
+        43
+      ],
+      "pages": [
+        {
+          "id": "06-05",
+          "page": 5,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 14 (câu 42~43).pdf"
+        }
+      ],
+      "answers": {
+        "42": {
+          "answer": 1,
+          "page": 4
+        },
+        "43": {
+          "answer": 2,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-14-52",
+      "typeId": "14",
+      "exam": 52,
+      "numbers": [
+        42,
+        43
+      ],
+      "pages": [
+        {
+          "id": "06-06",
+          "page": 6,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 14 (câu 42~43).pdf"
+        }
+      ],
+      "answers": {
+        "42": {
+          "answer": 3,
+          "page": 4
+        },
+        "43": {
+          "answer": 1,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-14-60",
+      "typeId": "14",
+      "exam": 60,
+      "numbers": [
+        42,
+        43
+      ],
+      "pages": [
+        {
+          "id": "06-07",
+          "page": 7,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 14 (câu 42~43).pdf"
+        }
+      ],
+      "answers": {
+        "42": {
+          "answer": 2,
+          "page": 4
+        },
+        "43": {
+          "answer": 4,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-14-64",
+      "typeId": "14",
+      "exam": 64,
+      "numbers": [
+        42,
+        43
+      ],
+      "pages": [
+        {
+          "id": "06-08",
+          "page": 8,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 14 (câu 42~43).pdf"
+        }
+      ],
+      "answers": {
+        "42": {
+          "answer": 1,
+          "page": 4
+        },
+        "43": {
+          "answer": 1,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-15-35",
+      "typeId": "15",
+      "exam": 35,
+      "numbers": [
+        44,
+        45
+      ],
+      "pages": [
+        {
+          "id": "07-01",
+          "page": 1,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 15 (câu 44~45).pdf"
+        }
+      ],
+      "answers": {
+        "44": {
+          "answer": 2,
+          "page": 4
+        },
+        "45": {
+          "answer": 3,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-15-36",
+      "typeId": "15",
+      "exam": 36,
+      "numbers": [
+        44,
+        45
+      ],
+      "pages": [
+        {
+          "id": "07-02",
+          "page": 2,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 15 (câu 44~45).pdf"
+        }
+      ],
+      "answers": {
+        "44": {
+          "answer": 4,
+          "page": 4
+        },
+        "45": {
+          "answer": 3,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-15-37",
+      "typeId": "15",
+      "exam": 37,
+      "numbers": [
+        44,
+        45
+      ],
+      "pages": [
+        {
+          "id": "07-03",
+          "page": 3,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 15 (câu 44~45).pdf"
+        }
+      ],
+      "answers": {
+        "44": {
+          "answer": 1,
+          "page": 4
+        },
+        "45": {
+          "answer": 3,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-15-41",
+      "typeId": "15",
+      "exam": 41,
+      "numbers": [
+        44,
+        45
+      ],
+      "pages": [
+        {
+          "id": "07-04",
+          "page": 4,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 15 (câu 44~45).pdf"
+        }
+      ],
+      "answers": {
+        "44": {
+          "answer": 4,
+          "page": 4
+        },
+        "45": {
+          "answer": 3,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-15-47",
+      "typeId": "15",
+      "exam": 47,
+      "numbers": [
+        44,
+        45
+      ],
+      "pages": [
+        {
+          "id": "07-05",
+          "page": 5,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 15 (câu 44~45).pdf"
+        }
+      ],
+      "answers": {
+        "44": {
+          "answer": 1,
+          "page": 4
+        },
+        "45": {
+          "answer": 3,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-15-52",
+      "typeId": "15",
+      "exam": 52,
+      "numbers": [
+        44,
+        45
+      ],
+      "pages": [
+        {
+          "id": "07-06",
+          "page": 6,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 15 (câu 44~45).pdf"
+        }
+      ],
+      "answers": {
+        "44": {
+          "answer": 3,
+          "page": 4
+        },
+        "45": {
+          "answer": 4,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-15-60",
+      "typeId": "15",
+      "exam": 60,
+      "numbers": [
+        44,
+        45
+      ],
+      "pages": [
+        {
+          "id": "07-07",
+          "page": 7,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 15 (câu 44~45).pdf"
+        }
+      ],
+      "answers": {
+        "44": {
+          "answer": 4,
+          "page": 4
+        },
+        "45": {
+          "answer": 2,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-15-64",
+      "typeId": "15",
+      "exam": 64,
+      "numbers": [
+        44,
+        45
+      ],
+      "pages": [
+        {
+          "id": "07-08",
+          "page": 8,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 15 (câu 44~45).pdf"
+        }
+      ],
+      "answers": {
+        "44": {
+          "answer": 4,
+          "page": 4
+        },
+        "45": {
+          "answer": 3,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-16-35",
+      "typeId": "16",
+      "exam": 35,
+      "numbers": [
+        46,
+        47
+      ],
+      "pages": [
+        {
+          "id": "08-01",
+          "page": 1,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 16 (câu 46~47).pdf"
+        }
+      ],
+      "answers": {
+        "46": {
+          "answer": 2,
+          "page": 4
+        },
+        "47": {
+          "answer": 3,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-16-36",
+      "typeId": "16",
+      "exam": 36,
+      "numbers": [
+        46,
+        47
+      ],
+      "pages": [
+        {
+          "id": "08-02",
+          "page": 2,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 16 (câu 46~47).pdf"
+        }
+      ],
+      "answers": {
+        "46": {
+          "answer": 3,
+          "page": 4
+        },
+        "47": {
+          "answer": 2,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-16-37",
+      "typeId": "16",
+      "exam": 37,
+      "numbers": [
+        46,
+        47
+      ],
+      "pages": [
+        {
+          "id": "08-03",
+          "page": 3,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 16 (câu 46~47).pdf"
+        }
+      ],
+      "answers": {
+        "46": {
+          "answer": 2,
+          "page": 4
+        },
+        "47": {
+          "answer": 3,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-16-41",
+      "typeId": "16",
+      "exam": 41,
+      "numbers": [],
+      "pages": [
+        {
+          "id": "08-04",
+          "page": 4,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 16 (câu 46~47).pdf"
+        }
+      ],
+      "answers": {},
+      "sourceNote": "Trang đề bị chèn nhầm câu 42–43; thiếu câu 46–47 kỳ 41. Bài này tạm chưa mở."
+    },
+    {
+      "id": "reading-16-47",
+      "typeId": "16",
+      "exam": 47,
+      "numbers": [
+        46,
+        47
+      ],
+      "pages": [
+        {
+          "id": "08-05",
+          "page": 5,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 16 (câu 46~47).pdf"
+        }
+      ],
+      "answers": {
+        "46": {
+          "answer": 3,
+          "page": 4
+        },
+        "47": {
+          "answer": 2,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-16-52",
+      "typeId": "16",
+      "exam": 52,
+      "numbers": [
+        46,
+        47
+      ],
+      "pages": [
+        {
+          "id": "08-06",
+          "page": 6,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 16 (câu 46~47).pdf"
+        }
+      ],
+      "answers": {
+        "46": {
+          "answer": 1,
+          "page": 4
+        },
+        "47": {
+          "answer": 4,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-16-60",
+      "typeId": "16",
+      "exam": 60,
+      "numbers": [
+        46,
+        47
+      ],
+      "pages": [
+        {
+          "id": "08-07",
+          "page": 7,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 16 (câu 46~47).pdf"
+        }
+      ],
+      "answers": {
+        "46": {
+          "answer": 1,
+          "page": 4
+        },
+        "47": {
+          "answer": 1,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-16-64",
+      "typeId": "16",
+      "exam": 64,
+      "numbers": [
+        46,
+        47
+      ],
+      "pages": [
+        {
+          "id": "08-08",
+          "page": 8,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 16 (câu 46~47).pdf"
+        }
+      ],
+      "answers": {
+        "46": {
+          "answer": 4,
+          "page": 4
+        },
+        "47": {
+          "answer": 3,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-17-35",
+      "typeId": "17",
+      "exam": 35,
+      "numbers": [
+        48,
+        49,
+        50
+      ],
+      "pages": [
+        {
+          "id": "09-01",
+          "page": 1,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 17 (câu 48~50).pdf"
+        }
+      ],
+      "answers": {
+        "48": {
+          "answer": 2,
+          "page": 4
+        },
+        "49": {
+          "answer": 1,
+          "page": 4
+        },
+        "50": {
+          "answer": 4,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-17-36",
+      "typeId": "17",
+      "exam": 36,
+      "numbers": [
+        48,
+        49,
+        50
+      ],
+      "pages": [
+        {
+          "id": "09-02",
+          "page": 2,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 17 (câu 48~50).pdf"
+        }
+      ],
+      "answers": {
+        "48": {
+          "answer": 4,
+          "page": 4
+        },
+        "49": {
+          "answer": 1,
+          "page": 4
+        },
+        "50": {
+          "answer": 3,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-17-37",
+      "typeId": "17",
+      "exam": 37,
+      "numbers": [
+        48,
+        49,
+        50
+      ],
+      "pages": [
+        {
+          "id": "09-03",
+          "page": 3,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 17 (câu 48~50).pdf"
+        }
+      ],
+      "answers": {
+        "48": {
+          "answer": 2,
+          "page": 4
+        },
+        "49": {
+          "answer": 4,
+          "page": 4
+        },
+        "50": {
+          "answer": 4,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-17-41",
+      "typeId": "17",
+      "exam": 41,
+      "numbers": [
+        48,
+        49,
+        50
+      ],
+      "pages": [
+        {
+          "id": "09-04",
+          "page": 4,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 17 (câu 48~50).pdf"
+        }
+      ],
+      "answers": {
+        "48": {
+          "answer": 1,
+          "page": 4
+        },
+        "49": {
+          "answer": 1,
+          "page": 4
+        },
+        "50": {
+          "answer": 4,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-17-47",
+      "typeId": "17",
+      "exam": 47,
+      "numbers": [
+        48,
+        49,
+        50
+      ],
+      "pages": [
+        {
+          "id": "09-05",
+          "page": 5,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 17 (câu 48~50).pdf"
+        }
+      ],
+      "answers": {
+        "48": {
+          "answer": 4,
+          "page": 4
+        },
+        "49": {
+          "answer": 4,
+          "page": 4
+        },
+        "50": {
+          "answer": 1,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-17-52",
+      "typeId": "17",
+      "exam": 52,
+      "numbers": [
+        48,
+        49,
+        50
+      ],
+      "pages": [
+        {
+          "id": "09-06",
+          "page": 6,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 17 (câu 48~50).pdf"
+        }
+      ],
+      "answers": {
+        "48": {
+          "answer": 4,
+          "page": 4
+        },
+        "49": {
+          "answer": 3,
+          "page": 4
+        },
+        "50": {
+          "answer": 4,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-17-60",
+      "typeId": "17",
+      "exam": 60,
+      "numbers": [
+        48,
+        49,
+        50
+      ],
+      "pages": [
+        {
+          "id": "09-07",
+          "page": 7,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 17 (câu 48~50).pdf"
+        }
+      ],
+      "answers": {
+        "48": {
+          "answer": 2,
+          "page": 4
+        },
+        "49": {
+          "answer": 1,
+          "page": 4
+        },
+        "50": {
+          "answer": 4,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-17-64",
+      "typeId": "17",
+      "exam": 64,
+      "numbers": [
+        48,
+        49,
+        50
+      ],
+      "pages": [
+        {
+          "id": "09-08",
+          "page": 8,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 17 (câu 48~50).pdf"
+        }
+      ],
+      "answers": {
+        "48": {
+          "answer": 4,
+          "page": 4
+        },
+        "49": {
+          "answer": 2,
+          "page": 4
+        },
+        "50": {
+          "answer": 2,
+          "page": 4
+        }
+      }
+    },
+    {
+      "id": "reading-2-35",
+      "typeId": "2",
+      "exam": 35,
+      "numbers": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "pages": [
+        {
+          "id": "10-01",
+          "page": 1,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 2 (câu 5~8).pdf"
+        }
+      ],
+      "answers": {
+        "5": {
+          "answer": 1,
+          "page": 1
+        },
+        "6": {
+          "answer": 2,
+          "page": 1
+        },
+        "7": {
+          "answer": 1,
+          "page": 1
+        },
+        "8": {
+          "answer": 3,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-2-36",
+      "typeId": "2",
+      "exam": 36,
+      "numbers": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "pages": [
+        {
+          "id": "10-02",
+          "page": 2,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 2 (câu 5~8).pdf"
+        }
+      ],
+      "answers": {
+        "5": {
+          "answer": 2,
+          "page": 1
+        },
+        "6": {
+          "answer": 4,
+          "page": 1
+        },
+        "7": {
+          "answer": 1,
+          "page": 1
+        },
+        "8": {
+          "answer": 2,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-2-37",
+      "typeId": "2",
+      "exam": 37,
+      "numbers": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "pages": [
+        {
+          "id": "10-03",
+          "page": 3,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 2 (câu 5~8).pdf"
+        }
+      ],
+      "answers": {
+        "5": {
+          "answer": 2,
+          "page": 1
+        },
+        "6": {
+          "answer": 4,
+          "page": 1
+        },
+        "7": {
+          "answer": 1,
+          "page": 1
+        },
+        "8": {
+          "answer": 1,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-2-41",
+      "typeId": "2",
+      "exam": 41,
+      "numbers": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "pages": [
+        {
+          "id": "10-04",
+          "page": 4,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 2 (câu 5~8).pdf"
+        }
+      ],
+      "answers": {
+        "5": {
+          "answer": 2,
+          "page": 1
+        },
+        "6": {
+          "answer": 2,
+          "page": 1
+        },
+        "7": {
+          "answer": 1,
+          "page": 1
+        },
+        "8": {
+          "answer": 1,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-2-47",
+      "typeId": "2",
+      "exam": 47,
+      "numbers": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "pages": [
+        {
+          "id": "10-05",
+          "page": 5,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 2 (câu 5~8).pdf"
+        }
+      ],
+      "answers": {
+        "5": {
+          "answer": 1,
+          "page": 1
+        },
+        "6": {
+          "answer": 2,
+          "page": 1
+        },
+        "7": {
+          "answer": 4,
+          "page": 1
+        },
+        "8": {
+          "answer": 2,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-2-52",
+      "typeId": "2",
+      "exam": 52,
+      "numbers": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "pages": [
+        {
+          "id": "10-06",
+          "page": 6,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 2 (câu 5~8).pdf"
+        }
+      ],
+      "answers": {
+        "5": {
+          "answer": 2,
+          "page": 1
+        },
+        "6": {
+          "answer": 2,
+          "page": 1
+        },
+        "7": {
+          "answer": 1,
+          "page": 1
+        },
+        "8": {
+          "answer": 2,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-2-60",
+      "typeId": "2",
+      "exam": 60,
+      "numbers": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "pages": [
+        {
+          "id": "10-07",
+          "page": 7,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 2 (câu 5~8).pdf"
+        }
+      ],
+      "answers": {
+        "5": {
+          "answer": 3,
+          "page": 1
+        },
+        "6": {
+          "answer": 4,
+          "page": 1
+        },
+        "7": {
+          "answer": 3,
+          "page": 1
+        },
+        "8": {
+          "answer": 2,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-2-64",
+      "typeId": "2",
+      "exam": 64,
+      "numbers": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "pages": [
+        {
+          "id": "10-08",
+          "page": 8,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 2 (câu 5~8).pdf"
+        }
+      ],
+      "answers": {
+        "5": {
+          "answer": 1,
+          "page": 1
+        },
+        "6": {
+          "answer": 2,
+          "page": 1
+        },
+        "7": {
+          "answer": 4,
+          "page": 1
+        },
+        "8": {
+          "answer": 1,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-3a-35",
+      "typeId": "3a",
+      "exam": 35,
+      "numbers": [
+        9,
+        10
+      ],
+      "pages": [
+        {
+          "id": "10-09",
+          "page": 9,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 2 (câu 5~8).pdf"
+        }
+      ],
+      "answers": {
+        "9": {
+          "answer": 4,
+          "page": 1
+        },
+        "10": {
+          "answer": 1,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-3a-36",
+      "typeId": "3a",
+      "exam": 36,
+      "numbers": [
+        9,
+        10
+      ],
+      "pages": [
+        {
+          "id": "11-01",
+          "page": 1,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 3A (câu 9~10).pdf"
+        }
+      ],
+      "answers": {
+        "9": {
+          "answer": 3,
+          "page": 1
+        },
+        "10": {
+          "answer": 1,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-3a-37",
+      "typeId": "3a",
+      "exam": 37,
+      "numbers": [
+        9,
+        10
+      ],
+      "pages": [
+        {
+          "id": "11-02",
+          "page": 2,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 3A (câu 9~10).pdf"
+        }
+      ],
+      "answers": {
+        "9": {
+          "answer": 3,
+          "page": 1
+        },
+        "10": {
+          "answer": 2,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-3a-41",
+      "typeId": "3a",
+      "exam": 41,
+      "numbers": [
+        9,
+        10
+      ],
+      "pages": [
+        {
+          "id": "11-03",
+          "page": 3,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 3A (câu 9~10).pdf"
+        }
+      ],
+      "answers": {
+        "9": {
+          "answer": 3,
+          "page": 1
+        },
+        "10": {
+          "answer": 3,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-3a-47",
+      "typeId": "3a",
+      "exam": 47,
+      "numbers": [
+        9,
+        10
+      ],
+      "pages": [
+        {
+          "id": "11-04",
+          "page": 4,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 3A (câu 9~10).pdf"
+        }
+      ],
+      "answers": {
+        "9": {
+          "answer": 2,
+          "page": 1
+        },
+        "10": {
+          "answer": 3,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-3a-52",
+      "typeId": "3a",
+      "exam": 52,
+      "numbers": [
+        9,
+        10
+      ],
+      "pages": [
+        {
+          "id": "11-05",
+          "page": 5,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 3A (câu 9~10).pdf"
+        }
+      ],
+      "answers": {
+        "9": {
+          "answer": 1,
+          "page": 1
+        },
+        "10": {
+          "answer": 3,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-3a-60",
+      "typeId": "3a",
+      "exam": 60,
+      "numbers": [
+        9,
+        10
+      ],
+      "pages": [
+        {
+          "id": "11-06",
+          "page": 6,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 3A (câu 9~10).pdf"
+        }
+      ],
+      "answers": {
+        "9": {
+          "answer": 1,
+          "page": 1
+        },
+        "10": {
+          "answer": 1,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-3a-64",
+      "typeId": "3a",
+      "exam": 64,
+      "numbers": [
+        9,
+        10
+      ],
+      "pages": [
+        {
+          "id": "11-07",
+          "page": 7,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 3A (câu 9~10).pdf"
+        }
+      ],
+      "answers": {
+        "9": {
+          "answer": 2,
+          "page": 1
+        },
+        "10": {
+          "answer": 3,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-3b-35",
+      "typeId": "3b",
+      "exam": 35,
+      "numbers": [
+        11,
+        12
+      ],
+      "pages": [
+        {
+          "id": "12-01",
+          "page": 1,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 3B (câu 11~12).pdf"
+        }
+      ],
+      "answers": {
+        "11": {
+          "answer": 2,
+          "page": 1
+        },
+        "12": {
+          "answer": 3,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-3b-36",
+      "typeId": "3b",
+      "exam": 36,
+      "numbers": [
+        11,
+        12
+      ],
+      "pages": [
+        {
+          "id": "12-02",
+          "page": 2,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 3B (câu 11~12).pdf"
+        }
+      ],
+      "answers": {
+        "11": {
+          "answer": 3,
+          "page": 1
+        },
+        "12": {
+          "answer": 4,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-3b-37",
+      "typeId": "3b",
+      "exam": 37,
+      "numbers": [
+        11,
+        12
+      ],
+      "pages": [
+        {
+          "id": "12-03",
+          "page": 3,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 3B (câu 11~12).pdf"
+        }
+      ],
+      "answers": {
+        "11": {
+          "answer": 3,
+          "page": 1
+        },
+        "12": {
+          "answer": 2,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-3b-41",
+      "typeId": "3b",
+      "exam": 41,
+      "numbers": [
+        11,
+        12
+      ],
+      "pages": [
+        {
+          "id": "12-04",
+          "page": 4,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 3B (câu 11~12).pdf"
+        }
+      ],
+      "answers": {
+        "11": {
+          "answer": 4,
+          "page": 1
+        },
+        "12": {
+          "answer": 4,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-3b-47",
+      "typeId": "3b",
+      "exam": 47,
+      "numbers": [
+        11,
+        12
+      ],
+      "pages": [
+        {
+          "id": "12-05",
+          "page": 5,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 3B (câu 11~12).pdf"
+        }
+      ],
+      "answers": {
+        "11": {
+          "answer": 4,
+          "page": 1
+        },
+        "12": {
+          "answer": 1,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-3b-52",
+      "typeId": "3b",
+      "exam": 52,
+      "numbers": [
+        11,
+        12
+      ],
+      "pages": [
+        {
+          "id": "12-06",
+          "page": 6,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 3B (câu 11~12).pdf"
+        }
+      ],
+      "answers": {
+        "11": {
+          "answer": 1,
+          "page": 1
+        },
+        "12": {
+          "answer": 2,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-3b-60",
+      "typeId": "3b",
+      "exam": 60,
+      "numbers": [
+        11,
+        12
+      ],
+      "pages": [
+        {
+          "id": "12-07",
+          "page": 7,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 3B (câu 11~12).pdf"
+        }
+      ],
+      "answers": {
+        "11": {
+          "answer": 4,
+          "page": 1
+        },
+        "12": {
+          "answer": 1,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-3b-64",
+      "typeId": "3b",
+      "exam": 64,
+      "numbers": [
+        11,
+        12
+      ],
+      "pages": [
+        {
+          "id": "12-08",
+          "page": 8,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 3B (câu 11~12).pdf"
+        }
+      ],
+      "answers": {
+        "11": {
+          "answer": 1,
+          "page": 1
+        },
+        "12": {
+          "answer": 3,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "reading-4-35",
+      "typeId": "4",
+      "exam": 35,
+      "numbers": [
+        13,
+        14,
+        15
+      ],
+      "pages": [
+        {
+          "id": "13-01",
+          "page": 1,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 4 (câu 13~15).pdf"
+        }
+      ],
+      "answers": {
+        "13": {
+          "answer": 1,
+          "page": 2
+        },
+        "14": {
+          "answer": 4,
+          "page": 2
+        },
+        "15": {
+          "answer": 4,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-4-36",
+      "typeId": "4",
+      "exam": 36,
+      "numbers": [
+        13,
+        14,
+        15
+      ],
+      "pages": [
+        {
+          "id": "13-02",
+          "page": 2,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 4 (câu 13~15).pdf"
+        }
+      ],
+      "answers": {
+        "13": {
+          "answer": 1,
+          "page": 2
+        },
+        "14": {
+          "answer": 4,
+          "page": 2
+        },
+        "15": {
+          "answer": 3,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-4-37",
+      "typeId": "4",
+      "exam": 37,
+      "numbers": [
+        13,
+        14,
+        15
+      ],
+      "pages": [
+        {
+          "id": "13-03",
+          "page": 3,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 4 (câu 13~15).pdf"
+        }
+      ],
+      "answers": {
+        "13": {
+          "answer": 2,
+          "page": 2
+        },
+        "14": {
+          "answer": 4,
+          "page": 2
+        },
+        "15": {
+          "answer": 3,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-4-41",
+      "typeId": "4",
+      "exam": 41,
+      "numbers": [
+        13,
+        14,
+        15
+      ],
+      "pages": [
+        {
+          "id": "13-04",
+          "page": 4,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 4 (câu 13~15).pdf"
+        }
+      ],
+      "answers": {
+        "13": {
+          "answer": 3,
+          "page": 2
+        },
+        "14": {
+          "answer": 1,
+          "page": 2
+        },
+        "15": {
+          "answer": 3,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-4-47",
+      "typeId": "4",
+      "exam": 47,
+      "numbers": [
+        13,
+        14,
+        15
+      ],
+      "pages": [
+        {
+          "id": "13-05",
+          "page": 5,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 4 (câu 13~15).pdf"
+        }
+      ],
+      "answers": {
+        "13": {
+          "answer": 1,
+          "page": 2
+        },
+        "14": {
+          "answer": 2,
+          "page": 2
+        },
+        "15": {
+          "answer": 3,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-4-52",
+      "typeId": "4",
+      "exam": 52,
+      "numbers": [
+        13,
+        14,
+        15
+      ],
+      "pages": [
+        {
+          "id": "13-06",
+          "page": 6,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 4 (câu 13~15).pdf"
+        }
+      ],
+      "answers": {
+        "13": {
+          "answer": 1,
+          "page": 2
+        },
+        "14": {
+          "answer": 2,
+          "page": 2
+        },
+        "15": {
+          "answer": 3,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-4-60",
+      "typeId": "4",
+      "exam": 60,
+      "numbers": [
+        13,
+        14,
+        15
+      ],
+      "pages": [
+        {
+          "id": "13-07",
+          "page": 7,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 4 (câu 13~15).pdf"
+        }
+      ],
+      "answers": {
+        "13": {
+          "answer": 2,
+          "page": 2
+        },
+        "14": {
+          "answer": 3,
+          "page": 2
+        },
+        "15": {
+          "answer": 4,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-4-64",
+      "typeId": "4",
+      "exam": 64,
+      "numbers": [
+        13,
+        14,
+        15
+      ],
+      "pages": [
+        {
+          "id": "13-08",
+          "page": 8,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 4 (câu 13~15).pdf"
+        }
+      ],
+      "answers": {
+        "13": {
+          "answer": 1,
+          "page": 2
+        },
+        "14": {
+          "answer": 3,
+          "page": 2
+        },
+        "15": {
+          "answer": 3,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-5-35",
+      "typeId": "5",
+      "exam": 35,
+      "numbers": [
+        16,
+        17,
+        18
+      ],
+      "pages": [
+        {
+          "id": "14-01",
+          "page": 1,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 5 (câu 16~18).pdf"
+        }
+      ],
+      "answers": {
+        "16": {
+          "answer": 2,
+          "page": 2
+        },
+        "17": {
+          "answer": 3,
+          "page": 2
+        },
+        "18": {
+          "answer": 3,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-5-36",
+      "typeId": "5",
+      "exam": 36,
+      "numbers": [
+        16,
+        17,
+        18
+      ],
+      "pages": [
+        {
+          "id": "14-02",
+          "page": 2,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 5 (câu 16~18).pdf"
+        }
+      ],
+      "answers": {
+        "16": {
+          "answer": 1,
+          "page": 2
+        },
+        "17": {
+          "answer": 1,
+          "page": 2
+        },
+        "18": {
+          "answer": 2,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-5-37",
+      "typeId": "5",
+      "exam": 37,
+      "numbers": [
+        16,
+        17,
+        18
+      ],
+      "pages": [
+        {
+          "id": "14-03",
+          "page": 3,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 5 (câu 16~18).pdf"
+        }
+      ],
+      "answers": {
+        "16": {
+          "answer": 4,
+          "page": 2
+        },
+        "17": {
+          "answer": 1,
+          "page": 2
+        },
+        "18": {
+          "answer": 3,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-5-41",
+      "typeId": "5",
+      "exam": 41,
+      "numbers": [
+        16,
+        17,
+        18
+      ],
+      "pages": [
+        {
+          "id": "14-04",
+          "page": 4,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 5 (câu 16~18).pdf"
+        }
+      ],
+      "answers": {
+        "16": {
+          "answer": 4,
+          "page": 2
+        },
+        "17": {
+          "answer": 4,
+          "page": 2
+        },
+        "18": {
+          "answer": 1,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-5-47",
+      "typeId": "5",
+      "exam": 47,
+      "numbers": [
+        16,
+        17,
+        18
+      ],
+      "pages": [
+        {
+          "id": "14-05",
+          "page": 5,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 5 (câu 16~18).pdf"
+        }
+      ],
+      "answers": {
+        "16": {
+          "answer": 2,
+          "page": 2
+        },
+        "17": {
+          "answer": 3,
+          "page": 2
+        },
+        "18": {
+          "answer": 4,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-5-52",
+      "typeId": "5",
+      "exam": 52,
+      "numbers": [
+        16,
+        17,
+        18
+      ],
+      "pages": [
+        {
+          "id": "14-06",
+          "page": 6,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 5 (câu 16~18).pdf"
+        }
+      ],
+      "answers": {
+        "16": {
+          "answer": 2,
+          "page": 2
+        },
+        "17": {
+          "answer": 2,
+          "page": 2
+        },
+        "18": {
+          "answer": 3,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-5-60",
+      "typeId": "5",
+      "exam": 60,
+      "numbers": [
+        16,
+        17,
+        18
+      ],
+      "pages": [
+        {
+          "id": "14-07",
+          "page": 7,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 5 (câu 16~18).pdf"
+        }
+      ],
+      "answers": {
+        "16": {
+          "answer": 1,
+          "page": 2
+        },
+        "17": {
+          "answer": 2,
+          "page": 2
+        },
+        "18": {
+          "answer": 3,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-5-64",
+      "typeId": "5",
+      "exam": 64,
+      "numbers": [
+        16,
+        17,
+        18
+      ],
+      "pages": [
+        {
+          "id": "14-08",
+          "page": 8,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 5 (câu 16~18).pdf"
+        }
+      ],
+      "answers": {
+        "16": {
+          "answer": 4,
+          "page": 2
+        },
+        "17": {
+          "answer": 2,
+          "page": 2
+        },
+        "18": {
+          "answer": 4,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-6-35",
+      "typeId": "6",
+      "exam": 35,
+      "numbers": [
+        19,
+        20
+      ],
+      "pages": [
+        {
+          "id": "15-01",
+          "page": 1,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 7 (câu 19~20).pdf"
+        }
+      ],
+      "answers": {
+        "19": {
+          "answer": 2,
+          "page": 2
+        },
+        "20": {
+          "answer": 4,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-6-36",
+      "typeId": "6",
+      "exam": 36,
+      "numbers": [
+        19,
+        20
+      ],
+      "pages": [
+        {
+          "id": "15-02",
+          "page": 2,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 7 (câu 19~20).pdf"
+        }
+      ],
+      "answers": {
+        "19": {
+          "answer": 2,
+          "page": 2
+        },
+        "20": {
+          "answer": 1,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-6-37",
+      "typeId": "6",
+      "exam": 37,
+      "numbers": [
+        19,
+        20
+      ],
+      "pages": [
+        {
+          "id": "15-03",
+          "page": 3,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 7 (câu 19~20).pdf"
+        }
+      ],
+      "answers": {
+        "19": {
+          "answer": 3,
+          "page": 2
+        },
+        "20": {
+          "answer": 4,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-6-41",
+      "typeId": "6",
+      "exam": 41,
+      "numbers": [
+        19,
+        20
+      ],
+      "pages": [
+        {
+          "id": "15-04",
+          "page": 4,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 7 (câu 19~20).pdf"
+        }
+      ],
+      "answers": {
+        "19": {
+          "answer": 1,
+          "page": 2
+        },
+        "20": {
+          "answer": 1,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-6-47",
+      "typeId": "6",
+      "exam": 47,
+      "numbers": [
+        19,
+        20
+      ],
+      "pages": [
+        {
+          "id": "15-05",
+          "page": 5,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 7 (câu 19~20).pdf"
+        }
+      ],
+      "answers": {
+        "19": {
+          "answer": 2,
+          "page": 2
+        },
+        "20": {
+          "answer": 4,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-6-52",
+      "typeId": "6",
+      "exam": 52,
+      "numbers": [
+        19,
+        20
+      ],
+      "pages": [
+        {
+          "id": "15-06",
+          "page": 6,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 7 (câu 19~20).pdf"
+        }
+      ],
+      "answers": {
+        "19": {
+          "answer": 2,
+          "page": 2
+        },
+        "20": {
+          "answer": 1,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-6-60",
+      "typeId": "6",
+      "exam": 60,
+      "numbers": [
+        19,
+        20
+      ],
+      "pages": [
+        {
+          "id": "15-07",
+          "page": 7,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 7 (câu 19~20).pdf"
+        }
+      ],
+      "answers": {
+        "19": {
+          "answer": 3,
+          "page": 2
+        },
+        "20": {
+          "answer": 3,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-6-64",
+      "typeId": "6",
+      "exam": 64,
+      "numbers": [
+        19,
+        20
+      ],
+      "pages": [
+        {
+          "id": "15-08",
+          "page": 8,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 7 (câu 19~20).pdf"
+        }
+      ],
+      "answers": {
+        "19": {
+          "answer": 3,
+          "page": 2
+        },
+        "20": {
+          "answer": 3,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-7-35",
+      "typeId": "7",
+      "exam": 35,
+      "numbers": [
+        21,
+        22
+      ],
+      "pages": [
+        {
+          "id": "16-01",
+          "page": 1,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 7 (câu 21~22).pdf"
+        }
+      ],
+      "answers": {
+        "21": {
+          "answer": 1,
+          "page": 2
+        },
+        "22": {
+          "answer": 2,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-7-36",
+      "typeId": "7",
+      "exam": 36,
+      "numbers": [
+        21,
+        22
+      ],
+      "pages": [
+        {
+          "id": "16-02",
+          "page": 2,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 7 (câu 21~22).pdf"
+        }
+      ],
+      "answers": {
+        "21": {
+          "answer": 2,
+          "page": 2
+        },
+        "22": {
+          "answer": 4,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-7-37",
+      "typeId": "7",
+      "exam": 37,
+      "numbers": [
+        21,
+        22
+      ],
+      "pages": [
+        {
+          "id": "16-03",
+          "page": 3,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 7 (câu 21~22).pdf"
+        }
+      ],
+      "answers": {
+        "21": {
+          "answer": 1,
+          "page": 2
+        },
+        "22": {
+          "answer": 2,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-7-41",
+      "typeId": "7",
+      "exam": 41,
+      "numbers": [
+        21,
+        22
+      ],
+      "pages": [
+        {
+          "id": "16-04",
+          "page": 4,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 7 (câu 21~22).pdf"
+        }
+      ],
+      "answers": {
+        "21": {
+          "answer": 4,
+          "page": 2
+        },
+        "22": {
+          "answer": 3,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-7-47",
+      "typeId": "7",
+      "exam": 47,
+      "numbers": [
+        21,
+        22
+      ],
+      "pages": [
+        {
+          "id": "16-05",
+          "page": 5,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 7 (câu 21~22).pdf"
+        }
+      ],
+      "answers": {
+        "21": {
+          "answer": 1,
+          "page": 2
+        },
+        "22": {
+          "answer": 2,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-7-52",
+      "typeId": "7",
+      "exam": 52,
+      "numbers": [
+        21,
+        22
+      ],
+      "pages": [
+        {
+          "id": "16-06",
+          "page": 6,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 7 (câu 21~22).pdf"
+        }
+      ],
+      "answers": {
+        "21": {
+          "answer": 4,
+          "page": 2
+        },
+        "22": {
+          "answer": 4,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-7-60",
+      "typeId": "7",
+      "exam": 60,
+      "numbers": [
+        21,
+        22
+      ],
+      "pages": [
+        {
+          "id": "16-07",
+          "page": 7,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 7 (câu 21~22).pdf"
+        }
+      ],
+      "answers": {
+        "21": {
+          "answer": 4,
+          "page": 2
+        },
+        "22": {
+          "answer": 3,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-7-64",
+      "typeId": "7",
+      "exam": 64,
+      "numbers": [
+        21,
+        22
+      ],
+      "pages": [
+        {
+          "id": "16-08",
+          "page": 8,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 7 (câu 21~22).pdf"
+        }
+      ],
+      "answers": {
+        "21": {
+          "answer": 2,
+          "page": 2
+        },
+        "22": {
+          "answer": 3,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-8-35",
+      "typeId": "8",
+      "exam": 35,
+      "numbers": [
+        23,
+        24
+      ],
+      "pages": [
+        {
+          "id": "17-01",
+          "page": 1,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 8 (câu 23~24).pdf"
+        }
+      ],
+      "answers": {
+        "23": {
+          "answer": 1,
+          "page": 2
+        },
+        "24": {
+          "answer": 3,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-8-36",
+      "typeId": "8",
+      "exam": 36,
+      "numbers": [
+        23,
+        24
+      ],
+      "pages": [
+        {
+          "id": "17-02",
+          "page": 2,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 8 (câu 23~24).pdf"
+        }
+      ],
+      "answers": {
+        "23": {
+          "answer": 2,
+          "page": 2
+        },
+        "24": {
+          "answer": 4,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-8-37",
+      "typeId": "8",
+      "exam": 37,
+      "numbers": [
+        23,
+        24
+      ],
+      "pages": [
+        {
+          "id": "17-03",
+          "page": 3,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 8 (câu 23~24).pdf"
+        }
+      ],
+      "answers": {
+        "23": {
+          "answer": 3,
+          "page": 2
+        },
+        "24": {
+          "answer": 2,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-8-41",
+      "typeId": "8",
+      "exam": 41,
+      "numbers": [
+        23,
+        24
+      ],
+      "pages": [
+        {
+          "id": "17-04",
+          "page": 4,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 8 (câu 23~24).pdf"
+        }
+      ],
+      "answers": {
+        "23": {
+          "answer": 1,
+          "page": 2
+        },
+        "24": {
+          "answer": 2,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-8-47",
+      "typeId": "8",
+      "exam": 47,
+      "numbers": [
+        23,
+        24
+      ],
+      "pages": [
+        {
+          "id": "17-05",
+          "page": 5,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 8 (câu 23~24).pdf"
+        }
+      ],
+      "answers": {
+        "23": {
+          "answer": 4,
+          "page": 2
+        },
+        "24": {
+          "answer": 3,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-8-52",
+      "typeId": "8",
+      "exam": 52,
+      "numbers": [
+        23,
+        24
+      ],
+      "pages": [
+        {
+          "id": "17-06",
+          "page": 6,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 8 (câu 23~24).pdf"
+        }
+      ],
+      "answers": {
+        "23": {
+          "answer": 3,
+          "page": 2
+        },
+        "24": {
+          "answer": 2,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-8-60",
+      "typeId": "8",
+      "exam": 60,
+      "numbers": [
+        23,
+        24
+      ],
+      "pages": [
+        {
+          "id": "17-07",
+          "page": 7,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 8 (câu 23~24).pdf"
+        }
+      ],
+      "answers": {
+        "23": {
+          "answer": 4,
+          "page": 2
+        },
+        "24": {
+          "answer": 2,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-8-64",
+      "typeId": "8",
+      "exam": 64,
+      "numbers": [
+        23,
+        24
+      ],
+      "pages": [
+        {
+          "id": "17-08",
+          "page": 8,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 8 (câu 23~24).pdf"
+        }
+      ],
+      "answers": {
+        "23": {
+          "answer": 1,
+          "page": 2
+        },
+        "24": {
+          "answer": 2,
+          "page": 2
+        }
+      }
+    },
+    {
+      "id": "reading-9-35",
+      "typeId": "9",
+      "exam": 35,
+      "numbers": [
+        25,
+        26,
+        27
+      ],
+      "pages": [
+        {
+          "id": "18-01",
+          "page": 1,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 9 (câu 25~27).pdf"
+        }
+      ],
+      "answers": {
+        "25": {
+          "answer": 3,
+          "page": 3
+        },
+        "26": {
+          "answer": 1,
+          "page": 3
+        },
+        "27": {
+          "answer": 4,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-9-36",
+      "typeId": "9",
+      "exam": 36,
+      "numbers": [
+        25,
+        26,
+        27
+      ],
+      "pages": [
+        {
+          "id": "18-02",
+          "page": 2,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 9 (câu 25~27).pdf"
+        }
+      ],
+      "answers": {
+        "25": {
+          "answer": 3,
+          "page": 3
+        },
+        "26": {
+          "answer": 4,
+          "page": 3
+        },
+        "27": {
+          "answer": 3,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-9-37",
+      "typeId": "9",
+      "exam": 37,
+      "numbers": [
+        25,
+        26,
+        27
+      ],
+      "pages": [
+        {
+          "id": "18-03",
+          "page": 3,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 9 (câu 25~27).pdf"
+        }
+      ],
+      "answers": {
+        "25": {
+          "answer": 4,
+          "page": 3
+        },
+        "26": {
+          "answer": 3,
+          "page": 3
+        },
+        "27": {
+          "answer": 4,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-9-41",
+      "typeId": "9",
+      "exam": 41,
+      "numbers": [
+        25,
+        26,
+        27
+      ],
+      "pages": [
+        {
+          "id": "18-04",
+          "page": 4,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 9 (câu 25~27).pdf"
+        }
+      ],
+      "answers": {
+        "25": {
+          "answer": 3,
+          "page": 3
+        },
+        "26": {
+          "answer": 4,
+          "page": 3
+        },
+        "27": {
+          "answer": 3,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-9-47",
+      "typeId": "9",
+      "exam": 47,
+      "numbers": [
+        25,
+        26,
+        27
+      ],
+      "pages": [
+        {
+          "id": "18-05",
+          "page": 5,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 9 (câu 25~27).pdf"
+        }
+      ],
+      "answers": {
+        "25": {
+          "answer": 4,
+          "page": 3
+        },
+        "26": {
+          "answer": 1,
+          "page": 3
+        },
+        "27": {
+          "answer": 4,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-9-52",
+      "typeId": "9",
+      "exam": 52,
+      "numbers": [
+        25,
+        26,
+        27
+      ],
+      "pages": [
+        {
+          "id": "18-06",
+          "page": 6,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 9 (câu 25~27).pdf"
+        }
+      ],
+      "answers": {
+        "25": {
+          "answer": 1,
+          "page": 3
+        },
+        "26": {
+          "answer": 3,
+          "page": 3
+        },
+        "27": {
+          "answer": 4,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-9-60",
+      "typeId": "9",
+      "exam": 60,
+      "numbers": [
+        25,
+        26,
+        27
+      ],
+      "pages": [
+        {
+          "id": "18-07",
+          "page": 7,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 9 (câu 25~27).pdf"
+        }
+      ],
+      "answers": {
+        "25": {
+          "answer": 1,
+          "page": 3
+        },
+        "26": {
+          "answer": 3,
+          "page": 3
+        },
+        "27": {
+          "answer": 2,
+          "page": 3
+        }
+      }
+    },
+    {
+      "id": "reading-9-64",
+      "typeId": "9",
+      "exam": 64,
+      "numbers": [
+        25,
+        26,
+        27
+      ],
+      "pages": [
+        {
+          "id": "18-08",
+          "page": 8,
+          "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 9 (câu 25~27).pdf"
+        }
+      ],
+      "answers": {
+        "25": {
+          "answer": 1,
+          "page": 3
+        },
+        "26": {
+          "answer": 4,
+          "page": 3
+        },
+        "27": {
+          "answer": 3,
+          "page": 3
+        }
+      }
+    }
+  ],
+  "answerSource": "ĐÁP ÁN ĐỀ ĐỌC 읽기 TOPIK II THEO DẠNG HUONGIU.pdf",
+  "sources": [
+    {
+      "file": "ĐÁP ÁN ĐỀ ĐỌC 읽기 TOPIK II THEO DẠNG HUONGIU.pdf",
+      "sha256": "d776b6bbb155c68d909579cbe535c8a12c75c803b8b95d8d6726232251bd7a2a"
+    },
+    {
+      "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 1 (câu 1~4).pdf",
+      "sha256": "4edf6a94c7e9e2ed9254897623038134631b28c35d369ae267ee6709fa0db1d3"
+    },
+    {
+      "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 10 (câu 28~31).pdf",
+      "sha256": "67a7ea74d1b5e832b3b8f7622faca8b80f6fe6b4d573ddce4166f21af47ce972"
+    },
+    {
+      "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 11 (câu 32~34).pdf",
+      "sha256": "eceeb28722a09711a412f70a6d9632778d70a9687ea1b58d14eacc1b202e8205"
+    },
+    {
+      "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 12 (câu 35~38).pdf",
+      "sha256": "d99a14c16259f84114ef88599de9235423d52d062a2f96dccab44ed2e1b1ea77"
+    },
+    {
+      "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 13 (câu 39~41).pdf",
+      "sha256": "ce5ebf94b91dd870affa707716644f79b07cf32dc4ec878a5099d92a04b8df43"
+    },
+    {
+      "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 14 (câu 42~43).pdf",
+      "sha256": "6f3fb1731bd13b4389620e7516ab72cbed9bce325476f4f0a0215b1753c6598d"
+    },
+    {
+      "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 15 (câu 44~45).pdf",
+      "sha256": "5e6ed04f31e96bb7c4e31019a78fdf30c0a6277cf6a0d951d41986f62c8ff326"
+    },
+    {
+      "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 16 (câu 46~47).pdf",
+      "sha256": "d6b5eee42af557744ac7b50db94c446ff6dc20d2903ada545c25af497f518e4a"
+    },
+    {
+      "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 17 (câu 48~50).pdf",
+      "sha256": "a657fd74ba366a23cf7d654ef1025115cf68791648f2b08845bfe5d9e6e6aad0"
+    },
+    {
+      "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 2 (câu 5~8).pdf",
+      "sha256": "6aaa38bddb28a93c8e80d84582136d534d86ae829f8b4b36404526ed2faa5fd3"
+    },
+    {
+      "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 3A (câu 9~10).pdf",
+      "sha256": "d9e3421ab622053189f433b467a6e2197e95e07b4e110cbd5b4af2779e5f4c81"
+    },
+    {
+      "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 3B (câu 11~12).pdf",
+      "sha256": "61dbc0cb8d099d1c9164beddbf17f514d96385a940abe68661e9efc1c7168167"
+    },
+    {
+      "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 4 (câu 13~15).pdf",
+      "sha256": "076cd43a7667eb78c5dfbb18e37d362038f542784cf05c6317420caef71a2130"
+    },
+    {
+      "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 5 (câu 16~18).pdf",
+      "sha256": "c6c9d709ca6c36ea5264b960cfd8658a02d614d7faa695f945dc16e5da24dd98"
+    },
+    {
+      "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 7 (câu 19~20).pdf",
+      "sha256": "4703627a34ad3e82d3fc7d51069e4735f6047b6f7382c8797e9c4d64084f8562"
+    },
+    {
+      "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 7 (câu 21~22).pdf",
+      "sha256": "fd640f8de325db15d648c215b417b5f0e1e1dc641157f6462bbac4173bfd6a82"
+    },
+    {
+      "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 8 (câu 23~24).pdf",
+      "sha256": "b0cd8946aecf7af327ffe0121ef272747ca79137220fa7368cdcfe81601fc3d9"
+    },
+    {
+      "file": "ĐỀ ĐỌC 읽기 TOPIK THEO DẠNG 9 (câu 25~27).pdf",
+      "sha256": "e8f8d0e72e9ed846f72aaec89df0c54f973dbd51e31197b04f99ca55e121df90"
+    }
+  ]
+}

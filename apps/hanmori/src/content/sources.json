@@ -1,0 +1,24 @@
+[
+  {
+    "id": "topik-vocabulary",
+    "filename": "topik-2662.pdf",
+    "sha256": "42f01371ae893e8baa81a63a550418e5b0a4b792e9cd372e366382c4b6c9c92e",
+    "pages": 34,
+    "records": 2662,
+    "missingMeanings": [2334],
+    "language": "ko-en",
+    "band": "TOPIK II — Intermediate",
+    "extraction": "pdfplumber table extraction; whitespace normalized only"
+  },
+  {
+    "id": "topik-grammar",
+    "filename": "TOPIK-Ⅱ-Grammar.pdf.pdf",
+    "sha256": "84f72cc05630c875260f81b1ca58db0a9e78ef729d7a55a76dfb42940f0a7b46",
+    "pages": 5,
+    "records": 148,
+    "missingMeanings": [],
+    "language": "ko-en",
+    "band": "TOPIK II — Intermediate",
+    "extraction": "pdfplumber table extraction; whitespace normalized only"
+  }
+]

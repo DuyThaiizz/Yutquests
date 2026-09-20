@@ -9,6 +9,9 @@
   "scripts": {
     "dev:web": "npm run dev -w apps/web",
     "dev:server": "npm run dev -w apps/server",
-    "test:engine": "npm run test -w packages/yut-engine"
+    "test:engine": "npm run test -w packages/yut-engine",
+    "dev:hanmori": "npm run dev -w apps/hanmori",
+    "build:hanmori": "npm run build -w apps/hanmori",
+    "test:hanmori": "npm run test -w apps/hanmori"
   }
 }
