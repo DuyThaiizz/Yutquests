@@ -5,7 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { Check, ArrowRight } from "lucide-react";
 import { useStudy } from "./StudyProvider";
 import { lessons } from "@/lib/catalog";
-import { choicesFor, isCorrectAnswer, shuffled } from "@/lib/learning";
+import { choicesFor, isCorrectAnswer, shuffled } from "@/lib/learning-core";
 import type { Vocabulary } from "@/lib/models";
 interface Question {
   word: Vocabulary;
@@ -120,7 +120,7 @@ export function Practice() {
             </div>
             <div className="progress-track">
               <span
-                style={{ width: `${(index / questions!.length) * 100}%` }}
+                style={{ transform: `scaleX(${index / questions!.length})` }}
               />
             </div>
             <form

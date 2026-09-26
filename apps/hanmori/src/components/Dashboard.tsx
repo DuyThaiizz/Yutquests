@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 import { useStudy } from "./StudyProvider";
 import { lessons } from "@/lib/catalog";
-import { studyStats, localDay } from "@/lib/learning";
+import { studyStats, localDay } from "@/lib/learning-core";
 import { Motif } from "./Brand";
 import { usePronunciation } from "./Pronunciation";
 import { CorpusHighlights } from "./Library";
@@ -192,7 +192,7 @@ export function Dashboard() {
                     <div className="progress-track">
                       <span
                         style={{
-                          width: `${words.length ? (learned / words.length) * 100 : 0}%`,
+                          transform: `scaleX(${words.length ? learned / words.length : 0})`,
                         }}
                       />
                     </div>

@@ -45,6 +45,20 @@ export function ReadingLibrary({
           <PenLine size={20} /> Viết <small>Sẽ phát triển</small>
         </span>
       </div>
+      <label className="reading-type-select">
+        Dạng bài đọc hiểu
+        <select
+          value={typeId}
+          onChange={(event) => setTypeId(event.target.value)}
+        >
+          {types.map((item) => (
+            <option key={item.id} value={item.id}>
+              {item.id.toUpperCase()} · {item.title} · Câu {item.start}–
+              {item.end}
+            </option>
+          ))}
+        </select>
+      </label>
       <div className="reading-library-grid">
         <nav className="reading-types" aria-label="Dạng bài đọc hiểu">
           {types.map((t) => (

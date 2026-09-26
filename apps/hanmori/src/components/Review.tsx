@@ -6,7 +6,7 @@ import { ArrowRight, Check, RotateCcw, Volume2, Bookmark } from "lucide-react";
 import { useStudy } from "./StudyProvider";
 import { usePronunciation } from "./Pronunciation";
 import { lessons } from "@/lib/catalog";
-import { scheduleReview, prioritizeReview } from "@/lib/learning";
+import { scheduleReview, prioritizeReview } from "@/lib/learning-core";
 import { levelLabel } from "@/lib/source-catalog";
 import { SourceTag } from "./SourceTag";
 import type { Grade } from "@/lib/models";
@@ -128,7 +128,7 @@ export function Review() {
               </button>
             </div>
             <div className="progress-track">
-              <span style={{ width: `${(index / queue.length) * 100}%` }} />
+              <span style={{ transform: `scaleX(${index / queue.length})` }} />
             </div>
             <button
               className="flashcard"

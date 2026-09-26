@@ -117,7 +117,7 @@ export function Courses() {
                   <div className="progress-track">
                     <span
                       style={{
-                        width: `${words.length ? (learned / words.length) * 100 : 0}%`,
+                        transform: `scaleX(${words.length ? learned / words.length : 0})`,
                       }}
                     />
                   </div>
@@ -155,7 +155,7 @@ export function Courses() {
   );
 }
 export function WordCard({ word }: { word: Vocabulary }) {
-  const { data, toggleSaved } = useStudy();
+  const { data, ready, toggleSaved } = useStudy();
   const speak = usePronunciation();
   const saved = data.saved.includes(word.id);
   return (
@@ -175,6 +175,7 @@ export function WordCard({ word }: { word: Vocabulary }) {
           <button
             className={saved ? "saved" : ""}
             aria-pressed={saved}
+            disabled={!ready}
             aria-label={`${saved ? "Bỏ lưu" : "Lưu"} ${word.korean}`}
             onClick={() => toggleSaved(word.id)}
           >
@@ -196,7 +197,7 @@ export function WordCard({ word }: { word: Vocabulary }) {
 }
 export function LessonDetail({ id }: { id: string }) {
   const lesson = lessons.find((item) => item.id === id)!;
-  const { data } = useStudy();
+  const { data, ready } = useStudy();
   const words = data.vocabulary.filter(
     (word) => word.lessonId === id && word.status === "published",
   );
@@ -229,10 +230,16 @@ export function LessonDetail({ id }: { id: string }) {
           <WordCard key={word.id} word={word} />
         ))}
       </div>
-      {!words.length && (
-        <p className="empty-state">
-          Bài học này chưa có từ vựng được xuất bản.
+      {!ready ? (
+        <p className="loading-text" role="status">
+          Đang mở từ vựng trong bài…
         </p>
+      ) : (
+        !words.length && (
+          <p className="empty-state">
+            Bài học này chưa có từ vựng được xuất bản.
+          </p>
+        )
       )}
       {lesson.grammar && (
         <section className="grammar-card">

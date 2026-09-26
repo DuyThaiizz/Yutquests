@@ -60,6 +60,7 @@ export function ReadingExercise({
     [zoom, setZoom] = useState(false),
     [transcript, setTranscript] = useState(false),
     [sourcePage, setSourcePage] = useState(0);
+  const [view, setView] = useState<"paper" | "answers">("paper");
   const restoring = useRef(false),
     canSave = useRef(true),
     lock = useRef(false);
@@ -81,6 +82,7 @@ export function ReadingExercise({
         );
       const parsed = resultSchema.parse(await response.json());
       setResult(parsed);
+      setView("answers");
       setConfirm(false);
     } catch {
       setError("Chưa chấm được bài. Bài làm vẫn được giữ; hãy thử nộp lại.");
@@ -152,8 +154,35 @@ export function ReadingExercise({
         </Link>
       </div>
       {set.sourceNote && <p className="notice-panel">{set.sourceNote}</p>}
-      <div className="reading-workspace">
-        <section className="reading-paper">
+      <div
+        className="reading-view-switch"
+        role="group"
+        aria-label="Không gian làm bài"
+      >
+        <button
+          aria-pressed={view === "paper"}
+          aria-controls="reading-paper"
+          onClick={() => setView("paper")}
+        >
+          Đề bài
+        </button>
+        <button
+          aria-pressed={view === "answers"}
+          aria-controls="reading-answers"
+          onClick={() => setView("answers")}
+        >
+          {result ? "Kết quả" : "Trả lời"}{" "}
+          <span>
+            {answered}/{set.numbers.length}
+          </span>
+        </button>
+      </div>
+      <div className="reading-workspace" data-view={view}>
+        <section
+          className="reading-paper"
+          id="reading-paper"
+          aria-label="Đề bài"
+        >
           <div className="paper-toolbar">
             <div className="tabs">
               {pages.map((p, i) => (
@@ -167,7 +196,11 @@ export function ReadingExercise({
                 </button>
               ))}
             </div>
-            <button className="text-link" onClick={() => setZoom(!zoom)}>
+            <button
+              className="text-link"
+              aria-pressed={zoom}
+              onClick={() => setZoom(!zoom)}
+            >
               {zoom ? <ZoomOut size={17} /> : <ZoomIn size={17} />}{" "}
               {zoom ? "Thu gọn" : "Phóng to"}
             </button>
@@ -229,7 +262,11 @@ export function ReadingExercise({
             {source.file} · Trang {source.page}
           </p>
         </section>
-        <aside className="answer-panel panel">
+        <aside
+          className="answer-panel panel"
+          id="reading-answers"
+          aria-label="Phiếu làm bài"
+        >
           <span className="eyebrow">PHIẾU LÀM BÀI</span>
           <h2>{result ? "Kết quả của bạn" : "Chọn đáp án"}</h2>
           {result ? (

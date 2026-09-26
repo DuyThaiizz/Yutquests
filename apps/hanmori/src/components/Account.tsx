@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { Download, Info, RotateCcw, LogIn } from "lucide-react";
 import { useStudy } from "./StudyProvider";
-import { STORAGE_KEY } from "@/lib/learning";
+import { STORAGE_KEY } from "@/lib/learning-core";
 import { getSupabase, cloudConfigured } from "@/lib/supabase";
 
 export function Account() {

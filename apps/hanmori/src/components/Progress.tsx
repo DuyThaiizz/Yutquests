@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { BookOpen, Flame, Sparkles } from "lucide-react";
 import { useStudy } from "./StudyProvider";
-import { localDay, studyStats } from "@/lib/learning";
+import { localDay, studyStats } from "@/lib/learning-core";
 import { lessons } from "@/lib/catalog";
 import { Motif } from "./Brand";
 export function Progress() {
@@ -100,7 +100,7 @@ export function Progress() {
                 <div className="progress-track">
                   <span
                     style={{
-                      width: `${words.length ? (learned / words.length) * 100 : 0}%`,
+                      transform: `scaleX(${words.length ? learned / words.length : 0})`,
                     }}
                   />
                 </div>

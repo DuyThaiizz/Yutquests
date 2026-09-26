@@ -2,7 +2,13 @@
   --paper: #fbf9f4;
   --surface: #fffefa;
   --ink: #263d3c;
-  --muted: #72776c;
+  --muted: #5f685e;
+  --accent-text: #796640;
+  --success: #245d3f;
+  --success-surface: #d5e9da;
+  --error: #983e32;
+  --error-surface: #f4ddda;
+  --focus: #796640;
   --line: #e5e4d9;
   --green: #244f49;
   --teal: #386d64;
@@ -65,7 +71,7 @@ a:focus-visible,
 input:focus-visible,
 select:focus-visible,
 textarea:focus-visible {
-  outline: 3px solid #ad8745;
+  outline: 3px solid var(--focus);
   outline-offset: 4px;
 }
 input,
@@ -740,7 +746,9 @@ textarea::placeholder {
   height: 100%;
   display: block;
   background: #648471;
-  transition: width 0.3s;
+  width: 100%;
+  transform-origin: left;
+  transition: transform 0.3s;
 }
 .review-banner {
   display: flex;
@@ -2656,7 +2664,7 @@ td.korean-cell {
 .source-tag {
   display: block;
   font-size: 10px;
-  color: #7d8172;
+  color: var(--muted);
   border-top: 1px solid #e9e8de;
   margin-top: 18px;
   padding-top: 12px;
@@ -2993,5 +3001,42 @@ td.korean-cell {
   }
   .library-context p > span {
     font-size: 11px;
+  }
+}
+
+/* Native modal navigation protects focus and makes the page behind it inert. */
+.navigation-dialog {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  width: min(300px, 88vw);
+  max-width: none;
+  height: 100dvh;
+  max-height: none;
+  background: var(--paper);
+  color: var(--ink);
+}
+.navigation-dialog::backdrop {
+  background: #102d3570;
+}
+.navigation-dialog .sidebar {
+  position: static;
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  overflow-y: auto;
+}
+@media (max-width: 760px) {
+  .desktop-sidebar {
+    display: none;
+  }
+  .mobile-menu.icon-button,
+  .sidebar-brand .mobile-close {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+  }
+  body:has(.navigation-dialog[open]) {
+    overflow: hidden;
   }
 }

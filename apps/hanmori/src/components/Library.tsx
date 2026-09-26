@@ -80,7 +80,7 @@ export function CorpusHighlights() {
   );
 }
 export function GrammarCard({ item }: { item: SourceGrammar }) {
-  const { data, toggleSaved } = useStudy();
+  const { data, ready, toggleSaved } = useStudy();
   const speak = usePronunciation();
   const saved = data.saved.includes(`grammar-${item.index}`);
   return (
@@ -94,6 +94,7 @@ export function GrammarCard({ item }: { item: SourceGrammar }) {
           className={`icon-button ${saved ? "is-saved" : ""}`}
           aria-label={`${saved ? "Bỏ lưu" : "Lưu"} ngữ pháp ${item.index}`}
           aria-pressed={saved}
+          disabled={!ready}
           onClick={() => toggleSaved(`grammar-${item.index}`)}
         >
           <Bookmark size={17} />
