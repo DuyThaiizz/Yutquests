@@ -45,8 +45,8 @@ export function PersonalNotebook() {
           <span className="eyebrow">나만의 단어장 · GHI CHÚ KHI HỌC</span>
           <h1>Từ vựng chưa biết</h1>
           <p>
-            Bôi đen từ trong bài đọc để lưu. Bổ sung nghĩa rồi chọn từ tạo bộ
-            thẻ của riêng bạn.
+            Bôi đen từ trong bài học hoặc ghi thủ công từ đề scan. Bổ sung nghĩa
+            rồi chọn từ tạo bộ thẻ của riêng bạn.
           </p>
         </div>
         <Link href="/notebook" className="text-link">
@@ -55,6 +55,24 @@ export function PersonalNotebook() {
       </div>
       <div className="personal-grid">
         <section>
+          <button
+            className="button secondary"
+            type="button"
+            onClick={() => {
+              setEditor({
+                id: crypto.randomUUID(),
+                term: "",
+                meaning: "",
+                meaningLanguage: "vi",
+                context: "Từ ghi thủ công khi luyện viết TOPIK",
+                source: "/topik/writing",
+                createdAt: new Date().toISOString(),
+              });
+              setError("");
+            }}
+          >
+            + Ghi từ mới
+          </button>
           <label htmlFor="note-search">Tìm trong ghi chú</label>
           <input
             id="note-search"
@@ -72,7 +90,10 @@ export function PersonalNotebook() {
           ) : !filtered.length ? (
             <div className="empty-state">
               <h2>Ghi lại từ đầu tiên.</h2>
-              <p>Mở bài đọc, bôi đen một từ và chọn “Lưu từ chưa biết”.</p>
+              <p>
+                Bôi đen từ trong bài học hoặc chọn “Ghi từ mới” để nhập từ trong
+                đề scan.
+              </p>
               <Link className="button" href="/topik">
                 Mở ôn tập TOPIK
               </Link>
@@ -263,10 +284,10 @@ export function PersonalNotebook() {
                 return;
               }
               setEditor(null);
-              notify("Đã cập nhật nghĩa và thẻ học.");
+              notify("Đã lưu từ vào sổ và bộ thẻ của bạn.");
             }}
           >
-            <h2 id="note-editor-title">Tra nghĩa & ghi chú</h2>
+            <h2 id="note-editor-title">Ghi từ mới & tra nghĩa</h2>
             <label htmlFor="note-term">Từ tiếng Hàn</label>
             <input
               id="note-term"

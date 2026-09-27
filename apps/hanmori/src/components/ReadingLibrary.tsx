@@ -41,9 +41,9 @@ export function ReadingLibrary({
         <span>
           <Headphones size={20} /> Nghe <small>Sẽ phát triển</small>
         </span>
-        <span>
-          <PenLine size={20} /> Viết <small>Sẽ phát triển</small>
-        </span>
+        <Link href="/topik/writing">
+          <PenLine size={20} /> Viết · 쓰기
+        </Link>
       </div>
       <label className="reading-type-select">
         Dạng bài đọc hiểu

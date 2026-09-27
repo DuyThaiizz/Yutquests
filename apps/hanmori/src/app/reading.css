@@ -36,12 +36,16 @@
   margin-bottom: 30px;
   flex-wrap: wrap;
 }
-.skill-tabs > span {
+.skill-tabs > span,
+.skill-tabs > a {
   display: flex;
   align-items: center;
   gap: 10px;
   padding: 17px 0;
   color: var(--muted);
+}
+.skill-tabs > a:hover {
+  color: var(--green);
 }
 .skill-tabs .active {
   color: var(--green);
@@ -394,6 +398,9 @@
   grid-template-columns: minmax(0, 1fr) 320px;
   gap: 30px;
   align-items: start;
+}
+.personal-grid section > .button {
+  margin-bottom: 18px;
 }
 .personal-grid input[type="checkbox"] {
   width: 18px;
