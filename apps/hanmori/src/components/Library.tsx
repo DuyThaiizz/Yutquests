@@ -191,6 +191,16 @@ export function Library() {
         </div>
         <span>Vào luyện đọc →</span>
       </Link>
+      <Link href="/grammar" className="reading-banner grammar-learning-banner">
+        <div>
+          <span className="eyebrow">MỚI · 문법</span>
+          <strong>Học và ôn tập ngữ pháp theo nhóm</strong>
+          <p>
+            16 bài theo chủ đề và 148 câu từ Tủ sách TOPIK II · Có lời giải.
+          </p>
+        </div>
+        <span>Vào học ngữ pháp →</span>
+      </Link>
       <div className="library-tabs" aria-label="Loại tài liệu">
         <Link
           href="/library?tab=vocabulary"

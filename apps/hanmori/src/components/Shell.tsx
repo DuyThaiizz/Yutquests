@@ -24,6 +24,7 @@ import { isNavigationActive } from "@/lib/navigation";
 const links = [
   { href: "/", title: "Góc học tập", icon: House },
   { href: "/library", title: "Tủ sách TOPIK II", icon: LibraryBig },
+  { href: "/grammar", title: "Học ngữ pháp", icon: BookOpen },
   { href: "/courses", title: "Khám phá bài học", icon: BookOpen },
   { href: "/review", title: "Ôn tập flashcard", icon: Layers },
   { href: "/practice", title: "Luyện tập", icon: PencilLine },

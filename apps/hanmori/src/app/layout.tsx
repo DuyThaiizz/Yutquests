@@ -8,6 +8,7 @@ import "@fontsource/dm-serif-display/400.css";
 import "./globals.css";
 import "./reading.css";
 import "./writing.css";
+import "./grammar.css";
 import { StudyProvider } from "@/components/StudyProvider";
 import { Shell } from "@/components/Shell";
 import { SelectionNote } from "@/components/SelectionNote";

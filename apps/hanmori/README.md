@@ -24,6 +24,7 @@ Không chạy development và production cùng cổng hoặc cùng thư mục `.
 
 - Góc học tập với tiến độ thực, giao diện máy tính và điện thoại.
 - Tủ sách TOPIK II: tìm từ Hàn, nghĩa Anh, số thứ tự, lọc trang nguồn và nhóm học; ngữ pháp có ví dụ Hàn–Anh.
+- Sổ tay ngữ pháp tại `/grammar`: 16 bài Hàn–Việt theo 4 nhóm cách dùng, cộng ngân hàng 148 câu nhận diện cấu trúc từ 148 mục Hàn–Anh của `TOPIK-Ⅱ-Grammar.pdf.pdf`. Ngân hàng chia thành 15 lượt (10 câu hoặc ít hơn), giữ ví dụ, nghĩa và trang nguồn; ba đáp án nhiễu được chọn từ những cấu trúc khác có nghĩa khác nhau. Sau khi nộp, người học thấy đáp án đúng/sai/bỏ trống và lời giải dựa trên bảng nguồn. Phần Hàn–Việt được biên soạn từ `4B연습.pdf`, `NYS 4_NHÓM NGỮ PHÁP.pptx` và `Sổ_Tay_Ngữ_Pháp_Tiếng_Hàn_(2) (1).pptx` do người dùng cung cấp. Hai bản `LUYỆN TẬP NGỮ PHÁP NYS 4` trùng nhau và được dùng để tham khảo dạng câu hỏi, không nhập hàng loạt câu chưa kiểm chứng. Kết quả lượt làm hiện chỉ giữ trong trang đang mở.
 - 67 nhóm từ nguồn, mỗi nhóm tối đa 40 mục; 6 bài khởi động Hàn–Việt riêng biệt.
 - Flashcard tối đa 10 từ/lượt, ưu tiên từ chưa học và từ lâu chưa ôn; lịch ôn theo mức nhớ.
 - Trắc nghiệm, điền Hangul, phản hồi đáp án, điểm và chuỗi ngày học. Một từ chỉ nhận điểm cho lần trả lời đúng đầu tiên trong ngày.
