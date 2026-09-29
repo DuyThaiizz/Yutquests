@@ -9,6 +9,7 @@ import "./globals.css";
 import "./reading.css";
 import "./writing.css";
 import "./grammar.css";
+import "./seoul-home.css";
 import { StudyProvider } from "@/components/StudyProvider";
 import { Shell } from "@/components/Shell";
 import { SelectionNote } from "@/components/SelectionNote";

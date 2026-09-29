@@ -22,7 +22,8 @@ import { useStudy } from "./StudyProvider";
 import { studyStats } from "@/lib/learning-core";
 import { isNavigationActive } from "@/lib/navigation";
 const links = [
-  { href: "/", title: "Góc học tập", icon: House },
+  { href: "/", title: "Trang chủ", icon: House },
+  { href: "/dashboard", title: "Góc học tập", icon: House },
   { href: "/library", title: "Tủ sách TOPIK II", icon: LibraryBig },
   { href: "/grammar", title: "Học ngữ pháp", icon: BookOpen },
   { href: "/courses", title: "Khám phá bài học", icon: BookOpen },
@@ -32,6 +33,12 @@ const links = [
   { href: "/progress", title: "Hành trình của bạn", icon: ChartNoAxesCombined },
 ];
 export function Shell({ children }: { children: React.ReactNode }) {
+  const pathname = usePathname();
+  if (pathname === "/") return <>{children}</>;
+  return <LearningShell>{children}</LearningShell>;
+}
+
+function LearningShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const menuDialog = useRef<HTMLDialogElement>(null);
