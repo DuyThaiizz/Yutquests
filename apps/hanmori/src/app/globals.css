@@ -24,7 +24,7 @@
 .route-transition-page {
   min-height: 100vh;
 }
-.route-wave {
+.route-transition-overlay {
   position: fixed;
   inset: 0;
   z-index: 1000;
@@ -63,8 +63,52 @@
 .route-wave-wind-one { top: 26%; left: 12%; width: 30%; }
 .route-wave-wind-two { top: 48%; left: 48%; width: 37%; }
 .route-wave-wind-three { top: 70%; left: 24%; width: 25%; }
+.route-breeze,
+.route-ripple {
+  position: absolute;
+  inset: 0;
+}
+.route-breeze-ribbon {
+  position: absolute;
+  left: -25vw;
+  width: 82vw;
+  height: 24vh;
+  min-height: 110px;
+  border-radius: 50%;
+  opacity: 0;
+  visibility: hidden;
+  will-change: transform;
+}
+.route-breeze-ribbon:nth-child(1) {
+  top: 10%;
+  background: linear-gradient(90deg, transparent, rgb(137 208 200 / 45%), rgb(166 206 221 / 74%), transparent);
+}
+.route-breeze-ribbon:nth-child(2) {
+  top: 39%;
+  background: linear-gradient(90deg, transparent, rgb(238 194 169 / 52%), rgb(210 186 226 / 70%), transparent);
+}
+.route-breeze-ribbon:nth-child(3) {
+  top: 68%;
+  background: linear-gradient(90deg, transparent, rgb(191 217 174 / 52%), rgb(143 200 202 / 70%), transparent);
+}
+.route-ripple-ring {
+  position: absolute;
+  inset: 0;
+  width: min(42vw, 370px);
+  height: min(42vw, 370px);
+  margin: auto;
+  border: 13px solid rgb(112 182 185 / 68%);
+  border-radius: 50%;
+  box-shadow: 0 0 0 8px rgb(255 255 255 / 38%);
+  opacity: 0;
+  visibility: hidden;
+  will-change: transform;
+}
+.route-ripple-ring:nth-child(2) {
+  border-color: rgb(228 168 144 / 67%);
+}
 @media (prefers-reduced-motion: reduce) {
-  .route-wave { display: none; }
+  .route-transition-overlay { display: none; }
 }
 * {
   box-sizing: border-box;

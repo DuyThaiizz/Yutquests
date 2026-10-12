@@ -21,7 +21,7 @@ import { Brand } from "./Brand";
 import { useStudy } from "./StudyProvider";
 import { studyStats } from "@/lib/learning-core";
 import { isNavigationActive } from "@/lib/navigation";
-import { RouteWave } from "./RouteWave";
+import { RouteTransition } from "./RouteTransition";
 const links = [
   { href: "/", title: "Trang chủ", icon: House },
   { href: "/dashboard", title: "Góc học tập", icon: House },
@@ -36,9 +36,9 @@ const links = [
 export function Shell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   return (
-    <RouteWave>
+    <RouteTransition>
       {pathname === "/" ? children : <LearningShell>{children}</LearningShell>}
-    </RouteWave>
+    </RouteTransition>
   );
 }
 
