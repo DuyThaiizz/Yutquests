@@ -5,3 +5,6 @@ node_modules/
 *.tsbuildinfo
 test-results/
 qa/screenshots/
+
+.vercel
+.env*
