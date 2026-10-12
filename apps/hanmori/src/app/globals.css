@@ -20,6 +20,52 @@
   --font-display: "DM Serif Display", Georgia, serif;
   --font-ko: "Noto Serif KR", serif;
 }
+.route-transition-root,
+.route-transition-page {
+  min-height: 100vh;
+}
+.route-wave {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  overflow: hidden;
+  pointer-events: none;
+}
+.route-wave-panel {
+  position: absolute;
+  top: -8vh;
+  bottom: -8vh;
+  left: -15vw;
+  width: 130vw;
+  overflow: hidden;
+  background: linear-gradient(110deg, #b9e7df 2%, #8ccac8 33%, #90bdd2 58%, #eec4b5 84%, #f5dfab 100%);
+  border-radius: 0 48% 48% 0 / 0 70% 70% 0;
+  opacity: 0;
+  visibility: hidden;
+  will-change: transform;
+}
+.route-wave-panel::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(162deg, transparent 0 54px, rgb(255 255 255 / 17%) 55px 57px, transparent 58px 125px);
+  opacity: .7;
+}
+.route-wave-wind {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  height: 2px;
+  border-radius: 100%;
+  background: rgb(255 255 255 / 70%);
+  transform: rotate(-8deg);
+}
+.route-wave-wind-one { top: 26%; left: 12%; width: 30%; }
+.route-wave-wind-two { top: 48%; left: 48%; width: 37%; }
+.route-wave-wind-three { top: 70%; left: 24%; width: 25%; }
+@media (prefers-reduced-motion: reduce) {
+  .route-wave { display: none; }
+}
 * {
   box-sizing: border-box;
 }
