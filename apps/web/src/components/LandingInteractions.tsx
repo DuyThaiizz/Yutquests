@@ -133,7 +133,7 @@ export function LearningLoop() {
           <h3>{item.title}</h3>
           <p>{item.text}</p>
           <button type="button" onClick={() => setActive((active + 1) % loop.length)}>
-            Nhịp tiếp theo <span aria-hidden="true">→</span>
+            Nhịp tiếp theo
           </button>
         </div>
       </div>
@@ -186,7 +186,7 @@ export function IdiomPreview() {
         <div><span style={{ width: `${((active + 1) / featured.length) * 100}%` }} /></div>
         <button aria-label="Thẻ thành ngữ tiếp theo" onClick={() => move(1)} type="button">→</button>
       </div>
-      <Link className="landing-text-link" href="/cards">Xem toàn bộ thư viện <span aria-hidden="true">↗</span></Link>
+      <Link className="landing-text-link" href="/cards">Xem toàn bộ thư viện</Link>
     </div>
   );
 }

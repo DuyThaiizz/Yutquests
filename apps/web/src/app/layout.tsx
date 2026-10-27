@@ -3,6 +3,7 @@ import Link from "next/link";
 import "@fontsource-variable/montserrat";
 import "./globals.css";
 import { MobileMenu } from "@/components/MobileMenu";
+import { LearnerStatusChip } from "@/components/LearnerJourney";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
@@ -48,7 +49,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             <nav className="desktop-nav" aria-label="Điều hướng chính">
               {navItems.map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}
             </nav>
-            <Link className="button button-small header-cta" href="/game">Chơi bản thử <ArrowIcon /></Link>
+            <div className="header-tools">
+              <LearnerStatusChip />
+              <Link className="button button-small header-cta" href="/game">Chơi bản thử <ArrowIcon /></Link>
+            </div>
             <MobileMenu items={navItems} />
           </div>
         </header>

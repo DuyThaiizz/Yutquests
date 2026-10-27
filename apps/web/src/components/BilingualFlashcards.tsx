@@ -96,7 +96,7 @@ export function BilingualFlashcards() {
         {pageCount > 1 && <nav className="library-pagination bilingual-pagination" aria-label="Phân trang flashcard song ngữ">
           <button type="button" disabled={safePage === 1} onClick={() => { setPage((value) => Math.max(1, value - 1)); setOpenCard(null); }}>← Trang trước</button>
           <span>Trang {safePage} / {pageCount}</span>
-          <button type="button" disabled={safePage === pageCount} onClick={() => { setPage((value) => Math.min(pageCount, value + 1)); setOpenCard(null); }}>Trang sau →</button>
+          <button type="button" disabled={safePage === pageCount} onClick={() => { setPage((value) => Math.min(pageCount, value + 1)); setOpenCard(null); }}>Trang sau</button>
         </nav>}
       </div>
     </section>

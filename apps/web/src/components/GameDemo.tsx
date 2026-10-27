@@ -3,10 +3,24 @@
 import type { CSSProperties } from "react";
 import { useEffect, useRef, useState } from "react";
 import { idioms } from "@/lib/idioms";
+import {
+  learnerStats,
+  readLearnerProgress,
+  recordLearnerAnswer,
+  recordLearnerMatch,
+  type LearnerStats,
+} from "@/lib/learnerProgress";
 
 type Phase = "ready" | "question" | "answered" | "finished";
 type Turn = "player" | "ai";
 type Winner = Turn | null;
+type AiDifficulty = "friendly" | "balanced" | "challenger";
+
+const difficultyOptions: Array<{ value: AiDifficulty; label: string; note: string }> = [
+  { value: "friendly", label: "Thân thiện", note: "Haneul để bạn làm quen nhịp chơi" },
+  { value: "balanced", label: "Cân bằng", note: "Haneul thích nghi theo độ chính xác" },
+  { value: "challenger", label: "Thử thách", note: "Haneul chơi tập trung và ít mắc lỗi" },
+];
 
 const outcomes = [
   { name: "Do", korean: "도", steps: 1, flatCount: 1 },
@@ -43,6 +57,8 @@ export function GameDemo() {
   const [cardIndex, setCardIndex] = useState(0);
   const [selected, setSelected] = useState<string | null>(null);
   const [isThrowing, setIsThrowing] = useState(false);
+  const [difficulty, setDifficulty] = useState<AiDifficulty>("balanced");
+  const [progressStats, setProgressStats] = useState<LearnerStats | null>(null);
   const throwTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const returnTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const aiTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -52,6 +68,10 @@ export function GameDemo() {
     if (throwTimer.current) clearTimeout(throwTimer.current);
     if (returnTimer.current) clearTimeout(returnTimer.current);
     if (aiTimer.current) clearTimeout(aiTimer.current);
+  }, []);
+
+  useEffect(() => {
+    setProgressStats(learnerStats(readLearnerProgress()));
   }, []);
 
   function throwYut() {
@@ -72,6 +92,11 @@ export function GameDemo() {
   function answer(option: string) {
     if (phase !== "question") return;
     const isCorrect = option === currentCard.meaning;
+    const nextStats = recordLearnerAnswer(currentCard.korean, isCorrect);
+    setProgressStats(nextStats);
+    setAiStatus(isCorrect
+      ? "Bạn giữ được nước đi. Haneul đang tính đường phản công."
+      : `Haneul ghi nhớ rằng bạn cần ôn lại ${currentCard.korean}.`);
     const attemptedPosition = Math.min(originPosition + roll.steps, route.length - 1);
     setSelected(option);
     setDisplayPosition(attemptedPosition);
@@ -79,6 +104,7 @@ export function GameDemo() {
     if (isCorrect) {
       setPosition(attemptedPosition);
       if (attemptedPosition === route.length - 1) {
+        setProgressStats(recordLearnerMatch(true));
         setWinner("player");
         setPhase("finished");
       } else {
@@ -100,15 +126,21 @@ export function GameDemo() {
     setTurn("ai");
     setAiStatus("Haneul AI đang tung bốn thanh Yut…");
 
+    const baseChance = difficulty === "friendly" ? .56 : difficulty === "challenger" ? .86 : .72;
+    const learnerAdjustment = progressStats && progressStats.accuracy < 55 ? -.08 : progressStats && progressStats.accuracy > 80 ? .05 : 0;
+    const aiAccuracy = Math.max(.42, Math.min(.94, baseChance + learnerAdjustment));
+    const thinkingTime = 720 + Math.floor(Math.random() * 520);
+
     aiTimer.current = setTimeout(() => {
       const aiRoll = outcomes[Math.floor(Math.random() * outcomes.length)];
-      const aiAnsweredCorrectly = Math.random() < 0.72;
+      const aiAnsweredCorrectly = Math.random() < aiAccuracy;
       const nextAiPosition = Math.min(aiPosition + aiRoll.steps, route.length - 1);
 
       if (aiAnsweredCorrectly) {
         setAiPosition(nextAiPosition);
         setAiStatus(`Tung ${aiRoll.korean} · trả lời đúng · tiến ${aiRoll.steps} bước`);
         if (nextAiPosition === route.length - 1) {
+          setProgressStats(recordLearnerMatch(false));
           setWinner("ai");
           setPhase("finished");
           return;
@@ -118,11 +150,13 @@ export function GameDemo() {
       }
 
       aiTimer.current = setTimeout(() => {
-        setCardIndex((value) => value + 1);
+        const reviewExpression = progressStats?.recentMistakes[0];
+        const reviewIndex = reviewExpression ? idioms.findIndex((item) => item.korean === reviewExpression) : -1;
+        setCardIndex((value) => reviewIndex >= 0 && Math.random() < .65 ? reviewIndex : value + 1);
         setTurn("player");
         setPhase("ready");
       }, 1200);
-    }, 720);
+    }, thinkingTime);
   }
 
   function restart() {
@@ -198,6 +232,10 @@ export function GameDemo() {
 
       <aside className="game-console decal-console">
         <div className="prototype-badge"><span /> Bản chơi thử · chạy ngay trên trình duyệt</div>
+        <div className="ai-difficulty" role="group" aria-label="Độ khó của Haneul AI">
+          <span>Haneul AI</span>
+          <div>{difficultyOptions.map((option) => <button aria-pressed={difficulty === option.value} className={difficulty === option.value ? "is-active" : ""} key={option.value} onClick={() => setDifficulty(option.value)} title={option.note} type="button">{option.label}</button>)}</div>
+        </div>
         <div className="turn-progress" aria-label="Tiến trình lượt chơi">
           {["Tung", "Trả lời", "Di chuyển"].map((label, i) => <span className={(phase === "ready" ? i === 0 : phase === "question" ? i <= 1 : i <= 2) ? "active" : ""} key={label}><i>{i + 1}</i>{label}</span>)}
         </div>
@@ -207,7 +245,12 @@ export function GameDemo() {
           <p className="mini-label">Ván đua đã kết thúc</p>
           <h2>{winner === "player" ? <>Bạn về nhà<br /><em>trước Haneul!</em></> : <>Haneul AI<br /><em>đã về nhà trước.</em></>}</h2>
           <p className="rule-note">{winner === "player" ? "Bạn vừa thắng bằng cả may mắn lẫn vốn thành ngữ." : "Thử lại để gặp thêm thẻ mới và vượt qua đối thủ AI."}</p>
-          <button className="button game-action" type="button" onClick={restart}>Bắt đầu cuộc đua mới <span aria-hidden="true">→</span></button>
+          {progressStats && <div className="post-match-summary">
+            <div><span>Độ chính xác</span><strong>{progressStats.accuracy}%</strong></div>
+            <div><span>Streak</span><strong>{progressStats.streak} ngày</strong></div>
+            <div><span>Cần ôn</span><strong lang="ko">{progressStats.recentMistakes[0] ?? "Không có"}</strong></div>
+          </div>}
+          <button className="button game-action" type="button" onClick={restart}>Bắt đầu cuộc đua mới</button>
         </div>}
 
         {!winner && turn === "ai" && <div className="console-state ai-turn-state" aria-live="polite">
@@ -232,7 +275,7 @@ export function GameDemo() {
             </div>
           </div>
           <p className="rule-note">Trả lời đúng để tiến. Trả lời sai, quân sẽ quay về vị trí trước lượt tung.</p>
-          <button className="button game-action" type="button" disabled={isThrowing} onClick={throwYut}>{isThrowing ? "Đang tung Yut…" : "Tung bốn thanh Yut"} <span aria-hidden="true">→</span></button>
+          <button className="button game-action" type="button" disabled={isThrowing} onClick={throwYut}>{isThrowing ? "Đang tung Yut…" : "Tung bốn thanh Yut"}</button>
         </div>}
 
         {!winner && turn === "player" && phase === "question" && <div className="console-state question-state">
@@ -242,7 +285,7 @@ export function GameDemo() {
           <p className="question-reading">{currentCard.reading}</p>
           <p className="question-prompt">Thành ngữ này có nghĩa là gì?</p>
           <div className="answer-list">
-            {currentCard.options.map((option) => <button type="button" onClick={() => answer(option)} key={option}>{option}<span aria-hidden="true">→</span></button>)}
+            {currentCard.options.map((option) => <button type="button" onClick={() => answer(option)} key={option}>{option}</button>)}
           </div>
         </div>}
 
@@ -253,7 +296,7 @@ export function GameDemo() {
           {!correct && <p className="your-answer">Bạn chọn: <s>{selected}</s></p>}
           <div className="meaning-box"><span>Nghĩa đen</span><strong>{currentCard.literal}</strong><p>{currentCard.example}</p></div>
           <p className={`move-confirmation ${correct ? "move-forward" : "move-back"}`}>{correct ? <>Quân được tiến <strong>{roll.steps} bước</strong>.</> : <>Quân quay về <strong>vị trí trước lượt tung</strong>.</>}</p>
-          <button className="button game-action" type="button" onClick={startAiTurn}>Đến lượt Haneul AI <span aria-hidden="true">→</span></button>
+          <button className="button game-action" type="button" onClick={startAiTurn}>Đến lượt Haneul AI</button>
         </div>}
       </aside>
     </div>

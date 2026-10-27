@@ -31,7 +31,18 @@ export default function GuidePage() {
         </div>
       </section>
 
-      <section className="section section-shell rules-overview" aria-labelledby="rules-objective">
+      <nav className="guide-jump-nav" aria-label="Mục lục luật chơi">
+        <div className="section-shell">
+          <span>Đi đến</span>
+          <a href="#setup">Thiết lập</a>
+          <a href="#turn">Một lượt chơi</a>
+          <a href="#outcomes">Kết quả tung</a>
+          <a href="#strategy">Chiến thuật</a>
+          <a href="#finish">Về đích</a>
+        </div>
+      </nav>
+
+      <section className="section section-shell rules-overview" id="setup" aria-labelledby="rules-objective">
         <div className="rules-chapter"><span>Chương 01</span><p>Thiết lập & mục tiêu</p></div>
         <div className="rules-overview-copy">
           <p className="kicker">Bắt đầu ván chơi</p>
@@ -46,7 +57,7 @@ export default function GuidePage() {
         </div>
       </section>
 
-      <section className="rules-turn-section">
+      <section className="rules-turn-section" id="turn">
         <div className="section section-shell rules-turn-grid">
           <div>
             <p className="kicker kicker-light">Mỗi lượt chơi</p>
@@ -60,7 +71,7 @@ export default function GuidePage() {
         </div>
       </section>
 
-      <section className="section section-shell rules-outcomes" aria-labelledby="outcome-title">
+      <section className="section section-shell rules-outcomes" id="outcomes" aria-labelledby="outcome-title">
         <div className="section-heading split-heading">
           <div><p className="kicker">Chương 02 · Kết quả tung</p><h2 id="outcome-title">Năm kết quả.<br />Hai lượt thưởng.</h2></div>
           <p>Mặt úp là mặt có ba dấu X. Khi tung được Yut hoặc Mo, bạn được tung thêm một lần và cộng kết quả mới vào chuỗi di chuyển.</p>
@@ -72,7 +83,7 @@ export default function GuidePage() {
         </div>
       </section>
 
-      <section className="rules-special-section">
+      <section className="rules-special-section" id="strategy">
         <div className="section section-shell">
           <div className="section-heading split-heading">
             <div><p className="kicker kicker-light">Chương 03 · Chiến thuật</p><h2>Bốn luật làm thay đổi<br />cả đường đua.</h2></div>
@@ -82,7 +93,7 @@ export default function GuidePage() {
         </div>
       </section>
 
-      <section className="section section-shell rules-example">
+      <section className="section section-shell rules-example" id="finish">
         <div className="rules-example-mark" aria-hidden="true">결</div>
         <div><p className="kicker">Ví dụ về đích</p><h2>Còn 2 ô?<br />Hãy tung Geol.</h2><p>Ba bước gồm hai bước tới ô đích và một bước để rời bàn. Quy tắc này khiến chặng cuối vẫn cần tính toán chính xác.</p></div>
       </section>
@@ -91,7 +102,7 @@ export default function GuidePage() {
         <div className="section-shell">
           <p>Đã nắm trọn luật?</p>
           <h2>Tự tay tung thử một lượt.</h2>
-          <Link className="button button-light" href="/game">Mở bản chơi thử <span aria-hidden="true">→</span></Link>
+          <Link className="button button-light" href="/game">Mở bản chơi thử</Link>
         </div>
       </section>
     </main>

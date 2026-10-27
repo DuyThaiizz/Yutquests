@@ -89,7 +89,7 @@ export function CardsExplorer() {
       {pageCount > 1 && <nav className="library-pagination" aria-label="Phân trang thư viện">
         <button disabled={safePage === 1} onClick={() => setPage((value) => Math.max(1, value - 1))} type="button">← Trang trước</button>
         <span>Trang {safePage} / {pageCount}</span>
-        <button disabled={safePage === pageCount} onClick={() => setPage((value) => Math.min(pageCount, value + 1))} type="button">Trang sau →</button>
+        <button disabled={safePage === pageCount} onClick={() => setPage((value) => Math.min(pageCount, value + 1))} type="button">Trang sau</button>
       </nav>}
     </section>
   );

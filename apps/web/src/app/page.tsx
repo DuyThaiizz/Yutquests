@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { HeroYutDemo, IdiomPreview, LearningLoop } from "@/components/LandingInteractions";
+import { LearnerJourney } from "@/components/LearnerJourney";
 
 const team = [
   { name: "Lê Trần Khánh Linh", initials: "KL", role: "Nội dung & trò chơi" },
@@ -19,10 +20,10 @@ export default function Home() {
           <h1><span className="decal-hero-line">Embark on a</span><br /><em>quest of knowledge.</em></h1>
           <p className="decal-lead">Tung Yut, giải mã thành ngữ và đưa quân cờ về nhà. Mỗi câu trả lời mở ra một mảnh nhỏ của ngôn ngữ và văn hóa Hàn Quốc.</p>
           <div className="decal-actions">
-            <Link className="decal-primary" href="/game">Bắt đầu hành trình <span aria-hidden="true">→</span></Link>
+            <Link className="decal-primary" href="/game">Bắt đầu hành trình</Link>
             <Link className="decal-secondary" href="/guide">Khám phá luật chơi</Link>
           </div>
-          <p className="decal-signature">Explore · Learn · Conquer</p>
+          <p className="decal-signature">Khám phá / Ghi nhớ / Chinh phục</p>
         </div>
         <div className="decal-character-stage" aria-label="Nhân vật đồng hành của Yutquest">
           <div className="decal-character-frame">
@@ -37,6 +38,8 @@ export default function Home() {
         <div><strong>15–30</strong><span>phút mỗi ván</span></div>
       </div>
     </section>
+
+    <LearnerJourney />
 
     <section className="decal-intro" id="how-it-works">
       <div className="landing-shell">
@@ -69,7 +72,7 @@ export default function Home() {
           <p className="decal-kicker">Learn Korean naturally</p>
           <h2>Mỗi tấm thẻ giữ<br /><em>một câu chuyện.</em></h2>
           <p>210 thử thách trải trên 60 biểu đạt cốt lõi—từ nghĩa tiếng Hàn, diễn giải tiếng Việt đến cách dùng theo ba cấp độ học.</p>
-          <Link className="decal-text-link" href="/cards">Mở thư viện thành ngữ <span aria-hidden="true">→</span></Link>
+          <Link className="decal-text-link" href="/cards">Mở thư viện thành ngữ</Link>
         </div>
         <IdiomPreview />
       </div>
@@ -90,7 +93,7 @@ export default function Home() {
         <p className="decal-kicker decal-kicker-center">Your quest awaits</p>
         <h2>Đưa quân cờ đầu tiên<br /><em>vào một thế giới mới.</em></h2>
         <p>Không cần đăng ký. Bản chơi thử hoạt động trực tiếp trên trình duyệt.</p>
-        <Link className="decal-primary decal-primary-light" href="/game">Chơi Yutquest ngay <span aria-hidden="true">→</span></Link>
+        <Link className="decal-primary decal-primary-light" href="/game">Chơi Yutquest ngay</Link>
       </div>
     </section>
   </div>;
