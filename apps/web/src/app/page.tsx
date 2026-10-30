@@ -1,100 +1,169 @@
 import Image from "next/image";
 import Link from "next/link";
-import { HeroYutDemo, IdiomPreview, LearningLoop } from "@/components/LandingInteractions";
+import {
+  HeroYutDemo,
+  IdiomPreview,
+  LearningLoop,
+} from "@/components/LandingInteractions";
 import { LearnerJourney } from "@/components/LearnerJourney";
+import { StarlightField } from "@/components/StarlightField";
 
 const team = [
-  { name: "Lê Trần Khánh Linh", initials: "KL", role: "Nội dung & trò chơi" },
-  { name: "Tô Diệu Linh", initials: "DL", role: "Nội dung & trò chơi" },
-  { name: "Lương Phương Thảo", initials: "PT", role: "Nội dung & trò chơi" },
-  { name: "Nguyễn Phương Anh", initials: "PA", role: "Nội dung & trò chơi" },
-  { name: "Nguyễn Thành Thái", initials: "TT", role: "UI/UX & trải nghiệm" },
+  { name: "Lê Trần Khánh Linh", role: "Nội dung và trò chơi" },
+  { name: "Tô Diệu Linh", role: "Nội dung và trò chơi" },
+  { name: "Lương Phương Thảo", role: "Nội dung và trò chơi" },
+  { name: "Nguyễn Phương Anh", role: "Nội dung và trò chơi" },
+  { name: "Nguyễn Thành Thái", role: "UI/UX và trải nghiệm" },
 ];
 
 export default function Home() {
-  return <div className="landing-page decal-landing">
-    <section className="decal-hero">
-      <div className="landing-shell decal-hero-grid">
-        <div className="decal-hero-copy">
-          <p className="decal-kicker">Korean learning card game</p>
-          <h1><span className="decal-hero-line">Embark on a</span><br /><em>quest of knowledge.</em></h1>
-          <p className="decal-lead">Tung Yut, giải mã thành ngữ và đưa quân cờ về nhà. Mỗi câu trả lời mở ra một mảnh nhỏ của ngôn ngữ và văn hóa Hàn Quốc.</p>
-          <div className="decal-actions">
-            <Link className="decal-primary" href="/game">Bắt đầu hành trình</Link>
-            <Link className="decal-secondary" href="/guide">Khám phá luật chơi</Link>
+  return (
+    <div className="home-page">
+      <section className="home-hero">
+        <StarlightField />
+        <div className="section-shell home-hero-grid">
+          <div className="home-hero-copy" data-motion="hero">
+            <h1>
+              <span>Tung Yut.</span>
+              <br />
+              Mở khóa thành ngữ Hàn.
+            </h1>
+            <p>Trả lời đúng để giữ nước đi và đưa quân về nhà.</p>
+            <div className="hero-actions">
+              <Link className="button" href="/game">
+                Bắt đầu lượt chơi
+              </Link>
+              <Link className="text-link" href="/guide">
+                Đọc luật chơi
+              </Link>
+            </div>
           </div>
-          <p className="decal-signature">Khám phá / Ghi nhớ / Chinh phục</p>
-        </div>
-        <div className="decal-character-stage" aria-label="Nhân vật đồng hành của Yutquest">
-          <div className="decal-character-frame">
-            <Image src="/images/yutquest-main-character-warm-v2.png" alt="Nhân vật Yutquest với mái tóc tết và vòng sao" fill priority sizes="(max-width: 900px) 78vw, 38vw" />
+          <div className="home-hero-stage" data-motion="hero">
+            <figure className="hero-mascot-card">
+              <Image
+                src="/images/yutquest-main-character-warm-v2.png"
+                alt="Người dẫn đường ánh sao của Yutquest"
+                fill
+                priority
+                sizes="(max-width: 960px) 100vw, 46vw"
+              />
+              <figcaption>
+                <span lang="ko">별빛 안내자</span>
+                <strong>Người dẫn đường ánh sao</strong>
+              </figcaption>
+            </figure>
+            <HeroYutDemo />
           </div>
-          <div className="decal-character-caption"><span>별빛 안내자</span><strong>Người dẫn đường ánh sao</strong></div>
         </div>
-      </div>
-      <div className="decal-hero-stats landing-shell">
-        <div><strong>2–6</strong><span>người chơi</span></div>
-        <div><strong>7+</strong><span>độ tuổi</span></div>
-        <div><strong>15–30</strong><span>phút mỗi ván</span></div>
-      </div>
-    </section>
+      </section>
 
-    <LearnerJourney />
-
-    <section className="decal-intro" id="how-it-works">
-      <div className="landing-shell">
-        <p className="decal-kicker decal-kicker-center">The learning quest</p>
-        <h2>Ba nhịp chơi.<br /><em>Một hành trình đáng nhớ.</em></h2>
-        <p className="decal-section-lead">May mắn quyết định số bước; kiến thức quyết định bạn có được giữ nước đi ấy hay không.</p>
-        <LearningLoop />
-      </div>
-    </section>
-
-    <section className="decal-play-section">
-      <div className="landing-shell decal-play-grid">
-        <div className="decal-play-copy">
-          <p className="decal-kicker">Exciting gameplay</p>
-          <h2>Tung một quẻ.<br /><em>Mở một thử thách.</em></h2>
-          <p>Sau mỗi lần tung, một thẻ thành ngữ sẽ xuất hiện. Trả lời đúng để tiến theo kết quả; trả lời sai và quân cờ quay lại đúng ô trước lượt.</p>
-          <ul>
-            <li><span>01</span><div><strong>Roll</strong><small>Nhận từ một đến năm bước</small></div></li>
-            <li><span>02</span><div><strong>Answer</strong><small>Chọn nghĩa đúng của thành ngữ</small></div></li>
-            <li><span>03</span><div><strong>Move</strong><small>Giữ nước đi hoặc quay về</small></div></li>
-          </ul>
+      <section
+        className="score-line"
+        aria-label="Thông tin một ván Yutquest"
+        data-motion="section"
+      >
+        <div className="section-shell score-line-grid">
+          <div>
+            <strong>2 tới 6</strong>
+            <span>người chơi</span>
+          </div>
+          <div>
+            <strong>7+</strong>
+            <span>độ tuổi</span>
+          </div>
+          <div>
+            <strong>15 tới 30</strong>
+            <span>phút mỗi ván</span>
+          </div>
+          <div>
+            <strong>210</strong>
+            <span>câu hỏi</span>
+          </div>
         </div>
-        <HeroYutDemo />
-      </div>
-    </section>
+      </section>
 
-    <section className="decal-cards-section">
-      <div className="landing-shell decal-cards-grid">
-        <div className="decal-card-copy">
-          <p className="decal-kicker">Learn Korean naturally</p>
-          <h2>Mỗi tấm thẻ giữ<br /><em>một câu chuyện.</em></h2>
-          <p>210 thử thách trải trên 60 biểu đạt cốt lõi—từ nghĩa tiếng Hàn, diễn giải tiếng Việt đến cách dùng theo ba cấp độ học.</p>
-          <Link className="decal-text-link" href="/cards">Mở thư viện thành ngữ</Link>
+      <LearnerJourney />
+
+      <section
+        className="learning-section"
+        id="how-it-works"
+        data-motion="section"
+      >
+        <div className="section-shell learning-heading">
+          <h2>
+            Ba nhịp.
+            <br />
+            Một cuộc đua.
+          </h2>
+          <p>
+            May mắn cho bạn số bước. Kiến thức quyết định bạn có được giữ chúng.
+          </p>
         </div>
-        <IdiomPreview />
-      </div>
-    </section>
-
-    <section className="decal-team-section">
-      <div className="landing-shell">
-        <div className="decal-team-heading">
-          <div><p className="decal-kicker">Made with wonder</p><h2>Những người tạo nên<br /><em>thế giới Yutquest.</em></h2></div>
-          <p>Năm góc nhìn cùng gặp nhau ở một niềm tin: trò chơi có thể khiến việc học ngôn ngữ trở nên gần gũi, giàu cảm xúc và đáng nhớ hơn.</p>
+        <div className="section-shell">
+          <LearningLoop />
         </div>
-        <div className="decal-team-list">{team.map((member, index) => <article key={member.name}><div className="decal-member-avatar" aria-hidden="true"><b>{member.initials}</b><span>0{index + 1}</span></div><strong>{member.name}</strong><small>{member.role}</small></article>)}</div>
-      </div>
-    </section>
+      </section>
 
-    <section className="decal-final-section">
-      <div className="landing-shell decal-final-inner">
-        <p className="decal-kicker decal-kicker-center">Your quest awaits</p>
-        <h2>Đưa quân cờ đầu tiên<br /><em>vào một thế giới mới.</em></h2>
-        <p>Không cần đăng ký. Bản chơi thử hoạt động trực tiếp trên trình duyệt.</p>
-        <Link className="decal-primary decal-primary-light" href="/game">Chơi Yutquest ngay</Link>
-      </div>
-    </section>
-  </div>;
+      <section className="card-story-section" data-motion="section">
+        <div className="section-shell card-story-grid">
+          <div className="card-story-copy">
+            <h2>
+              Một thẻ.
+              <br />
+              Hai ngôn ngữ.
+            </h2>
+            <p>
+              60 biểu đạt cốt lõi mở thành 210 thử thách bằng tiếng Hàn và tiếng
+              Việt.
+            </p>
+            <Link className="text-link" href="/cards">
+              Mở thư viện thẻ
+            </Link>
+          </div>
+          <IdiomPreview />
+        </div>
+      </section>
+
+      <section className="makers-section" data-motion="section">
+        <div className="section-shell makers-grid makers-grid-wide">
+          <div className="makers-copy">
+            <h2>
+              Năm người.
+              <br />
+              Một bàn chơi.
+            </h2>
+            <p>
+              Yutquest được tạo nên từ một niềm tin: trò chơi khiến ngôn ngữ ở
+              lại lâu hơn.
+            </p>
+            <div className="maker-list">
+              {team.map((member, index) => (
+                <article key={member.name}>
+                  <span>{String(index + 1).padStart(2, "0")}</span>
+                  <strong>{member.name}</strong>
+                  <small>{member.role}</small>
+                </article>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="home-close" data-motion="section">
+        <div className="section-shell home-close-grid">
+          <h2>
+            Lượt đầu tiên
+            <br />
+            đang chờ.
+          </h2>
+          <div>
+            <p>Không cần đăng ký. Chơi trực tiếp trên trình duyệt.</p>
+            <Link className="button" href="/game">
+              Tung bốn thanh Yut
+            </Link>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
 }

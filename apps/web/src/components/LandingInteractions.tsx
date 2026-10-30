@@ -1,93 +1,157 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { gsap } from "gsap";
 import { idioms } from "@/lib/idioms";
 
 const outcomes = [
-  { name: "Do", korean: "도", steps: 1, faces: [true, false, false, false], note: "Một bước để bắt đầu hành trình." },
-  { name: "Gae", korean: "개", steps: 2, faces: [true, true, false, false], note: "Hai bước — vừa đủ để chạm một ô học." },
-  { name: "Geol", korean: "걸", steps: 3, faces: [true, true, true, false], note: "Ba bước mở ra một lựa chọn chiến thuật." },
-  { name: "Yut", korean: "윷", steps: 4, faces: [true, true, true, true], note: "Bốn bước và bạn được tung thêm một lần." },
-  { name: "Mo", korean: "모", steps: 5, faces: [false, false, false, false], note: "Năm bước — cú tung hiếm nhất trên bàn." },
+  {
+    name: "Do",
+    korean: "도",
+    steps: 1,
+    faces: [true, false, false, false],
+    note: "Một bước mở bàn.",
+  },
+  {
+    name: "Gae",
+    korean: "개",
+    steps: 2,
+    faces: [true, true, false, false],
+    note: "Hai bước chạm ô học.",
+  },
+  {
+    name: "Geol",
+    korean: "걸",
+    steps: 3,
+    faces: [true, true, true, false],
+    note: "Ba bước mở đường tắt.",
+  },
+  {
+    name: "Yut",
+    korean: "윷",
+    steps: 4,
+    faces: [true, true, true, true],
+    note: "Bốn bước và thêm một lượt.",
+  },
+  {
+    name: "Mo",
+    korean: "모",
+    steps: 5,
+    faces: [false, false, false, false],
+    note: "Năm bước, cú tung xa nhất.",
+  },
 ];
 
 const loop = [
   {
     id: "throw",
-    number: "01",
+    number: "1",
     label: "Tung",
     korean: "던지다",
     title: "May mắn tạo nhịp.",
-    text: "Bốn thanh Yut quyết định số bước. Kết quả luôn đủ bất ngờ để mỗi lượt chơi có một câu chuyện riêng.",
+    text: "Bốn thanh Yut quyết định số bước của lượt.",
   },
   {
     id: "learn",
-    number: "02",
+    number: "2",
     label: "Học",
     korean: "배우다",
-    title: "Ngữ cảnh tạo trí nhớ.",
-    text: "Thẻ thành ngữ xuất hiện đúng lúc, cho bạn chọn nghĩa rồi giải thích nghĩa đen, nghĩa bóng và cách dùng.",
+    title: "Ngữ cảnh giữ nghĩa.",
+    text: "Một thành ngữ xuất hiện ngay sau mỗi cú tung.",
   },
   {
     id: "move",
-    number: "03",
+    number: "3",
     label: "Tiến",
     korean: "나아가다",
-    title: "Câu trả lời quyết định nước đi.",
-    text: "Trả lời đúng để giữ số bước vừa tung. Nếu trả lời sai, quân cờ quay lại đúng vị trí trước lượt — rõ ràng, công bằng và dễ nhớ.",
+    title: "Kiến thức giữ bước.",
+    text: "Trả lời đúng để tiến quân. Trả lời sai để đứng lại.",
   },
 ];
 
 export function HeroYutDemo() {
   const [resultIndex, setResultIndex] = useState(1);
   const [throws, setThrows] = useState(0);
+  const [throwing, setThrowing] = useState(false);
+  const sticks = useRef<Array<HTMLSpanElement | null>>([]);
   const result = outcomes[resultIndex];
 
   function throwYut() {
+    if (throwing) return;
     const offset = 1 + Math.floor(Math.random() * (outcomes.length - 1));
     const next = (resultIndex + offset) % outcomes.length;
-    setResultIndex(next);
-    setThrows((value) => value + 1);
+    const targets = sticks.current.filter(Boolean) as HTMLSpanElement[];
+    const reduced = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
+    setThrowing(true);
+    window.dispatchEvent(new CustomEvent("yutquest:throw"));
+
+    if (reduced) {
+      setResultIndex(next);
+      setThrows((value) => value + 1);
+      setThrowing(false);
+      return;
+    }
+
+    gsap.set(targets, {
+      transformPerspective: 800,
+      transformOrigin: "50% 50%",
+    });
+    gsap.to(targets, {
+      y: (index) => -92 - index * 9,
+      rotationX: (index) => 320 + index * 48,
+      rotationY: (index) => (index % 2 ? -1 : 1) * (180 + index * 32),
+      rotationZ: (index) => (index - 1.5) * 28,
+      duration: 0.48,
+      ease: "power3.out",
+      stagger: 0.045,
+      repeat: 1,
+      yoyo: true,
+      overwrite: "auto",
+      onComplete: () => {
+        gsap.set(targets, { clearProps: "transform" });
+        setResultIndex(next);
+        setThrows((value) => value + 1);
+        setThrowing(false);
+      },
+    });
   }
 
   return (
-    <div className="landing-playground" aria-label="Bản thử tung thanh Yut">
-      <div className="playground-topline">
-        <span>Thử một lượt</span>
-        <span className="playground-status"><i /> Tương tác trực tiếp</span>
+    <div className="yut-orbit" aria-label="Bản thử tung bốn thanh Yut">
+      <div className="orbit-board" aria-hidden="true">
+        <i />
+        <i />
+        <i />
+        <i />
+        <b />
       </div>
-
-      <div className="playground-stage">
-        <div className="throw-orbit orbit-one" aria-hidden="true" />
-        <div className="throw-orbit orbit-two" aria-hidden="true" />
-        <div className="landing-sticks" aria-hidden="true" data-throws={throws}>
-          {result.faces.map((flat, index) => (
-            <i className={flat ? "is-flat" : "is-round"} key={`${throws}-${index}`}>
-              <span>{flat ? "●" : ""}</span>
-            </i>
-          ))}
-        </div>
-        <div className="landing-result" aria-live="polite">
-          <span className="result-korean" lang="ko">{result.korean}</span>
-          <div>
-            <p>{result.name}</p>
-            <strong>+{result.steps} bước</strong>
-          </div>
-        </div>
-      </div>
-
-      <div className="playground-footer">
-        <p>{result.note}</p>
-        <button className="throw-button" type="button" onClick={throwYut}>
-          Tung lại <span aria-hidden="true">↗</span>
-        </button>
-      </div>
-      <div className="mini-track" aria-hidden="true">
-        {Array.from({ length: 8 }, (_, index) => (
-          <i className={index <= result.steps ? "is-active" : ""} key={index} />
+      <div className="orbit-sticks" aria-hidden="true" data-throws={throws}>
+        {result.faces.map((flat, index) => (
+          <span
+            className={flat ? "is-flat" : "is-round"}
+            key={index}
+            ref={(element) => {
+              sticks.current[index] = element;
+            }}
+          >
+            <i />
+            <b>{flat ? "× × ×" : ""}</b>
+          </span>
         ))}
-        <span style={{ left: `${12 + result.steps * 11}%` }}>말</span>
+      </div>
+      <div className="orbit-result" aria-live="polite">
+        <strong lang="ko">{result.korean}</strong>
+        <span>{result.name}</span>
+        <b>+{result.steps}</b>
+      </div>
+      <div className="orbit-control">
+        <p>{result.note}</p>
+        <button type="button" onClick={throwYut} disabled={throwing}>
+          {throwing ? "Đang tung" : "Tung Yut"}
+        </button>
       </div>
     </div>
   );
@@ -99,7 +163,11 @@ export function LearningLoop() {
 
   return (
     <div className="loop-experience">
-      <div className="loop-tabs" role="tablist" aria-label="Ba nhịp chơi của Yutquest">
+      <div
+        className="loop-tabs"
+        role="tablist"
+        aria-label="Ba nhịp chơi của Yutquest"
+      >
         {loop.map((step, index) => (
           <button
             aria-controls="loop-panel"
@@ -116,24 +184,27 @@ export function LearningLoop() {
           </button>
         ))}
       </div>
-
       <div
         aria-labelledby={`loop-tab-${item.id}`}
-        className={`loop-panel loop-panel-${item.id}`}
+        className="loop-panel"
         id="loop-panel"
         role="tabpanel"
       >
-        <div className="loop-visual" aria-hidden="true">
-          <span className="loop-korean" lang="ko">{item.korean}</span>
-          <div className="loop-mark"><i /><i /><i /><i /></div>
-          <small>YUTQUEST · 0{active + 1}</small>
+        <div className="loop-word" aria-hidden="true">
+          <span lang="ko">{item.korean}</span>
+          <i />
+          <i />
+          <i />
         </div>
         <div className="loop-copy">
-          <p className="landing-kicker">Nhịp {item.number}</p>
+          <span>Nhịp {item.number}</span>
           <h3>{item.title}</h3>
           <p>{item.text}</p>
-          <button type="button" onClick={() => setActive((active + 1) % loop.length)}>
-            Nhịp tiếp theo
+          <button
+            type="button"
+            onClick={() => setActive((active + 1) % loop.length)}
+          >
+            Xem nhịp kế tiếp
           </button>
         </div>
       </div>
@@ -148,45 +219,66 @@ export function IdiomPreview() {
   const item = featured[active];
 
   function move(direction: number) {
-    setActive((value) => (value + direction + featured.length) % featured.length);
+    setActive(
+      (value) => (value + direction + featured.length) % featured.length,
+    );
     setRevealed(false);
   }
 
   return (
     <div className="idiom-experience">
-      <div className="idiom-deck">
-        <div className="deck-shadow deck-shadow-one" aria-hidden="true" />
-        <div className="deck-shadow deck-shadow-two" aria-hidden="true" />
-        <article className={`featured-idiom ${revealed ? "is-revealed" : ""}`}>
-          <div className="featured-card-head">
-            <span>{item.category}</span>
-            <span>0{active + 1} / 04</span>
-          </div>
-          <div className="featured-card-body">
-            <p className="featured-korean" lang="ko">{item.korean}</p>
-            <p className="featured-reading">{item.reading}</p>
-            {revealed ? (
-              <div className="featured-answer" aria-live="polite">
-                <span>Nghĩa bóng</span>
-                <strong>{item.meaning}</strong>
-                <p>Nghĩa đen: {item.literal}</p>
-              </div>
-            ) : (
-              <button type="button" onClick={() => setRevealed(true)}>
-                Lật để khám phá nghĩa <span aria-hidden="true">↗</span>
-              </button>
-            )}
-          </div>
-          <span className="featured-seal" aria-hidden="true">윷</span>
-        </article>
-      </div>
-
+      <article className={`featured-idiom ${revealed ? "is-revealed" : ""}`}>
+        <div className="featured-card-head">
+          <span>{item.category}</span>
+          <span>
+            Thẻ {active + 1} trong {featured.length}
+          </span>
+        </div>
+        <div className="featured-card-body">
+          <p className="featured-korean" lang="ko">
+            {item.korean}
+          </p>
+          <p className="featured-reading">{item.reading}</p>
+          {revealed ? (
+            <div className="featured-answer" aria-live="polite">
+              <span>Nghĩa bóng</span>
+              <strong>{item.meaning}</strong>
+              <p>Nghĩa đen: {item.literal}</p>
+            </div>
+          ) : (
+            <button type="button" onClick={() => setRevealed(true)}>
+              Lật để xem nghĩa
+            </button>
+          )}
+        </div>
+        <span className="featured-seal" aria-hidden="true">
+          윷
+        </span>
+      </article>
       <div className="deck-controls">
-        <button aria-label="Thẻ thành ngữ trước" onClick={() => move(-1)} type="button">←</button>
-        <div><span style={{ width: `${((active + 1) / featured.length) * 100}%` }} /></div>
-        <button aria-label="Thẻ thành ngữ tiếp theo" onClick={() => move(1)} type="button">→</button>
+        <button
+          aria-label="Thẻ thành ngữ trước"
+          onClick={() => move(-1)}
+          type="button"
+        >
+          Trước
+        </button>
+        <div aria-hidden="true">
+          <span
+            style={{ transform: `scaleX(${(active + 1) / featured.length})` }}
+          />
+        </div>
+        <button
+          aria-label="Thẻ thành ngữ tiếp theo"
+          onClick={() => move(1)}
+          type="button"
+        >
+          Sau
+        </button>
       </div>
-      <Link className="landing-text-link" href="/cards">Xem toàn bộ thư viện</Link>
+      <Link className="text-link" href="/cards">
+        Xem toàn bộ thư viện
+      </Link>
     </div>
   );
 }

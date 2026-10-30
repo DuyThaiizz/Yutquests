@@ -2,6 +2,7 @@
 
 import type { CSSProperties } from "react";
 import { useEffect, useRef, useState } from "react";
+import { gsap } from "gsap";
 import { idioms } from "@/lib/idioms";
 import {
   learnerStats,
@@ -16,10 +17,26 @@ type Turn = "player" | "ai";
 type Winner = Turn | null;
 type AiDifficulty = "friendly" | "balanced" | "challenger";
 
-const difficultyOptions: Array<{ value: AiDifficulty; label: string; note: string }> = [
-  { value: "friendly", label: "Thân thiện", note: "Haneul để bạn làm quen nhịp chơi" },
-  { value: "balanced", label: "Cân bằng", note: "Haneul thích nghi theo độ chính xác" },
-  { value: "challenger", label: "Thử thách", note: "Haneul chơi tập trung và ít mắc lỗi" },
+const difficultyOptions: Array<{
+  value: AiDifficulty;
+  label: string;
+  note: string;
+}> = [
+  {
+    value: "friendly",
+    label: "Thân thiện",
+    note: "Haneul để bạn làm quen nhịp chơi",
+  },
+  {
+    value: "balanced",
+    label: "Cân bằng",
+    note: "Haneul thích nghi theo độ chính xác",
+  },
+  {
+    value: "challenger",
+    label: "Thử thách",
+    note: "Haneul chơi tập trung và ít mắc lỗi",
+  },
 ];
 
 const outcomes = [
@@ -32,16 +49,40 @@ const outcomes = [
 
 // Traditional Yut-nori outer route. Start and home share the lower-right corner.
 const route = [
-  [88, 88], [72, 88], [56, 88], [40, 88], [24, 88], [8, 88],
-  [8, 72], [8, 56], [8, 40], [8, 24], [8, 8],
-  [24, 8], [40, 8], [56, 8], [72, 8], [88, 8],
-  [88, 24], [88, 40], [88, 56], [88, 72], [88, 88],
+  [88, 88],
+  [72, 88],
+  [56, 88],
+  [40, 88],
+  [24, 88],
+  [8, 88],
+  [8, 72],
+  [8, 56],
+  [8, 40],
+  [8, 24],
+  [8, 8],
+  [24, 8],
+  [40, 8],
+  [56, 8],
+  [72, 8],
+  [88, 8],
+  [88, 24],
+  [88, 40],
+  [88, 56],
+  [88, 72],
+  [88, 88],
 ] as const;
 
 const boardNodes = [
   ...route.slice(0, -1),
-  [24, 24], [40, 40], [50, 50], [60, 60], [76, 76],
-  [76, 24], [60, 40], [40, 60], [24, 76],
+  [24, 24],
+  [40, 40],
+  [50, 50],
+  [60, 60],
+  [76, 76],
+  [76, 24],
+  [60, 40],
+  [40, 60],
+  [24, 76],
 ] as const;
 
 export function GameDemo() {
@@ -58,21 +99,63 @@ export function GameDemo() {
   const [selected, setSelected] = useState<string | null>(null);
   const [isThrowing, setIsThrowing] = useState(false);
   const [difficulty, setDifficulty] = useState<AiDifficulty>("balanced");
+  const [showBoard, setShowBoard] = useState(false);
   const [progressStats, setProgressStats] = useState<LearnerStats | null>(null);
   const throwTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const returnTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const aiTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const throwStage = useRef<HTMLDivElement | null>(null);
   const currentCard = idioms[cardIndex % idioms.length];
 
-  useEffect(() => () => {
-    if (throwTimer.current) clearTimeout(throwTimer.current);
-    if (returnTimer.current) clearTimeout(returnTimer.current);
-    if (aiTimer.current) clearTimeout(aiTimer.current);
-  }, []);
+  useEffect(
+    () => () => {
+      if (throwTimer.current) clearTimeout(throwTimer.current);
+      if (returnTimer.current) clearTimeout(returnTimer.current);
+      if (aiTimer.current) clearTimeout(aiTimer.current);
+    },
+    [],
+  );
 
   useEffect(() => {
     setProgressStats(learnerStats(readLearnerProgress()));
   }, []);
+
+  useEffect(() => {
+    if (!isThrowing || !throwStage.current) return;
+    const media = gsap.matchMedia();
+    media.add(
+      {
+        motionOK: "(prefers-reduced-motion: no-preference)",
+        reduceMotion: "(prefers-reduced-motion: reduce)",
+      },
+      (context) => {
+        const sticks = throwStage.current?.querySelectorAll(
+          ".animated-yut-sticks > i",
+        );
+        if (!sticks) return;
+        if (context.conditions?.reduceMotion) {
+          gsap.set(sticks, { y: 0, rotationX: 0, rotationY: 0, rotationZ: 0 });
+          return;
+        }
+        gsap.fromTo(
+          sticks,
+          { y: 18, rotationX: 0, rotationY: 0, rotationZ: 0 },
+          {
+            y: -76,
+            rotationX: 540,
+            rotationY: 360,
+            rotationZ: 110,
+            duration: 0.58,
+            ease: "power3.out",
+            stagger: 0.055,
+            yoyo: true,
+            repeat: 1,
+          },
+        );
+      },
+    );
+    return () => media.revert();
+  }, [isThrowing]);
 
   function throwYut() {
     if (turn !== "player" || phase !== "ready" || winner || isThrowing) return;
@@ -94,10 +177,15 @@ export function GameDemo() {
     const isCorrect = option === currentCard.meaning;
     const nextStats = recordLearnerAnswer(currentCard.korean, isCorrect);
     setProgressStats(nextStats);
-    setAiStatus(isCorrect
-      ? "Bạn giữ được nước đi. Haneul đang tính đường phản công."
-      : `Haneul ghi nhớ rằng bạn cần ôn lại ${currentCard.korean}.`);
-    const attemptedPosition = Math.min(originPosition + roll.steps, route.length - 1);
+    setAiStatus(
+      isCorrect
+        ? "Bạn giữ được nước đi. Haneul đang tính đường phản công."
+        : `Haneul ghi nhớ rằng bạn cần ôn lại ${currentCard.korean}.`,
+    );
+    const attemptedPosition = Math.min(
+      originPosition + roll.steps,
+      route.length - 1,
+    );
     setSelected(option);
     setDisplayPosition(attemptedPosition);
 
@@ -114,7 +202,10 @@ export function GameDemo() {
     }
 
     setPhase("answered");
-    returnTimer.current = setTimeout(() => setDisplayPosition(originPosition), 720);
+    returnTimer.current = setTimeout(
+      () => setDisplayPosition(originPosition),
+      720,
+    );
   }
 
   function startAiTurn() {
@@ -126,19 +217,37 @@ export function GameDemo() {
     setTurn("ai");
     setAiStatus("Haneul AI đang tung bốn thanh Yut…");
 
-    const baseChance = difficulty === "friendly" ? .56 : difficulty === "challenger" ? .86 : .72;
-    const learnerAdjustment = progressStats && progressStats.accuracy < 55 ? -.08 : progressStats && progressStats.accuracy > 80 ? .05 : 0;
-    const aiAccuracy = Math.max(.42, Math.min(.94, baseChance + learnerAdjustment));
+    const baseChance =
+      difficulty === "friendly"
+        ? 0.56
+        : difficulty === "challenger"
+          ? 0.86
+          : 0.72;
+    const learnerAdjustment =
+      progressStats && progressStats.accuracy < 55
+        ? -0.08
+        : progressStats && progressStats.accuracy > 80
+          ? 0.05
+          : 0;
+    const aiAccuracy = Math.max(
+      0.42,
+      Math.min(0.94, baseChance + learnerAdjustment),
+    );
     const thinkingTime = 720 + Math.floor(Math.random() * 520);
 
     aiTimer.current = setTimeout(() => {
       const aiRoll = outcomes[Math.floor(Math.random() * outcomes.length)];
       const aiAnsweredCorrectly = Math.random() < aiAccuracy;
-      const nextAiPosition = Math.min(aiPosition + aiRoll.steps, route.length - 1);
+      const nextAiPosition = Math.min(
+        aiPosition + aiRoll.steps,
+        route.length - 1,
+      );
 
       if (aiAnsweredCorrectly) {
         setAiPosition(nextAiPosition);
-        setAiStatus(`Tung ${aiRoll.korean} · trả lời đúng · tiến ${aiRoll.steps} bước`);
+        setAiStatus(
+          `Tung ${aiRoll.korean}. Trả lời đúng, tiến ${aiRoll.steps} bước.`,
+        );
         if (nextAiPosition === route.length - 1) {
           setProgressStats(recordLearnerMatch(false));
           setWinner("ai");
@@ -146,13 +255,17 @@ export function GameDemo() {
           return;
         }
       } else {
-        setAiStatus(`Tung ${aiRoll.korean} · trả lời sai · đứng nguyên vị trí`);
+        setAiStatus(`Tung ${aiRoll.korean}. Trả lời sai, đứng nguyên vị trí.`);
       }
 
       aiTimer.current = setTimeout(() => {
         const reviewExpression = progressStats?.recentMistakes[0];
-        const reviewIndex = reviewExpression ? idioms.findIndex((item) => item.korean === reviewExpression) : -1;
-        setCardIndex((value) => reviewIndex >= 0 && Math.random() < .65 ? reviewIndex : value + 1);
+        const reviewIndex = reviewExpression
+          ? idioms.findIndex((item) => item.korean === reviewExpression)
+          : -1;
+        setCardIndex((value) =>
+          reviewIndex >= 0 && Math.random() < 0.65 ? reviewIndex : value + 1,
+        );
         setTurn("player");
         setPhase("ready");
       }, 1200);
@@ -178,33 +291,67 @@ export function GameDemo() {
 
   const [pieceX, pieceY] = route[displayPosition];
   const [aiPieceX, aiPieceY] = route[aiPosition];
-  const pieceStyle = { "--piece-x": `${pieceX}%`, "--piece-y": `${pieceY}%` } as CSSProperties;
-  const aiPieceStyle = { "--piece-x": `${aiPieceX}%`, "--piece-y": `${aiPieceY}%` } as CSSProperties;
-  const playerProgressStyle = { "--race-progress": `${Math.round((position / (route.length - 1)) * 100)}%` } as CSSProperties;
-  const aiProgressStyle = { "--race-progress": `${Math.round((aiPosition / (route.length - 1)) * 100)}%` } as CSSProperties;
+  const pieceStyle = {
+    "--piece-x": `${pieceX}%`,
+    "--piece-y": `${pieceY}%`,
+  } as CSSProperties;
+  const aiPieceStyle = {
+    "--piece-x": `${aiPieceX}%`,
+    "--piece-y": `${aiPieceY}%`,
+  } as CSSProperties;
+  const playerProgressStyle = {
+    "--race-progress": `${Math.round((position / (route.length - 1)) * 100)}%`,
+  } as CSSProperties;
+  const aiProgressStyle = {
+    "--race-progress": `${Math.round((aiPosition / (route.length - 1)) * 100)}%`,
+  } as CSSProperties;
   const correct = selected === currentCard.meaning;
 
   return (
     <div className="section-shell demo-shell decal-demo-shell">
-      <div className="game-board-panel decal-board-panel">
-        <div className="match-strip" aria-label="Cuộc đua giữa bạn và Haneul AI">
-          <div className={`competitor-card player-card ${turn === "player" ? "is-active" : ""}`}>
+      <div
+        className={`game-board-panel decal-board-panel ${showBoard ? "is-mobile-open" : ""}`}
+        id="full-yut-board"
+      >
+        <div
+          className="match-strip"
+          aria-label="Cuộc đua giữa bạn và Haneul AI"
+        >
+          <div
+            className={`competitor-card player-card ${turn === "player" ? "is-active" : ""}`}
+          >
             <span className="competitor-avatar">BẠN</span>
-            <div><strong>Nhà thám hiểm</strong><small>{position}/20 bước về nhà</small></div>
+            <div>
+              <strong>Nhà thám hiểm</strong>
+              <small>{position}/20 bước về nhà</small>
+            </div>
             <i className="race-progress" style={playerProgressStyle} />
           </div>
           <span className="versus-seal">VS</span>
-          <div className={`competitor-card ai-card ${turn === "ai" ? "is-active" : ""}`}>
+          <div
+            className={`competitor-card ai-card ${turn === "ai" ? "is-active" : ""}`}
+          >
             <span className="competitor-avatar">AI</span>
-            <div><strong>Haneul AI</strong><small>{aiPosition}/20 bước · {aiStatus}</small></div>
+            <div>
+              <strong>Haneul AI</strong>
+              <small>
+                {aiPosition}/20 bước. {aiStatus}
+              </small>
+            </div>
             <i className="race-progress" style={aiProgressStyle} />
           </div>
         </div>
         <div className="board-title-row">
-          <div><span>윷놀이</span><strong>Bàn cờ Yut truyền thống</strong></div>
+          <div>
+            <span>윷놀이</span>
+            <strong>Bàn cờ Yut truyền thống</strong>
+          </div>
           <small>Đường ngoài và đường tắt được nối trọn vẹn tới bốn góc</small>
         </div>
-        <div className="traditional-yut-board" aria-label={`Bạn đang ở bước ${position}; Haneul AI đang ở bước ${aiPosition}`}>
+        <div
+          className="traditional-yut-board"
+          aria-label={`Bạn đang ở bước ${position}; Haneul AI đang ở bước ${aiPosition}`}
+        >
           <div className="board-path board-path-square" />
           <div className="board-path board-path-diagonal board-path-one" />
           <div className="board-path board-path-diagonal board-path-two" />
@@ -214,90 +361,343 @@ export function GameDemo() {
               key={`${x}-${y}-${index}`}
               style={{ left: `${x}%`, top: `${y}%` }}
             >
-              {index === 0 && <small>출발<br />집</small>}
+              {index === 0 && (
+                <small>
+                  출발
+                  <br />집
+                </small>
+              )}
               {index === 22 && <small>방</small>}
             </span>
           ))}
-          <span className="game-piece cute-piece player-piece" style={pieceStyle} aria-label="Quân của bạn"><b>말</b></span>
-          <span className="game-piece cute-piece ai-piece" style={aiPieceStyle} aria-label="Quân của Haneul AI"><b>AI</b></span>
-          {phase === "question" && <span className="target-hint" style={{ left: `${route[Math.min(originPosition + roll.steps, 20)][0]}%`, top: `${route[Math.min(originPosition + roll.steps, 20)][1]}%` }}>+{roll.steps}</span>}
+          <span
+            className="game-piece cute-piece player-piece"
+            style={pieceStyle}
+            aria-label="Quân của bạn"
+          >
+            <b>말</b>
+          </span>
+          <span
+            className="game-piece cute-piece ai-piece"
+            style={aiPieceStyle}
+            aria-label="Quân của Haneul AI"
+          >
+            <b>AI</b>
+          </span>
+          {phase === "question" && (
+            <span
+              className="target-hint"
+              style={{
+                left: `${route[Math.min(originPosition + roll.steps, 20)][0]}%`,
+                top: `${route[Math.min(originPosition + roll.steps, 20)][1]}%`,
+              }}
+            >
+              +{roll.steps}
+            </span>
+          )}
         </div>
         <div className="cute-board-legend">
-          <span><i className="legend-you" /> Quân của bạn</span>
-          <span><i className="legend-ai" /> Haneul AI</span>
-          <span><i className="legend-route" /> Đường truyền thống</span>
-          <span><i className="legend-shortcut" /> Đường tắt</span>
+          <span>
+            <i className="legend-you" /> Quân của bạn
+          </span>
+          <span>
+            <i className="legend-ai" /> Haneul AI
+          </span>
+          <span>
+            <i className="legend-route" /> Đường truyền thống
+          </span>
+          <span>
+            <i className="legend-shortcut" /> Đường tắt
+          </span>
         </div>
       </div>
 
       <aside className="game-console decal-console">
-        <div className="prototype-badge"><span /> Bản chơi thử · chạy ngay trên trình duyệt</div>
-        <div className="ai-difficulty" role="group" aria-label="Độ khó của Haneul AI">
+        <div className="mobile-match-summary" aria-label="Tiến độ cuộc đua">
+          <div>
+            <span>Bạn</span>
+            <strong>{position}/20</strong>
+          </div>
+          <div className="mobile-race-track">
+            <i style={playerProgressStyle}>
+              <b>BẠN</b>
+            </i>
+            <i style={aiProgressStyle}>
+              <b>AI</b>
+            </i>
+          </div>
+          <div>
+            <span>Haneul</span>
+            <strong>{aiPosition}/20</strong>
+          </div>
+        </div>
+        <button
+          aria-controls="full-yut-board"
+          aria-expanded={showBoard}
+          className="mobile-board-toggle"
+          onClick={() => setShowBoard((value) => !value)}
+          type="button"
+        >
+          {showBoard ? "Ẩn bàn cờ chi tiết" : "Xem bàn cờ chi tiết"}
+        </button>
+        <div className="console-utility-row">
+          <div className="prototype-badge">Bản chơi thử trực tiếp</div>
+          {(position > 0 || aiPosition > 0 || phase !== "ready") && (
+            <button className="restart-match" onClick={restart} type="button">
+              Bắt đầu lại
+            </button>
+          )}
+        </div>
+        <div
+          className="ai-difficulty"
+          role="group"
+          aria-label="Độ khó của Haneul AI"
+        >
           <span>Haneul AI</span>
-          <div>{difficultyOptions.map((option) => <button aria-pressed={difficulty === option.value} className={difficulty === option.value ? "is-active" : ""} key={option.value} onClick={() => setDifficulty(option.value)} title={option.note} type="button">{option.label}</button>)}</div>
+          <div>
+            {difficultyOptions.map((option) => (
+              <button
+                aria-pressed={difficulty === option.value}
+                className={difficulty === option.value ? "is-active" : ""}
+                key={option.value}
+                onClick={() => setDifficulty(option.value)}
+                title={option.note}
+                type="button"
+              >
+                {option.label}
+              </button>
+            ))}
+          </div>
+          <p className="difficulty-note">
+            {
+              difficultyOptions.find((option) => option.value === difficulty)
+                ?.note
+            }
+          </p>
         </div>
         <div className="turn-progress" aria-label="Tiến trình lượt chơi">
-          {["Tung", "Trả lời", "Di chuyển"].map((label, i) => <span className={(phase === "ready" ? i === 0 : phase === "question" ? i <= 1 : i <= 2) ? "active" : ""} key={label}><i>{i + 1}</i>{label}</span>)}
+          {["Tung", "Trả lời", "Di chuyển"].map((label, i) => (
+            <span
+              className={
+                (
+                  phase === "ready"
+                    ? i === 0
+                    : phase === "question"
+                      ? i <= 1
+                      : i <= 2
+                )
+                  ? "active"
+                  : ""
+              }
+              key={label}
+            >
+              <i>{i + 1}</i>
+              {label}
+            </span>
+          ))}
         </div>
 
-        {winner && <div className="console-state winner-state" aria-live="polite">
-          <div className={`winner-orbit ${winner === "player" ? "player-wins" : "ai-wins"}`}>{winner === "player" ? "★" : "AI"}</div>
-          <p className="mini-label">Ván đua đã kết thúc</p>
-          <h2>{winner === "player" ? <>Bạn về nhà<br /><em>trước Haneul!</em></> : <>Haneul AI<br /><em>đã về nhà trước.</em></>}</h2>
-          <p className="rule-note">{winner === "player" ? "Bạn vừa thắng bằng cả may mắn lẫn vốn thành ngữ." : "Thử lại để gặp thêm thẻ mới và vượt qua đối thủ AI."}</p>
-          {progressStats && <div className="post-match-summary">
-            <div><span>Độ chính xác</span><strong>{progressStats.accuracy}%</strong></div>
-            <div><span>Streak</span><strong>{progressStats.streak} ngày</strong></div>
-            <div><span>Cần ôn</span><strong lang="ko">{progressStats.recentMistakes[0] ?? "Không có"}</strong></div>
-          </div>}
-          <button className="button game-action" type="button" onClick={restart}>Bắt đầu cuộc đua mới</button>
-        </div>}
-
-        {!winner && turn === "ai" && <div className="console-state ai-turn-state" aria-live="polite">
-          <div className="ai-thinking-mark"><span>AI</span><i /><i /><i /></div>
-          <p className="mini-label">Lượt của đối thủ</p>
-          <h2>Haneul đang<br /><em>suy nghĩ…</em></h2>
-          <p className="ai-status-copy">{aiStatus}</p>
-          <div className="ai-learning-tip"><span>Mẹo học nhanh</span><p>Quan sát kết quả của AI giúp bạn nhớ luật tung và gặp lại thành ngữ theo nhịp tự nhiên.</p></div>
-        </div>}
-
-        {!winner && turn === "player" && phase === "ready" && <div className="console-state state-ready">
-          <p className="mini-label">Lượt của bạn</p>
-          <h2>Tung Yut,<br /><em>mở một thử thách.</em></h2>
-          <div className={`yut-throw-stage ${isThrowing ? "is-throwing" : ""}`} role="status" aria-label={isThrowing ? "Bốn thanh Yut đang được tung" : "Bốn thanh Yut sẵn sàng"} aria-live="polite">
-            <span className="throw-shadow" aria-hidden="true" />
-            <div className="animated-yut-sticks" aria-hidden="true">
-              {[0, 1, 2, 3].map((stickIndex) => <i className={stickIndex < roll.flatCount ? "is-flat" : "is-round"} key={stickIndex}><b>× × ×</b></i>)}
+        {winner && (
+          <div className="console-state winner-state" aria-live="polite">
+            <div
+              className={`winner-orbit ${winner === "player" ? "player-wins" : "ai-wins"}`}
+            >
+              {winner === "player" ? "★" : "AI"}
             </div>
-            <div className="throw-stage-caption">
-              <span>{isThrowing ? "Đang tung…" : "Sẵn sàng"}</span>
-              <strong>{isThrowing ? "Bốn thanh đang xoay trên không" : "Chạm nút để tung bốn thanh"}</strong>
+            <h2>
+              {winner === "player" ? (
+                <>
+                  Bạn về nhà
+                  <br />
+                  trước Haneul!
+                </>
+              ) : (
+                <>
+                  Haneul AI
+                  <br />
+                  đã về nhà trước.
+                </>
+              )}
+            </h2>
+            <p className="rule-note">
+              {winner === "player"
+                ? "Bạn vừa thắng bằng cả may mắn lẫn vốn thành ngữ."
+                : "Thử lại để gặp thêm thẻ mới và vượt qua đối thủ AI."}
+            </p>
+            {progressStats && (
+              <div className="post-match-summary">
+                <div>
+                  <span>Độ chính xác</span>
+                  <strong>{progressStats.accuracy}%</strong>
+                </div>
+                <div>
+                  <span>Streak</span>
+                  <strong>{progressStats.streak} ngày</strong>
+                </div>
+                <div>
+                  <span>Cần ôn</span>
+                  <strong lang="ko">
+                    {progressStats.recentMistakes[0] ?? "Không có"}
+                  </strong>
+                </div>
+              </div>
+            )}
+            <button
+              className="button game-action"
+              type="button"
+              onClick={restart}
+            >
+              Bắt đầu cuộc đua mới
+            </button>
+          </div>
+        )}
+
+        {!winner && turn === "ai" && (
+          <div className="console-state ai-turn-state" aria-live="polite">
+            <div className="ai-thinking-mark">
+              <span>AI</span>
+              <i />
+              <i />
+              <i />
+            </div>
+            <h2>
+              Haneul đang
+              <br />
+              suy nghĩ…
+            </h2>
+            <p className="ai-status-copy">{aiStatus}</p>
+            <div className="ai-learning-tip">
+              <span>Mẹo học nhanh</span>
+              <p>
+                Quan sát kết quả của AI giúp bạn nhớ luật tung và gặp lại thành
+                ngữ theo nhịp tự nhiên.
+              </p>
             </div>
           </div>
-          <p className="rule-note">Trả lời đúng để tiến. Trả lời sai, quân sẽ quay về vị trí trước lượt tung.</p>
-          <button className="button game-action" type="button" disabled={isThrowing} onClick={throwYut}>{isThrowing ? "Đang tung Yut…" : "Tung bốn thanh Yut"}</button>
-        </div>}
+        )}
 
-        {!winner && turn === "player" && phase === "question" && <div className="console-state question-state">
-          <div className="roll-result"><span>Kết quả</span><strong>{roll.korean} · {roll.name}</strong><b>+{roll.steps} bước</b></div>
-          <p className="mini-label">Thẻ thành ngữ</p>
-          <h2 lang="ko">{currentCard.korean}</h2>
-          <p className="question-reading">{currentCard.reading}</p>
-          <p className="question-prompt">Thành ngữ này có nghĩa là gì?</p>
-          <div className="answer-list">
-            {currentCard.options.map((option) => <button type="button" onClick={() => answer(option)} key={option}>{option}</button>)}
+        {!winner && turn === "player" && phase === "ready" && (
+          <div className="console-state state-ready">
+            <h2>
+              Tung Yut.
+              <br />
+              Mở thử thách.
+            </h2>
+            <div
+              ref={throwStage}
+              className={`yut-throw-stage ${isThrowing ? "is-throwing" : ""}`}
+              role="status"
+              aria-label={
+                isThrowing
+                  ? "Bốn thanh Yut đang được tung"
+                  : "Bốn thanh Yut sẵn sàng"
+              }
+              aria-live="polite"
+            >
+              <span className="throw-shadow" aria-hidden="true" />
+              <div className="animated-yut-sticks" aria-hidden="true">
+                {[0, 1, 2, 3].map((stickIndex) => (
+                  <i
+                    className={
+                      stickIndex < roll.flatCount ? "is-flat" : "is-round"
+                    }
+                    key={stickIndex}
+                  >
+                    <b>× × ×</b>
+                  </i>
+                ))}
+              </div>
+              <div className="throw-stage-caption">
+                <span>{isThrowing ? "Đang tung…" : "Sẵn sàng"}</span>
+                <strong>
+                  {isThrowing
+                    ? "Bốn thanh đang xoay trên không"
+                    : "Chạm nút để tung bốn thanh"}
+                </strong>
+              </div>
+            </div>
+            <p className="rule-note">
+              Trả lời đúng để tiến. Trả lời sai, quân sẽ quay về vị trí trước
+              lượt tung.
+            </p>
+            <button
+              className="button game-action"
+              type="button"
+              disabled={isThrowing}
+              onClick={throwYut}
+            >
+              {isThrowing ? "Đang tung Yut…" : "Tung bốn thanh Yut"}
+            </button>
           </div>
-        </div>}
+        )}
 
-        {!winner && turn === "player" && phase === "answered" && <div className="console-state result-state" aria-live="polite">
-          <div className={`result-mark ${correct ? "correct" : "incorrect"}`}>{correct ? "✓" : "×"}</div>
-          <p className="mini-label">{correct ? "Chính xác rồi!" : "Gần đúng rồi!"}</p>
-          <h2>{currentCard.meaning}</h2>
-          {!correct && <p className="your-answer">Bạn chọn: <s>{selected}</s></p>}
-          <div className="meaning-box"><span>Nghĩa đen</span><strong>{currentCard.literal}</strong><p>{currentCard.example}</p></div>
-          <p className={`move-confirmation ${correct ? "move-forward" : "move-back"}`}>{correct ? <>Quân được tiến <strong>{roll.steps} bước</strong>.</> : <>Quân quay về <strong>vị trí trước lượt tung</strong>.</>}</p>
-          <button className="button game-action" type="button" onClick={startAiTurn}>Đến lượt Haneul AI</button>
-        </div>}
+        {!winner && turn === "player" && phase === "question" && (
+          <div className="console-state question-state">
+            <div className="roll-result">
+              <span>Kết quả</span>
+              <strong>
+                {roll.korean} · {roll.name}
+              </strong>
+              <b>+{roll.steps} bước</b>
+            </div>
+            <h2 lang="ko">{currentCard.korean}</h2>
+            <p className="question-reading">{currentCard.reading}</p>
+            <p className="question-prompt">Thành ngữ này có nghĩa là gì?</p>
+            <div className="answer-list">
+              {currentCard.options.map((option) => (
+                <button
+                  type="button"
+                  onClick={() => answer(option)}
+                  key={option}
+                >
+                  {option}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {!winner && turn === "player" && phase === "answered" && (
+          <div className="console-state result-state" aria-live="polite">
+            <div className={`result-mark ${correct ? "correct" : "incorrect"}`}>
+              {correct ? "✓" : "×"}
+            </div>
+            <p className="mini-label">
+              {correct ? "Chính xác rồi!" : "Gần đúng rồi!"}
+            </p>
+            <h2>{currentCard.meaning}</h2>
+            {!correct && (
+              <p className="your-answer">
+                Bạn chọn: <s>{selected}</s>
+              </p>
+            )}
+            <div className="meaning-box">
+              <span>Nghĩa đen</span>
+              <strong>{currentCard.literal}</strong>
+              <p>{currentCard.example}</p>
+            </div>
+            <p
+              className={`move-confirmation ${correct ? "move-forward" : "move-back"}`}
+            >
+              {correct ? (
+                <>
+                  Quân được tiến <strong>{roll.steps} bước</strong>.
+                </>
+              ) : (
+                <>
+                  Quân quay về <strong>vị trí trước lượt tung</strong>.
+                </>
+              )}
+            </p>
+            <button
+              className="button game-action"
+              type="button"
+              onClick={startAiTurn}
+            >
+              Đến lượt Haneul AI
+            </button>
+          </div>
+        )}
       </aside>
     </div>
   );
